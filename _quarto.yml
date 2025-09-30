@@ -14,7 +14,8 @@ website:
       - text: "About Me"
         href: about.md
       - text: "Projects"
-      - href: 
+      - href: tutorial_1.qmd
+        text: "Tutorial"
         menu:
           - text: "All Projects"
             href: projects/index.md
