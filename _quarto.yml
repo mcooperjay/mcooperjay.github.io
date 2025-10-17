@@ -10,11 +10,11 @@ website:
     background: primary
     left:
       - text: "Home"
-        href: index.html
+        href: index.md
       - text: "About Me"
-        href: about.html
+        href: about.md
       - text: "Projects"
-      - href: tutorial_1.html
+      - href: tutorial_1.qmd
         text: "Tutorial"
         menu:
           - text: "All Projects"
