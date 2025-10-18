@@ -1,6 +1,8 @@
 ---
 title: "Projects Overview"
+format: "html"
 ---
+### [About Me](about.md)
 
 ## All Projects
 

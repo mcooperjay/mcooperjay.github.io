@@ -4,22 +4,24 @@ title: "About Me"
 
 ## Background
 
-Write a brief introduction about yourself here. Include:
 
-- Your academic background
-- Your interest in data science
-- Your career goals
-- Any relevant experience or projects
+I am a junior in the Statistics major, Biostatistics emphasis at Brigham Young University. 
+
+I am interested in data science as a way to link datum and utilize learning patterns in a meaningful way. 
+
+With much work, hope and luck, my dream job is to work as a sports statistician. I am also interested in researching more about direct applications of biostatistics, medical statistics, environmental analytics and more.
+
+I have only worked on one project, analyzing home runs per game in differing levels of major, minor and collegiate leagues. 
 
 ## Education
 
-- **[Your Degree]** - [University Name], [Year]
+- **BS in Statistics** - Brigham Young University, 2026
 - **Relevant Coursework**: Statistics, Data Analysis, Programming, etc.
 
 ## Skills & Interests
 
 ### Technical Skills
-- **Programming**: Python
+- **Programming**: Python, R
 - **Data Analysis**: Pandas, NumPy
 - **Visualization**: Matplotlib, Seaborn
 - **Machine Learning**: Scikit-learn
@@ -39,7 +41,7 @@ Describe what you hope to achieve through your data science journey:
 
 ## Contact
 
-- **Email**: your.email@example.com
+- **Email**: mcooperjay@gmail.com
 - **GitHub**: [github.com/your-username](https://github.com/your-username)
 - **LinkedIn**: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
 
