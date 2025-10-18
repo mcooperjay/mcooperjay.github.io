@@ -3,9 +3,9 @@ project:
   output-dir: docs
 
 website:
-  title: "Your Name - Data Science Portfolio"
+  title: "Cooper Maughan - Data Science Portfolio"
   description: "A showcase of my data science projects and learning journey"
-  
+
   navbar:
     background: primary
     left:
@@ -14,21 +14,21 @@ website:
       - text: "About Me"
         href: about.md
       - text: "Projects"
-      - href: tutorial_1.qmd
-        text: "Tutorial"
         menu:
+          - text: "Tutorial"
+            href: tutorial_1.qmd
           - text: "All Projects"
             href: projects/index.md
           - text: "---"
           - text: "Exploratory Data Analysis"
             href: projects/eda.qmd
-          - text: "Data Acquisition"
-            href: projects/data-acquisition.qmd
-          - text: "Final Project"
-            href: projects/final-project.qmd
+          # - text: "Data Acquisition"
+          #   href: projects/data-acquisition.qmd
+          # - text: "Final Project"
+          #   href: projects/final-project.qmd
     right:
       - icon: github
-        href: https://github.com/your-username
+        href: https://github.com/mcooperjay
       - icon: linkedin
         href: https://linkedin.com/in/your-profile
 
@@ -36,9 +36,9 @@ website:
     - title: "Projects"
       contents:
         - projects/index.md
-        - projects/eda.qmd
-        - projects/data-acquisition.qmd
-        - projects/final-project.qmd
+        # - projects/eda.qmd
+        # - projects/data-acquisition.qmd
+        # - projects/final-project.qmd
 
 format:
   html:
@@ -47,3 +47,4 @@ format:
     code-fold: true
     code-tools: true
     css: styles.css
+    

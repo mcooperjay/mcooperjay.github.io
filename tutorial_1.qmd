@@ -63,7 +63,8 @@ The resulting regression line can be expressed mathematically as: $$
 $$ Here, $x$ represents BMI, $\beta_0$ is the intercept, and $\beta_1$ is the slope. The slope indicates the average change in charges per unit increase in BMI, while the intercept is the predicted charges at BMI = 0. Although the intercept has limited practical meaning in this context, it is necessary for the linear equation. Overlaying the Regression Line Visualizing the regression line alongside the data provides a clear representation of the average trend.
 
 ```{python}
-x = df["bmi"] y_pred = slope * x + intercept
+x = df["bmi"]
+y_pred = slope * x + intercept
 
 plt.scatter(x, df["charges"], color="blue", alpha=0.6, label="Data points") 
 plt.plot(x, y_pred, color="red", label="Regression line") 
