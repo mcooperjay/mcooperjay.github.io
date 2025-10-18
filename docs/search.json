@@ -56,27 +56,6 @@
     "text": "For this blog, and mainly to show my understanding of GitHub pages, I have chosen to make a tutorial on scatterplots within Python."
   },
   {
-    "objectID": "projects/final-project.html",
-    "href": "projects/final-project.html",
-    "title": "",
-    "section": "",
-    "text": "Code"
-  },
-  {
-    "objectID": "projects/data-acquisition.html",
-    "href": "projects/data-acquisition.html",
-    "title": "",
-    "section": "",
-    "text": "Code"
-  },
-  {
-    "objectID": "mcooperjay.github.io/tutorial_1.html",
-    "href": "mcooperjay.github.io/tutorial_1.html",
-    "title": "",
-    "section": "",
-    "text": "Code"
-  },
-  {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
     "title": "Welcome to My Data Science Portfolio",
@@ -125,6 +104,69 @@
     "crumbs": [
       "Welcome to My Data Science Portfolio"
     ]
+  },
+  {
+    "objectID": "mcooperjay.github.io/tutorial_1.html",
+    "href": "mcooperjay.github.io/tutorial_1.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "projects/data-acquisition.html",
+    "href": "projects/data-acquisition.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "projects/final-project.html",
+    "href": "projects/final-project.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "projects/about.html",
+    "href": "projects/about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I am a junior in the Statistics major, Biostatistics emphasis at Brigham Young University.\nI am interested in data science as a way to link datum and utilize learning patterns in a meaningful way.\nWith much work, hope and luck, my dream job is to work as a sports statistician. I am also interested in researching more about direct applications of biostatistics, medical statistics, environmental analytics and more.\nI have only worked on one project, analyzing home runs per game in differing levels of major, minor and collegiate leagues."
+  },
+  {
+    "objectID": "projects/about.html#background",
+    "href": "projects/about.html#background",
+    "title": "About Me",
+    "section": "",
+    "text": "I am a junior in the Statistics major, Biostatistics emphasis at Brigham Young University.\nI am interested in data science as a way to link datum and utilize learning patterns in a meaningful way.\nWith much work, hope and luck, my dream job is to work as a sports statistician. I am also interested in researching more about direct applications of biostatistics, medical statistics, environmental analytics and more.\nI have only worked on one project, analyzing home runs per game in differing levels of major, minor and collegiate leagues."
+  },
+  {
+    "objectID": "projects/about.html#education",
+    "href": "projects/about.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\n\nBS in Statistics - Brigham Young University, 2026\nRelevant Coursework: Statistics, Data Analysis, Programming, etc."
+  },
+  {
+    "objectID": "projects/about.html#skills-interests",
+    "href": "projects/about.html#skills-interests",
+    "title": "About Me",
+    "section": "Skills & Interests",
+    "text": "Skills & Interests\n\nTechnical Skills\n\nProgramming: Python, R\nData Analysis: Pandas, NumPy\nVisualization: Matplotlib, Seaborn\nMachine Learning: Scikit-learn\nTools: Jupyter Notebooks, Git/GitHub\n\n\n\nAreas of Interest\n\nI am very interested in sports data, sports analytics, finincial studies, budgeting, and bioanalysis."
+  },
+  {
+    "objectID": "projects/about.html#goals",
+    "href": "projects/about.html#goals",
+    "title": "About Me",
+    "section": "Goals",
+    "text": "Goals\n\nMy short term goals are to learn and follow the examples of good data scientists and to gather the tools and resources to help me learn more.\nMy long-term career goals are to go into graduate programs and further my career in either the sports data field or helping in medical analytics.\nThe types of problems I want to solve are those that push me to learn, provide insight into the world around me and work with logic."
+  },
+  {
+    "objectID": "projects/about.html#contact",
+    "href": "projects/about.html#contact",
+    "title": "About Me",
+    "section": "Contact",
+    "text": "Contact\n\nEmail: mcooperjay@gmail.com\nGitHub: github.com/mcooperjay\nLinkedIn: linkedin.com/in/Cooper-Maughan\n\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
   },
   {
     "objectID": "index.html",

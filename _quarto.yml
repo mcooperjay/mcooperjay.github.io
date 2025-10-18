@@ -7,6 +7,7 @@ website:
   description: "A showcase of my data science projects and learning journey"
 
   navbar:
+    background: primary
     left:
       - text: "Home"
         href: index.html
