@@ -183,7 +183,7 @@ window.Quarto = {
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
-    <a class="dropdown-item" href="./projects/eda.qmd">
+    <a class="dropdown-item" href="./projects/eda.html">
  <span class="dropdown-text">Exploratory Data Analysis</span></a>
   </li>  
     </ul>
@@ -263,7 +263,7 @@ window.Quarto = {
 <section id="data-loading-inspection" class="level1">
 <h1>Data Loading &amp; Inspection</h1>
 <p>We begin by importing the necessary Python libraries and loading the dataset. Pandas allows us to manage the data easily, NumPy provides a convenient way to fit a regression line, and Matplotlib enables clear visualizations.</p>
-<div id="7f1b64ac" class="cell" data-execution_count="1">
+<div id="1447dca9" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
@@ -354,7 +354,7 @@ window.Quarto = {
 </div>
 </div>
 <p>The dataset contains several columns, including age, sex, bmi, children, smoker, region, and charges. For this tutorial, we focus on bmi as the predictor and charges as the target variable. Exploring the first few rows helps us confirm the data types and detect any obvious issues before analysis. Scatterplot: BMI vs.&nbsp;Charges A scatterplot is a natural first step to explore the relationship between BMI and insurance charges. By plotting each data point, we can visually assess trends and potential outliers.</p>
-<div id="b11b14fe" class="cell" data-execution_count="2">
+<div id="9d42a8b0" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>plt.scatter(df[<span class="st">"bmi"</span>],</span>
@@ -377,7 +377,7 @@ window.Quarto = {
 </div>
 </div>
 <p>The resulting plot demonstrates a general upward trend: individuals with higher BMI tend to have higher insurance charges. While there is considerable variation, the pattern suggests that a simple linear model may provide a meaningful summary of this relationship. Fitting the Regression Line To quantify the trend, we fit a linear regression using NumPy’s polyfit function. This approach calculates the slope and intercept that best approximate the relationship between BMI and charges.</p>
-<div id="f5e90d5d" class="cell" data-execution_count="3">
+<div id="b448d211" class="cell" data-execution_count="3">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>slope, intercept <span class="op">=</span> np.polyfit(df[<span class="st">"bmi"</span>], df[<span class="st">"charges"</span>], <span class="dv">1</span>) </span>
@@ -389,14 +389,14 @@ window.Quarto = {
 <div class="cell-output cell-output-stderr">
 <pre><code>&lt;&gt;:2: SyntaxWarning: invalid escape sequence '\*'
 &lt;&gt;:2: SyntaxWarning: invalid escape sequence '\*'
-/var/folders/r4/n45hzgrx14n4v2p2qggx6l_00000gn/T/ipykernel_38772/2366042131.py:2: SyntaxWarning: invalid escape sequence '\*'
+/var/folders/r4/n45hzgrx14n4v2p2qggx6l_00000gn/T/ipykernel_41189/2366042131.py:2: SyntaxWarning: invalid escape sequence '\*'
   print(f"Regression equation: charges = {intercept:.2f} + {slope:.2f} \* bmi")</code></pre>
 </div>
 </div>
 <p>The resulting regression line can be expressed mathematically as: <span class="math display">\[
 \hat{y} = \beta_0 + \beta_1 x
 \]</span> Here, <span class="math inline">\(x\)</span> represents BMI, <span class="math inline">\(\beta_0\)</span> is the intercept, and <span class="math inline">\(\beta_1\)</span> is the slope. The slope indicates the average change in charges per unit increase in BMI, while the intercept is the predicted charges at BMI = 0. Although the intercept has limited practical meaning in this context, it is necessary for the linear equation. Overlaying the Regression Line Visualizing the regression line alongside the data provides a clear representation of the average trend.</p>
-<div id="441201a9" class="cell" data-execution_count="4">
+<div id="fdcf1cf5" class="cell" data-execution_count="4">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> df[<span class="st">"bmi"</span>]</span>

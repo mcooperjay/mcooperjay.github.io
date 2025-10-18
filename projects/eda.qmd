@@ -1,0 +1,9 @@
+---
+title: "EDA Project"
+author: "Your Name"
+date: "2025-01-01"
+format:
+  html:
+    code-fold: true
+    toc: true
+---
