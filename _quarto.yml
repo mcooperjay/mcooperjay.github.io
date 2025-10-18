@@ -10,7 +10,7 @@ website:
     background: primary
     left:
       - text: "Home"
-        href: index.md
+        href: index.html
       - text: "About Me"
         href: about.md
       - text: "Projects"
