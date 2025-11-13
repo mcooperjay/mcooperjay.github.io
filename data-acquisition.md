@@ -79,5 +79,3 @@ This line chart shows trends in national death counts from 2000 to 2017. It high
 - [View on GitHub Pages]("https://mcooperjay.github.io/mcooperj.data_aquisition_code.io/")
 
 ---
-
-This blog post provides a concise but comprehensive summary of the dataset, methods, and key findings, while highlighting the visualizations created and making the repository and code accessible to readers interested in replicating or extending the analysis.
