@@ -20,10 +20,10 @@ website:
           - text: "All Projects"
             href: projects/index.md
           - text: "---"
-          - text: "Exploratory Data Analysis"
-            href: projects/eda.qmd
-          # - text: "Data Acquisition"
-          #   href: projects/data-acquisition.qmd
+          # - text: "Exploratory Data Analysis"
+          #   href: projects/eda.qmd
+          - text: "Data Acquisition"
+            href: projects/data-acquisition.md
           # - text: "Final Project"
           #   href: projects/final-project.qmd
     right:
