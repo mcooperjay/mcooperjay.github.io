@@ -1,0 +1,60 @@
+---
+title: "Resume"
+---
+
+## Cooper Maughan
+he/him/his &nbsp;|&nbsp; Salt Lake City / Provo, UT &nbsp;|&nbsp; your.email@byu.edu &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/cooper-maughan-95660a301/) &nbsp;|&nbsp; [GitHub](https://github.com/mcooperjay)
+
+### Profile
+
+Statistics major (Biostatistics emphasis) at Brigham Young University graduating April 2027, with hands-on experience in regression, Bayesian methods, and machine learning fundamentals through research and teaching roles in the BYU Department of Statistics. President of the BYU Sports Analytics Association and case study competition winner, seeking a January 2027 analyst role that applies statistical modeling to real decisions — in sports, health, or public-sector data — before starting a master's program.
+
+### Experience
+
+**Research Assistant** | BYU Department of Statistics — CorEx Systems Project \
+*Provo, UT — Jan 2026 – Present*
+
+- Build and train PyTorch models on GPU compute clusters, applying deep learning fundamentals to ongoing statistics department research.
+- Collaborate with faculty and fellow researchers using Git/GitHub for version control on shared modeling code.
+
+**Teaching Assistant** | BYU Department of Statistics — STAT 121/250 \
+*Provo, UT — Aug 2025 – Apr 2026*
+
+- Teach and troubleshoot statistical modeling, R programming, and data analysis workflows for undergraduate students.
+- Support instructors with grading, content development, and online course tools, translating technical statistical concepts for diverse learners.
+
+**Teaching Assistant** | BYU Salt Lake Center — MPA 630 \
+*Salt Lake City, UT — Jan 2025 – Apr 2025*
+
+- Taught statistical methods and quantitative reasoning to graduate students; graded assignments and provided one-on-one support in Excel and statistical tools.
+
+**Team Lead, Custodial Services** | BYU Missionary Training Center \
+*Provo, UT — 2024 – 2025*
+
+- Led teams of up to six staff, coordinating workflows and quality standards across large-scale operations.
+
+**Camp Counselor** | BYU Sports Camps \
+*Provo, UT — Summers 2024 – 2025*
+
+- Supervised groups of 6–20 youth, managing daily schedules and group logistics.
+
+### Education
+
+**Brigham Young University** — Provo, UT \
+*B.S. Statistics, Emphasis in Biostatistics | Expected April 2027*
+
+- Coursework: statistical modeling, regression, Bayesian methods, machine learning fundamentals, computational statistics, time series & autoregressive modeling
+- Applied statistical analysis on real-world datasets through multiple academic and research projects
+
+### Skills
+
+**Programming:** Python (data manipulation, modeling, visualization), R, SQL (intro), MATLAB, PyTorch (intro) \
+**Libraries & Tools:** pandas, NumPy, scikit-learn (intro), Matplotlib, RStudio, Git/GitHub, Jupyter Notebooks, Excel \
+**Statistical & ML Methods:** Regression modeling, Bayesian inference, supervised learning fundamentals, experimental design, EDA, time series & autoregressive modeling, data cleaning
+
+### Leadership & Involvement
+
+- President, BYU Sports Analytics Association (2026–2027) | Winner, 2026 BYU Statistics Case Study Competition
+- Member, BYU Statistics Association and Mu Sigma Rho National Statistical Honor Society
+- Volunteer Missionary, Church of Jesus Christ of Latter-day Saints — South Africa/Lesotho/Eswatini (2021–2023): led weekly coordination meetings, mentored incoming volunteers
+- Held additional leadership roles including Student Advisory Council representative and Fellowship of Christian Athletes president

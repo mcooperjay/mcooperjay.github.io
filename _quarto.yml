@@ -23,7 +23,7 @@ website:
           # - text: "Exploratory Data Analysis"
           #   href: projects/eda.qmd
           - text: "Data Acquisition"
-            href: projects/data-acquisition.md
+            href: data-acquisition.md
           # - text: "Final Project"
           #   href: projects/final-project.qmd
     right:
