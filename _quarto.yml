@@ -13,6 +13,9 @@ website:
         href: index.html
       - text: "About Me"
         href: about.md
+      - text: "Resume, CV"
+        href: resume.qmd
+
       - text: "Projects"
         menu:
           - text: "Tutorial"
@@ -42,7 +45,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: solar
     toc: true
     code-fold: true
     code-tools: true

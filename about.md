@@ -5,7 +5,7 @@ title: "About Me"
 ## Background
 
 
-I am a junior in the Statistics major, Biostatistics emphasis at Brigham Young University. 
+I am a Senior in the Statistics major, Biostatistics emphasis at Brigham Young University. 
 
 I am interested in data science as a way to link datum and utilize learning patterns in a meaningful way. 
 

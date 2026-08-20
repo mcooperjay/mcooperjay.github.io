@@ -3,8 +3,6 @@ title: "Welcome to My Data Science Portfolio"
 ---
 
 # Hello! I'm Cooper Maughan 👋
-## [About Me](about.md)
-
 
 Welcome to my data science portfolio! This site shows my journey learning data science and analytics. Here you'll find projects that demonstrate what I've learned and discovered.
 
@@ -15,8 +13,6 @@ This portfolio shows my work learning data science. Each project includes:
 - My code with documentation
 - Visualizations I created
 - What I learned and discovered
-
-I built this site using [Quarto](https://quarto.org/) and host it on [GitHub Pages](https://pages.github.com/).
 
 ## 🛠️ Skills I'm Learning
 
