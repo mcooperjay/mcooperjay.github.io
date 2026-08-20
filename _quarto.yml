@@ -13,7 +13,7 @@ website:
         href: index.html
       - text: "About Me"
         href: about.md
-      - text: "Resume, CV"
+      - text: "Resume"
         href: resume.qmd
 
       - text: "Projects"
@@ -45,7 +45,7 @@ website:
 
 format:
   html:
-    theme: solar
+    theme: yeti
     toc: true
     code-fold: true
     code-tools: true

@@ -3,11 +3,11 @@ title: "Resume"
 ---
 
 ## Cooper Maughan
-he/him/his &nbsp;|&nbsp; Salt Lake City / Provo, UT &nbsp;|&nbsp; your.email@byu.edu &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/cooper-maughan-95660a301/) &nbsp;|&nbsp; [GitHub](https://github.com/mcooperjay)
+he/him/his &nbsp;|&nbsp; Salt Lake City, UT &nbsp;|&nbsp; mcooperjay@gmail.com &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/cooper-maughan-95660a301/) &nbsp;|&nbsp; [GitHub](https://github.com/mcooperjay) &nbsp;|&nbsp; [WhatsApp](https://wa.me/mcooperjay)
 
 ### Profile
 
-Statistics major (Biostatistics emphasis) at Brigham Young University graduating April 2027, with hands-on experience in regression, Bayesian methods, and machine learning fundamentals through research and teaching roles in the BYU Department of Statistics. President of the BYU Sports Analytics Association and case study competition winner, seeking a January 2027 analyst role that applies statistical modeling to real decisions — in sports, health, or public-sector data — before starting a master's program.
+Statistics major (Biostatistics emphasis) at Brigham Young University graduating with a Bachelor's in December 2026, with hands-on experience in regression, Bayesian methods, and machine learning fundamentals through research and teaching roles in the BYU Department of Statistics. President of the BYU Sports Analytics Association and case study competition winner, seeking a January 2027 analyst role that applies statistical modeling to real decisions — in sports, health, or public-sector data — before starting a master's program.
 
 ### Experience
 
@@ -48,8 +48,8 @@ Statistics major (Biostatistics emphasis) at Brigham Young University graduating
 
 ### Skills
 
-**Programming:** Python (data manipulation, modeling, visualization), R, SQL (intro), MATLAB, PyTorch (intro) \
-**Libraries & Tools:** pandas, NumPy, scikit-learn (intro), Matplotlib, RStudio, Git/GitHub, Jupyter Notebooks, Excel \
+**Programming:** Python (data manipulation, modeling, visualization), R, SQL (intro), MATLAB (intro), PyTorch \
+**Libraries & Tools:** pandas, NumPy, scikit-learn, Matplotlib, RStudio, Git/GitHub, Jupyter Notebooks, Excel \
 **Statistical & ML Methods:** Regression modeling, Bayesian inference, supervised learning fundamentals, experimental design, EDA, time series & autoregressive modeling, data cleaning
 
 ### Leadership & Involvement
@@ -58,3 +58,5 @@ Statistics major (Biostatistics emphasis) at Brigham Young University graduating
 - Member, BYU Statistics Association and Mu Sigma Rho National Statistical Honor Society
 - Volunteer Missionary, Church of Jesus Christ of Latter-day Saints — South Africa/Lesotho/Eswatini (2021–2023): led weekly coordination meetings, mentored incoming volunteers
 - Held additional leadership roles including Student Advisory Council representative and Fellowship of Christian Athletes president
+
+*Feel free to reach out via WhatsApp for quick questions/comments*
