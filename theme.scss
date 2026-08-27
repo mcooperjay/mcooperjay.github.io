@@ -1,0 +1,53 @@
+/*-- scss:defaults --*/
+
+$primary:   #1b5635; // deep forest green — navbar, headings
+$secondary: #C68346; // warm amber — links, accents
+$success:   #98A869; // sage green — supporting accents
+$warning:   #E3A948; // golden yellow — highlights, callouts
+
+$body-bg:    #FAF3E3; // warm eggshell/cream page background
+$body-color: #2b2b2b;
+$link-color: $secondary;
+
+/*-- scss:rules --*/
+
+h1, h2, h3, h4 {
+  color: $primary;
+}
+
+a {
+  color: $secondary;
+}
+a:hover {
+  color: darken($secondary, 12%);
+}
+
+.navbar {
+  background-color: $primary !important;
+}
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #ffffff !important;
+}
+.navbar .nav-link:hover {
+  color: $warning !important;
+}
+
+blockquote, .callout {
+  border-left: 4px solid $warning;
+}
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+}
+
+code {
+  color: $primary;
+}
+
+/* Project card accents on landing/grid pages */
+.g-col-6 h3, .g-col-4 h3 {
+  border-bottom: 2px solid $success;
+  padding-bottom: 4px;
+}

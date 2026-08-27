@@ -10,12 +10,13 @@ website:
     background: primary
     left:
       - text: "Home"
-        href: index.md
+        href: index.html
       - text: "About Me"
         href: about.md
-      - text: "ResumeCV"
+      - text: "Resume"
         href: resume.qmd
-
+      - text: "Ministry of Sports"
+        href: ministry_of_sports/index.md
       - text: "Projects"
         menu:
           - text: "Tutorial"
@@ -39,15 +40,12 @@ website:
     - title: "Projects"
       contents:
         - projects/index.md
-        # - projects/eda.qmd
-        # - projects/data-acquisition.qmd
-        # - projects/final-project.qmd
 
 format:
   html:
-    theme: yeti
+    theme: [cosmo, theme.scss]
     toc: true
     code-fold: true
-    code-tools: true
+    code-tools: false
     css: styles.css
     

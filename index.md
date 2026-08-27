@@ -1,47 +1,36 @@
 ---
-title: "Welcome to My Data Science Portfolio"
+title: "Cooper Maughan"
 ---
 
-# Hello! I'm Cooper Maughan 👋
+# Hi, I'm Cooper 👋
 
-Welcome to my data science portfolio! This site shows my journey learning data science and analytics. Here you'll find projects that demonstrate what I've learned and discovered.
+I'm a Statistics student (Biostatistics emphasis) at Brigham Young University, graduating April 2027, heading toward a career in sports analytics. I build statistical and machine learning models, and I'm currently President of the BYU Sports Analytics Association.
 
-## 🎓 About This Portfolio
+This site is home to **Ministry of Sports** — a running series of sports analytics mini-projects — along with my broader coursework and research in statistics and biostatistics.
 
-This portfolio shows my work learning data science. Each project includes:
-
-- My code with documentation
-- Visualizations I created
-- What I learned and discovered
-
-## 🛠️ Skills I'm Learning
-
-- **Programming**: Python, Pandas for data analysis
-- **Visualization**: Creating charts with Matplotlib and Seaborn
-- **Data Collection**: Getting data from files, websites, and APIs
-- **Analysis**: Finding patterns and answering questions with data
-
-## 📈 My Projects
-
-::: {.grid}
-
-::: {.g-col-6}
-### [Data Exploration Project](eda.qmd)
-Learn how I explore datasets to find interesting patterns and answer questions.
-:::
-
-::: {.g-col-6}
-### [Data Collection Project](../data-acquisition.md)
-See how I gather data from different sources and prepare it for analysis.
-:::
-
-::: {.g-col-6}
-### [Final Project](final-project.qmd)
-See how I tackle a data science project beginning to end.
-:::
-
-:::
+[📄 Resume](resume.qmd) &nbsp;·&nbsp; [About Me](about.md) &nbsp;·&nbsp; [Ministry of Sports](ministry_of_sports/index.md) &nbsp;·&nbsp; [All Projects](projects/index.md) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/cooper-maughan-95660a301/) &nbsp;·&nbsp; [GitHub](https://github.com/mcooperjay)
 
 ---
 
-*Thanks for visiting! Feel free to explore my projects and see what I'm learning.*
+## What I Work On
+
+- **Statistical modeling** — regression, Bayesian inference, time series & autoregressive modeling
+- **Machine learning fundamentals** — supervised learning, PyTorch, scikit-learn
+- **Sports analytics** — the focus of my Ministry of Sports project series, applying these methods to real game and player data
+- **Data workflows** — Python, R, SQL, and reproducible analysis in Jupyter/RStudio
+
+I built this site with [Quarto](https://quarto.org/) and host it on [GitHub Pages](https://pages.github.com/).
+
+---
+
+## Featured Projects
+
+### [Ministry of Sports](projects/index.md)
+An ongoing series of sports analytics mini-projects — each one paired with a short video walkthrough on LinkedIn. New entries added regularly.
+
+### [Data Collection Project](data-acquisition.md)
+How I gather data from files, websites, and APIs and prepare it for analysis.
+
+---
+
+*Thanks for stopping by — take a look around, and feel free to reach out on [LinkedIn](https://www.linkedin.com/in/cooper-maughan-95660a301/).*

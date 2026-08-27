@@ -42,95 +42,95 @@
     "text": "Contact\n\nEmail: mcooperjay@gmail.com\nGitHub: github.com/mcooperjay\nLinkedIn: linkedin.com/in/Cooper-Maughan\n\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to My Data Science Portfolio",
+    "objectID": "ministry_of_sports/index.html",
+    "href": "ministry_of_sports/index.html",
+    "title": "Ministry of Sports",
     "section": "",
-    "text": "Welcome to my data science portfolio! This site shows my journey learning data science and analytics. Here you’ll find projects that demonstrate what I’ve learned and discovered.\n\n\nThis portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\n\n\n\n\nProgramming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data\n\n\n\n\n\n\n\nLearn how I explore datasets to find interesting patterns and answer questions.\n\n\n\nSee how I gather data from different sources and prepare it for analysis.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
+    "text": "A running series of sports analytics mini-projects — statistical models, data visualizations, and applied analysis, each paired with a short video walkthrough on LinkedIn.\nThe name is a nod to my time serving as a missionary in South Africa, home to the real Ministry of Sports, Arts and Culture — this is my own small, ongoing ministry of sorts: using data to better understand the games we love.\n\n\n\n\n\n\nComing soon\n\n\n\nComing soon\n\n\n\nComing soon\n\n\n\nComing soon\n\n\n\nNew mini-projects added regularly — check back often, or follow along on LinkedIn to catch each release as it drops."
   },
   {
-    "objectID": "index.html#about-this-portfolio",
-    "href": "index.html#about-this-portfolio",
-    "title": "Welcome to My Data Science Portfolio",
+    "objectID": "ministry_of_sports/index.html#projects",
+    "href": "ministry_of_sports/index.html#projects",
+    "title": "Ministry of Sports",
     "section": "",
-    "text": "This portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered"
+    "text": "Coming soon\n\n\n\nComing soon\n\n\n\nComing soon\n\n\n\nComing soon\n\n\n\nNew mini-projects added regularly — check back often, or follow along on LinkedIn to catch each release as it drops."
   },
   {
-    "objectID": "index.html#skills-im-learning",
-    "href": "index.html#skills-im-learning",
-    "title": "Welcome to My Data Science Portfolio",
+    "objectID": "tutorial_1.html",
+    "href": "tutorial_1.html",
+    "title": "My Tutorial Blog",
     "section": "",
-    "text": "Programming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data"
+    "text": "For this blog, and mainly to show my understanding of GitHub pages, I have chosen to make a tutorial on scatterplots within Python."
   },
   {
-    "objectID": "index.html#my-projects",
-    "href": "index.html#my-projects",
-    "title": "Welcome to My Data Science Portfolio",
+    "objectID": "tutorial_1.html#purpose",
+    "href": "tutorial_1.html#purpose",
+    "title": "My Tutorial Blog",
     "section": "",
-    "text": "Learn how I explore datasets to find interesting patterns and answer questions.\n\n\n\nSee how I gather data from different sources and prepare it for analysis.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
+    "text": "For this blog, and mainly to show my understanding of GitHub pages, I have chosen to make a tutorial on scatterplots within Python."
   },
   {
-    "objectID": "projects/about.html",
-    "href": "projects/about.html",
-    "title": "About Me",
+    "objectID": "projects/data-acquisition.html",
+    "href": "projects/data-acquisition.html",
+    "title": "Data Acquisition Project",
     "section": "",
-    "text": "I am a junior in the Statistics major, Biostatistics emphasis at Brigham Young University.\nI am interested in data science as a way to link datum and utilize learning patterns in a meaningful way.\nWith much work, hope and luck, my dream job is to work as a sports statistician. I am also interested in researching more about direct applications of biostatistics, medical statistics, environmental analytics and more.\nI have only worked on one project, analyzing home runs per game in differing levels of major, minor and collegiate leagues."
+    "text": "This project analyzes publicly available CDC mortality data to uncover trends in causes of death across U.S. states and years. Using the CDC’s open API, I extracted and cleaned more than 10,000 records from the dataset bi63-dtpu. From there, I used Python’s pandas, matplotlib, and seaborn libraries to visualize national and state-level mortality patterns.\nPlots were created using a combination of Seaborn and Matplotlib to balance style and customization. One of the key metrics explored is the AADR (Age-Adjusted Death Rate). This standardized rate accounts for differences in age distribution across populations: it sums the age-specific death rates for each age group and multiplies each by the proportion of a standard population in the same age group. This allows for fair comparisons between states and over time.\nThe data covers death and disease rates from 1999 to 2017, including both overall death counts and rates by specific causes. Mortality trends are a critical public health measure—they inform policy decisions, resource allocation, and highlight areas where healthcare disparities may exist.\n\n\n\n\nData Source\nAll data were pulled from the CDC’s public API endpoint:\nCDC Mortality Data\nThis endpoint provides open, public domain data on deaths in the United States by cause, state, and year.\nData Collection and Cleaning\n- Used Python’s requests library to query the API and retrieve JSON-formatted data.\n- Converted the JSON into a Pandas DataFrame for analysis.\n- Numeric fields (deaths, aadr, year) were converted from strings to numeric types for plotting and aggregation.\n- Removed null or missing values, and filtered out the “All causes” category to focus on specific causes of death.\nAnalysis Goals\n1. Identify the Top 10 causes of death nationwide.\n2. Examine changes in total deaths by year.\n3. Compare state-level Age-Adjusted Death Rates (AADR) to highlight regional differences.\nEthical Considerations\nAll data used in this project are publicly available through the CDC’s open data initiative. No private or identifiable information was accessed or used. The analysis follows good data practice by respecting API usage guidelines and ensuring proper citation of the source.\n\n\n\n\n\nThe top causes of death consistently include heart disease, cancer, and stroke. Heart disease remains the leading cause in most years, followed closely by various types of cancer.\n\nNational death counts show an overall increase from 2008 to 2017, with a slight decline between 2000 and 2008. These trends reflect demographic shifts and health crises over time, such as the opioid epidemic and aging population.\n\nState-level AADR analysis reveals geographic disparities in mortality rates. Southern states such as Mississippi, Alabama, and Louisiana have higher average AADR values, indicating health inequalities that may be linked to socioeconomic factors, access to healthcare, or chronic disease prevalence.\n\nComparing trends by cause shows that some diseases, like diabetes and chronic lower respiratory disease, exhibit slow but steady increases, while others, like influenza and pneumonia, fluctuate more year-to-year.\n\n\n\n\n\n\n\n\nThis bar chart summarizes total deaths nationwide by cause. It highlights the persistent dominance of heart disease and cancer as leading causes. The chart allows for a quick comparison of relative mortality impact among causes.\n\n\n\n\nThis plot displays the average AADR by state. Southern states generally have higher rates, emphasizing regional health disparities. States with lower AADR, such as Hawaii and California, appear near the bottom, reflecting differences in public health interventions and population characteristics.\n\n\n\n\nThis line chart shows trends in national death counts from 2000 to 2017. It highlights periods of rising and falling mortality, providing context for policy changes and public health responses during those years.\n\n\n\n\n\nIntegrate additional CDC or NIH datasets to explore correlations between mortality and risk factors (e.g., obesity, smoking, socioeconomic status).\n\nPerform regression analysis to model causes of death relative to demographic and regional predictors.\n\nDevelop an interactive dashboard using Streamlit or Dash to allow users to explore state-level trends dynamically.\n\nGiven the highest levels of obesity, heart failure and stroke, conduct further research into ways to both combat those causes of death and teach others to combat these diseases as well.\n\n\n\n\n\n\nFull Repository on GitHub\n\nmain.py Code File\n\nView on GitHub Pages"
   },
   {
-    "objectID": "projects/about.html#background",
-    "href": "projects/about.html#background",
-    "title": "About Me",
+    "objectID": "projects/data-acquisition.html#overview",
+    "href": "projects/data-acquisition.html#overview",
+    "title": "Data Acquisition Project",
     "section": "",
-    "text": "I am a junior in the Statistics major, Biostatistics emphasis at Brigham Young University.\nI am interested in data science as a way to link datum and utilize learning patterns in a meaningful way.\nWith much work, hope and luck, my dream job is to work as a sports statistician. I am also interested in researching more about direct applications of biostatistics, medical statistics, environmental analytics and more.\nI have only worked on one project, analyzing home runs per game in differing levels of major, minor and collegiate leagues."
+    "text": "This project analyzes publicly available CDC mortality data to uncover trends in causes of death across U.S. states and years. Using the CDC’s open API, I extracted and cleaned more than 10,000 records from the dataset bi63-dtpu. From there, I used Python’s pandas, matplotlib, and seaborn libraries to visualize national and state-level mortality patterns.\nPlots were created using a combination of Seaborn and Matplotlib to balance style and customization. One of the key metrics explored is the AADR (Age-Adjusted Death Rate). This standardized rate accounts for differences in age distribution across populations: it sums the age-specific death rates for each age group and multiplies each by the proportion of a standard population in the same age group. This allows for fair comparisons between states and over time.\nThe data covers death and disease rates from 1999 to 2017, including both overall death counts and rates by specific causes. Mortality trends are a critical public health measure—they inform policy decisions, resource allocation, and highlight areas where healthcare disparities may exist."
   },
   {
-    "objectID": "projects/about.html#education",
-    "href": "projects/about.html#education",
-    "title": "About Me",
-    "section": "Education",
-    "text": "Education\n\nBS in Statistics - Brigham Young University, 2026\nRelevant Coursework: Statistics, Data Analysis, Programming, etc."
-  },
-  {
-    "objectID": "projects/about.html#skills-interests",
-    "href": "projects/about.html#skills-interests",
-    "title": "About Me",
-    "section": "Skills & Interests",
-    "text": "Skills & Interests\n\nTechnical Skills\n\nProgramming: Python, R\nData Analysis: Pandas, NumPy\nVisualization: Matplotlib, Seaborn\nMachine Learning: Scikit-learn\nTools: Jupyter Notebooks, Git/GitHub\n\n\n\nAreas of Interest\n\nI am very interested in sports data, sports analytics, finincial studies, budgeting, and bioanalysis."
-  },
-  {
-    "objectID": "projects/about.html#goals",
-    "href": "projects/about.html#goals",
-    "title": "About Me",
-    "section": "Goals",
-    "text": "Goals\n\nMy short term goals are to learn and follow the examples of good data scientists and to gather the tools and resources to help me learn more.\nMy long-term career goals are to go into graduate programs and further my career in either the sports data field or helping in medical analytics.\nThe types of problems I want to solve are those that push me to learn, provide insight into the world around me and work with logic."
-  },
-  {
-    "objectID": "projects/about.html#contact",
-    "href": "projects/about.html#contact",
-    "title": "About Me",
-    "section": "Contact",
-    "text": "Contact\n\nEmail: mcooperjay@gmail.com\nGitHub: github.com/mcooperjay\nLinkedIn: linkedin.com/in/Cooper-Maughan\n\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
-  },
-  {
-    "objectID": "projects/final-project.html",
-    "href": "projects/final-project.html",
-    "title": "",
+    "objectID": "projects/data-acquisition.html#method",
+    "href": "projects/data-acquisition.html#method",
+    "title": "Data Acquisition Project",
     "section": "",
-    "text": "Code"
+    "text": "Data Source\nAll data were pulled from the CDC’s public API endpoint:\nCDC Mortality Data\nThis endpoint provides open, public domain data on deaths in the United States by cause, state, and year.\nData Collection and Cleaning\n- Used Python’s requests library to query the API and retrieve JSON-formatted data.\n- Converted the JSON into a Pandas DataFrame for analysis.\n- Numeric fields (deaths, aadr, year) were converted from strings to numeric types for plotting and aggregation.\n- Removed null or missing values, and filtered out the “All causes” category to focus on specific causes of death.\nAnalysis Goals\n1. Identify the Top 10 causes of death nationwide.\n2. Examine changes in total deaths by year.\n3. Compare state-level Age-Adjusted Death Rates (AADR) to highlight regional differences.\nEthical Considerations\nAll data used in this project are publicly available through the CDC’s open data initiative. No private or identifiable information was accessed or used. The analysis follows good data practice by respecting API usage guidelines and ensuring proper citation of the source."
+  },
+  {
+    "objectID": "projects/data-acquisition.html#key-findings",
+    "href": "projects/data-acquisition.html#key-findings",
+    "title": "Data Acquisition Project",
+    "section": "",
+    "text": "The top causes of death consistently include heart disease, cancer, and stroke. Heart disease remains the leading cause in most years, followed closely by various types of cancer.\n\nNational death counts show an overall increase from 2008 to 2017, with a slight decline between 2000 and 2008. These trends reflect demographic shifts and health crises over time, such as the opioid epidemic and aging population.\n\nState-level AADR analysis reveals geographic disparities in mortality rates. Southern states such as Mississippi, Alabama, and Louisiana have higher average AADR values, indicating health inequalities that may be linked to socioeconomic factors, access to healthcare, or chronic disease prevalence.\n\nComparing trends by cause shows that some diseases, like diabetes and chronic lower respiratory disease, exhibit slow but steady increases, while others, like influenza and pneumonia, fluctuate more year-to-year."
+  },
+  {
+    "objectID": "projects/data-acquisition.html#visualizations",
+    "href": "projects/data-acquisition.html#visualizations",
+    "title": "Data Acquisition Project",
+    "section": "",
+    "text": "This bar chart summarizes total deaths nationwide by cause. It highlights the persistent dominance of heart disease and cancer as leading causes. The chart allows for a quick comparison of relative mortality impact among causes.\n\n\n\n\nThis plot displays the average AADR by state. Southern states generally have higher rates, emphasizing regional health disparities. States with lower AADR, such as Hawaii and California, appear near the bottom, reflecting differences in public health interventions and population characteristics.\n\n\n\n\nThis line chart shows trends in national death counts from 2000 to 2017. It highlights periods of rising and falling mortality, providing context for policy changes and public health responses during those years."
+  },
+  {
+    "objectID": "projects/data-acquisition.html#future-work",
+    "href": "projects/data-acquisition.html#future-work",
+    "title": "Data Acquisition Project",
+    "section": "",
+    "text": "Integrate additional CDC or NIH datasets to explore correlations between mortality and risk factors (e.g., obesity, smoking, socioeconomic status).\n\nPerform regression analysis to model causes of death relative to demographic and regional predictors.\n\nDevelop an interactive dashboard using Streamlit or Dash to allow users to explore state-level trends dynamically.\n\nGiven the highest levels of obesity, heart failure and stroke, conduct further research into ways to both combat those causes of death and teach others to combat these diseases as well."
+  },
+  {
+    "objectID": "projects/data-acquisition.html#links",
+    "href": "projects/data-acquisition.html#links",
+    "title": "Data Acquisition Project",
+    "section": "",
+    "text": "Full Repository on GitHub\n\nmain.py Code File\n\nView on GitHub Pages"
   },
   {
     "objectID": "resume.html",
     "href": "resume.html",
     "title": "Resume",
     "section": "",
-    "text": "he/him/his  |  Salt Lake City, UT  |  mcooperjay@gmail.com  |  LinkedIn  |  GitHub  |  WhatsApp\n\n\nStatistics major (Biostatistics emphasis) at Brigham Young University graduating with a Bachelor’s in December 2026, with hands-on experience in regression, Bayesian methods, and machine learning fundamentals through research and teaching roles in the BYU Department of Statistics. President of the BYU Sports Analytics Association and case study competition winner, seeking a January 2027 analyst role that applies statistical modeling to real decisions — in sports, health, or public-sector data — before starting a master’s program.\n\n\n\nResearch Assistant | BYU Department of Statistics — CorEx Systems Project\nProvo, UT — Jan 2026 – Present\n\nBuild and train PyTorch models on GPU compute clusters, applying deep learning fundamentals to ongoing statistics department research.\nCollaborate with faculty and fellow researchers using Git/GitHub for version control on shared modeling code.\n\nTeaching Assistant | BYU Department of Statistics — STAT 121/250\nProvo, UT — Aug 2025 – Apr 2026\n\nTeach and troubleshoot statistical modeling, R programming, and data analysis workflows for undergraduate students.\nSupport instructors with grading, content development, and online course tools, translating technical statistical concepts for diverse learners.\n\nTeaching Assistant | BYU Salt Lake Center — MPA 630\nSalt Lake City, UT — Jan 2025 – Apr 2025\n\nTaught statistical methods and quantitative reasoning to graduate students; graded assignments and provided one-on-one support in Excel and statistical tools.\n\nTeam Lead, Custodial Services | BYU Missionary Training Center\nProvo, UT — 2024 – 2025\n\nLed teams of up to six staff, coordinating workflows and quality standards across large-scale operations.\n\nCamp Counselor | BYU Sports Camps\nProvo, UT — Summers 2024 – 2025\n\nSupervised groups of 6–20 youth, managing daily schedules and group logistics.\n\n\n\n\nBrigham Young University — Provo, UT\nB.S. Statistics, Emphasis in Biostatistics | Expected April 2027\n\nCoursework: statistical modeling, regression, Bayesian methods, machine learning fundamentals, computational statistics, time series & autoregressive modeling\nApplied statistical analysis on real-world datasets through multiple academic and research projects\n\n\n\n\nProgramming: Python (data manipulation, modeling, visualization), R, SQL (intro), MATLAB (intro), PyTorch\nLibraries & Tools: pandas, NumPy, scikit-learn, Matplotlib, RStudio, Git/GitHub, Jupyter Notebooks, Excel\nStatistical & ML Methods: Regression modeling, Bayesian inference, supervised learning fundamentals, experimental design, EDA, time series & autoregressive modeling, data cleaning\n\n\n\n\nPresident, BYU Sports Analytics Association (2026–2027) | Winner, 2026 BYU Statistics Case Study Competition\nMember, BYU Statistics Association and Mu Sigma Rho National Statistical Honor Society\nVolunteer Missionary, Church of Jesus Christ of Latter-day Saints — South Africa/Lesotho/Eswatini (2021–2023): led weekly coordination meetings, mentored incoming volunteers\nHeld additional leadership roles including Student Advisory Council representative and Fellowship of Christian Athletes president\n\nFeel free to reach out via WhatsApp for quick questions/comments"
+    "text": "he/him/his  |  Salt Lake City / Provo, UT  |  your.email@byu.edu  |  LinkedIn  |  GitHub\n\n\nStatistics major (Biostatistics emphasis) at Brigham Young University graduating April 2027, with hands-on experience in regression, Bayesian methods, and machine learning fundamentals through research and teaching roles in the BYU Department of Statistics. President of the BYU Sports Analytics Association and case study competition winner, seeking a January 2027 analyst role that applies statistical modeling to real decisions — in sports, health, or public-sector data — before starting a master’s program.\n\n\n\nResearch Assistant | BYU Department of Statistics — CorEx Systems Project\nProvo, UT — Jan 2026 – Present\n\nBuild and train PyTorch models on GPU compute clusters, applying deep learning fundamentals to ongoing statistics department research.\nCollaborate with faculty and fellow researchers using Git/GitHub for version control on shared modeling code.\n\nTeaching Assistant | BYU Department of Statistics — STAT 121/250\nProvo, UT — Aug 2025 – Apr 2026\n\nTeach and troubleshoot statistical modeling, R programming, and data analysis workflows for undergraduate students.\nSupport instructors with grading, content development, and online course tools, translating technical statistical concepts for diverse learners.\n\nTeaching Assistant | BYU Salt Lake Center — MPA 630\nSalt Lake City, UT — Jan 2025 – Apr 2025\n\nTaught statistical methods and quantitative reasoning to graduate students; graded assignments and provided one-on-one support in Excel and statistical tools.\n\nTeam Lead, Custodial Services | BYU Missionary Training Center\nProvo, UT — 2024 – 2025\n\nLed teams of up to six staff, coordinating workflows and quality standards across large-scale operations.\n\nCamp Counselor | BYU Sports Camps\nProvo, UT — Summers 2024 – 2025\n\nSupervised groups of 6–20 youth, managing daily schedules and group logistics.\n\n\n\n\nBrigham Young University — Provo, UT\nB.S. Statistics, Emphasis in Biostatistics | Expected April 2027\n\nCoursework: statistical modeling, regression, Bayesian methods, machine learning fundamentals, computational statistics, time series & autoregressive modeling\nApplied statistical analysis on real-world datasets through multiple academic and research projects\n\n\n\n\nProgramming: Python (data manipulation, modeling, visualization), R, SQL (intro), MATLAB, PyTorch (intro)\nLibraries & Tools: pandas, NumPy, scikit-learn (intro), Matplotlib, RStudio, Git/GitHub, Jupyter Notebooks, Excel\nStatistical & ML Methods: Regression modeling, Bayesian inference, supervised learning fundamentals, experimental design, EDA, time series & autoregressive modeling, data cleaning\n\n\n\n\nPresident, BYU Sports Analytics Association (2026–2027) | Winner, 2026 BYU Statistics Case Study Competition\nMember, BYU Statistics Association and Mu Sigma Rho National Statistical Honor Society\nVolunteer Missionary, Church of Jesus Christ of Latter-day Saints — South Africa/Lesotho/Eswatini (2021–2023): led weekly coordination meetings, mentored incoming volunteers\nHeld additional leadership roles including Student Advisory Council representative and Fellowship of Christian Athletes president"
   },
   {
     "objectID": "resume.html#cooper-maughan",
     "href": "resume.html#cooper-maughan",
     "title": "Resume",
     "section": "",
-    "text": "he/him/his  |  Salt Lake City, UT  |  mcooperjay@gmail.com  |  LinkedIn  |  GitHub  |  WhatsApp\n\n\nStatistics major (Biostatistics emphasis) at Brigham Young University graduating with a Bachelor’s in December 2026, with hands-on experience in regression, Bayesian methods, and machine learning fundamentals through research and teaching roles in the BYU Department of Statistics. President of the BYU Sports Analytics Association and case study competition winner, seeking a January 2027 analyst role that applies statistical modeling to real decisions — in sports, health, or public-sector data — before starting a master’s program.\n\n\n\nResearch Assistant | BYU Department of Statistics — CorEx Systems Project\nProvo, UT — Jan 2026 – Present\n\nBuild and train PyTorch models on GPU compute clusters, applying deep learning fundamentals to ongoing statistics department research.\nCollaborate with faculty and fellow researchers using Git/GitHub for version control on shared modeling code.\n\nTeaching Assistant | BYU Department of Statistics — STAT 121/250\nProvo, UT — Aug 2025 – Apr 2026\n\nTeach and troubleshoot statistical modeling, R programming, and data analysis workflows for undergraduate students.\nSupport instructors with grading, content development, and online course tools, translating technical statistical concepts for diverse learners.\n\nTeaching Assistant | BYU Salt Lake Center — MPA 630\nSalt Lake City, UT — Jan 2025 – Apr 2025\n\nTaught statistical methods and quantitative reasoning to graduate students; graded assignments and provided one-on-one support in Excel and statistical tools.\n\nTeam Lead, Custodial Services | BYU Missionary Training Center\nProvo, UT — 2024 – 2025\n\nLed teams of up to six staff, coordinating workflows and quality standards across large-scale operations.\n\nCamp Counselor | BYU Sports Camps\nProvo, UT — Summers 2024 – 2025\n\nSupervised groups of 6–20 youth, managing daily schedules and group logistics.\n\n\n\n\nBrigham Young University — Provo, UT\nB.S. Statistics, Emphasis in Biostatistics | Expected April 2027\n\nCoursework: statistical modeling, regression, Bayesian methods, machine learning fundamentals, computational statistics, time series & autoregressive modeling\nApplied statistical analysis on real-world datasets through multiple academic and research projects\n\n\n\n\nProgramming: Python (data manipulation, modeling, visualization), R, SQL (intro), MATLAB (intro), PyTorch\nLibraries & Tools: pandas, NumPy, scikit-learn, Matplotlib, RStudio, Git/GitHub, Jupyter Notebooks, Excel\nStatistical & ML Methods: Regression modeling, Bayesian inference, supervised learning fundamentals, experimental design, EDA, time series & autoregressive modeling, data cleaning\n\n\n\n\nPresident, BYU Sports Analytics Association (2026–2027) | Winner, 2026 BYU Statistics Case Study Competition\nMember, BYU Statistics Association and Mu Sigma Rho National Statistical Honor Society\nVolunteer Missionary, Church of Jesus Christ of Latter-day Saints — South Africa/Lesotho/Eswatini (2021–2023): led weekly coordination meetings, mentored incoming volunteers\nHeld additional leadership roles including Student Advisory Council representative and Fellowship of Christian Athletes president\n\nFeel free to reach out via WhatsApp for quick questions/comments"
+    "text": "he/him/his  |  Salt Lake City / Provo, UT  |  your.email@byu.edu  |  LinkedIn  |  GitHub\n\n\nStatistics major (Biostatistics emphasis) at Brigham Young University graduating April 2027, with hands-on experience in regression, Bayesian methods, and machine learning fundamentals through research and teaching roles in the BYU Department of Statistics. President of the BYU Sports Analytics Association and case study competition winner, seeking a January 2027 analyst role that applies statistical modeling to real decisions — in sports, health, or public-sector data — before starting a master’s program.\n\n\n\nResearch Assistant | BYU Department of Statistics — CorEx Systems Project\nProvo, UT — Jan 2026 – Present\n\nBuild and train PyTorch models on GPU compute clusters, applying deep learning fundamentals to ongoing statistics department research.\nCollaborate with faculty and fellow researchers using Git/GitHub for version control on shared modeling code.\n\nTeaching Assistant | BYU Department of Statistics — STAT 121/250\nProvo, UT — Aug 2025 – Apr 2026\n\nTeach and troubleshoot statistical modeling, R programming, and data analysis workflows for undergraduate students.\nSupport instructors with grading, content development, and online course tools, translating technical statistical concepts for diverse learners.\n\nTeaching Assistant | BYU Salt Lake Center — MPA 630\nSalt Lake City, UT — Jan 2025 – Apr 2025\n\nTaught statistical methods and quantitative reasoning to graduate students; graded assignments and provided one-on-one support in Excel and statistical tools.\n\nTeam Lead, Custodial Services | BYU Missionary Training Center\nProvo, UT — 2024 – 2025\n\nLed teams of up to six staff, coordinating workflows and quality standards across large-scale operations.\n\nCamp Counselor | BYU Sports Camps\nProvo, UT — Summers 2024 – 2025\n\nSupervised groups of 6–20 youth, managing daily schedules and group logistics.\n\n\n\n\nBrigham Young University — Provo, UT\nB.S. Statistics, Emphasis in Biostatistics | Expected April 2027\n\nCoursework: statistical modeling, regression, Bayesian methods, machine learning fundamentals, computational statistics, time series & autoregressive modeling\nApplied statistical analysis on real-world datasets through multiple academic and research projects\n\n\n\n\nProgramming: Python (data manipulation, modeling, visualization), R, SQL (intro), MATLAB, PyTorch (intro)\nLibraries & Tools: pandas, NumPy, scikit-learn (intro), Matplotlib, RStudio, Git/GitHub, Jupyter Notebooks, Excel\nStatistical & ML Methods: Regression modeling, Bayesian inference, supervised learning fundamentals, experimental design, EDA, time series & autoregressive modeling, data cleaning\n\n\n\n\nPresident, BYU Sports Analytics Association (2026–2027) | Winner, 2026 BYU Statistics Case Study Competition\nMember, BYU Statistics Association and Mu Sigma Rho National Statistical Honor Society\nVolunteer Missionary, Church of Jesus Christ of Latter-day Saints — South Africa/Lesotho/Eswatini (2021–2023): led weekly coordination meetings, mentored incoming volunteers\nHeld additional leadership roles including Student Advisory Council representative and Fellowship of Christian Athletes president"
   },
   {
     "objectID": "projects/index.html",
@@ -183,18 +183,67 @@
     ]
   },
   {
-    "objectID": "tutorial_1.html",
-    "href": "tutorial_1.html",
-    "title": "My Tutorial Blog",
+    "objectID": "projects/about.html",
+    "href": "projects/about.html",
+    "title": "About Me",
     "section": "",
-    "text": "For this blog, and mainly to show my understanding of GitHub pages, I have chosen to make a tutorial on scatterplots within Python."
+    "text": "I am a junior in the Statistics major, Biostatistics emphasis at Brigham Young University.\nI am interested in data science as a way to link datum and utilize learning patterns in a meaningful way.\nWith much work, hope and luck, my dream job is to work as a sports statistician. I am also interested in researching more about direct applications of biostatistics, medical statistics, environmental analytics and more.\nI have only worked on one project, analyzing home runs per game in differing levels of major, minor and collegiate leagues."
   },
   {
-    "objectID": "tutorial_1.html#purpose",
-    "href": "tutorial_1.html#purpose",
-    "title": "My Tutorial Blog",
+    "objectID": "projects/about.html#background",
+    "href": "projects/about.html#background",
+    "title": "About Me",
     "section": "",
-    "text": "For this blog, and mainly to show my understanding of GitHub pages, I have chosen to make a tutorial on scatterplots within Python."
+    "text": "I am a junior in the Statistics major, Biostatistics emphasis at Brigham Young University.\nI am interested in data science as a way to link datum and utilize learning patterns in a meaningful way.\nWith much work, hope and luck, my dream job is to work as a sports statistician. I am also interested in researching more about direct applications of biostatistics, medical statistics, environmental analytics and more.\nI have only worked on one project, analyzing home runs per game in differing levels of major, minor and collegiate leagues."
+  },
+  {
+    "objectID": "projects/about.html#education",
+    "href": "projects/about.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\n\nBS in Statistics - Brigham Young University, 2026\nRelevant Coursework: Statistics, Data Analysis, Programming, etc."
+  },
+  {
+    "objectID": "projects/about.html#skills-interests",
+    "href": "projects/about.html#skills-interests",
+    "title": "About Me",
+    "section": "Skills & Interests",
+    "text": "Skills & Interests\n\nTechnical Skills\n\nProgramming: Python, R\nData Analysis: Pandas, NumPy\nVisualization: Matplotlib, Seaborn\nMachine Learning: Scikit-learn\nTools: Jupyter Notebooks, Git/GitHub\n\n\n\nAreas of Interest\n\nI am very interested in sports data, sports analytics, finincial studies, budgeting, and bioanalysis."
+  },
+  {
+    "objectID": "projects/about.html#goals",
+    "href": "projects/about.html#goals",
+    "title": "About Me",
+    "section": "Goals",
+    "text": "Goals\n\nMy short term goals are to learn and follow the examples of good data scientists and to gather the tools and resources to help me learn more.\nMy long-term career goals are to go into graduate programs and further my career in either the sports data field or helping in medical analytics.\nThe types of problems I want to solve are those that push me to learn, provide insight into the world around me and work with logic."
+  },
+  {
+    "objectID": "projects/about.html#contact",
+    "href": "projects/about.html#contact",
+    "title": "About Me",
+    "section": "Contact",
+    "text": "Contact\n\nEmail: mcooperjay@gmail.com\nGitHub: github.com/mcooperjay\nLinkedIn: linkedin.com/in/Cooper-Maughan\n\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Cooper Maughan",
+    "section": "",
+    "text": "I’m a Statistics student (Biostatistics emphasis) at Brigham Young University, graduating April 2027, heading toward a career in sports analytics. I build statistical and machine learning models, and I’m currently President of the BYU Sports Analytics Association.\nThis site is home to Ministry of Sports — a running series of sports analytics mini-projects — along with my broader coursework and research in statistics and biostatistics.\n📄 Resume  ·  About Me  ·  Ministry of Sports  ·  All Projects  ·  LinkedIn  ·  GitHub\n\n\n\n\nStatistical modeling — regression, Bayesian inference, time series & autoregressive modeling\nMachine learning fundamentals — supervised learning, PyTorch, scikit-learn\nSports analytics — the focus of my Ministry of Sports project series, applying these methods to real game and player data\nData workflows — Python, R, SQL, and reproducible analysis in Jupyter/RStudio\n\nI built this site with Quarto and host it on GitHub Pages.\n\n\n\n\n\n\nAn ongoing series of sports analytics mini-projects — each one paired with a short video walkthrough on LinkedIn. New entries added regularly.\n\n\n\nHow I gather data from files, websites, and APIs and prepare it for analysis.\n\nThanks for stopping by — take a look around, and feel free to reach out on LinkedIn."
+  },
+  {
+    "objectID": "index.html#what-i-work-on",
+    "href": "index.html#what-i-work-on",
+    "title": "Cooper Maughan",
+    "section": "",
+    "text": "Statistical modeling — regression, Bayesian inference, time series & autoregressive modeling\nMachine learning fundamentals — supervised learning, PyTorch, scikit-learn\nSports analytics — the focus of my Ministry of Sports project series, applying these methods to real game and player data\nData workflows — Python, R, SQL, and reproducible analysis in Jupyter/RStudio\n\nI built this site with Quarto and host it on GitHub Pages."
+  },
+  {
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Cooper Maughan",
+    "section": "",
+    "text": "An ongoing series of sports analytics mini-projects — each one paired with a short video walkthrough on LinkedIn. New entries added regularly.\n\n\n\nHow I gather data from files, websites, and APIs and prepare it for analysis.\n\nThanks for stopping by — take a look around, and feel free to reach out on LinkedIn."
   },
   {
     "objectID": "data-acquisition.html",

@@ -34,7 +34,7 @@ This repository provides a simple template for creating a personal data science 
 ├── about.md             # About me page
 ├── projects/            # Your project files
 │   ├── eda.qmd          # Data exploration template
-│   ├── data-acquisition.qmd  # Data collection template
+│   ├── data-acquisition.md  # Data collection template
 │   └── final-project.qmd     # Final project template
 └── styles.css           # Custom styling
 ```
