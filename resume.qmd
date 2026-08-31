@@ -3,11 +3,11 @@ title: "Resume"
 ---
 
 ## Cooper Maughan
-he/him/his &nbsp;|&nbsp; Salt Lake City / Provo, UT &nbsp;|&nbsp; your.email@byu.edu &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/cooper-maughan-95660a301/) &nbsp;|&nbsp; [GitHub](https://github.com/mcooperjay) &nbsp;|&nbsp; [WhatsApp](https://wa.me/mcooperjay)
+he/him/his &nbsp;|&nbsp; Salt Lake City / Provo, UT &nbsp;|&nbsp; mcooperjay@gmail.com &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/cooper-maughan-95660a301/) &nbsp;|&nbsp; [GitHub](https://github.com/mcooperjay) &nbsp;|&nbsp; [WhatsApp](https://wa.me/mcooperjay)
 
 ### Profile
 
-Statistics major (Biostatistics emphasis) at Brigham Young University graduating April 2027, with hands-on experience in regression, Bayesian methods, and machine learning fundamentals through research and teaching roles in the BYU Department of Statistics. President of the BYU Sports Analytics Association and case study competition winner, seeking a January 2027 analyst role that applies statistical modeling to real decisions — in sports, health, or public-sector data — before starting a master's program.
+Statistics major (Biostatistics emphasis) at Brigham Young University graduating December 2026, with hands-on experience in regression, Bayesian methods, and machine learning fundamentals through research and teaching roles in the BYU Department of Statistics. President of the BYU Sports Analytics Association and case study competition winner, seeking a January 2027 analyst role that applies statistical modeling to real decisions — in sports, health, private, or public-sector data — before starting a master's program in the Fall of 2027.
 
 ### Experience
 
@@ -16,6 +16,9 @@ Statistics major (Biostatistics emphasis) at Brigham Young University graduating
 
 - Build and train PyTorch models on GPU compute clusters, applying deep learning fundamentals to ongoing statistics department research.
 - Collaborate with faculty and fellow researchers using Git/GitHub for version control on shared modeling code.
+- Utilizing information theory topics such as Mutual Information and Total Correlation to build Local CorEx models.
+- Practical use in coding in Python and in Jupyter Notebooks for data science and machine learning.
+- 
 
 **Teaching Assistant** | BYU Department of Statistics — STAT 121/250 \
 *Provo, UT — Aug 2025 – Apr 2026*

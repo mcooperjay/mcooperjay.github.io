@@ -41,7 +41,8 @@ I have only worked on one project, analyzing home runs per game in differing lev
 - **Email**: mcooperjay@gmail.com
 - **GitHub**: [github.com/mcooperjay](https://github.com/mcooperjay)
 - **LinkedIn**: [linkedin.com/in/Cooper-Maughan](https://www.linkedin.com/in/cooper-maughan-95660a301/)
+- **WhatsApp**: [wa.me/mcooperjay](https://wa.me/mcooperjay)
 
 ---
 
-*This portfolio showcases my learning progress and projects completed during my data science studies.*
+*This portfolio showcases my learning progress and projects completed during my statistics and data science studies.*

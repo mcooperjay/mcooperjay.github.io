@@ -17,12 +17,10 @@ website:
         href: resume.qmd
       - text: "Ministry of Sports"
         href: ministry_of_sports/index.md
-      - text: "Projects"
+      - text: "School Projects"
         menu:
           - text: "Tutorial"
             href: tutorial_1.qmd
-          - text: "All Projects"
-            href: projects/index.md
           - text: "---"
           # - text: "Exploratory Data Analysis"
           #   href: projects/eda.qmd
@@ -35,11 +33,8 @@ website:
         href: https://github.com/mcooperjay
       - icon: linkedin
         href: https://www.linkedin.com/in/cooper-maughan-95660a301/
-
-  sidebar:
-    - title: "Projects"
-      contents:
-        - projects/index.md
+      - icon: whatsapp
+        href: https://wa.me/mcooperjay
 
 format:
   html:
