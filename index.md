@@ -6,8 +6,6 @@ title: "Cooper Maughan"
 
 I'm a Statistics student (Biostatistics emphasis) at Brigham Young University, graduating December 2026, hopefully heading toward a career in sports analytics. I build statistical and machine learning models, and I'm currently President of the BYU Sports Analytics Association.
 
-This site is home to **Ministry of Sports** — a running series of sports analytics mini-projects — along with my broader coursework and research in statistics and biostatistics.
-
 [📄 Resume](resume.qmd) &nbsp;·&nbsp; [About Me](about.md) &nbsp;·&nbsp; [Ministry of Sports](ministry_of_sports/index.md) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/cooper-maughan-95660a301/) &nbsp;·&nbsp; [GitHub](https://github.com/mcooperjay)
 
 ---

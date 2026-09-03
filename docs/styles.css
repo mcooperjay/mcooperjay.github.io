@@ -139,12 +139,127 @@
 
 /* Print styles */
 @media print {
-  .navbar, .footer {
-    display: none;
+  @page {
+    size: Letter;
+    margin: 0.4in;
   }
-  
+
+  /* Strip all Quarto/Bootstrap chrome that isn't part of the resume itself */
+  #quarto-header,
+  #quarto-announcement,
+  #quarto-margin-sidebar,
+  .headroom,
+  .navbar,
+  .footer,
+  #title-block-header,
+  #TOC,
+  nav {
+    display: none !important;
+  }
+
+  html, body {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 9.5pt !important;
+    line-height: 1.15 !important;
+  }
+
+  body.nav-fixed {
+    padding-top: 0 !important;
+  }
+
+  #quarto-content,
+  .quarto-container,
+  .page-columns,
+  .page-full,
+  main,
+  main.content,
+  .content,
   .main-content {
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: none !important;
+    width: 100% !important;
+  }
+
+  /* Name (rendered as h2) */
+  h2 {
+    color: #1b5635 !important;
+    font-size: 16pt !important;
+    line-height: 1 !important;
+    margin: 0 0 3pt 0 !important;
+    page-break-after: avoid;
+  }
+
+  /* Section headings (rendered as h3) */
+  h3 {
+    color: #1b5635 !important;
+    font-size: 10.5pt !important;
+    line-height: 1 !important;
+    margin: 6pt 0 2pt 0 !important;
+    padding-bottom: 1pt !important;
+    border-bottom: 1px solid #72a869 !important;
+    page-break-after: avoid;
+  }
+
+  strong {
+    color: #2b2b2b;
+  }
+
+  p {
+    margin: 1pt 0 3pt 0 !important;
+  }
+
+  ul {
+    margin-top: 1pt !important;
+    margin-bottom: 3pt !important;
+    padding-left: 14pt !important;
+  }
+
+  li {
+    margin-bottom: 1pt !important;
+    padding-left: 1pt !important;
+  }
+
+  li, p {
+    orphans: 3;
+    widows: 3;
+  }
+
+  a {
+    color: #C68346 !important;
+    text-decoration: none !important;
+  }
+
+  h2, h3 {
+    break-after: avoid !important;
+  }
+
+  li {
+    break-inside: avoid !important;
+  }
+
+  section.level3 > p,
+  section.level3 > ul {
+    page-break-inside: avoid;
   }
 }
+
+  html, body {
+    margin: 0 !important;
+  }
+
+  section.level2 {
+    margin-bottom: 0 !important;
+  }
+
+  ul:last-of-type,
+  li:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  #quarto-appendix,
+  .quarto-appendix,
+  #quarto-back-to-top {
+    display: none !important;
+  }

@@ -1,5 +1,11 @@
 ---
 title: "Resume"
+toc: false
+format:
+  html:
+    theme: [cosmo, theme.scss]
+    css: styles.css
+    page-layout: article
 ---
 
 ## Cooper Maughan
@@ -7,57 +13,50 @@ he/him/his &nbsp;|&nbsp; Salt Lake City / Provo, UT &nbsp;|&nbsp; mcooperjay@gma
 
 ### Profile
 
-Statistics major (Biostatistics emphasis) at Brigham Young University graduating December 2026, with hands-on experience in regression, Bayesian methods, and machine learning fundamentals through research and teaching roles in the BYU Department of Statistics. President of the BYU Sports Analytics Association and case study competition winner, seeking a January 2027 analyst role that applies statistical modeling to real decisions — in sports, health, private, or public-sector data — before starting a master's program in the Fall of 2027.
+Statistics major at Brigham Young University, graduating December 2026, with hands-on experience in regression, Bayesian methods, Biostatistics and machine learning through research, consulting, and teaching roles in the BYU Department of Statistics. Comfortable moving between technical modeling work and explaining results to non-technical audiences. Seeking a January 2027 analyst or data science role before starting a master's program in Fall 2027.
 
 ### Experience
+
+**Statistical Consultant** | BYU Statistics Consulting Center \
+*Provo, UT — Sep 2026 – Present*
+
+- Advise campus researchers and community clients on study design, methodology selection, and interpretation of statistical results. 
+- Translate statistical findings into plain-language recommendations for clients without a quantitative background.
 
 **Research Assistant** | BYU Department of Statistics — CorEx Systems Project \
 *Provo, UT — Jan 2026 – Present*
 
-- Build and train PyTorch models on GPU compute clusters, applying deep learning fundamentals to ongoing statistics department research.
-- Collaborate with faculty and fellow researchers using Git/GitHub for version control on shared modeling code.
-- Utilizing information theory topics such as Mutual Information and Total Correlation to build Local CorEx models.
-- Practical use in coding in Python and in Jupyter Notebooks for data science and machine learning.
-- 
+- Build and train PyTorch models on GPU compute clusters, applying deep learning and information-theoretic methods (mutual information, total correlation) to ongoing department research.
+- Collaborate with faculty and researchers using Git/GitHub for version control on shared modeling code in Python and Jupyter Notebooks.
 
 **Teaching Assistant** | BYU Department of Statistics — STAT 121/250 \
-*Provo, UT — Aug 2025 – Apr 2026*
+*Provo, UT — Aug 2025 – Apr 2026*ç
 
-- Teach and troubleshoot statistical modeling, R programming, and data analysis workflows for undergraduate students.
-- Support instructors with grading, content development, and online course tools, translating technical statistical concepts for diverse learners.
+- Teach and troubleshoot statistical modeling, R programming, and data analysis workflows for undergraduate students; support instructors with grading and content development.
 
 **Teaching Assistant** | BYU Salt Lake Center — MPA 630 \
 *Salt Lake City, UT — Jan 2025 – Apr 2025*
 
 - Taught statistical methods and quantitative reasoning to graduate students; graded assignments and provided one-on-one support in Excel and statistical tools.
 
-**Team Lead, Custodial Services** | BYU Missionary Training Center \
-*Provo, UT — 2024 – 2025*
-
-- Led teams of up to six staff, coordinating workflows and quality standards across large-scale operations.
-
-**Camp Counselor** | BYU Sports Camps \
-*Provo, UT — Summers 2024 – 2025*
-
-- Supervised groups of 6–20 youth, managing daily schedules and group logistics.
-
 ### Education
 
 **Brigham Young University** — Provo, UT \
-*B.S. Statistics, Emphasis in Biostatistics | Expected April 2027*
+*B.S. Statistics, Biostatistics Emphasis | Expected December 2026*
 
 - Coursework: statistical modeling, regression, Bayesian methods, machine learning fundamentals, computational statistics, time series & autoregressive modeling
-- Applied statistical analysis on real-world datasets through multiple academic and research projects
 
 ### Skills
 
-**Programming:** Python (data manipulation, modeling, visualization), R, SQL (intro), MATLAB, PyTorch (intro) \
-**Libraries & Tools:** pandas, NumPy, scikit-learn (intro), Matplotlib, RStudio, Git/GitHub, Jupyter Notebooks, Excel \
-**Statistical & ML Methods:** Regression modeling, Bayesian inference, supervised learning fundamentals, experimental design, EDA, time series & autoregressive modeling, data cleaning
+**Programming:** Python, R, SQL, MATLAB \
+**Familiar with:** PyTorch, Tableau \
+**Tools:** pandas, NumPy, Matplotlib, RStudio, Git/GitHub, Jupyter Notebooks, Excel, scikit-learn \
+**Methods:** Regression modeling, Bayesian inference, supervised learning, experimental design, EDA, time series & autoregressive modeling, data cleaning
 
 ### Leadership & Involvement
 
-- President, BYU Sports Analytics Association (2026–2027) | Winner, 2026 BYU Statistics Case Study Competition
+- Winner, 2026 BYU Statistics Case Study Competition, using a correlated autoregressive model to map NYC city council districts with reported rodent rates
+- President, BYU Sports Analytics Association (2026–2027)
 - Member, BYU Statistics Association and Mu Sigma Rho National Statistical Honor Society
 - Volunteer Missionary, Church of Jesus Christ of Latter-day Saints — South Africa/Lesotho/Eswatini (2021–2023): led weekly coordination meetings, mentored incoming volunteers
-- Held additional leadership roles including Student Advisory Council representative and Fellowship of Christian Athletes president
+- Additional leadership: Student Advisory Council representative; Fellowship of Christian Athletes president
