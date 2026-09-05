@@ -15,19 +15,28 @@ website:
         href: about.md
       - text: "Resume"
         href: resume.qmd
-      - text: "Ministry of Sports"
-        href: ministry_of_sports/index.md
-      - text: "School Projects"
+      - text: "Projects"
         menu:
-          - text: "Tutorial"
-            href: tutorial_1.qmd
+          - text: "All Projects"
+            href: projects/index.md
           - text: "---"
-          # - text: "Exploratory Data Analysis"
-          #   href: projects/eda.qmd
+          - text: "Mapping NYC Rodent Complaints (Case Comp. Win)"
+            href: projects/nyc-rodent-risk.qmd
+          - text: "Causal Inference: RHC & Survival"
+            href: projects/rhc-causal-inference.qmd
+          - text: "Functional Data Analysis: Wildfires"
+            href: projects/wildfire-functional-regression.qmd
+          - text: "Spatial Epidemiology: Houston Heat Risk"
+            href: projects/houston-heat-risk.qmd
+          - text: "Forecasting: Company Growth"
+            href: projects/company-growth-forecasting.qmd
+          - text: "---"
+          - text: "Ministry of Sports"
+            href: ministry_of_sports/index.md
           - text: "Data Acquisition"
             href: data-acquisition.md
-          # - text: "Final Project"
-          #   href: projects/final-project.qmd
+          - text: "Tutorial"
+            href: tutorial_1.qmd
     right:
       - icon: github
         href: https://github.com/mcooperjay

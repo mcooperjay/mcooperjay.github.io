@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Cooper Maughan (with Claire Peterson and Anzlei Larsen)">
+<meta name="dcterms.date" content="2025-12-10">
 
-<title>Ministry of Sports – Cooper Maughan - Data Science Portfolio</title>
+<title>What Predicts an NHL Player’s Plus-Minus Score? – Cooper Maughan - Data Science Portfolio</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -71,6 +73,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -182,10 +213,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#ministry-of-sports" id="toc-ministry-of-sports" class="nav-link active" data-scroll-target="#ministry-of-sports">⚽ Ministry of Sports</a>
-  <ul class="collapse">
-  <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">Projects</a></li>
-  </ul></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#data-method" id="toc-data-method" class="nav-link" data-scroll-target="#data-method">Data &amp; Method</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#honest-limitations" id="toc-honest-limitations" class="nav-link" data-scroll-target="#honest-limitations">Honest Limitations</a></li>
+  <li><a href="#interactive-explorer" id="toc-interactive-explorer" class="nav-link" data-scroll-target="#interactive-explorer">Interactive Explorer</a></li>
   </ul>
 </nav>
     </div>
@@ -194,14 +226,27 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ministry of Sports</h1>
+<h1 class="title">What Predicts an NHL Player’s Plus-Minus Score?</h1>
+<p class="subtitle lead">Multiple linear regression with cross-validation, plus an interactive explorer</p>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Cooper Maughan (with Claire Peterson and Anzlei Larsen) </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 10, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -211,36 +256,35 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="ministry-of-sports" class="level1">
-<h1>⚽ Ministry of Sports</h1>
-<p>A running series of sports analytics mini-projects — statistical models, data visualizations, and applied analysis, each paired with a short video walkthrough on LinkedIn.</p>
-<p>The name is a nod to my time serving as a missionary in South Africa, home to the real Ministry of Sports, Arts and Culture — this is my own small, ongoing ministry of sorts: using data to better understand the games we love.</p>
-<hr>
-<section id="projects" class="level2">
-<h2 class="anchored" data-anchor-id="projects">Projects</h2>
-<div class="grid">
-<section id="does-college-pedigree-predict-nba-career-length" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="does-college-pedigree-predict-nba-career-length"><a href="../ministry_of_sports/nba-blue-blood-careers.html">Does College Pedigree Predict NBA Career Length?</a></h3>
-<p>A Bayesian (Poisson-Gamma) analysis comparing career length between “blue blood” college program alumni and other NBA players, with 95% credible intervals on the difference in means.</p>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>Hockey coaches want to recruit the best players, and players want to know which skills matter most — but “best” is hard to pin down with a single stat. Goals and points favor offensive players and undercount defensive contribution. We used <strong>plus-minus per game</strong> (a stat available to every skater, regardless of position) as a more balanced measure of overall effectiveness, and asked: <strong>which observable performance metrics actually predict it?</strong></p>
 </section>
-<section id="what-predicts-an-nhl-players-plus-minus-score" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="what-predicts-an-nhl-players-plus-minus-score"><a href="../ministry_of_sports/nhl-plus-minus-model.html">What Predicts an NHL Player’s Plus-Minus Score?</a></h3>
-<p>Multiple linear regression with cross-validation, plus a <a href="https://nhl-explorer.streamlit.app/">live interactive explorer</a> built with Streamlit.</p>
+<section id="data-method" class="level2">
+<h2 class="anchored" data-anchor-id="data-method">Data &amp; Method</h2>
+<p>We scraped NHL statistics covering the 2000–01 through 2024–25 seasons, aggregated by player, including position, assists, shots, shooting percentage, time on ice, and faceoff win rate. After exploratory analysis showed points-per-game was skewed and structurally biased toward offensive players, we settled on plus-minus per game as the response variable and fit a <strong>multiple linear regression</strong>:</p>
+<p><span class="math display">\[\text{Plus-Minus/Game} = \beta_0 + \beta_1\text{Position} + \beta_2\text{Assists} + \beta_3\text{PIM/Game} + \beta_4\text{Shots/Game} + \beta_5\text{Shooting\%} + \beta_6\text{TOI/Game} + \beta_7\text{Faceoff Win\%} + \varepsilon\]</span></p>
+<p>We validated the model with <strong>1,000-iteration cross-validation</strong> rather than relying on in-sample fit alone.</p>
 </section>
-<section id="project-3" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="project-3">Project 3</h3>
-<p><em>Coming soon</em></p>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<ul>
+<li>Adjusted R² of <strong>0.123</strong> — the model explains a real but modest share of the variation, consistent with how much randomness exists in hockey outcomes</li>
+<li>Cross-validated RMSE of <strong>0.157</strong>, with an average prediction bias of <strong>0.0001</strong> (effectively unbiased) and low variability across 1,000 train/test splits, indicating the model is consistent even though its explanatory power is limited</li>
+<li>Shooting percentage had the strongest positive association with plus-minus, followed by position (defensemen and centers), assists, and shots per game</li>
+</ul>
 </section>
-<section id="project-4" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="project-4">Project 4</h3>
-<p><em>Coming soon</em></p>
+<section id="honest-limitations" class="level2">
+<h2 class="anchored" data-anchor-id="honest-limitations">Honest Limitations</h2>
+<p>We were upfront that these effects, while statistically significant, are small in practical terms — the model captures general tendencies but isn’t precise enough to rank individual players confidently. Variables we didn’t have access to (age, coaching system, years of experience, team quality) likely explain more of the remaining variance than anything we could add from this dataset alone.</p>
 </section>
-</div>
-<hr>
-<p><em>New mini-projects added regularly — check back often, or follow along on LinkedIn to catch each release as it drops.</em></p>
+<section id="interactive-explorer" class="level2">
+<h2 class="anchored" data-anchor-id="interactive-explorer">Interactive Explorer</h2>
+<p>To make the underlying data browsable beyond the static report, I also built a <strong>Streamlit app</strong> letting users filter and explore NHL player statistics interactively: <a href="https://nhl-explorer.streamlit.app/">nhl-explorer.streamlit.app</a></p>
+<p><strong>Skills demonstrated:</strong> multiple linear regression, cross-validation for model assessment (bias/MSE/RMSE), web scraping, honest interpretation of modest effect sizes, deploying an interactive data app with Streamlit.</p>
+<p><em>Final project for Regression Analysis (BYU Statistics, STAT 330), with Claire Peterson and Anzlei Larsen.</em></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

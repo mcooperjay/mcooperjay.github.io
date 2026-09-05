@@ -1,0 +1,49 @@
+---
+title: "Do Early-Season Wildfires Predict a Worse Fire Year?"
+subtitle: "Functional data analysis on 30 years of U.S. wildfire records"
+author: "Cooper Maughan"
+date: "2026-04-01"
+format:
+  html:
+    code-fold: true
+    toc: true
+---
+
+## Overview
+
+Wildfires are usually analyzed event-by-event — one fire, one size, one cause. This project (with a co-author) instead treats an entire *year's worth* of fire activity as a single curve, and asks a shape-of-the-year question: **does the monthly pattern of fire counts early in the year predict how much area burns later that year — and does using only past months (rather than the whole year) actually help or hurt prediction?**
+
+## The Data
+
+We used the USDA/US Forest Service wildfire occurrence dataset, which logs individual wildfires reported across the United States from 1992–2020, including discovery date, containment date, fire size, and location. We aggregated these into monthly national summaries, producing two functional (curve-valued) observations per year: a monthly fire-count curve and a monthly mean-area-burned curve.
+
+## Method
+
+This is a **function-on-function regression** problem: predicting one curve from another, not a single number from a single number. We applied the **historical functional linear model** (Malfait & Ramsay, 2003), which restricts the model so that area burned in month *t* can only depend on fire counts from months *before t* — never the future predicting the past, which wouldn't make scientific sense.
+
+$$Y_i(t) = \alpha(t) + \int_{s<t} \beta(s,t)\, X_i(s)\, ds + \varepsilon_i(t)$$
+
+We compared this against an unrestricted function-on-function model (which allows any month to inform any other month) as a baseline, fitting both with the `pffr` framework in R's `refund` package, using penalized bivariate splines for the coefficient surface and cross-validated smoothing.
+
+```r
+# Historical model — the scientifically appropriate constraint
+FullModel_Hist <- pffr(
+  Y_log ~ ff(X_log, xind = s, limits = 's<t'),
+  yind = t, method = "NCV"
+)
+```
+
+Both models were trained on 1992–2015 and evaluated on held-out 2016–2020 data using RMSE on the original (non-log) scale.
+
+## Results
+
+The historical model achieved an R² of **0.60**, actually *outperforming* the unrestricted baseline model (R² of 0.568) — despite using strictly less information (no future months). That's a meaningful finding: enforcing the scientifically correct causal ordering didn't just make the model more defensible, it made it more accurate, suggesting the extra "future" information in the unrestricted model was mostly noise rather than signal.
+
+## What This Demonstrates
+
+- Working with functional/curve-valued data rather than flat tabular data — a less common but increasingly relevant skill for time-series-heavy or sensor-heavy roles
+- Applying a real, citation-worthy statistical method (not just an off-the-shelf regression) and knowing when the extra complexity is justified
+- Proper train/test evaluation with a temporal split, appropriate for time-ordered data
+- Working with a large, messy federal dataset (fire records spanning three decades)
+
+*Final project for Functional Data Analysis (BYU Statistics), with Emily Dunham.*

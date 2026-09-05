@@ -4,35 +4,35 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "I am a Senior in the Statistics major, Biostatistics emphasis at Brigham Young University.\nI am interested in data science as a way to link datum and utilize learning patterns in a meaningful way.\nWith much work, hope and luck, my dream job is to work as a sports statistician. I am also interested in researching more about direct applications of biostatistics, medical statistics, environmental analytics and more.\nI have only worked on one project, analyzing home runs per game in differing levels of major, minor and collegiate leagues."
+    "text": "I’m a Senior in the Statistics major, Biostatistics emphasis, at Brigham Young University, graduating December 2026.\nI’m drawn to problems where the data is messy, the stakes are real, and the right statistical tool isn’t obvious upfront — whether that’s untangling confounding in a clinical dataset, modeling spatial patterns in public health risk, or figuring out which forecasting method actually generalizes. I’ve applied that across a fairly wide range of settings: biostatistics and causal inference, environmental data, spatial epidemiology, business forecasting, and sports analytics. See my Projects page for the full range."
   },
   {
     "objectID": "about.html#background",
     "href": "about.html#background",
     "title": "About Me",
     "section": "",
-    "text": "I am a Senior in the Statistics major, Biostatistics emphasis at Brigham Young University.\nI am interested in data science as a way to link datum and utilize learning patterns in a meaningful way.\nWith much work, hope and luck, my dream job is to work as a sports statistician. I am also interested in researching more about direct applications of biostatistics, medical statistics, environmental analytics and more.\nI have only worked on one project, analyzing home runs per game in differing levels of major, minor and collegiate leagues."
+    "text": "I’m a Senior in the Statistics major, Biostatistics emphasis, at Brigham Young University, graduating December 2026.\nI’m drawn to problems where the data is messy, the stakes are real, and the right statistical tool isn’t obvious upfront — whether that’s untangling confounding in a clinical dataset, modeling spatial patterns in public health risk, or figuring out which forecasting method actually generalizes. I’ve applied that across a fairly wide range of settings: biostatistics and causal inference, environmental data, spatial epidemiology, business forecasting, and sports analytics. See my Projects page for the full range."
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "About Me",
     "section": "Education",
-    "text": "Education\n\nBS in Statistics - Brigham Young University, 2026\nRelevant Coursework: Statistics, Data Analysis, Programming, etc."
+    "text": "Education\n\nB.S. Statistics, Biostatistics Emphasis — Brigham Young University, expected December 2026\nRelevant coursework: regression modeling, Bayesian methods, causal inference, spatial statistics, functional data analysis, mixed methods & correlated data, machine learning fundamentals"
   },
   {
     "objectID": "about.html#skills-interests",
     "href": "about.html#skills-interests",
     "title": "About Me",
     "section": "Skills & Interests",
-    "text": "Skills & Interests\n\nTechnical Skills\n\nProgramming: Python, R\nData Analysis: Pandas, NumPy\nVisualization: Matplotlib, Seaborn\nMachine Learning: Scikit-learn\nTools: Jupyter Notebooks, Git/GitHub\n\n\n\nAreas of Interest\n\nI am very interested in sports data, sports analytics, finincial studies, budgeting, and bioanalysis."
+    "text": "Skills & Interests\n\nTechnical Skills\n\nProgramming: Python, R, SQL, MATLAB\nModeling: regression, Bayesian inference, causal inference (propensity score matching), spatial/CAR models, functional data analysis, time series forecasting\nTools: pandas, NumPy, scikit-learn, PyTorch, RStudio, Jupyter, Git/GitHub\n\n\n\nAreas of Interest\nBiostatistics and medical statistics, environmental and spatial data, applied causal inference, and sports analytics through my Ministry of Sports project series."
   },
   {
     "objectID": "about.html#goals",
     "href": "about.html#goals",
     "title": "About Me",
     "section": "Goals",
-    "text": "Goals\n\nMy short term goals are to learn and follow the examples of good data scientists and to gather the tools and resources to help me learn more.\nMy long-term career goals are to go into graduate programs and further my career in either the sports data field or helping in medical analytics.\nThe types of problems I want to solve are those that push me to learn, provide insight into the world around me and work with logic."
+    "text": "Goals\nMy short-term goal is a data science or analyst role starting January 2027, before beginning a master’s program in Fall 2027. Longer term, I want to keep working on problems where statistical rigor has a direct, visible impact — whether that ends up being in health, public policy, industry analytics, or research."
   },
   {
     "objectID": "about.html#contact",
@@ -42,18 +42,81 @@
     "text": "Contact\n\nEmail: mcooperjay@gmail.com\nGitHub: github.com/mcooperjay\nLinkedIn: linkedin.com/in/Cooper-Maughan\nWhatsApp: wa.me/mcooperjay\n\n\nThis portfolio showcases my learning progress and projects completed during my statistics and data science studies."
   },
   {
-    "objectID": "ministry_of_sports/index.html",
-    "href": "ministry_of_sports/index.html",
-    "title": "Ministry of Sports",
+    "objectID": "ministry_of_sports/nba-blue-blood-careers.html",
+    "href": "ministry_of_sports/nba-blue-blood-careers.html",
+    "title": "Does College Pedigree Predict NBA Career Length?",
     "section": "",
-    "text": "A running series of sports analytics mini-projects — statistical models, data visualizations, and applied analysis, each paired with a short video walkthrough on LinkedIn.\nThe name is a nod to my time serving as a missionary in South Africa, home to the real Ministry of Sports, Arts and Culture — this is my own small, ongoing ministry of sorts: using data to better understand the games we love.\n\n\n\n\n\n\nComing soon\n\n\n\nComing soon\n\n\n\nComing soon\n\n\n\nComing soon\n\n\n\nNew mini-projects added regularly — check back often, or follow along on LinkedIn to catch each release as it drops."
+    "text": "“Blue blood” college basketball programs — Duke, North Carolina, UCLA, Indiana, Kentucky, and Kansas — are historically dominant and heavily recruited from. The question: does attending one of these programs actually predict a longer NBA career, or is that reputation not backed up by the data? This matters to a recruit choosing a school and to a front office comparing two draft prospects."
   },
   {
-    "objectID": "ministry_of_sports/index.html#projects",
-    "href": "ministry_of_sports/index.html#projects",
-    "title": "Ministry of Sports",
+    "objectID": "ministry_of_sports/nba-blue-blood-careers.html#overview",
+    "href": "ministry_of_sports/nba-blue-blood-careers.html#overview",
+    "title": "Does College Pedigree Predict NBA Career Length?",
     "section": "",
-    "text": "Coming soon\n\n\n\nComing soon\n\n\n\nComing soon\n\n\n\nComing soon\n\n\n\nNew mini-projects added regularly — check back often, or follow along on LinkedIn to catch each release as it drops."
+    "text": "“Blue blood” college basketball programs — Duke, North Carolina, UCLA, Indiana, Kentucky, and Kansas — are historically dominant and heavily recruited from. The question: does attending one of these programs actually predict a longer NBA career, or is that reputation not backed up by the data? This matters to a recruit choosing a school and to a front office comparing two draft prospects."
+  },
+  {
+    "objectID": "ministry_of_sports/nba-blue-blood-careers.html#data-method",
+    "href": "ministry_of_sports/nba-blue-blood-careers.html#data-method",
+    "title": "Does College Pedigree Predict NBA Career Length?",
+    "section": "Data & Method",
+    "text": "Data & Method\nUsing publicly available NBA player records (Kaggle), we computed each player’s total years played and split the sample into blue-blood alumni and everyone else. Career length is a non-negative, discrete, right-skewed variable (most careers are short; a few are very long), which makes a Poisson-Gamma conjugate model a natural fit — the Poisson likelihood models the count of years played, and the Gamma prior (informed via data augmentation, with different shape parameters for each group reflecting our prior expectation of ~5 years for blue-blood alumni vs. ~3.5 for others) yields a closed-form posterior.\nWe were explicit about the model’s main limitation: years played within a single career aren’t truly independent (a player who’s already played 5 seasons is far more likely to play a 6th than a rookie is to play a 2nd), which the model can’t capture. We treated this as a known simplification rather than pretending the assumption held."
+  },
+  {
+    "objectID": "ministry_of_sports/nba-blue-blood-careers.html#results",
+    "href": "ministry_of_sports/nba-blue-blood-careers.html#results",
+    "title": "Does College Pedigree Predict NBA Career Length?",
+    "section": "Results",
+    "text": "Results\n\n95% credible interval for mean career length: (5.09, 5.51) years for blue-blood alumni vs. (4.27, 4.40) years for everyone else\n95% credible interval for the difference in means: (0.74, 1.19) years — meaning there’s a 95% posterior probability the true gap falls in that range\nPosterior predictive probability of a career longer than 5 years: 42.8% for blue-blood alumni vs. 27.1% for others\nPosterior predictive probability of a career longer than 10 years: 1.8% vs. 0.76%\n\nThe data support a real gap: blue-blood alumni have measurably longer expected NBA careers."
+  },
+  {
+    "objectID": "ministry_of_sports/nba-blue-blood-careers.html#limitations",
+    "href": "ministry_of_sports/nba-blue-blood-careers.html#limitations",
+    "title": "Does College Pedigree Predict NBA Career Length?",
+    "section": "Limitations",
+    "text": "Limitations\nCareer length is only one definition of “success” — it says nothing about points per game, awards, or team accomplishments. The “blue blood” label is also static; some programs on that list (UCLA, for instance) have struggled in recent years and arguably shouldn’t be grouped with currently-dominant programs. A follow-up analysis could control for draft position, era, and position, or use a more current definition of blue-blood status.\nSkills demonstrated: Bayesian conjugate modeling (Poisson-Gamma), credible interval interpretation, posterior predictive probability, explicit reasoning about violated modeling assumptions.\nFinal project for Introduction to Bayesian Statistics (BYU Statistics, STAT 251), with Jonas Schiel."
+  },
+  {
+    "objectID": "ministry_of_sports/nhl-plus-minus-model.html",
+    "href": "ministry_of_sports/nhl-plus-minus-model.html",
+    "title": "What Predicts an NHL Player’s Plus-Minus Score?",
+    "section": "",
+    "text": "Hockey coaches want to recruit the best players, and players want to know which skills matter most — but “best” is hard to pin down with a single stat. Goals and points favor offensive players and undercount defensive contribution. We used plus-minus per game (a stat available to every skater, regardless of position) as a more balanced measure of overall effectiveness, and asked: which observable performance metrics actually predict it?"
+  },
+  {
+    "objectID": "ministry_of_sports/nhl-plus-minus-model.html#overview",
+    "href": "ministry_of_sports/nhl-plus-minus-model.html#overview",
+    "title": "What Predicts an NHL Player’s Plus-Minus Score?",
+    "section": "",
+    "text": "Hockey coaches want to recruit the best players, and players want to know which skills matter most — but “best” is hard to pin down with a single stat. Goals and points favor offensive players and undercount defensive contribution. We used plus-minus per game (a stat available to every skater, regardless of position) as a more balanced measure of overall effectiveness, and asked: which observable performance metrics actually predict it?"
+  },
+  {
+    "objectID": "ministry_of_sports/nhl-plus-minus-model.html#data-method",
+    "href": "ministry_of_sports/nhl-plus-minus-model.html#data-method",
+    "title": "What Predicts an NHL Player’s Plus-Minus Score?",
+    "section": "Data & Method",
+    "text": "Data & Method\nWe scraped NHL statistics covering the 2000–01 through 2024–25 seasons, aggregated by player, including position, assists, shots, shooting percentage, time on ice, and faceoff win rate. After exploratory analysis showed points-per-game was skewed and structurally biased toward offensive players, we settled on plus-minus per game as the response variable and fit a multiple linear regression:\n\\[\\text{Plus-Minus/Game} = \\beta_0 + \\beta_1\\text{Position} + \\beta_2\\text{Assists} + \\beta_3\\text{PIM/Game} + \\beta_4\\text{Shots/Game} + \\beta_5\\text{Shooting\\%} + \\beta_6\\text{TOI/Game} + \\beta_7\\text{Faceoff Win\\%} + \\varepsilon\\]\nWe validated the model with 1,000-iteration cross-validation rather than relying on in-sample fit alone."
+  },
+  {
+    "objectID": "ministry_of_sports/nhl-plus-minus-model.html#results",
+    "href": "ministry_of_sports/nhl-plus-minus-model.html#results",
+    "title": "What Predicts an NHL Player’s Plus-Minus Score?",
+    "section": "Results",
+    "text": "Results\n\nAdjusted R² of 0.123 — the model explains a real but modest share of the variation, consistent with how much randomness exists in hockey outcomes\nCross-validated RMSE of 0.157, with an average prediction bias of 0.0001 (effectively unbiased) and low variability across 1,000 train/test splits, indicating the model is consistent even though its explanatory power is limited\nShooting percentage had the strongest positive association with plus-minus, followed by position (defensemen and centers), assists, and shots per game"
+  },
+  {
+    "objectID": "ministry_of_sports/nhl-plus-minus-model.html#honest-limitations",
+    "href": "ministry_of_sports/nhl-plus-minus-model.html#honest-limitations",
+    "title": "What Predicts an NHL Player’s Plus-Minus Score?",
+    "section": "Honest Limitations",
+    "text": "Honest Limitations\nWe were upfront that these effects, while statistically significant, are small in practical terms — the model captures general tendencies but isn’t precise enough to rank individual players confidently. Variables we didn’t have access to (age, coaching system, years of experience, team quality) likely explain more of the remaining variance than anything we could add from this dataset alone."
+  },
+  {
+    "objectID": "ministry_of_sports/nhl-plus-minus-model.html#interactive-explorer",
+    "href": "ministry_of_sports/nhl-plus-minus-model.html#interactive-explorer",
+    "title": "What Predicts an NHL Player’s Plus-Minus Score?",
+    "section": "Interactive Explorer",
+    "text": "Interactive Explorer\nTo make the underlying data browsable beyond the static report, I also built a Streamlit app letting users filter and explore NHL player statistics interactively: nhl-explorer.streamlit.app\nSkills demonstrated: multiple linear regression, cross-validation for model assessment (bias/MSE/RMSE), web scraping, honest interpretation of modest effect sizes, deploying an interactive data app with Streamlit.\nFinal project for Regression Analysis (BYU Statistics, STAT 330), with Claire Peterson and Anzlei Larsen."
   },
   {
     "objectID": "tutorial_1.html",
@@ -70,39 +133,256 @@
     "text": "For this blog, and mainly to show my understanding of GitHub pages, I have chosen to make a tutorial on scatterplots within Python."
   },
   {
+    "objectID": "projects/houston-heat-risk.html",
+    "href": "projects/houston-heat-risk.html",
+    "title": "Mapping Heat-Related Illness Risk in Houston",
+    "section": "",
+    "text": "Heat-related illness isn’t evenly distributed across a city — it concentrates where air conditioning is scarce, where the population skews older or younger, and where poverty limits access to cooling. Working as if contracted by the Houston Health Department, I analyzed census-tract-level heat-illness counts to find out which neighborhood characteristics predict elevated risk, and where the city should focus outreach and resources."
+  },
+  {
+    "objectID": "projects/houston-heat-risk.html#overview",
+    "href": "projects/houston-heat-risk.html#overview",
+    "title": "Mapping Heat-Related Illness Risk in Houston",
+    "section": "",
+    "text": "Heat-related illness isn’t evenly distributed across a city — it concentrates where air conditioning is scarce, where the population skews older or younger, and where poverty limits access to cooling. Working as if contracted by the Houston Health Department, I analyzed census-tract-level heat-illness counts to find out which neighborhood characteristics predict elevated risk, and where the city should focus outreach and resources."
+  },
+  {
+    "objectID": "projects/houston-heat-risk.html#the-data",
+    "href": "projects/houston-heat-risk.html#the-data",
+    "title": "Mapping Heat-Related Illness Risk in Houston",
+    "section": "The Data",
+    "text": "The Data\nCensus-tract-level data covering heat-related illness counts and population, alongside demographic and socioeconomic covariates: median age, percentage Hispanic and Black population, percentage under 5 and over 65, poverty rate, percentage living alone, and minimum temperature."
+  },
+  {
+    "objectID": "projects/houston-heat-risk.html#method",
+    "href": "projects/houston-heat-risk.html#method",
+    "title": "Mapping Heat-Related Illness Risk in Houston",
+    "section": "Method",
+    "text": "Method\nBecause neighboring census tracts tend to share similar risk (a hot, low-income area is usually next to another hot, low-income area), treating tracts as independent observations would understate uncertainty and miss spatial structure. I modeled the log relative risk of heat illness using a conditional autoregressive (CAR) model — a spatial regression that explicitly accounts for correlation between neighboring geographic units — fit with the spmodel package in R.\nspautor_model &lt;- spautor(\n  log_rel_risk ~ MED_AGE + HispanicPC + BlackPCT +\n    under5PCT + over65PCT + povertyPCT + alonePCT + MinTemp,\n  data = dat_clean, spcov_type = \"car\"\n)\nI checked model assumptions with added-variable plots (linearity), residual histograms (normality), and residual-vs-fitted plots (equal variance) before finalizing the model, and reported pseudo-R² as a goodness-of-fit measure."
+  },
+  {
+    "objectID": "projects/houston-heat-risk.html#results",
+    "href": "projects/houston-heat-risk.html#results",
+    "title": "Mapping Heat-Related Illness Risk in Houston",
+    "section": "Results",
+    "text": "Results\nRisk concentrated predictably around known vulnerability factors — older median age, higher poverty rates, and higher shares of residents living alone were all associated with elevated relative risk, on top of the baseline effect of temperature itself. Mapping the fitted relative risk by tract produced a clear visual: risk isn’t just “hotter tracts are worse,” it’s a compounding effect of heat exposure and social vulnerability.\nThe final deliverable was a public-health-style risk map and one-page prevention poster, translating the model into concrete guidance: stay hydrated, seek air-conditioned spaces, check on vulnerable neighbors, and never leave children in parked cars."
+  },
+  {
+    "objectID": "projects/houston-heat-risk.html#why-this-matters",
+    "href": "projects/houston-heat-risk.html#why-this-matters",
+    "title": "Mapping Heat-Related Illness Risk in Houston",
+    "section": "Why This Matters",
+    "text": "Why This Matters\nThis is a template that generalizes directly to other place-based public health and policy problems — disease surveillance, emergency resource allocation, or any question where “where” is as important as “how much.” It also demonstrates translating a technical spatial model into a plain-language product a health department could actually use.\nSkills demonstrated: spatial statistics (CAR models), model diagnostics, working with messy shapefile/census data, translating technical results for a non-technical audience, R (spmodel, sf).\n📄 Prevention poster (PDF)\nMini-project for Analysis of Correlated Data (BYU Statistics)."
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Projects\nA selection of applied statistics and data science work — course projects, a competition win, and ongoing analyses — spanning public health, environmental data, causal inference, and forecasting.\n\n\nMapping NYC Rodent Complaints\n🏆 1st place, BYU Statistics Case Study Competition — spatial (CAR) modeling of 311 administrative data.\n\n\nDoes the Treatment Help or Hurt?\nCausal inference and propensity score matching on a real, messy ICU dataset.\n\n\nPredicting Wildfire Severity\nFunctional data analysis on 30 years of national wildfire records.\n\n\nMapping Heat-Related Illness Risk\nSpatial epidemiology and a public-facing risk poster for Houston.\n\n\nForecasting Company Growth\nComparing four time series forecasting approaches on macroeconomic data.\n\n\nMinistry of Sports\nAn ongoing series of sports analytics mini-projects.\n\n\n\nMore write-ups are added as projects are completed — see everything on GitHub."
+  },
+  {
+    "objectID": "projects/nyc-rodent-risk.html",
+    "href": "projects/nyc-rodent-risk.html",
+    "title": "Mapping NYC Rodent Complaints: A Case Competition Win",
+    "section": "",
+    "text": "New York City’s 311 system logs resident complaints about rodent activity, and the city uses these reports to help direct inspection and control resources. But 311 data has a well-known blind spot: a complaint reflects not just actual rodent activity, but also who is aware of the reporting system, who trusts it, and who has easy access to it. Our team’s challenge for this case competition was to model which factors actually predict confirmed rodent activity by city council district, while being explicit about where the reporting data itself might mislead.\nThis project won BYU’s 2026 Statistics Case Study Competition."
+  },
+  {
+    "objectID": "projects/nyc-rodent-risk.html#overview",
+    "href": "projects/nyc-rodent-risk.html#overview",
+    "title": "Mapping NYC Rodent Complaints: A Case Competition Win",
+    "section": "",
+    "text": "New York City’s 311 system logs resident complaints about rodent activity, and the city uses these reports to help direct inspection and control resources. But 311 data has a well-known blind spot: a complaint reflects not just actual rodent activity, but also who is aware of the reporting system, who trusts it, and who has easy access to it. Our team’s challenge for this case competition was to model which factors actually predict confirmed rodent activity by city council district, while being explicit about where the reporting data itself might mislead.\nThis project won BYU’s 2026 Statistics Case Study Competition."
+  },
+  {
+    "objectID": "projects/nyc-rodent-risk.html#approach",
+    "href": "projects/nyc-rodent-risk.html#approach",
+    "title": "Mapping NYC Rodent Complaints: A Case Competition Win",
+    "section": "Approach",
+    "text": "Approach\nWe classified “confirmed” cases from 311 call descriptions — instances where an inspector found violations or issues were actively being remediated — as distinct from raw complaint volume, since raw call counts conflate actual infestation with reporting behavior. We supplemented 311 data with land use reports and restaurant inspection records as additional predictors.\nBecause rodent activity naturally clusters geographically (an infested block affects its neighbors), we modeled the confirmed complaint rate using a conditional autoregressive (CAR) model across city council districts, which accounts for spatial correlation rather than treating each district as independent."
+  },
+  {
+    "objectID": "projects/nyc-rodent-risk.html#results",
+    "href": "projects/nyc-rodent-risk.html#results",
+    "title": "Mapping NYC Rodent Complaints: A Case Competition Win",
+    "section": "Results",
+    "text": "Results\nThe model identified factors associated with an increase in confirmed rodent activity — proximity to other rodent-related issues, higher median home value, and older building stock — alongside factors associated with a decrease, including more people per housing unit and a higher share of vacant units. Confirmed rodent activity also showed a clear seasonal pattern, spiking in summer months.\nWe translated the model into three concrete recommendations: focus inspection resources on districts with high confirmed (not just reported) rates, shift staffing to anticipate the summer spike, and increase community outreach in underrepresented districts where low reporting likely masks real activity — flagging explicitly that 311 complaint volume alone is not a reliable proxy for actual infestation."
+  },
+  {
+    "objectID": "projects/nyc-rodent-risk.html#why-this-matters",
+    "href": "projects/nyc-rodent-risk.html#why-this-matters",
+    "title": "Mapping NYC Rodent Complaints: A Case Competition Win",
+    "section": "Why This Matters",
+    "text": "Why This Matters\nThis project is really about a broader problem: administrative data (311 calls, customer complaints, support tickets) always reflects reporting behavior as much as the underlying phenomenon, and a naive model that ignores that will misallocate resources. Separating “what’s reported” from “what’s real,” and building a spatial model that respects geographic structure, is directly transferable to resource allocation problems in public health, city services, and operations.\nSkills demonstrated: spatial statistics (CAR models), working with noisy administrative/reporting data, translating a technical model into policy recommendations, team-based analysis under competition time constraints.\n📊 Slide deck (PPTX)"
+  },
+  {
     "objectID": "resume.html",
     "href": "resume.html",
     "title": "Resume",
     "section": "",
-    "text": "he/him/his  |  Salt Lake City / Provo, UT  |  mcooperjay@gmail.com  |  LinkedIn  |  GitHub  |  WhatsApp\n\n\nStatistics major at Brigham Young University, graduating December 2026, with hands-on experience in regression, Bayesian methods, Biostatistics and machine learning through research, consulting, and teaching roles in the BYU Department of Statistics. Comfortable moving between technical modeling work and explaining results to non-technical audiences. Seeking a January 2027 analyst or data science role before starting a master’s program in Fall 2027.\n\n\n\nStatistical Consultant | BYU Statistics Consulting Center\nProvo, UT — Sep 2026 – Present\n\nAdvise campus researchers and community clients on study design, methodology selection, and interpretation of statistical results.\nTranslate statistical findings into plain-language recommendations for clients without a quantitative background.\n\nResearch Assistant | BYU Department of Statistics — CorEx Systems Project\nProvo, UT — Jan 2026 – Present\n\nBuild and train PyTorch models on GPU compute clusters, applying deep learning and information-theoretic methods (mutual information, total correlation) to ongoing department research.\nCollaborate with faculty and researchers using Git/GitHub for version control on shared modeling code in Python and Jupyter Notebooks.\n\nTeaching Assistant | BYU Department of Statistics — STAT 121/250\nProvo, UT — Aug 2025 – Apr 2026ç\n\nTeach and troubleshoot statistical modeling, R programming, and data analysis workflows for undergraduate students; support instructors with grading and content development.\n\nTeaching Assistant | BYU Salt Lake Center — MPA 630\nSalt Lake City, UT — Jan 2025 – Apr 2025\n\nTaught statistical methods and quantitative reasoning to graduate students; graded assignments and provided one-on-one support in Excel and statistical tools.\n\n\n\n\nBrigham Young University — Provo, UT\nB.S. Statistics, Biostatistics Emphasis | Expected December 2026\n\nCoursework: statistical modeling, regression, Bayesian methods, machine learning fundamentals, computational statistics, time series & autoregressive modeling\n\n\n\n\nProgramming: Python, R, SQL, MATLAB\nFamiliar with: PyTorch, Tableau\nTools: pandas, NumPy, Matplotlib, RStudio, Git/GitHub, Jupyter Notebooks, Excel, scikit-learn\nMethods: Regression modeling, Bayesian inference, supervised learning, experimental design, EDA, time series & autoregressive modeling, data cleaning\n\n\n\n\nWinner, 2026 BYU Statistics Case Study Competition, using a correlated autoregressive model to map NYC city council districts with reported rodent rates\nPresident, BYU Sports Analytics Association (2026–2027)\nMember, BYU Statistics Association and Mu Sigma Rho National Statistical Honor Society\nVolunteer Missionary, Church of Jesus Christ of Latter-day Saints — South Africa/Lesotho/Eswatini (2021–2023): led weekly coordination meetings, mentored incoming volunteers\nAdditional leadership: Student Advisory Council representative; Fellowship of Christian Athletes president"
+    "text": "he/him/his  |  Salt Lake City / Provo, UT  |  mcooperjay@gmail.com  |  LinkedIn  |  GitHub  |  WhatsApp\n\n\nStatistics major at Brigham Young University, graduating December 2026, with hands-on experience across regression, Bayesian inference, causal inference, spatial statistics, and functional data analysis through applied projects spanning public health, environmental data, and business forecasting. Comfortable moving between technical modeling work and explaining results to non-technical audiences. Seeking a January 2027 analyst or data science role before starting a master’s program in Fall 2027.\n\n\n\nStatistical Consultant | BYU Statistics Consulting Center\nProvo, UT — Sep 2026 – Present\n\nAdvise campus researchers and community clients on study design, methodology selection, and interpretation of statistical results.\nTranslate statistical findings into plain-language recommendations for clients without a quantitative background.\n\nResearch Assistant | BYU Department of Statistics — CorEx Systems Project\nProvo, UT — Jan 2026 – Present\n\nBuild and train PyTorch models on GPU compute clusters, applying deep learning and information-theoretic methods (mutual information, total correlation) to ongoing department research.\nCollaborate with faculty and researchers using Git/GitHub for version control on shared modeling code in Python and Jupyter Notebooks.\n\nTeaching Assistant | BYU Department of Statistics — STAT 121/250\nProvo, UT — Aug 2025 – Apr 2026ç\n\nTeach and troubleshoot statistical modeling, R programming, and data analysis workflows for undergraduate students; support instructors with grading and content development.\n\nTeaching Assistant | BYU Salt Lake Center — MPA 630\nSalt Lake City, UT — Jan 2025 – Apr 2025\n\nTaught statistical methods and quantitative reasoning to graduate students; graded assignments and provided one-on-one support in Excel and statistical tools.\n\n\n\n\nBrigham Young University — Provo, UT\nB.S. Statistics, Biostatistics Emphasis | Expected December 2026\n\nCoursework: statistical modeling, regression, Bayesian methods, machine learning fundamentals, computational statistics, time series & autoregressive modeling\n\n\n\n\nFull write-ups at mcooperjay.github.io/projects\nCausal Inference: ICU Treatment Effects — Estimated the causal effect of a diagnostic procedure on patient survival using propensity score matching, correcting a naive comparison that had the effect sign backwards due to confounding by indication.\nFunctional Data Analysis: Wildfire Severity Forecasting — Applied a historical functional linear model to 30 years of national wildfire records, modeling monthly area-burned as a function of prior fire-count curves; outperformed an unrestricted baseline model.\nSpatial Epidemiology: Heat-Illness Risk Mapping (Houston, TX) — Built a conditional autoregressive (CAR) model of heat-related illness risk from census-tract demographic and climate data; delivered a public-facing risk map and prevention poster.\nTime Series Forecasting: Company Growth — Compared linear regression, ARIMA, Prophet, and spline-based models for forecasting quarterly growth from macroeconomic indicators, evaluated by out-of-sample RMSE.\n\n\n\nProgramming: Python, R, SQL, MATLAB\nFamiliar with: PyTorch, Tableau\nTools: pandas, NumPy, Matplotlib, RStudio, Git/GitHub, Jupyter Notebooks, Excel, scikit-learn\nMethods: Regression modeling, Bayesian inference, supervised learning, experimental design, EDA, time series & autoregressive modeling, data cleaning\n\n\n\n\nWinner, 2026 BYU Statistics Case Study Competition — used a conditional autoregressive model to map NYC city council districts by confirmed rodent activity, distinguishing real infestation from reporting bias in 311 data (write-up)\nPresident, BYU Sports Analytics Association (2026–2027)\nMember, BYU Statistics Association and Mu Sigma Rho National Statistical Honor Society\nVolunteer Missionary, Church of Jesus Christ of Latter-day Saints — South Africa/Lesotho/Eswatini (2021–2023): led weekly coordination meetings, mentored incoming volunteers\nAdditional leadership: Student Advisory Council representative; Fellowship of Christian Athletes president"
   },
   {
     "objectID": "resume.html#cooper-maughan",
     "href": "resume.html#cooper-maughan",
     "title": "Resume",
     "section": "",
-    "text": "he/him/his  |  Salt Lake City / Provo, UT  |  mcooperjay@gmail.com  |  LinkedIn  |  GitHub  |  WhatsApp\n\n\nStatistics major at Brigham Young University, graduating December 2026, with hands-on experience in regression, Bayesian methods, Biostatistics and machine learning through research, consulting, and teaching roles in the BYU Department of Statistics. Comfortable moving between technical modeling work and explaining results to non-technical audiences. Seeking a January 2027 analyst or data science role before starting a master’s program in Fall 2027.\n\n\n\nStatistical Consultant | BYU Statistics Consulting Center\nProvo, UT — Sep 2026 – Present\n\nAdvise campus researchers and community clients on study design, methodology selection, and interpretation of statistical results.\nTranslate statistical findings into plain-language recommendations for clients without a quantitative background.\n\nResearch Assistant | BYU Department of Statistics — CorEx Systems Project\nProvo, UT — Jan 2026 – Present\n\nBuild and train PyTorch models on GPU compute clusters, applying deep learning and information-theoretic methods (mutual information, total correlation) to ongoing department research.\nCollaborate with faculty and researchers using Git/GitHub for version control on shared modeling code in Python and Jupyter Notebooks.\n\nTeaching Assistant | BYU Department of Statistics — STAT 121/250\nProvo, UT — Aug 2025 – Apr 2026ç\n\nTeach and troubleshoot statistical modeling, R programming, and data analysis workflows for undergraduate students; support instructors with grading and content development.\n\nTeaching Assistant | BYU Salt Lake Center — MPA 630\nSalt Lake City, UT — Jan 2025 – Apr 2025\n\nTaught statistical methods and quantitative reasoning to graduate students; graded assignments and provided one-on-one support in Excel and statistical tools.\n\n\n\n\nBrigham Young University — Provo, UT\nB.S. Statistics, Biostatistics Emphasis | Expected December 2026\n\nCoursework: statistical modeling, regression, Bayesian methods, machine learning fundamentals, computational statistics, time series & autoregressive modeling\n\n\n\n\nProgramming: Python, R, SQL, MATLAB\nFamiliar with: PyTorch, Tableau\nTools: pandas, NumPy, Matplotlib, RStudio, Git/GitHub, Jupyter Notebooks, Excel, scikit-learn\nMethods: Regression modeling, Bayesian inference, supervised learning, experimental design, EDA, time series & autoregressive modeling, data cleaning\n\n\n\n\nWinner, 2026 BYU Statistics Case Study Competition, using a correlated autoregressive model to map NYC city council districts with reported rodent rates\nPresident, BYU Sports Analytics Association (2026–2027)\nMember, BYU Statistics Association and Mu Sigma Rho National Statistical Honor Society\nVolunteer Missionary, Church of Jesus Christ of Latter-day Saints — South Africa/Lesotho/Eswatini (2021–2023): led weekly coordination meetings, mentored incoming volunteers\nAdditional leadership: Student Advisory Council representative; Fellowship of Christian Athletes president"
+    "text": "he/him/his  |  Salt Lake City / Provo, UT  |  mcooperjay@gmail.com  |  LinkedIn  |  GitHub  |  WhatsApp\n\n\nStatistics major at Brigham Young University, graduating December 2026, with hands-on experience across regression, Bayesian inference, causal inference, spatial statistics, and functional data analysis through applied projects spanning public health, environmental data, and business forecasting. Comfortable moving between technical modeling work and explaining results to non-technical audiences. Seeking a January 2027 analyst or data science role before starting a master’s program in Fall 2027.\n\n\n\nStatistical Consultant | BYU Statistics Consulting Center\nProvo, UT — Sep 2026 – Present\n\nAdvise campus researchers and community clients on study design, methodology selection, and interpretation of statistical results.\nTranslate statistical findings into plain-language recommendations for clients without a quantitative background.\n\nResearch Assistant | BYU Department of Statistics — CorEx Systems Project\nProvo, UT — Jan 2026 – Present\n\nBuild and train PyTorch models on GPU compute clusters, applying deep learning and information-theoretic methods (mutual information, total correlation) to ongoing department research.\nCollaborate with faculty and researchers using Git/GitHub for version control on shared modeling code in Python and Jupyter Notebooks.\n\nTeaching Assistant | BYU Department of Statistics — STAT 121/250\nProvo, UT — Aug 2025 – Apr 2026ç\n\nTeach and troubleshoot statistical modeling, R programming, and data analysis workflows for undergraduate students; support instructors with grading and content development.\n\nTeaching Assistant | BYU Salt Lake Center — MPA 630\nSalt Lake City, UT — Jan 2025 – Apr 2025\n\nTaught statistical methods and quantitative reasoning to graduate students; graded assignments and provided one-on-one support in Excel and statistical tools.\n\n\n\n\nBrigham Young University — Provo, UT\nB.S. Statistics, Biostatistics Emphasis | Expected December 2026\n\nCoursework: statistical modeling, regression, Bayesian methods, machine learning fundamentals, computational statistics, time series & autoregressive modeling\n\n\n\n\nFull write-ups at mcooperjay.github.io/projects\nCausal Inference: ICU Treatment Effects — Estimated the causal effect of a diagnostic procedure on patient survival using propensity score matching, correcting a naive comparison that had the effect sign backwards due to confounding by indication.\nFunctional Data Analysis: Wildfire Severity Forecasting — Applied a historical functional linear model to 30 years of national wildfire records, modeling monthly area-burned as a function of prior fire-count curves; outperformed an unrestricted baseline model.\nSpatial Epidemiology: Heat-Illness Risk Mapping (Houston, TX) — Built a conditional autoregressive (CAR) model of heat-related illness risk from census-tract demographic and climate data; delivered a public-facing risk map and prevention poster.\nTime Series Forecasting: Company Growth — Compared linear regression, ARIMA, Prophet, and spline-based models for forecasting quarterly growth from macroeconomic indicators, evaluated by out-of-sample RMSE.\n\n\n\nProgramming: Python, R, SQL, MATLAB\nFamiliar with: PyTorch, Tableau\nTools: pandas, NumPy, Matplotlib, RStudio, Git/GitHub, Jupyter Notebooks, Excel, scikit-learn\nMethods: Regression modeling, Bayesian inference, supervised learning, experimental design, EDA, time series & autoregressive modeling, data cleaning\n\n\n\n\nWinner, 2026 BYU Statistics Case Study Competition — used a conditional autoregressive model to map NYC city council districts by confirmed rodent activity, distinguishing real infestation from reporting bias in 311 data (write-up)\nPresident, BYU Sports Analytics Association (2026–2027)\nMember, BYU Statistics Association and Mu Sigma Rho National Statistical Honor Society\nVolunteer Missionary, Church of Jesus Christ of Latter-day Saints — South Africa/Lesotho/Eswatini (2021–2023): led weekly coordination meetings, mentored incoming volunteers\nAdditional leadership: Student Advisory Council representative; Fellowship of Christian Athletes president"
+  },
+  {
+    "objectID": "projects/rhc-causal-inference.html",
+    "href": "projects/rhc-causal-inference.html",
+    "title": "Does a Risky Procedure Actually Increase Mortality?",
+    "section": "",
+    "text": "Right Heart Catheterization (RHC) is a diagnostic procedure used on critically ill ICU patients. In the raw data, patients who receive RHC die at noticeably higher rates than those who don’t — which raises an uncomfortable question: does the procedure itself increase the risk of death, or are doctors simply choosing to perform it on the patients who were already the sickest?\nThis is a textbook case of confounding by indication, and it’s a good showcase for why “the numbers say X” is often the wrong takeaway until you’ve asked why the data looks that way."
+  },
+  {
+    "objectID": "projects/rhc-causal-inference.html#overview",
+    "href": "projects/rhc-causal-inference.html#overview",
+    "title": "Does a Risky Procedure Actually Increase Mortality?",
+    "section": "",
+    "text": "Right Heart Catheterization (RHC) is a diagnostic procedure used on critically ill ICU patients. In the raw data, patients who receive RHC die at noticeably higher rates than those who don’t — which raises an uncomfortable question: does the procedure itself increase the risk of death, or are doctors simply choosing to perform it on the patients who were already the sickest?\nThis is a textbook case of confounding by indication, and it’s a good showcase for why “the numbers say X” is often the wrong takeaway until you’ve asked why the data looks that way."
+  },
+  {
+    "objectID": "projects/rhc-causal-inference.html#the-data",
+    "href": "projects/rhc-causal-inference.html#the-data",
+    "title": "Does a Risky Procedure Actually Increase Mortality?",
+    "section": "The Data",
+    "text": "The Data\nThe dataset comes from a well-known ICU study and includes treatment status (RHC vs. not), survival outcome, and a wide set of pre-treatment confounders — age, income, insurance type, and physiological severity markers like mean blood pressure, heart rate, and organ dysfunction scores. It’s a genuinely messy, high-dimensional dataset, which is part of what makes it a useful exercise: real clinical data rarely comes clean."
+  },
+  {
+    "objectID": "projects/rhc-causal-inference.html#method",
+    "href": "projects/rhc-causal-inference.html#method",
+    "title": "Does a Risky Procedure Actually Increase Mortality?",
+    "section": "Method",
+    "text": "Method\nI estimated the Average Treatment Effect on the Treated (ATT) using propensity score matching:\n\nFit a logistic regression propensity score model using only pre-treatment variables\nMatched 1:1 nearest-neighbor without replacement, using a caliper of 0.2 on the logit propensity score to exclude implausible matches\nChecked covariate balance before and after matching with a Love plot and standardized mean differences\nEstimated the ATT with a weighted logistic regression on the matched sample, incorporating matching weights\n\nm_out &lt;- matchit(\n  formula = ps_formula,\n  data = RHC_use,\n  method   = \"nearest\",\n  distance = \"glm\",\n  estimand = \"ATT\",\n  ratio    = 1,\n  caliper  = 0.2,\n  replace  = FALSE\n)\n\nfit_att &lt;- glm(survival ~ RHC, data = match.data(m_out),\n                family = binomial, weights = weights)\nI chose a logistic propensity score for interpretability, a tight-ish caliper to prioritize match quality over sample size, and no replacement to avoid a small number of controls dominating the estimate — a defensible but not the only reasonable set of choices, which is part of the point of the exercise."
+  },
+  {
+    "objectID": "projects/rhc-causal-inference.html#results",
+    "href": "projects/rhc-causal-inference.html#results",
+    "title": "Does a Risky Procedure Actually Increase Mortality?",
+    "section": "Results",
+    "text": "Results\nBefore matching, several key severity measures (APACHE score, mean arterial pressure, organ dysfunction markers) showed large imbalances between treated and control patients. After matching, nearly all covariates fell within a standardized mean difference of ±0.1.\nThe matched-sample estimate: RHC is associated with an approximately 5.1 percentage point decrease in probability of death (95% CI: −8.1 to −2.1 points, p = 0.001).\nThat’s the opposite direction of the naive, unadjusted comparison — which is the whole story here. Once you account for the fact that RHC was preferentially given to sicker patients, the picture flips substantially. The matching procedure retained about 86% of treated patients (1,870 of 2,184); the remaining 14% were too clinically extreme to find a comparable control, so the estimate applies to the broader population of treated patients but not to that highest-risk subgroup."
+  },
+  {
+    "objectID": "projects/rhc-causal-inference.html#what-this-demonstrates",
+    "href": "projects/rhc-causal-inference.html#what-this-demonstrates",
+    "title": "Does a Risky Procedure Actually Increase Mortality?",
+    "section": "What This Demonstrates",
+    "text": "What This Demonstrates\n\nRecognizing and correcting for confounding by indication, not just fitting a model on raw data\nMaking and defending non-arbitrary modeling choices (caliper, matching ratio, replacement) and understanding their trade-offs\nBeing explicit about the limits of a causal estimate — who it generalizes to and who it doesn’t\nComfort with a messy, real-world clinical dataset, not a cleaned-up textbook example\n\nCourse project for Applied Biostatistics (BYU Statistics). Full analysis code available on request."
+  },
+  {
+    "objectID": "projects/wildfire-functional-regression.html",
+    "href": "projects/wildfire-functional-regression.html",
+    "title": "Do Early-Season Wildfires Predict a Worse Fire Year?",
+    "section": "",
+    "text": "Wildfires are usually analyzed event-by-event — one fire, one size, one cause. This project (with a co-author) instead treats an entire year’s worth of fire activity as a single curve, and asks a shape-of-the-year question: does the monthly pattern of fire counts early in the year predict how much area burns later that year — and does using only past months (rather than the whole year) actually help or hurt prediction?"
+  },
+  {
+    "objectID": "projects/wildfire-functional-regression.html#overview",
+    "href": "projects/wildfire-functional-regression.html#overview",
+    "title": "Do Early-Season Wildfires Predict a Worse Fire Year?",
+    "section": "",
+    "text": "Wildfires are usually analyzed event-by-event — one fire, one size, one cause. This project (with a co-author) instead treats an entire year’s worth of fire activity as a single curve, and asks a shape-of-the-year question: does the monthly pattern of fire counts early in the year predict how much area burns later that year — and does using only past months (rather than the whole year) actually help or hurt prediction?"
+  },
+  {
+    "objectID": "projects/wildfire-functional-regression.html#the-data",
+    "href": "projects/wildfire-functional-regression.html#the-data",
+    "title": "Do Early-Season Wildfires Predict a Worse Fire Year?",
+    "section": "The Data",
+    "text": "The Data\nWe used the USDA/US Forest Service wildfire occurrence dataset, which logs individual wildfires reported across the United States from 1992–2020, including discovery date, containment date, fire size, and location. We aggregated these into monthly national summaries, producing two functional (curve-valued) observations per year: a monthly fire-count curve and a monthly mean-area-burned curve."
+  },
+  {
+    "objectID": "projects/wildfire-functional-regression.html#method",
+    "href": "projects/wildfire-functional-regression.html#method",
+    "title": "Do Early-Season Wildfires Predict a Worse Fire Year?",
+    "section": "Method",
+    "text": "Method\nThis is a function-on-function regression problem: predicting one curve from another, not a single number from a single number. We applied the historical functional linear model (Malfait & Ramsay, 2003), which restricts the model so that area burned in month t can only depend on fire counts from months before t — never the future predicting the past, which wouldn’t make scientific sense.\n\\[Y_i(t) = \\alpha(t) + \\int_{s&lt;t} \\beta(s,t)\\, X_i(s)\\, ds + \\varepsilon_i(t)\\]\nWe compared this against an unrestricted function-on-function model (which allows any month to inform any other month) as a baseline, fitting both with the pffr framework in R’s refund package, using penalized bivariate splines for the coefficient surface and cross-validated smoothing.\n# Historical model — the scientifically appropriate constraint\nFullModel_Hist &lt;- pffr(\n  Y_log ~ ff(X_log, xind = s, limits = 's&lt;t'),\n  yind = t, method = \"NCV\"\n)\nBoth models were trained on 1992–2015 and evaluated on held-out 2016–2020 data using RMSE on the original (non-log) scale."
+  },
+  {
+    "objectID": "projects/wildfire-functional-regression.html#results",
+    "href": "projects/wildfire-functional-regression.html#results",
+    "title": "Do Early-Season Wildfires Predict a Worse Fire Year?",
+    "section": "Results",
+    "text": "Results\nThe historical model achieved an R² of 0.60, actually outperforming the unrestricted baseline model (R² of 0.568) — despite using strictly less information (no future months). That’s a meaningful finding: enforcing the scientifically correct causal ordering didn’t just make the model more defensible, it made it more accurate, suggesting the extra “future” information in the unrestricted model was mostly noise rather than signal."
+  },
+  {
+    "objectID": "projects/wildfire-functional-regression.html#what-this-demonstrates",
+    "href": "projects/wildfire-functional-regression.html#what-this-demonstrates",
+    "title": "Do Early-Season Wildfires Predict a Worse Fire Year?",
+    "section": "What This Demonstrates",
+    "text": "What This Demonstrates\n\nWorking with functional/curve-valued data rather than flat tabular data — a less common but increasingly relevant skill for time-series-heavy or sensor-heavy roles\nApplying a real, citation-worthy statistical method (not just an off-the-shelf regression) and knowing when the extra complexity is justified\nProper train/test evaluation with a temporal split, appropriate for time-ordered data\nWorking with a large, messy federal dataset (fire records spanning three decades)\n\nFinal project for Functional Data Analysis (BYU Statistics), with Emily Dunham."
+  },
+  {
+    "objectID": "projects/company-growth-forecasting.html",
+    "href": "projects/company-growth-forecasting.html",
+    "title": "Forecasting Company Growth: Comparing Four Modeling Approaches",
+    "section": "",
+    "text": "Working as if consulting for a discretionary-spending company (products that sell well in strong economies and slow down in downturns), the task was to forecast quarterly percentage growth using macroeconomic indicators — income, industrial production, savings rate, and unemployment — spanning 1975 to 2024.\nThe real question wasn’t just “can we forecast growth,” but which forecasting approach actually generalizes to unseen future quarters, since a model that fits historical data well can still fail badly out of sample if it’s overfit to noise or ignores the time structure entirely."
+  },
+  {
+    "objectID": "projects/company-growth-forecasting.html#overview",
+    "href": "projects/company-growth-forecasting.html#overview",
+    "title": "Forecasting Company Growth: Comparing Four Modeling Approaches",
+    "section": "",
+    "text": "Working as if consulting for a discretionary-spending company (products that sell well in strong economies and slow down in downturns), the task was to forecast quarterly percentage growth using macroeconomic indicators — income, industrial production, savings rate, and unemployment — spanning 1975 to 2024.\nThe real question wasn’t just “can we forecast growth,” but which forecasting approach actually generalizes to unseen future quarters, since a model that fits historical data well can still fail badly out of sample if it’s overfit to noise or ignores the time structure entirely."
+  },
+  {
+    "objectID": "projects/company-growth-forecasting.html#approach",
+    "href": "projects/company-growth-forecasting.html#approach",
+    "title": "Forecasting Company Growth: Comparing Four Modeling Approaches",
+    "section": "Approach",
+    "text": "Approach\nRather than settling on one method, I built and compared four forecasting approaches on the same train/test split (trained on data before 2010–2019 depending on the model, validated on the years after):\n\nBaseline linear regression on the macroeconomic predictors alone, ignoring time structure\nARIMA with exogenous regressors, letting the model capture autocorrelation in growth that the macro variables alone miss\nProphet, a component-based forecasting model, extended with the same macroeconomic regressors\nA regression with a natural spline on time plus a quarterly seasonal term, to flexibly capture trend and seasonality without assuming a rigid time-series structure\n\nEach model was evaluated by out-of-sample RMSE on the held-out years — not by how well it fit the training data."
+  },
+  {
+    "objectID": "projects/company-growth-forecasting.html#results",
+    "href": "projects/company-growth-forecasting.html#results",
+    "title": "Forecasting Company Growth: Comparing Four Modeling Approaches",
+    "section": "Results",
+    "text": "Results\nThe plain linear regression, trained only on pre-2010 data, achieved an out-of-sample RMSE of about 0.42 percentage points on post-2010 quarterly growth — a reasonable baseline, but one that ignores any autocorrelation or seasonal pattern in the data. Adding explicit time structure (through ARIMA’s autoregressive terms or the spline-plus-season regression) let the later models capture patterns the baseline missed, illustrating a common trade-off in forecasting: a simple model is easy to explain, but a model that respects the time-series structure of the data usually forecasts better."
+  },
+  {
+    "objectID": "projects/company-growth-forecasting.html#why-this-matters",
+    "href": "projects/company-growth-forecasting.html#why-this-matters",
+    "title": "Forecasting Company Growth: Comparing Four Modeling Approaches",
+    "section": "Why This Matters",
+    "text": "Why This Matters\nThis mirrors a very common real-world analyst task: given a business metric and some plausible drivers, build not just a model but the right kind of model, and be able to defend that choice against genuine competitors rather than assuming the first approach was correct. That skill — comparing multiple legitimate modeling frameworks head-to-head on held-out data — applies directly to demand forecasting, revenue projection, and economic scenario planning in industry.\nSkills demonstrated: time series forecasting (ARIMA, Prophet), regression with splines and seasonality, rigorous out-of-sample model comparison, R (forecast, prophet, splines).\nMini-project for Analysis of Correlated Data (BYU Statistics), with Emily Dunham and Timothy Hardy."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Cooper Maughan",
     "section": "",
-    "text": "I’m a Statistics student (Biostatistics emphasis) at Brigham Young University, graduating December 2026, hopefully heading toward a career in sports analytics. I build statistical and machine learning models, and I’m currently President of the BYU Sports Analytics Association.\n📄 Resume  ·  About Me  ·  Ministry of Sports  ·  LinkedIn  ·  GitHub\n\n\n\n\nStatistical modeling — regression, Bayesian inference, time series & autoregressive modeling\nMachine learning fundamentals — supervised learning, PyTorch, scikit-learn\nSports analytics — the focus of my Ministry of Sports project series, applying these methods to real game and player data\nData workflows — Python, R, SQL, and reproducible analysis in Jupyter/RStudio\n\n\n\n\n\n\n\nAn ongoing series of sports analytics mini-projects — each one paired with a short video walkthrough on LinkedIn. New entries added regularly.\n\n\n\nHow I gather data from files, websites, and APIs and prepare it for analysis. This was originally designed as a learning experience for a how-to in using APIs, API keys and scraping data from online sources.\n\nThanks for stopping by — take a look around, and feel free to reach out on LinkedIn."
+    "text": "I’m a Statistics student (Biostatistics emphasis) at Brigham Young University, graduating December 2026. I build statistical and machine learning models across public health, environmental, and business data, and I currently work as a statistical consultant and TA in the BYU Department of Statistics.\n📄 Resume  ·  About Me  ·  Projects  ·  LinkedIn  ·  GitHub\n\n\n\n\nStatistical modeling — regression, Bayesian inference, causal inference, spatial statistics, time series, functional data analysis\nMachine learning fundamentals — supervised learning, PyTorch, scikit-learn\nApplied domains — public health and biostatistics, environmental data, business forecasting, and sports analytics\nData workflows — Python, R, SQL, and reproducible analysis in Jupyter/RStudio\n\n\n\n\n\n\n\n1st place, BYU Statistics Case Study Competition — spatial modeling of noisy administrative data.\n\n\n\nCausal inference and propensity score matching on real ICU data.\n\n\n\nFunctional data analysis on 30 years of national wildfire records.\nSee all projects →, including public health spatial modeling, time series forecasting, and my ongoing Ministry of Sports series.\n\n\n\nHow I gather data from files, websites, and APIs and prepare it for analysis. This was originally designed as a learning experience for a how-to in using APIs, API keys and scraping data from online sources.\n\nThanks for stopping by — take a look around, and feel free to reach out on LinkedIn."
   },
   {
     "objectID": "index.html#what-i-work-on",
     "href": "index.html#what-i-work-on",
     "title": "Cooper Maughan",
     "section": "",
-    "text": "Statistical modeling — regression, Bayesian inference, time series & autoregressive modeling\nMachine learning fundamentals — supervised learning, PyTorch, scikit-learn\nSports analytics — the focus of my Ministry of Sports project series, applying these methods to real game and player data\nData workflows — Python, R, SQL, and reproducible analysis in Jupyter/RStudio"
+    "text": "Statistical modeling — regression, Bayesian inference, causal inference, spatial statistics, time series, functional data analysis\nMachine learning fundamentals — supervised learning, PyTorch, scikit-learn\nApplied domains — public health and biostatistics, environmental data, business forecasting, and sports analytics\nData workflows — Python, R, SQL, and reproducible analysis in Jupyter/RStudio"
   },
   {
     "objectID": "index.html#featured-projects",
     "href": "index.html#featured-projects",
     "title": "Cooper Maughan",
     "section": "",
-    "text": "An ongoing series of sports analytics mini-projects — each one paired with a short video walkthrough on LinkedIn. New entries added regularly.\n\n\n\nHow I gather data from files, websites, and APIs and prepare it for analysis. This was originally designed as a learning experience for a how-to in using APIs, API keys and scraping data from online sources.\n\nThanks for stopping by — take a look around, and feel free to reach out on LinkedIn."
+    "text": "1st place, BYU Statistics Case Study Competition — spatial modeling of noisy administrative data.\n\n\n\nCausal inference and propensity score matching on real ICU data.\n\n\n\nFunctional data analysis on 30 years of national wildfire records.\nSee all projects →, including public health spatial modeling, time series forecasting, and my ongoing Ministry of Sports series.\n\n\n\nHow I gather data from files, websites, and APIs and prepare it for analysis. This was originally designed as a learning experience for a how-to in using APIs, API keys and scraping data from online sources.\n\nThanks for stopping by — take a look around, and feel free to reach out on LinkedIn."
+  },
+  {
+    "objectID": "ministry_of_sports/index.html",
+    "href": "ministry_of_sports/index.html",
+    "title": "Ministry of Sports",
+    "section": "",
+    "text": "A running series of sports analytics mini-projects — statistical models, data visualizations, and applied analysis, each paired with a short video walkthrough on LinkedIn.\nThe name is a nod to my time serving as a missionary in South Africa, home to the real Ministry of Sports, Arts and Culture — this is my own small, ongoing ministry of sorts: using data to better understand the games we love.\n\n\n\n\n\n\nA Bayesian (Poisson-Gamma) analysis comparing career length between “blue blood” college program alumni and other NBA players, with 95% credible intervals on the difference in means.\n\n\n\nMultiple linear regression with cross-validation, plus a live interactive explorer built with Streamlit.\n\n\n\nComing soon\n\n\n\nComing soon\n\n\n\nNew mini-projects added regularly — check back often, or follow along on LinkedIn to catch each release as it drops."
+  },
+  {
+    "objectID": "ministry_of_sports/index.html#projects",
+    "href": "ministry_of_sports/index.html#projects",
+    "title": "Ministry of Sports",
+    "section": "",
+    "text": "A Bayesian (Poisson-Gamma) analysis comparing career length between “blue blood” college program alumni and other NBA players, with 95% credible intervals on the difference in means.\n\n\n\nMultiple linear regression with cross-validation, plus a live interactive explorer built with Streamlit.\n\n\n\nComing soon\n\n\n\nComing soon\n\n\n\nNew mini-projects added regularly — check back often, or follow along on LinkedIn to catch each release as it drops."
   },
   {
     "objectID": "data-acquisition.html",

@@ -1,0 +1,36 @@
+---
+title: "Mapping NYC Rodent Complaints: A Case Competition Win"
+subtitle: "Spatial modeling of 311 reporting data across city council districts"
+author: "Cooper Maughan"
+date: "2026-01-20"
+format:
+  html:
+    code-fold: true
+    toc: true
+---
+
+## Overview
+
+New York City's 311 system logs resident complaints about rodent activity, and the city uses these reports to help direct inspection and control resources. But 311 data has a well-known blind spot: a complaint reflects not just actual rodent activity, but also who is aware of the reporting system, who trusts it, and who has easy access to it. Our team's challenge for this case competition was to model **which factors actually predict confirmed rodent activity by city council district**, while being explicit about where the reporting data itself might mislead.
+
+This project won BYU's 2026 Statistics Case Study Competition.
+
+## Approach
+
+We classified "confirmed" cases from 311 call descriptions — instances where an inspector found violations or issues were actively being remediated — as distinct from raw complaint volume, since raw call counts conflate actual infestation with reporting behavior. We supplemented 311 data with land use reports and restaurant inspection records as additional predictors.
+
+Because rodent activity naturally clusters geographically (an infested block affects its neighbors), we modeled the confirmed complaint rate using a **conditional autoregressive (CAR) model** across city council districts, which accounts for spatial correlation rather than treating each district as independent.
+
+## Results
+
+The model identified factors associated with an **increase** in confirmed rodent activity — proximity to other rodent-related issues, higher median home value, and older building stock — alongside factors associated with a **decrease**, including more people per housing unit and a higher share of vacant units. Confirmed rodent activity also showed a clear seasonal pattern, spiking in summer months.
+
+We translated the model into three concrete recommendations: focus inspection resources on districts with high *confirmed* (not just reported) rates, shift staffing to anticipate the summer spike, and increase community outreach in underrepresented districts where low reporting likely masks real activity — flagging explicitly that 311 complaint volume alone is not a reliable proxy for actual infestation.
+
+## Why This Matters
+
+This project is really about a broader problem: administrative data (311 calls, customer complaints, support tickets) always reflects reporting behavior as much as the underlying phenomenon, and a naive model that ignores that will misallocate resources. Separating "what's reported" from "what's real," and building a spatial model that respects geographic structure, is directly transferable to resource allocation problems in public health, city services, and operations.
+
+**Skills demonstrated:** spatial statistics (CAR models), working with noisy administrative/reporting data, translating a technical model into policy recommendations, team-based analysis under competition time constraints.
+
+[📊 Slide deck (PPTX)](reports/nyc-rodent-case-competition.pptx)

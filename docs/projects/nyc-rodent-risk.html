@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Cooper Maughan">
+<meta name="dcterms.date" content="2026-01-20">
 
-<title>Ministry of Sports – Cooper Maughan - Data Science Portfolio</title>
+<title>Mapping NYC Rodent Complaints: A Case Competition Win – Cooper Maughan - Data Science Portfolio</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -182,10 +184,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#ministry-of-sports" id="toc-ministry-of-sports" class="nav-link active" data-scroll-target="#ministry-of-sports">⚽ Ministry of Sports</a>
-  <ul class="collapse">
-  <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">Projects</a></li>
-  </ul></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#why-this-matters" id="toc-why-this-matters" class="nav-link" data-scroll-target="#why-this-matters">Why This Matters</a></li>
   </ul>
 </nav>
     </div>
@@ -194,14 +196,27 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ministry of Sports</h1>
+<h1 class="title">Mapping NYC Rodent Complaints: A Case Competition Win</h1>
+<p class="subtitle lead">Spatial modeling of 311 reporting data across city council districts</p>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Cooper Maughan </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 20, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -211,36 +226,28 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="ministry-of-sports" class="level1">
-<h1>⚽ Ministry of Sports</h1>
-<p>A running series of sports analytics mini-projects — statistical models, data visualizations, and applied analysis, each paired with a short video walkthrough on LinkedIn.</p>
-<p>The name is a nod to my time serving as a missionary in South Africa, home to the real Ministry of Sports, Arts and Culture — this is my own small, ongoing ministry of sorts: using data to better understand the games we love.</p>
-<hr>
-<section id="projects" class="level2">
-<h2 class="anchored" data-anchor-id="projects">Projects</h2>
-<div class="grid">
-<section id="does-college-pedigree-predict-nba-career-length" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="does-college-pedigree-predict-nba-career-length"><a href="../ministry_of_sports/nba-blue-blood-careers.html">Does College Pedigree Predict NBA Career Length?</a></h3>
-<p>A Bayesian (Poisson-Gamma) analysis comparing career length between “blue blood” college program alumni and other NBA players, with 95% credible intervals on the difference in means.</p>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>New York City’s 311 system logs resident complaints about rodent activity, and the city uses these reports to help direct inspection and control resources. But 311 data has a well-known blind spot: a complaint reflects not just actual rodent activity, but also who is aware of the reporting system, who trusts it, and who has easy access to it. Our team’s challenge for this case competition was to model <strong>which factors actually predict confirmed rodent activity by city council district</strong>, while being explicit about where the reporting data itself might mislead.</p>
+<p>This project won BYU’s 2026 Statistics Case Study Competition.</p>
 </section>
-<section id="what-predicts-an-nhl-players-plus-minus-score" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="what-predicts-an-nhl-players-plus-minus-score"><a href="../ministry_of_sports/nhl-plus-minus-model.html">What Predicts an NHL Player’s Plus-Minus Score?</a></h3>
-<p>Multiple linear regression with cross-validation, plus a <a href="https://nhl-explorer.streamlit.app/">live interactive explorer</a> built with Streamlit.</p>
+<section id="approach" class="level2">
+<h2 class="anchored" data-anchor-id="approach">Approach</h2>
+<p>We classified “confirmed” cases from 311 call descriptions — instances where an inspector found violations or issues were actively being remediated — as distinct from raw complaint volume, since raw call counts conflate actual infestation with reporting behavior. We supplemented 311 data with land use reports and restaurant inspection records as additional predictors.</p>
+<p>Because rodent activity naturally clusters geographically (an infested block affects its neighbors), we modeled the confirmed complaint rate using a <strong>conditional autoregressive (CAR) model</strong> across city council districts, which accounts for spatial correlation rather than treating each district as independent.</p>
 </section>
-<section id="project-3" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="project-3">Project 3</h3>
-<p><em>Coming soon</em></p>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<p>The model identified factors associated with an <strong>increase</strong> in confirmed rodent activity — proximity to other rodent-related issues, higher median home value, and older building stock — alongside factors associated with a <strong>decrease</strong>, including more people per housing unit and a higher share of vacant units. Confirmed rodent activity also showed a clear seasonal pattern, spiking in summer months.</p>
+<p>We translated the model into three concrete recommendations: focus inspection resources on districts with high <em>confirmed</em> (not just reported) rates, shift staffing to anticipate the summer spike, and increase community outreach in underrepresented districts where low reporting likely masks real activity — flagging explicitly that 311 complaint volume alone is not a reliable proxy for actual infestation.</p>
 </section>
-<section id="project-4" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="project-4">Project 4</h3>
-<p><em>Coming soon</em></p>
-</section>
-</div>
-<hr>
-<p><em>New mini-projects added regularly — check back often, or follow along on LinkedIn to catch each release as it drops.</em></p>
+<section id="why-this-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-matters">Why This Matters</h2>
+<p>This project is really about a broader problem: administrative data (311 calls, customer complaints, support tickets) always reflects reporting behavior as much as the underlying phenomenon, and a naive model that ignores that will misallocate resources. Separating “what’s reported” from “what’s real,” and building a spatial model that respects geographic structure, is directly transferable to resource allocation problems in public health, city services, and operations.</p>
+<p><strong>Skills demonstrated:</strong> spatial statistics (CAR models), working with noisy administrative/reporting data, translating a technical model into policy recommendations, team-based analysis under competition time constraints.</p>
+<p><a href="reports/nyc-rodent-case-competition.pptx">📊 Slide deck (PPTX)</a></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

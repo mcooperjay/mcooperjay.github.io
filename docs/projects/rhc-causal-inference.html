@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Cooper Maughan">
+<meta name="dcterms.date" content="2026-03-01">
 
-<title>Ministry of Sports – Cooper Maughan - Data Science Portfolio</title>
+<title>Does a Risky Procedure Actually Increase Mortality? – Cooper Maughan - Data Science Portfolio</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -22,6 +24,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -182,10 +219,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#ministry-of-sports" id="toc-ministry-of-sports" class="nav-link active" data-scroll-target="#ministry-of-sports">⚽ Ministry of Sports</a>
-  <ul class="collapse">
-  <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">Projects</a></li>
-  </ul></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
+  <li><a href="#method" id="toc-method" class="nav-link" data-scroll-target="#method">Method</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#what-this-demonstrates" id="toc-what-this-demonstrates" class="nav-link" data-scroll-target="#what-this-demonstrates">What This Demonstrates</a></li>
   </ul>
 </nav>
     </div>
@@ -194,14 +232,27 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ministry of Sports</h1>
+<h1 class="title">Does a Risky Procedure Actually Increase Mortality?</h1>
+<p class="subtitle lead">Causal inference with propensity score matching on Right Heart Catheterization data</p>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Cooper Maughan </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 1, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -211,36 +262,56 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="ministry-of-sports" class="level1">
-<h1>⚽ Ministry of Sports</h1>
-<p>A running series of sports analytics mini-projects — statistical models, data visualizations, and applied analysis, each paired with a short video walkthrough on LinkedIn.</p>
-<p>The name is a nod to my time serving as a missionary in South Africa, home to the real Ministry of Sports, Arts and Culture — this is my own small, ongoing ministry of sorts: using data to better understand the games we love.</p>
-<hr>
-<section id="projects" class="level2">
-<h2 class="anchored" data-anchor-id="projects">Projects</h2>
-<div class="grid">
-<section id="does-college-pedigree-predict-nba-career-length" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="does-college-pedigree-predict-nba-career-length"><a href="../ministry_of_sports/nba-blue-blood-careers.html">Does College Pedigree Predict NBA Career Length?</a></h3>
-<p>A Bayesian (Poisson-Gamma) analysis comparing career length between “blue blood” college program alumni and other NBA players, with 95% credible intervals on the difference in means.</p>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>Right Heart Catheterization (RHC) is a diagnostic procedure used on critically ill ICU patients. In the raw data, patients who receive RHC die at noticeably higher rates than those who don’t — which raises an uncomfortable question: <strong>does the procedure itself increase the risk of death, or are doctors simply choosing to perform it on the patients who were already the sickest?</strong></p>
+<p>This is a textbook case of confounding by indication, and it’s a good showcase for why “the numbers say X” is often the wrong takeaway until you’ve asked <em>why</em> the data looks that way.</p>
 </section>
-<section id="what-predicts-an-nhl-players-plus-minus-score" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="what-predicts-an-nhl-players-plus-minus-score"><a href="../ministry_of_sports/nhl-plus-minus-model.html">What Predicts an NHL Player’s Plus-Minus Score?</a></h3>
-<p>Multiple linear regression with cross-validation, plus a <a href="https://nhl-explorer.streamlit.app/">live interactive explorer</a> built with Streamlit.</p>
+<section id="the-data" class="level2">
+<h2 class="anchored" data-anchor-id="the-data">The Data</h2>
+<p>The dataset comes from a well-known ICU study and includes treatment status (RHC vs.&nbsp;not), survival outcome, and a wide set of pre-treatment confounders — age, income, insurance type, and physiological severity markers like mean blood pressure, heart rate, and organ dysfunction scores. It’s a genuinely messy, high-dimensional dataset, which is part of what makes it a useful exercise: real clinical data rarely comes clean.</p>
 </section>
-<section id="project-3" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="project-3">Project 3</h3>
-<p><em>Coming soon</em></p>
+<section id="method" class="level2">
+<h2 class="anchored" data-anchor-id="method">Method</h2>
+<p>I estimated the Average Treatment Effect on the Treated (ATT) using propensity score matching:</p>
+<ul>
+<li>Fit a logistic regression propensity score model using only pre-treatment variables</li>
+<li>Matched 1:1 nearest-neighbor without replacement, using a caliper of 0.2 on the logit propensity score to exclude implausible matches</li>
+<li>Checked covariate balance before and after matching with a Love plot and standardized mean differences</li>
+<li>Estimated the ATT with a weighted logistic regression on the matched sample, incorporating matching weights</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>m_out <span class="ot">&lt;-</span> <span class="fu">matchit</span>(</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">formula =</span> ps_formula,</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> RHC_use,</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">method   =</span> <span class="st">"nearest"</span>,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">distance =</span> <span class="st">"glm"</span>,</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">estimand =</span> <span class="st">"ATT"</span>,</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">ratio    =</span> <span class="dv">1</span>,</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">caliper  =</span> <span class="fl">0.2</span>,</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">replace  =</span> <span class="cn">FALSE</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>fit_att <span class="ot">&lt;-</span> <span class="fu">glm</span>(survival <span class="sc">~</span> RHC, <span class="at">data =</span> <span class="fu">match.data</span>(m_out),</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>                <span class="at">family =</span> binomial, <span class="at">weights =</span> weights)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>I chose a logistic propensity score for interpretability, a tight-ish caliper to prioritize match quality over sample size, and no replacement to avoid a small number of controls dominating the estimate — a defensible but not the only reasonable set of choices, which is part of the point of the exercise.</p>
 </section>
-<section id="project-4" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="project-4">Project 4</h3>
-<p><em>Coming soon</em></p>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<p>Before matching, several key severity measures (APACHE score, mean arterial pressure, organ dysfunction markers) showed large imbalances between treated and control patients. After matching, nearly all covariates fell within a standardized mean difference of ±0.1.</p>
+<p>The matched-sample estimate: <strong>RHC is associated with an approximately 5.1 percentage point <em>decrease</em> in probability of death (95% CI: −8.1 to −2.1 points, p = 0.001).</strong></p>
+<p>That’s the opposite direction of the naive, unadjusted comparison — which is the whole story here. Once you account for the fact that RHC was preferentially given to sicker patients, the picture flips substantially. The matching procedure retained about 86% of treated patients (1,870 of 2,184); the remaining 14% were too clinically extreme to find a comparable control, so the estimate applies to the broader population of treated patients but not to that highest-risk subgroup.</p>
 </section>
-</div>
-<hr>
-<p><em>New mini-projects added regularly — check back often, or follow along on LinkedIn to catch each release as it drops.</em></p>
+<section id="what-this-demonstrates" class="level2">
+<h2 class="anchored" data-anchor-id="what-this-demonstrates">What This Demonstrates</h2>
+<ul>
+<li>Recognizing and correcting for confounding by indication, not just fitting a model on raw data</li>
+<li>Making and defending non-arbitrary modeling choices (caliper, matching ratio, replacement) and understanding their trade-offs</li>
+<li>Being explicit about the limits of a causal estimate — who it generalizes to and who it doesn’t</li>
+<li>Comfort with a messy, real-world clinical dataset, not a cleaned-up textbook example</li>
+</ul>
+<p><em>Course project for Applied Biostatistics (BYU Statistics). Full analysis code available on request.</em></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

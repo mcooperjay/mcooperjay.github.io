@@ -1,0 +1,48 @@
+---
+title: "Mapping Heat-Related Illness Risk in Houston"
+subtitle: "Spatial epidemiology with a conditional autoregressive model"
+author: "Cooper Maughan"
+date: "2026-03-15"
+format:
+  html:
+    code-fold: true
+    toc: true
+---
+
+## Overview
+
+Heat-related illness isn't evenly distributed across a city — it concentrates where air conditioning is scarce, where the population skews older or younger, and where poverty limits access to cooling. Working as if contracted by the Houston Health Department, I analyzed census-tract-level heat-illness counts to find out **which neighborhood characteristics predict elevated risk, and where the city should focus outreach and resources.**
+
+## The Data
+
+Census-tract-level data covering heat-related illness counts and population, alongside demographic and socioeconomic covariates: median age, percentage Hispanic and Black population, percentage under 5 and over 65, poverty rate, percentage living alone, and minimum temperature.
+
+## Method
+
+Because neighboring census tracts tend to share similar risk (a hot, low-income area is usually next to another hot, low-income area), treating tracts as independent observations would understate uncertainty and miss spatial structure. I modeled the log relative risk of heat illness using a **conditional autoregressive (CAR) model** — a spatial regression that explicitly accounts for correlation between neighboring geographic units — fit with the `spmodel` package in R.
+
+```r
+spautor_model <- spautor(
+  log_rel_risk ~ MED_AGE + HispanicPC + BlackPCT +
+    under5PCT + over65PCT + povertyPCT + alonePCT + MinTemp,
+  data = dat_clean, spcov_type = "car"
+)
+```
+
+I checked model assumptions with added-variable plots (linearity), residual histograms (normality), and residual-vs-fitted plots (equal variance) before finalizing the model, and reported pseudo-R² as a goodness-of-fit measure.
+
+## Results
+
+Risk concentrated predictably around known vulnerability factors — older median age, higher poverty rates, and higher shares of residents living alone were all associated with elevated relative risk, on top of the baseline effect of temperature itself. Mapping the fitted relative risk by tract produced a clear visual: risk isn't just "hotter tracts are worse," it's a compounding effect of heat exposure and social vulnerability.
+
+The final deliverable was a public-health-style risk map and one-page prevention poster, translating the model into concrete guidance: stay hydrated, seek air-conditioned spaces, check on vulnerable neighbors, and never leave children in parked cars.
+
+## Why This Matters
+
+This is a template that generalizes directly to other place-based public health and policy problems — disease surveillance, emergency resource allocation, or any question where "where" is as important as "how much." It also demonstrates translating a technical spatial model into a plain-language product a health department could actually use.
+
+**Skills demonstrated:** spatial statistics (CAR models), model diagnostics, working with messy shapefile/census data, translating technical results for a non-technical audience, R (`spmodel`, `sf`).
+
+[📄 Prevention poster (PDF)](reports/houston-heat-poster.pdf)
+
+*Mini-project for Analysis of Correlated Data (BYU Statistics).*

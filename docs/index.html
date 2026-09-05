@@ -104,23 +104,48 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./resume.html"> 
 <span class="menu-text">Resume</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./ministry_of_sports/index.html"> 
-<span class="menu-text">Ministry of Sports</span></a>
-  </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-school-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">School Projects</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-school-projects">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
         <li>
-    <a class="dropdown-item" href="./tutorial_1.html">
- <span class="dropdown-text">Tutorial</span></a>
+    <a class="dropdown-item" href="./projects/index.html">
+ <span class="dropdown-text">All Projects</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
+    <a class="dropdown-item" href="./projects/nyc-rodent-risk.html">
+ <span class="dropdown-text">Mapping NYC Rodent Complaints (Case Comp. Win)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/rhc-causal-inference.html">
+ <span class="dropdown-text">Causal Inference: RHC &amp; Survival</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/wildfire-functional-regression.html">
+ <span class="dropdown-text">Functional Data Analysis: Wildfires</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/houston-heat-risk.html">
+ <span class="dropdown-text">Spatial Epidemiology: Houston Heat Risk</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/company-growth-forecasting.html">
+ <span class="dropdown-text">Forecasting: Company Growth</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="./ministry_of_sports/index.html">
+ <span class="dropdown-text">Ministry of Sports</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="./data-acquisition.html">
  <span class="dropdown-text">Data Acquisition</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./tutorial_1.html">
+ <span class="dropdown-text">Tutorial</span></a>
   </li>  
     </ul>
   </li>
@@ -162,7 +187,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#what-i-work-on" id="toc-what-i-work-on" class="nav-link" data-scroll-target="#what-i-work-on">What I Work On</a></li>
   <li><a href="#featured-projects" id="toc-featured-projects" class="nav-link" data-scroll-target="#featured-projects">Featured Projects</a>
   <ul class="collapse">
-  <li><a href="#ministry-of-sports" id="toc-ministry-of-sports" class="nav-link" data-scroll-target="#ministry-of-sports">Ministry of Sports</a></li>
+  <li><a href="#mapping-nyc-rodent-complaints" id="toc-mapping-nyc-rodent-complaints" class="nav-link" data-scroll-target="#mapping-nyc-rodent-complaints">Mapping NYC Rodent Complaints 🏆</a></li>
+  <li><a href="#does-the-treatment-help-or-hurt" id="toc-does-the-treatment-help-or-hurt" class="nav-link" data-scroll-target="#does-the-treatment-help-or-hurt">Does the Treatment Help or Hurt?</a></li>
+  <li><a href="#predicting-wildfire-severity" id="toc-predicting-wildfire-severity" class="nav-link" data-scroll-target="#predicting-wildfire-severity">Predicting Wildfire Severity</a></li>
   <li><a href="#data-collection-project" id="toc-data-collection-project" class="nav-link" data-scroll-target="#data-collection-project">Data Collection Project</a></li>
   </ul></li>
   </ul></li>
@@ -193,24 +220,33 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="hi-im-cooper" class="level1">
 <h1>Hi, I’m Cooper 👋</h1>
-<p>I’m a Statistics student (Biostatistics emphasis) at Brigham Young University, graduating December 2026, hopefully heading toward a career in sports analytics. I build statistical and machine learning models, and I’m currently President of the BYU Sports Analytics Association.</p>
-<p><a href="./resume.html">📄 Resume</a> &nbsp;·&nbsp; <a href="./about.html">About Me</a> &nbsp;·&nbsp; <a href="./ministry_of_sports/index.html">Ministry of Sports</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/cooper-maughan-95660a301/">LinkedIn</a> &nbsp;·&nbsp; <a href="https://github.com/mcooperjay">GitHub</a></p>
+<p>I’m a Statistics student (Biostatistics emphasis) at Brigham Young University, graduating December 2026. I build statistical and machine learning models across public health, environmental, and business data, and I currently work as a statistical consultant and TA in the BYU Department of Statistics.</p>
+<p><a href="./resume.html">📄 Resume</a> &nbsp;·&nbsp; <a href="./about.html">About Me</a> &nbsp;·&nbsp; <a href="./projects/index.html">Projects</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/cooper-maughan-95660a301/">LinkedIn</a> &nbsp;·&nbsp; <a href="https://github.com/mcooperjay">GitHub</a></p>
 <hr>
 <section id="what-i-work-on" class="level2">
 <h2 class="anchored" data-anchor-id="what-i-work-on">What I Work On</h2>
 <ul>
-<li><strong>Statistical modeling</strong> — regression, Bayesian inference, time series &amp; autoregressive modeling</li>
+<li><strong>Statistical modeling</strong> — regression, Bayesian inference, causal inference, spatial statistics, time series, functional data analysis</li>
 <li><strong>Machine learning fundamentals</strong> — supervised learning, PyTorch, scikit-learn</li>
-<li><strong>Sports analytics</strong> — the focus of my Ministry of Sports project series, applying these methods to real game and player data</li>
+<li><strong>Applied domains</strong> — public health and biostatistics, environmental data, business forecasting, and sports analytics</li>
 <li><strong>Data workflows</strong> — Python, R, SQL, and reproducible analysis in Jupyter/RStudio</li>
 </ul>
 <hr>
 </section>
 <section id="featured-projects" class="level2">
 <h2 class="anchored" data-anchor-id="featured-projects">Featured Projects</h2>
-<section id="ministry-of-sports" class="level3">
-<h3 class="anchored" data-anchor-id="ministry-of-sports"><a href="./ministry_of_sports/index.html">Ministry of Sports</a></h3>
-<p>An ongoing series of sports analytics mini-projects — each one paired with a short video walkthrough on LinkedIn. New entries added regularly.</p>
+<section id="mapping-nyc-rodent-complaints" class="level3">
+<h3 class="anchored" data-anchor-id="mapping-nyc-rodent-complaints"><a href="./projects/nyc-rodent-risk.html">Mapping NYC Rodent Complaints 🏆</a></h3>
+<p>1st place, BYU Statistics Case Study Competition — spatial modeling of noisy administrative data.</p>
+</section>
+<section id="does-the-treatment-help-or-hurt" class="level3">
+<h3 class="anchored" data-anchor-id="does-the-treatment-help-or-hurt"><a href="./projects/rhc-causal-inference.html">Does the Treatment Help or Hurt?</a></h3>
+<p>Causal inference and propensity score matching on real ICU data.</p>
+</section>
+<section id="predicting-wildfire-severity" class="level3">
+<h3 class="anchored" data-anchor-id="predicting-wildfire-severity"><a href="./projects/wildfire-functional-regression.html">Predicting Wildfire Severity</a></h3>
+<p>Functional data analysis on 30 years of national wildfire records.</p>
+<p><strong><a href="./projects/index.html">See all projects →</a></strong>, including public health spatial modeling, time series forecasting, and my ongoing <a href="./ministry_of_sports/index.html">Ministry of Sports</a> series.</p>
 </section>
 <section id="data-collection-project" class="level3">
 <h3 class="anchored" data-anchor-id="data-collection-project"><a href="./data-acquisition.html">Data Collection Project</a></h3>

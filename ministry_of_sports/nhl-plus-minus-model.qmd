@@ -1,0 +1,40 @@
+---
+title: "What Predicts an NHL Player's Plus-Minus Score?"
+subtitle: "Multiple linear regression with cross-validation, plus an interactive explorer"
+author: "Cooper Maughan (with Claire Peterson and Anzlei Larsen)"
+date: "2025-12-10"
+format:
+  html:
+    code-fold: true
+    toc: true
+---
+
+## Overview
+
+Hockey coaches want to recruit the best players, and players want to know which skills matter most — but "best" is hard to pin down with a single stat. Goals and points favor offensive players and undercount defensive contribution. We used **plus-minus per game** (a stat available to every skater, regardless of position) as a more balanced measure of overall effectiveness, and asked: **which observable performance metrics actually predict it?**
+
+## Data & Method
+
+We scraped NHL statistics covering the 2000–01 through 2024–25 seasons, aggregated by player, including position, assists, shots, shooting percentage, time on ice, and faceoff win rate. After exploratory analysis showed points-per-game was skewed and structurally biased toward offensive players, we settled on plus-minus per game as the response variable and fit a **multiple linear regression**:
+
+$$\text{Plus-Minus/Game} = \beta_0 + \beta_1\text{Position} + \beta_2\text{Assists} + \beta_3\text{PIM/Game} + \beta_4\text{Shots/Game} + \beta_5\text{Shooting\%} + \beta_6\text{TOI/Game} + \beta_7\text{Faceoff Win\%} + \varepsilon$$
+
+We validated the model with **1,000-iteration cross-validation** rather than relying on in-sample fit alone.
+
+## Results
+
+- Adjusted R² of **0.123** — the model explains a real but modest share of the variation, consistent with how much randomness exists in hockey outcomes
+- Cross-validated RMSE of **0.157**, with an average prediction bias of **0.0001** (effectively unbiased) and low variability across 1,000 train/test splits, indicating the model is consistent even though its explanatory power is limited
+- Shooting percentage had the strongest positive association with plus-minus, followed by position (defensemen and centers), assists, and shots per game
+
+## Honest Limitations
+
+We were upfront that these effects, while statistically significant, are small in practical terms — the model captures general tendencies but isn't precise enough to rank individual players confidently. Variables we didn't have access to (age, coaching system, years of experience, team quality) likely explain more of the remaining variance than anything we could add from this dataset alone.
+
+## Interactive Explorer
+
+To make the underlying data browsable beyond the static report, I also built a **Streamlit app** letting users filter and explore NHL player statistics interactively: [nhl-explorer.streamlit.app](https://nhl-explorer.streamlit.app/)
+
+**Skills demonstrated:** multiple linear regression, cross-validation for model assessment (bias/MSE/RMSE), web scraping, honest interpretation of modest effect sizes, deploying an interactive data app with Streamlit.
+
+*Final project for Regression Analysis (BYU Statistics, STAT 330), with Claire Peterson and Anzlei Larsen.*

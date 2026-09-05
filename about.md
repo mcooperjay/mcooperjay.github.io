@@ -4,37 +4,28 @@ title: "About Me"
 
 ## Background
 
+I'm a Senior in the Statistics major, Biostatistics emphasis, at Brigham Young University, graduating December 2026.
 
-I am a Senior in the Statistics major, Biostatistics emphasis at Brigham Young University. 
-
-I am interested in data science as a way to link datum and utilize learning patterns in a meaningful way. 
-
-With much work, hope and luck, my dream job is to work as a sports statistician. I am also interested in researching more about direct applications of biostatistics, medical statistics, environmental analytics and more.
-
-I have only worked on one project, analyzing home runs per game in differing levels of major, minor and collegiate leagues. 
+I'm drawn to problems where the data is messy, the stakes are real, and the right statistical tool isn't obvious upfront — whether that's untangling confounding in a clinical dataset, modeling spatial patterns in public health risk, or figuring out which forecasting method actually generalizes. I've applied that across a fairly wide range of settings: biostatistics and causal inference, environmental data, spatial epidemiology, business forecasting, and sports analytics. See my [Projects page](projects/index.md) for the full range.
 
 ## Education
 
-- **BS in Statistics** - Brigham Young University, 2026
-- **Relevant Coursework**: Statistics, Data Analysis, Programming, etc.
+- **B.S. Statistics, Biostatistics Emphasis** — Brigham Young University, expected December 2026
+- **Relevant coursework**: regression modeling, Bayesian methods, causal inference, spatial statistics, functional data analysis, mixed methods & correlated data, machine learning fundamentals
 
 ## Skills & Interests
 
 ### Technical Skills
-- **Programming**: Python, R
-- **Data Analysis**: Pandas, NumPy
-- **Visualization**: Matplotlib, Seaborn
-- **Machine Learning**: Scikit-learn
-- **Tools**: Jupyter Notebooks, Git/GitHub
+- **Programming**: Python, R, SQL, MATLAB
+- **Modeling**: regression, Bayesian inference, causal inference (propensity score matching), spatial/CAR models, functional data analysis, time series forecasting
+- **Tools**: pandas, NumPy, scikit-learn, PyTorch, RStudio, Jupyter, Git/GitHub
 
 ### Areas of Interest
-- I am very interested in sports data, sports analytics, finincial studies, budgeting, and bioanalysis. 
+Biostatistics and medical statistics, environmental and spatial data, applied causal inference, and sports analytics through my Ministry of Sports project series.
 
 ## Goals
 
-- My short term goals are to learn and follow the examples of good data scientists and to gather the tools and resources to help me learn more. 
-- My long-term career goals are to go into graduate programs and further my career in either the sports data field or helping in medical analytics.
-- The types of problems I want to solve are those that push me to learn, provide insight into the world around me and work with logic.
+My short-term goal is a data science or analyst role starting January 2027, before beginning a master's program in Fall 2027. Longer term, I want to keep working on problems where statistical rigor has a direct, visible impact — whether that ends up being in health, public policy, industry analytics, or research.
 
 ## Contact
 

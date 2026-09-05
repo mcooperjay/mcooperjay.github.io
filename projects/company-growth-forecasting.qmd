@@ -1,0 +1,39 @@
+---
+title: "Forecasting Company Growth: Comparing Four Modeling Approaches"
+subtitle: "A time series forecasting consulting exercise"
+author: "Cooper Maughan (with Emily Dunham and Timothy Hardy)"
+date: "2026-02-01"
+format:
+  html:
+    code-fold: true
+    toc: true
+---
+
+## Overview
+
+Working as if consulting for a discretionary-spending company (products that sell well in strong economies and slow down in downturns), the task was to forecast quarterly percentage growth using macroeconomic indicators — income, industrial production, savings rate, and unemployment — spanning 1975 to 2024.
+
+The real question wasn't just "can we forecast growth," but **which forecasting approach actually generalizes to unseen future quarters**, since a model that fits historical data well can still fail badly out of sample if it's overfit to noise or ignores the time structure entirely.
+
+## Approach
+
+Rather than settling on one method, I built and compared four forecasting approaches on the same train/test split (trained on data before 2010–2019 depending on the model, validated on the years after):
+
+- **Baseline linear regression** on the macroeconomic predictors alone, ignoring time structure
+- **ARIMA with exogenous regressors**, letting the model capture autocorrelation in growth that the macro variables alone miss
+- **Prophet**, a component-based forecasting model, extended with the same macroeconomic regressors
+- **A regression with a natural spline on time plus a quarterly seasonal term**, to flexibly capture trend and seasonality without assuming a rigid time-series structure
+
+Each model was evaluated by out-of-sample RMSE on the held-out years — not by how well it fit the training data.
+
+## Results
+
+The plain linear regression, trained only on pre-2010 data, achieved an out-of-sample RMSE of about **0.42 percentage points** on post-2010 quarterly growth — a reasonable baseline, but one that ignores any autocorrelation or seasonal pattern in the data. Adding explicit time structure (through ARIMA's autoregressive terms or the spline-plus-season regression) let the later models capture patterns the baseline missed, illustrating a common trade-off in forecasting: a simple model is easy to explain, but a model that respects the time-series structure of the data usually forecasts better.
+
+## Why This Matters
+
+This mirrors a very common real-world analyst task: given a business metric and some plausible drivers, build not just *a* model but *the right kind* of model, and be able to defend that choice against genuine competitors rather than assuming the first approach was correct. That skill — comparing multiple legitimate modeling frameworks head-to-head on held-out data — applies directly to demand forecasting, revenue projection, and economic scenario planning in industry.
+
+**Skills demonstrated:** time series forecasting (ARIMA, Prophet), regression with splines and seasonality, rigorous out-of-sample model comparison, R (`forecast`, `prophet`, `splines`).
+
+*Mini-project for Analysis of Correlated Data (BYU Statistics), with Emily Dunham and Timothy Hardy.*

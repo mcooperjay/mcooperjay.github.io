@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Cooper Maughan">
+<meta name="dcterms.date" content="2026-03-15">
 
-<title>Ministry of Sports – Cooper Maughan - Data Science Portfolio</title>
+<title>Mapping Heat-Related Illness Risk in Houston – Cooper Maughan - Data Science Portfolio</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -22,6 +24,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -182,10 +219,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#ministry-of-sports" id="toc-ministry-of-sports" class="nav-link active" data-scroll-target="#ministry-of-sports">⚽ Ministry of Sports</a>
-  <ul class="collapse">
-  <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">Projects</a></li>
-  </ul></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
+  <li><a href="#method" id="toc-method" class="nav-link" data-scroll-target="#method">Method</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#why-this-matters" id="toc-why-this-matters" class="nav-link" data-scroll-target="#why-this-matters">Why This Matters</a></li>
   </ul>
 </nav>
     </div>
@@ -194,14 +232,27 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ministry of Sports</h1>
+<h1 class="title">Mapping Heat-Related Illness Risk in Houston</h1>
+<p class="subtitle lead">Spatial epidemiology with a conditional autoregressive model</p>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Cooper Maughan </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 15, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -211,36 +262,37 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="ministry-of-sports" class="level1">
-<h1>⚽ Ministry of Sports</h1>
-<p>A running series of sports analytics mini-projects — statistical models, data visualizations, and applied analysis, each paired with a short video walkthrough on LinkedIn.</p>
-<p>The name is a nod to my time serving as a missionary in South Africa, home to the real Ministry of Sports, Arts and Culture — this is my own small, ongoing ministry of sorts: using data to better understand the games we love.</p>
-<hr>
-<section id="projects" class="level2">
-<h2 class="anchored" data-anchor-id="projects">Projects</h2>
-<div class="grid">
-<section id="does-college-pedigree-predict-nba-career-length" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="does-college-pedigree-predict-nba-career-length"><a href="../ministry_of_sports/nba-blue-blood-careers.html">Does College Pedigree Predict NBA Career Length?</a></h3>
-<p>A Bayesian (Poisson-Gamma) analysis comparing career length between “blue blood” college program alumni and other NBA players, with 95% credible intervals on the difference in means.</p>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>Heat-related illness isn’t evenly distributed across a city — it concentrates where air conditioning is scarce, where the population skews older or younger, and where poverty limits access to cooling. Working as if contracted by the Houston Health Department, I analyzed census-tract-level heat-illness counts to find out <strong>which neighborhood characteristics predict elevated risk, and where the city should focus outreach and resources.</strong></p>
 </section>
-<section id="what-predicts-an-nhl-players-plus-minus-score" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="what-predicts-an-nhl-players-plus-minus-score"><a href="../ministry_of_sports/nhl-plus-minus-model.html">What Predicts an NHL Player’s Plus-Minus Score?</a></h3>
-<p>Multiple linear regression with cross-validation, plus a <a href="https://nhl-explorer.streamlit.app/">live interactive explorer</a> built with Streamlit.</p>
+<section id="the-data" class="level2">
+<h2 class="anchored" data-anchor-id="the-data">The Data</h2>
+<p>Census-tract-level data covering heat-related illness counts and population, alongside demographic and socioeconomic covariates: median age, percentage Hispanic and Black population, percentage under 5 and over 65, poverty rate, percentage living alone, and minimum temperature.</p>
 </section>
-<section id="project-3" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="project-3">Project 3</h3>
-<p><em>Coming soon</em></p>
+<section id="method" class="level2">
+<h2 class="anchored" data-anchor-id="method">Method</h2>
+<p>Because neighboring census tracts tend to share similar risk (a hot, low-income area is usually next to another hot, low-income area), treating tracts as independent observations would understate uncertainty and miss spatial structure. I modeled the log relative risk of heat illness using a <strong>conditional autoregressive (CAR) model</strong> — a spatial regression that explicitly accounts for correlation between neighboring geographic units — fit with the <code>spmodel</code> package in R.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>spautor_model <span class="ot">&lt;-</span> <span class="fu">spautor</span>(</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  log_rel_risk <span class="sc">~</span> MED_AGE <span class="sc">+</span> HispanicPC <span class="sc">+</span> BlackPCT <span class="sc">+</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    under5PCT <span class="sc">+</span> over65PCT <span class="sc">+</span> povertyPCT <span class="sc">+</span> alonePCT <span class="sc">+</span> MinTemp,</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> dat_clean, <span class="at">spcov_type =</span> <span class="st">"car"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>I checked model assumptions with added-variable plots (linearity), residual histograms (normality), and residual-vs-fitted plots (equal variance) before finalizing the model, and reported pseudo-R² as a goodness-of-fit measure.</p>
 </section>
-<section id="project-4" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="project-4">Project 4</h3>
-<p><em>Coming soon</em></p>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<p>Risk concentrated predictably around known vulnerability factors — older median age, higher poverty rates, and higher shares of residents living alone were all associated with elevated relative risk, on top of the baseline effect of temperature itself. Mapping the fitted relative risk by tract produced a clear visual: risk isn’t just “hotter tracts are worse,” it’s a compounding effect of heat exposure and social vulnerability.</p>
+<p>The final deliverable was a public-health-style risk map and one-page prevention poster, translating the model into concrete guidance: stay hydrated, seek air-conditioned spaces, check on vulnerable neighbors, and never leave children in parked cars.</p>
 </section>
-</div>
-<hr>
-<p><em>New mini-projects added regularly — check back often, or follow along on LinkedIn to catch each release as it drops.</em></p>
+<section id="why-this-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-matters">Why This Matters</h2>
+<p>This is a template that generalizes directly to other place-based public health and policy problems — disease surveillance, emergency resource allocation, or any question where “where” is as important as “how much.” It also demonstrates translating a technical spatial model into a plain-language product a health department could actually use.</p>
+<p><strong>Skills demonstrated:</strong> spatial statistics (CAR models), model diagnostics, working with messy shapefile/census data, translating technical results for a non-technical audience, R (<code>spmodel</code>, <code>sf</code>).</p>
+<p><a href="reports/houston-heat-poster.pdf">📄 Prevention poster (PDF)</a></p>
+<p><em>Mini-project for Analysis of Correlated Data (BYU Statistics).</em></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

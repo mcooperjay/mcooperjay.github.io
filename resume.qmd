@@ -13,7 +13,7 @@ he/him/his &nbsp;|&nbsp; Salt Lake City / Provo, UT &nbsp;|&nbsp; mcooperjay@gma
 
 ### Profile
 
-Statistics major at Brigham Young University, graduating December 2026, with hands-on experience in regression, Bayesian methods, Biostatistics and machine learning through research, consulting, and teaching roles in the BYU Department of Statistics. Comfortable moving between technical modeling work and explaining results to non-technical audiences. Seeking a January 2027 analyst or data science role before starting a master's program in Fall 2027.
+Statistics major at Brigham Young University, graduating December 2026, with hands-on experience across regression, Bayesian inference, causal inference, spatial statistics, and functional data analysis through applied projects spanning public health, environmental data, and business forecasting. Comfortable moving between technical modeling work and explaining results to non-technical audiences. Seeking a January 2027 analyst or data science role before starting a master's program in Fall 2027.
 
 ### Experience
 
@@ -46,6 +46,17 @@ Statistics major at Brigham Young University, graduating December 2026, with han
 
 - Coursework: statistical modeling, regression, Bayesian methods, machine learning fundamentals, computational statistics, time series & autoregressive modeling
 
+### Selected Projects
+*Full write-ups at [mcooperjay.github.io/projects](https://mcooperjay.github.io/projects/index.html)*
+
+**Causal Inference: ICU Treatment Effects** — Estimated the causal effect of a diagnostic procedure on patient survival using propensity score matching, correcting a naive comparison that had the effect sign backwards due to confounding by indication.
+
+**Functional Data Analysis: Wildfire Severity Forecasting** — Applied a historical functional linear model to 30 years of national wildfire records, modeling monthly area-burned as a function of prior fire-count curves; outperformed an unrestricted baseline model.
+
+**Spatial Epidemiology: Heat-Illness Risk Mapping (Houston, TX)** — Built a conditional autoregressive (CAR) model of heat-related illness risk from census-tract demographic and climate data; delivered a public-facing risk map and prevention poster.
+
+**Time Series Forecasting: Company Growth** — Compared linear regression, ARIMA, Prophet, and spline-based models for forecasting quarterly growth from macroeconomic indicators, evaluated by out-of-sample RMSE.
+
 ### Skills
 
 **Programming:** Python, R, SQL, MATLAB \
@@ -55,7 +66,7 @@ Statistics major at Brigham Young University, graduating December 2026, with han
 
 ### Leadership & Involvement
 
-- Winner, 2026 BYU Statistics Case Study Competition, using a correlated autoregressive model to map NYC city council districts with reported rodent rates
+- **Winner, 2026 BYU Statistics Case Study Competition** — used a conditional autoregressive model to map NYC city council districts by confirmed rodent activity, distinguishing real infestation from reporting bias in 311 data ([write-up](https://mcooperjay.github.io/projects/nyc-rodent-risk.html))
 - President, BYU Sports Analytics Association (2026–2027)
 - Member, BYU Statistics Association and Mu Sigma Rho National Statistical Honor Society
 - Volunteer Missionary, Church of Jesus Christ of Latter-day Saints — South Africa/Lesotho/Eswatini (2021–2023): led weekly coordination meetings, mentored incoming volunteers

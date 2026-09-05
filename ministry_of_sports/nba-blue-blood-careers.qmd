@@ -1,0 +1,37 @@
+---
+title: "Does College Pedigree Predict NBA Career Length?"
+subtitle: "A Bayesian comparison of 'blue blood' and non-blue-blood alumni"
+author: "Cooper Maughan (with Jonas Schiel)"
+date: "2025-12-01"
+format:
+  html:
+    code-fold: true
+    toc: true
+---
+
+## Overview
+
+"Blue blood" college basketball programs — Duke, North Carolina, UCLA, Indiana, Kentucky, and Kansas — are historically dominant and heavily recruited from. The question: **does attending one of these programs actually predict a longer NBA career**, or is that reputation not backed up by the data? This matters to a recruit choosing a school and to a front office comparing two draft prospects.
+
+## Data & Method
+
+Using publicly available NBA player records (Kaggle), we computed each player's total years played and split the sample into blue-blood alumni and everyone else. Career length is a non-negative, discrete, right-skewed variable (most careers are short; a few are very long), which makes a **Poisson-Gamma conjugate model** a natural fit — the Poisson likelihood models the count of years played, and the Gamma prior (informed via data augmentation, with different shape parameters for each group reflecting our prior expectation of ~5 years for blue-blood alumni vs. ~3.5 for others) yields a closed-form posterior.
+
+We were explicit about the model's main limitation: years played within a single career aren't truly independent (a player who's already played 5 seasons is far more likely to play a 6th than a rookie is to play a 2nd), which the model can't capture. We treated this as a known simplification rather than pretending the assumption held.
+
+## Results
+
+- 95% credible interval for mean career length: **(5.09, 5.51) years** for blue-blood alumni vs. **(4.27, 4.40) years** for everyone else
+- 95% credible interval for the *difference* in means: **(0.74, 1.19) years** — meaning there's a 95% posterior probability the true gap falls in that range
+- Posterior predictive probability of a career longer than 5 years: **42.8%** for blue-blood alumni vs. **27.1%** for others
+- Posterior predictive probability of a career longer than 10 years: **1.8%** vs. **0.76%**
+
+The data support a real gap: blue-blood alumni have measurably longer expected NBA careers.
+
+## Limitations
+
+Career length is only one definition of "success" — it says nothing about points per game, awards, or team accomplishments. The "blue blood" label is also static; some programs on that list (UCLA, for instance) have struggled in recent years and arguably shouldn't be grouped with currently-dominant programs. A follow-up analysis could control for draft position, era, and position, or use a more current definition of blue-blood status.
+
+**Skills demonstrated:** Bayesian conjugate modeling (Poisson-Gamma), credible interval interpretation, posterior predictive probability, explicit reasoning about violated modeling assumptions.
+
+*Final project for Introduction to Bayesian Statistics (BYU Statistics, STAT 251), with Jonas Schiel.*

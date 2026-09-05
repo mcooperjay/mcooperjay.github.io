@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Cooper Maughan (with Jonas Schiel)">
+<meta name="dcterms.date" content="2025-12-01">
 
-<title>Ministry of Sports – Cooper Maughan - Data Science Portfolio</title>
+<title>Does College Pedigree Predict NBA Career Length? – Cooper Maughan - Data Science Portfolio</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -182,10 +184,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#ministry-of-sports" id="toc-ministry-of-sports" class="nav-link active" data-scroll-target="#ministry-of-sports">⚽ Ministry of Sports</a>
-  <ul class="collapse">
-  <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">Projects</a></li>
-  </ul></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#data-method" id="toc-data-method" class="nav-link" data-scroll-target="#data-method">Data &amp; Method</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">Limitations</a></li>
   </ul>
 </nav>
     </div>
@@ -194,14 +196,27 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ministry of Sports</h1>
+<h1 class="title">Does College Pedigree Predict NBA Career Length?</h1>
+<p class="subtitle lead">A Bayesian comparison of ‘blue blood’ and non-blue-blood alumni</p>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Cooper Maughan (with Jonas Schiel) </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 1, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -211,36 +226,32 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="ministry-of-sports" class="level1">
-<h1>⚽ Ministry of Sports</h1>
-<p>A running series of sports analytics mini-projects — statistical models, data visualizations, and applied analysis, each paired with a short video walkthrough on LinkedIn.</p>
-<p>The name is a nod to my time serving as a missionary in South Africa, home to the real Ministry of Sports, Arts and Culture — this is my own small, ongoing ministry of sorts: using data to better understand the games we love.</p>
-<hr>
-<section id="projects" class="level2">
-<h2 class="anchored" data-anchor-id="projects">Projects</h2>
-<div class="grid">
-<section id="does-college-pedigree-predict-nba-career-length" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="does-college-pedigree-predict-nba-career-length"><a href="../ministry_of_sports/nba-blue-blood-careers.html">Does College Pedigree Predict NBA Career Length?</a></h3>
-<p>A Bayesian (Poisson-Gamma) analysis comparing career length between “blue blood” college program alumni and other NBA players, with 95% credible intervals on the difference in means.</p>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>“Blue blood” college basketball programs — Duke, North Carolina, UCLA, Indiana, Kentucky, and Kansas — are historically dominant and heavily recruited from. The question: <strong>does attending one of these programs actually predict a longer NBA career</strong>, or is that reputation not backed up by the data? This matters to a recruit choosing a school and to a front office comparing two draft prospects.</p>
 </section>
-<section id="what-predicts-an-nhl-players-plus-minus-score" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="what-predicts-an-nhl-players-plus-minus-score"><a href="../ministry_of_sports/nhl-plus-minus-model.html">What Predicts an NHL Player’s Plus-Minus Score?</a></h3>
-<p>Multiple linear regression with cross-validation, plus a <a href="https://nhl-explorer.streamlit.app/">live interactive explorer</a> built with Streamlit.</p>
+<section id="data-method" class="level2">
+<h2 class="anchored" data-anchor-id="data-method">Data &amp; Method</h2>
+<p>Using publicly available NBA player records (Kaggle), we computed each player’s total years played and split the sample into blue-blood alumni and everyone else. Career length is a non-negative, discrete, right-skewed variable (most careers are short; a few are very long), which makes a <strong>Poisson-Gamma conjugate model</strong> a natural fit — the Poisson likelihood models the count of years played, and the Gamma prior (informed via data augmentation, with different shape parameters for each group reflecting our prior expectation of ~5 years for blue-blood alumni vs.&nbsp;~3.5 for others) yields a closed-form posterior.</p>
+<p>We were explicit about the model’s main limitation: years played within a single career aren’t truly independent (a player who’s already played 5 seasons is far more likely to play a 6th than a rookie is to play a 2nd), which the model can’t capture. We treated this as a known simplification rather than pretending the assumption held.</p>
 </section>
-<section id="project-3" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="project-3">Project 3</h3>
-<p><em>Coming soon</em></p>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<ul>
+<li>95% credible interval for mean career length: <strong>(5.09, 5.51) years</strong> for blue-blood alumni vs.&nbsp;<strong>(4.27, 4.40) years</strong> for everyone else</li>
+<li>95% credible interval for the <em>difference</em> in means: <strong>(0.74, 1.19) years</strong> — meaning there’s a 95% posterior probability the true gap falls in that range</li>
+<li>Posterior predictive probability of a career longer than 5 years: <strong>42.8%</strong> for blue-blood alumni vs.&nbsp;<strong>27.1%</strong> for others</li>
+<li>Posterior predictive probability of a career longer than 10 years: <strong>1.8%</strong> vs.&nbsp;<strong>0.76%</strong></li>
+</ul>
+<p>The data support a real gap: blue-blood alumni have measurably longer expected NBA careers.</p>
 </section>
-<section id="project-4" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="project-4">Project 4</h3>
-<p><em>Coming soon</em></p>
-</section>
-</div>
-<hr>
-<p><em>New mini-projects added regularly — check back often, or follow along on LinkedIn to catch each release as it drops.</em></p>
+<section id="limitations" class="level2">
+<h2 class="anchored" data-anchor-id="limitations">Limitations</h2>
+<p>Career length is only one definition of “success” — it says nothing about points per game, awards, or team accomplishments. The “blue blood” label is also static; some programs on that list (UCLA, for instance) have struggled in recent years and arguably shouldn’t be grouped with currently-dominant programs. A follow-up analysis could control for draft position, era, and position, or use a more current definition of blue-blood status.</p>
+<p><strong>Skills demonstrated:</strong> Bayesian conjugate modeling (Poisson-Gamma), credible interval interpretation, posterior predictive probability, explicit reasoning about violated modeling assumptions.</p>
+<p><em>Final project for Introduction to Bayesian Statistics (BYU Statistics, STAT 251), with Jonas Schiel.</em></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

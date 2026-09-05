@@ -1,0 +1,64 @@
+---
+title: "Does a Risky Procedure Actually Increase Mortality?"
+subtitle: "Causal inference with propensity score matching on Right Heart Catheterization data"
+author: "Cooper Maughan"
+date: "2026-03-01"
+format:
+  html:
+    code-fold: true
+    toc: true
+---
+
+## Overview
+
+Right Heart Catheterization (RHC) is a diagnostic procedure used on critically ill ICU patients. In the raw data, patients who receive RHC die at noticeably higher rates than those who don't — which raises an uncomfortable question: **does the procedure itself increase the risk of death, or are doctors simply choosing to perform it on the patients who were already the sickest?**
+
+This is a textbook case of confounding by indication, and it's a good showcase for why "the numbers say X" is often the wrong takeaway until you've asked *why* the data looks that way.
+
+## The Data
+
+The dataset comes from a well-known ICU study and includes treatment status (RHC vs. not), survival outcome, and a wide set of pre-treatment confounders — age, income, insurance type, and physiological severity markers like mean blood pressure, heart rate, and organ dysfunction scores. It's a genuinely messy, high-dimensional dataset, which is part of what makes it a useful exercise: real clinical data rarely comes clean.
+
+## Method
+
+I estimated the Average Treatment Effect on the Treated (ATT) using propensity score matching:
+
+- Fit a logistic regression propensity score model using only pre-treatment variables
+- Matched 1:1 nearest-neighbor without replacement, using a caliper of 0.2 on the logit propensity score to exclude implausible matches
+- Checked covariate balance before and after matching with a Love plot and standardized mean differences
+- Estimated the ATT with a weighted logistic regression on the matched sample, incorporating matching weights
+
+```r
+m_out <- matchit(
+  formula = ps_formula,
+  data = RHC_use,
+  method   = "nearest",
+  distance = "glm",
+  estimand = "ATT",
+  ratio    = 1,
+  caliper  = 0.2,
+  replace  = FALSE
+)
+
+fit_att <- glm(survival ~ RHC, data = match.data(m_out),
+                family = binomial, weights = weights)
+```
+
+I chose a logistic propensity score for interpretability, a tight-ish caliper to prioritize match quality over sample size, and no replacement to avoid a small number of controls dominating the estimate — a defensible but not the only reasonable set of choices, which is part of the point of the exercise.
+
+## Results
+
+Before matching, several key severity measures (APACHE score, mean arterial pressure, organ dysfunction markers) showed large imbalances between treated and control patients. After matching, nearly all covariates fell within a standardized mean difference of ±0.1.
+
+The matched-sample estimate: **RHC is associated with an approximately 5.1 percentage point *decrease* in probability of death (95% CI: −8.1 to −2.1 points, p = 0.001).**
+
+That's the opposite direction of the naive, unadjusted comparison — which is the whole story here. Once you account for the fact that RHC was preferentially given to sicker patients, the picture flips substantially. The matching procedure retained about 86% of treated patients (1,870 of 2,184); the remaining 14% were too clinically extreme to find a comparable control, so the estimate applies to the broader population of treated patients but not to that highest-risk subgroup.
+
+## What This Demonstrates
+
+- Recognizing and correcting for confounding by indication, not just fitting a model on raw data
+- Making and defending non-arbitrary modeling choices (caliper, matching ratio, replacement) and understanding their trade-offs
+- Being explicit about the limits of a causal estimate — who it generalizes to and who it doesn't
+- Comfort with a messy, real-world clinical dataset, not a cleaned-up textbook example
+
+*Course project for Applied Biostatistics (BYU Statistics). Full analysis code available on request.*

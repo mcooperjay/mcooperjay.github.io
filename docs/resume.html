@@ -104,23 +104,48 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./resume.html" aria-current="page"> 
 <span class="menu-text">Resume</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./ministry_of_sports/index.html"> 
-<span class="menu-text">Ministry of Sports</span></a>
-  </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-school-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">School Projects</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-school-projects">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
         <li>
-    <a class="dropdown-item" href="./tutorial_1.html">
- <span class="dropdown-text">Tutorial</span></a>
+    <a class="dropdown-item" href="./projects/index.html">
+ <span class="dropdown-text">All Projects</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
+    <a class="dropdown-item" href="./projects/nyc-rodent-risk.html">
+ <span class="dropdown-text">Mapping NYC Rodent Complaints (Case Comp. Win)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/rhc-causal-inference.html">
+ <span class="dropdown-text">Causal Inference: RHC &amp; Survival</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/wildfire-functional-regression.html">
+ <span class="dropdown-text">Functional Data Analysis: Wildfires</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/houston-heat-risk.html">
+ <span class="dropdown-text">Spatial Epidemiology: Houston Heat Risk</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/company-growth-forecasting.html">
+ <span class="dropdown-text">Forecasting: Company Growth</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="./ministry_of_sports/index.html">
+ <span class="dropdown-text">Ministry of Sports</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="./data-acquisition.html">
  <span class="dropdown-text">Data Acquisition</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./tutorial_1.html">
+ <span class="dropdown-text">Tutorial</span></a>
   </li>  
     </ul>
   </li>
@@ -180,7 +205,7 @@ ul.task-list li input[type="checkbox"] {
 <p>he/him/his &nbsp;|&nbsp; Salt Lake City / Provo, UT &nbsp;|&nbsp; mcooperjay@gmail.com &nbsp;|&nbsp; <a href="https://www.linkedin.com/in/cooper-maughan-95660a301/">LinkedIn</a> &nbsp;|&nbsp; <a href="https://github.com/mcooperjay">GitHub</a> &nbsp;|&nbsp; <a href="https://wa.me/mcooperjay">WhatsApp</a></p>
 <section id="profile" class="level3">
 <h3 class="anchored" data-anchor-id="profile">Profile</h3>
-<p>Statistics major at Brigham Young University, graduating December 2026, with hands-on experience in regression, Bayesian methods, Biostatistics and machine learning through research, consulting, and teaching roles in the BYU Department of Statistics. Comfortable moving between technical modeling work and explaining results to non-technical audiences. Seeking a January 2027 analyst or data science role before starting a master’s program in Fall 2027.</p>
+<p>Statistics major at Brigham Young University, graduating December 2026, with hands-on experience across regression, Bayesian inference, causal inference, spatial statistics, and functional data analysis through applied projects spanning public health, environmental data, and business forecasting. Comfortable moving between technical modeling work and explaining results to non-technical audiences. Seeking a January 2027 analyst or data science role before starting a master’s program in Fall 2027.</p>
 </section>
 <section id="experience" class="level3">
 <h3 class="anchored" data-anchor-id="experience">Experience</h3>
@@ -215,6 +240,14 @@ ul.task-list li input[type="checkbox"] {
 <li>Coursework: statistical modeling, regression, Bayesian methods, machine learning fundamentals, computational statistics, time series &amp; autoregressive modeling</li>
 </ul>
 </section>
+<section id="selected-projects" class="level3">
+<h3 class="anchored" data-anchor-id="selected-projects">Selected Projects</h3>
+<p><em>Full write-ups at <a href="https://mcooperjay.github.io/projects/index.html">mcooperjay.github.io/projects</a></em></p>
+<p><strong>Causal Inference: ICU Treatment Effects</strong> — Estimated the causal effect of a diagnostic procedure on patient survival using propensity score matching, correcting a naive comparison that had the effect sign backwards due to confounding by indication.</p>
+<p><strong>Functional Data Analysis: Wildfire Severity Forecasting</strong> — Applied a historical functional linear model to 30 years of national wildfire records, modeling monthly area-burned as a function of prior fire-count curves; outperformed an unrestricted baseline model.</p>
+<p><strong>Spatial Epidemiology: Heat-Illness Risk Mapping (Houston, TX)</strong> — Built a conditional autoregressive (CAR) model of heat-related illness risk from census-tract demographic and climate data; delivered a public-facing risk map and prevention poster.</p>
+<p><strong>Time Series Forecasting: Company Growth</strong> — Compared linear regression, ARIMA, Prophet, and spline-based models for forecasting quarterly growth from macroeconomic indicators, evaluated by out-of-sample RMSE.</p>
+</section>
 <section id="skills" class="level3">
 <h3 class="anchored" data-anchor-id="skills">Skills</h3>
 <p><strong>Programming:</strong> Python, R, SQL, MATLAB<br>
@@ -225,7 +258,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="leadership-involvement" class="level3">
 <h3 class="anchored" data-anchor-id="leadership-involvement">Leadership &amp; Involvement</h3>
 <ul>
-<li>Winner, 2026 BYU Statistics Case Study Competition, using a correlated autoregressive model to map NYC city council districts with reported rodent rates</li>
+<li><strong>Winner, 2026 BYU Statistics Case Study Competition</strong> — used a conditional autoregressive model to map NYC city council districts by confirmed rodent activity, distinguishing real infestation from reporting bias in 311 data (<a href="https://mcooperjay.github.io/projects/nyc-rodent-risk.html">write-up</a>)</li>
 <li>President, BYU Sports Analytics Association (2026–2027)</li>
 <li>Member, BYU Statistics Association and Mu Sigma Rho National Statistical Honor Society</li>
 <li>Volunteer Missionary, Church of Jesus Christ of Latter-day Saints — South Africa/Lesotho/Eswatini (2021–2023): led weekly coordination meetings, mentored incoming volunteers</li>
