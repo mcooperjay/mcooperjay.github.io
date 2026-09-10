@@ -4,6 +4,8 @@ title: "About Me"
 
 ## Background
 
+![](photos/IMG_2335.JPG){.profile-photo style="float:right; width:200px; max-width:300px; height:auto; margin:0 0 1rem 1.5rem; border-radius:6px;"}
+
 I'm a Senior in the Statistics major, Biostatistics emphasis, at Brigham Young University, graduating December 2026.
 
 I'm drawn to problems where the data is messy, the stakes are real, and the right statistical tool isn't obvious upfront — whether that's untangling confounding in a clinical dataset, modeling spatial patterns in public health risk, or figuring out which forecasting method actually generalizes. I've applied that across a fairly wide range of settings: biostatistics and causal inference, environmental data, spatial epidemiology, business forecasting, and sports analytics. See my [Projects page](projects/index.md) for the full range.
@@ -12,6 +14,9 @@ I'm drawn to problems where the data is messy, the stakes are real, and the righ
 
 - **B.S. Statistics, Biostatistics Emphasis** — Brigham Young University, expected December 2026
 - **Relevant coursework**: regression modeling, Bayesian methods, causal inference, spatial statistics, functional data analysis, mixed methods & correlated data, machine learning fundamentals
+- Inducted into **Mu Sigma Rho**, the National Statistical Honor Society, recognizing academic achievement in statistics.
+
+![Being inducted into Mu Sigma Rho](photos/IMG_3583.JPG){width=400px}
 
 ## Skills & Interests
 
@@ -22,6 +27,12 @@ I'm drawn to problems where the data is messy, the stakes are real, and the righ
 
 ### Areas of Interest
 Biostatistics and medical statistics, environmental and spatial data, applied causal inference, and sports analytics through my Ministry of Sports project series.
+
+## Speaking & Presenting
+
+I presented "Local CorEx" at the Red Rocks Data Science Conference in June 2026, sharing my applied work with a broader statistics and data science audience.
+
+![Presenting at a data science conference, June 2026](photos/IMG_3918.JPG){width=500px}
 
 ## Goals
 

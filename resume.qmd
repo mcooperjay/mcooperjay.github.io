@@ -13,7 +13,22 @@ he/him/his &nbsp;|&nbsp; Salt Lake City / Provo, UT &nbsp;|&nbsp; mcooperjay@gma
 
 ### Profile
 
-Statistics major at Brigham Young University, graduating December 2026, with hands-on experience across regression, Bayesian inference, causal inference, spatial statistics, and functional data analysis through applied projects spanning public health, environmental data, and business forecasting. Comfortable moving between technical modeling work and explaining results to non-technical audiences. Seeking a January 2027 analyst or data science role before starting a master's program in Fall 2027.
+Statistics major at BYU (B.S., Biostatistics Emphasis; graduating Dec. 2026) with experience in regression, causal inference, spatial analysis, and forecasting across public health, environmental, and business settings. Skilled at translating technical results for non-technical audiences. Seeking an analyst or data science role starting January 2027.
+
+### Skills
+
+**Programming:** Python, SQL, R, SAS \
+**Tools:** pandas, NumPy, scikit-learn, Tableau, Excel, Git/GitHub, Jupyter Notebooks, RStudio \
+**Also familiar with:** PyTorch, MATLAB \
+**Methods:** Regression modeling, A/B testing & experimental design, supervised learning, time series forecasting, data cleaning & EDA, Bayesian inference
+
+### Education
+
+**Brigham Young University** — Provo, UT \
+*B.S. Statistics, Biostatistics Emphasis | Expected December 2026*
+
+- GPA: 3.58 (Major GPA: 3.59)
+- Relevant coursework: statistical modeling, regression, Bayesian methods, machine learning fundamentals, computational statistics, time series & autoregressive modeling
 
 ### Experience
 
@@ -30,7 +45,7 @@ Statistics major at Brigham Young University, graduating December 2026, with han
 - Collaborate with faculty and researchers using Git/GitHub for version control on shared modeling code in Python and Jupyter Notebooks.
 
 **Teaching Assistant** | BYU Department of Statistics — STAT 121/250 \
-*Provo, UT — Aug 2025 – Apr 2026*ç
+*Provo, UT — Aug 2025 – Apr 2026*
 
 - Teach and troubleshoot statistical modeling, R programming, and data analysis workflows for undergraduate students; support instructors with grading and content development.
 
@@ -39,35 +54,19 @@ Statistics major at Brigham Young University, graduating December 2026, with han
 
 - Taught statistical methods and quantitative reasoning to graduate students; graded assignments and provided one-on-one support in Excel and statistical tools.
 
-### Education
-
-**Brigham Young University** — Provo, UT \
-*B.S. Statistics, Biostatistics Emphasis | Expected December 2026*
-
-- Coursework: statistical modeling, regression, Bayesian methods, machine learning fundamentals, computational statistics, time series & autoregressive modeling
-
 ### Selected Projects
-*Full write-ups at [mcooperjay.github.io/projects](https://mcooperjay.github.io/projects/index.html)*
+*Full write-ups: [mcooperjay.github.io/projects](https://mcooperjay.github.io/projects/index.html)*
 
-**Causal Inference: ICU Treatment Effects** — Estimated the causal effect of a diagnostic procedure on patient survival using propensity score matching, correcting a naive comparison that had the effect sign backwards due to confounding by indication.
+**Causal Inference: ICU Treatment Effects** — Used propensity score matching to correct a confounded comparison, reversing its conclusion on patient survival.
 
-**Functional Data Analysis: Wildfire Severity Forecasting** — Applied a historical functional linear model to 30 years of national wildfire records, modeling monthly area-burned as a function of prior fire-count curves; outperformed an unrestricted baseline model.
+**Functional Data Analysis: Wildfire Severity Forecasting** — Modeled 30 years of national wildfire data with a functional linear model, outperforming an unrestricted baseline.
 
-**Spatial Epidemiology: Heat-Illness Risk Mapping (Houston, TX)** — Built a conditional autoregressive (CAR) model of heat-related illness risk from census-tract demographic and climate data; delivered a public-facing risk map and prevention poster.
+**Spatial Epidemiology: Heat-Illness Risk Mapping (Houston, TX)** — Built a CAR model of heat-illness risk from census-tract data; delivered a public risk map and prevention poster.
 
-**Time Series Forecasting: Company Growth** — Compared linear regression, ARIMA, Prophet, and spline-based models for forecasting quarterly growth from macroeconomic indicators, evaluated by out-of-sample RMSE.
-
-### Skills
-
-**Programming:** Python, R, SQL, MATLAB \
-**Familiar with:** PyTorch, Tableau \
-**Tools:** pandas, NumPy, Matplotlib, RStudio, Git/GitHub, Jupyter Notebooks, Excel, scikit-learn \
-**Methods:** Regression modeling, Bayesian inference, supervised learning, experimental design, EDA, time series & autoregressive modeling, data cleaning
+**Time Series Forecasting: Company Growth** — Compared ARIMA, Prophet, and regression-based models for quarterly growth forecasting, evaluated by out-of-sample RMSE.
 
 ### Leadership & Involvement
 
-- **Winner, 2026 BYU Statistics Case Study Competition** — used a conditional autoregressive model to map NYC city council districts by confirmed rodent activity, distinguishing real infestation from reporting bias in 311 data ([write-up](https://mcooperjay.github.io/projects/nyc-rodent-risk.html))
-- President, BYU Sports Analytics Association (2026–2027)
-- Member, BYU Statistics Association and Mu Sigma Rho National Statistical Honor Society
+- **Winner, 2026 BYU Statistics Case Study Competition** — used a CAR model to map NYC rodent-activity risk, separating true infestation from reporting bias ([write-up](https://mcooperjay.github.io/projects/nyc-rodent-risk.html))
+- President, BYU Sports Analytics Association (2026–2027); Student Advisory Council Rep; FCA President; Member, BYU Statistics Association & Mu Sigma Rho National Statistical Honor Society
 - Volunteer Missionary, Church of Jesus Christ of Latter-day Saints — South Africa/Lesotho/Eswatini (2021–2023): led weekly coordination meetings, mentored incoming volunteers
-- Additional leadership: Student Advisory Council representative; Fellowship of Christian Athletes president
