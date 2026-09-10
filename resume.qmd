@@ -9,11 +9,7 @@ format:
 ---
 
 ## Cooper Maughan
-he/him/his &nbsp;|&nbsp; Salt Lake City / Provo, UT &nbsp;|&nbsp; mcooperjay@gmail.com &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/cooper-maughan-95660a301/) &nbsp;|&nbsp; [GitHub](https://github.com/mcooperjay) &nbsp;|&nbsp; [WhatsApp](https://wa.me/mcooperjay)
-
-### Profile
-
-Statistics major at BYU (B.S., Biostatistics Emphasis; graduating Dec. 2026) with experience in regression, causal inference, spatial analysis, and forecasting across public health, environmental, and business settings. Skilled at translating technical results for non-technical audiences. Seeking an analyst or data science role starting January 2027.
+he/him/his &nbsp;|&nbsp; mcooperjay@gmail.com &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/mcooperjay):www.linkedin.com/in/mcooperjay &nbsp;|&nbsp; [GitHub](https://github.com/mcooperjay): github.com/mcooperjay &nbsp;|&nbsp; [WhatsApp](https://wa.me/mcooperjay): wa.me/mcooperjay
 
 ### Skills
 
@@ -33,40 +29,40 @@ Statistics major at BYU (B.S., Biostatistics Emphasis; graduating Dec. 2026) wit
 ### Experience
 
 **Statistical Consultant** | BYU Statistics Consulting Center \
-*Provo, UT — Sep 2026 – Present*
+*Provo, UT — Sep 2026 – Present | Faculty Advisor: Dr. Greg Snow*
 
-- Advise campus researchers and community clients on study design, methodology selection, and interpretation of statistical results. 
-- Translate statistical findings into plain-language recommendations for clients without a quantitative background.
+- Advise campus researchers and community clients on study design, methodology selection, and interpretation of statistical results
+- Translate statistical findings into plain-language recommendations for clients without a quantitative background
 
 **Research Assistant** | BYU Department of Statistics — CorEx Systems Project \
-*Provo, UT — Jan 2026 – Present*
+*Provo, UT — Jan 2026 – Present | PI: Dr. Tom Kerby*
 
-- Build and train PyTorch models on GPU compute clusters, applying deep learning and information-theoretic methods (mutual information, total correlation) to ongoing department research.
-- Collaborate with faculty and researchers using Git/GitHub for version control on shared modeling code in Python and Jupyter Notebooks.
+- Build and train PyTorch models on GPU compute clusters, applying deep learning and information-theoretic methods (mutual information, total correlation) to ongoing department research
+- Collaborate with faculty and researchers using Git/GitHub for version control on shared modeling code in Python and Jupyter Notebooks
 
 **Teaching Assistant** | BYU Department of Statistics — STAT 121/250 \
-*Provo, UT — Aug 2025 – Apr 2026*
+*Provo, UT — Aug 2025 – Apr 2026 | Instructor: Dr. Nate Sandholtz*
 
-- Teach and troubleshoot statistical modeling, R programming, and data analysis workflows for undergraduate students; support instructors with grading and content development.
+- Taught statistical modeling, R programming, and data analysis workflows to undergraduate course sections of 40–100 students; helped raise average grades by 10–20% through office hours and content revisions
 
 **Teaching Assistant** | BYU Salt Lake Center — MPA 630 \
-*Salt Lake City, UT — Jan 2025 – Apr 2025*
+*Salt Lake City, UT — Jan 2025 – Apr 2025 | Instructor: Assoc. Prof. Kayden Maughan*
 
-- Taught statistical methods and quantitative reasoning to graduate students; graded assignments and provided one-on-one support in Excel and statistical tools.
+- Taught statistical methods and quantitative reasoning to roughly 30 graduate students; graded assignments and provided one-on-one support in Excel and statistical tools
 
 ### Selected Projects
 *Full write-ups: [mcooperjay.github.io/projects](https://mcooperjay.github.io/projects/index.html)*
 
-**Causal Inference: ICU Treatment Effects** — Used propensity score matching to correct a confounded comparison, reversing its conclusion on patient survival.
+**Causal Inference: ICU Treatment Effects** — Used propensity score matching to correct a confounded comparison, reversing its conclusion on patient survival
 
-**Functional Data Analysis: Wildfire Severity Forecasting** — Modeled 30 years of national wildfire data with a functional linear model, outperforming an unrestricted baseline.
+**Functional Data Analysis: Wildfire Severity Forecasting** — Modeled 30 years of national wildfire data with a functional linear model, outperforming an unrestricted baseline
 
-**Spatial Epidemiology: Heat-Illness Risk Mapping (Houston, TX)** — Built a CAR model of heat-illness risk from census-tract data; delivered a public risk map and prevention poster.
+**Spatial Epidemiology: Heat-Illness Risk Mapping (Houston, TX)** — Built a CAR model of heat-illness risk from census-tract data; delivered a public risk map and prevention poster
 
-**Time Series Forecasting: Company Growth** — Compared ARIMA, Prophet, and regression-based models for quarterly growth forecasting, evaluated by out-of-sample RMSE.
+**Time Series Forecasting: Company Growth** — Compared ARIMA, Prophet, and regression-based models for quarterly growth forecasting, evaluated by out-of-sample RMSE
 
 ### Leadership & Involvement
 
 - **Winner, 2026 BYU Statistics Case Study Competition** — used a CAR model to map NYC rodent-activity risk, separating true infestation from reporting bias ([write-up](https://mcooperjay.github.io/projects/nyc-rodent-risk.html))
-- President, BYU Sports Analytics Association (2026–2027); Student Advisory Council Rep; FCA President; Member, BYU Statistics Association & Mu Sigma Rho National Statistical Honor Society
-- Volunteer Missionary, Church of Jesus Christ of Latter-day Saints — South Africa/Lesotho/Eswatini (2021–2023): led weekly coordination meetings, mentored incoming volunteers
+- **President, BYU Sports Analytics Association (2026–2027)**; **Member, BYU Statistics Association** & **Mu Sigma Rho National Statistical Honor Society**
+- **Full-time Volunteer, Religious Organization**— South Africa/Lesotho/Eswatini (2021–2023): led weekly coordination meetings, mentored incoming volunteers, planned and lead humanitarian efforts and rebuilt homes after flooding
