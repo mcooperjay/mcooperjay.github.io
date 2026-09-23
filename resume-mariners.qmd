@@ -1,0 +1,74 @@
+---
+title: "Resume"
+toc: false
+format:
+  html:
+    theme: [cosmo, theme.scss]
+    css: styles.css
+    page-layout: article
+---
+
+## Cooper Maughan
+he/him/his &nbsp;|&nbsp; mcooperjay@gmail.com &nbsp;|&nbsp; [linkedin.com/in/mcooperjay](https://www.linkedin.com/in/mcooperjay) &nbsp;|&nbsp; [github.com/mcooperjay](https://github.com/mcooperjay) &nbsp;|&nbsp; [wa.me/mcooperjay](https://wa.me/mcooperjay) &nbsp;|&nbsp; Phone: +1(509)430-5121
+
+### Skills
+
+**Programming:** Python, R \
+**Tools:** PyTorch, Pandas, NumPy, scikit-learn, Excel, Git/GitHub, Jupyter Notebooks, RStudio, Streamlit \
+**Also familiar with:** SAS, SQL, Tableau \
+**Methods:** Regression modeling (linear, logistic, ordinal), A/B testing & experimental design, supervised learning, time series forecasting, data cleaning & EDA, Bayesian inference
+
+### Education
+
+**Brigham Young University** — Provo, UT \
+*B.S. Statistics, Biostatistics Emphasis | Expected December 2026*
+
+- GPA: 3.58 (Major GPA: 3.59)
+- Relevant coursework: statistical modeling, regression, Bayesian methods, machine learning fundamentals, computational statistics, time series & autoregressive modeling
+
+### Experience
+
+**Statistical Consultant** | BYU Statistics Consulting Center \
+*Provo, UT — Sep 2026 – Present | Faculty Advisor: Dr. Greg Snow*
+
+- Advise campus researchers and community clients on study design, methodology selection, and interpretation of statistical results
+- Translate statistical findings into plain-language recommendations for clients without a quantitative background
+
+**Research Assistant** | BYU Department of Statistics — CorEx Systems Project \
+*Provo, UT — Jan 2026 – Present | PI: Dr. Tom Kerby*
+
+- Build and train PyTorch models on GPU compute clusters, applying deep learning and information-theoretic methods (mutual information, total correlation) to ongoing department research
+- Collaborate with faculty and researchers using Git/GitHub for version control on shared modeling code in Python and Jupyter Notebooks
+
+**Teaching Assistant** | BYU Department of Statistics — STAT 121/250 \
+*Provo, UT — Aug 2025 – Apr 2026 | Instructor: Dr. Nate Sandholtz*
+
+- Taught statistical modeling, R programming, and data analysis workflows to undergraduate course sections of 40–100 students; helped raise average grades by 10–20% through office hours and content revisions
+
+**Teaching Assistant** | BYU Salt Lake Center — MPA 630 \
+*Salt Lake City, UT — Jan 2025 – Apr 2025 | Instructor: Assoc. Prof. Kayden Maughan*
+
+- Taught statistical methods and quantitative reasoning to roughly 30 graduate students; graded assignments and provided one-on-one support in Excel and statistical tools
+
+### Selected Projects
+*Full write-ups: [mcooperjay.github.io/projects](https://mcooperjay.github.io/projects/index.html)*
+
+**NYC Rodent-Activity Risk Mapping** — Built a conditional autoregressive (CAR) model to map rodent activity across NYC city council districts, separating true infestation from reporting bias in 311 data; won the 2026 BYU Statistics Case Study Competition ([write-up](https://mcooperjay.github.io/projects/nyc-rodent-risk.html))
+
+**NHL Trade Analysis Tool** — Built a multiple linear regression (cross-validated across 1,000 splits) on 25 years of NHL data to model on-ice performance, then developed a Streamlit app identifying undervalued players and potential trade targets
+
+**NBA Career Longevity (Bayesian)** — Used a Poisson-Gamma Bayesian model on NBA career records to test whether "blue-blood" college programs predict longer NBA careers, quantifying the effect through posterior credible intervals
+
+**ICU Treatment Effects** — Applied causal inference (propensity score matching) to correct a confounded comparison, reversing its conclusion on patient survival
+
+**Wildfire Severity Forecasting** — Used functional data analysis, applying a historical functional linear model to 30 years of national wildfire data, outperforming an unrestricted baseline
+
+**Heat-Illness Risk Mapping (Houston, TX)** — Applied spatial epidemiology methods, building a CAR model of heat-illness risk from census-tract data; delivered a public risk map and prevention poster
+
+**Company Growth Forecasting** — Compared time series models (ARIMA, Prophet, regression-based) for quarterly growth forecasting, evaluated by out-of-sample RMSE
+
+### Leadership & Involvement
+
+- **Winner, 2026 BYU Statistics Case Study Competition** (see Selected Projects)
+- **President, BYU Sports Analytics Association (2026–2027)**; **Member, BYU Statistics Association & Mu Sigma Rho National Statistical Honor Society**
+- **Full-time Volunteer, Religious Organization** — South Africa/Lesotho/Eswatini (2021–2023): led weekly coordination meetings, mentored incoming volunteers, and led rebuilding efforts after flooding

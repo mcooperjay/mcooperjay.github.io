@@ -8,23 +8,67 @@ format:
     page-layout: article
 ---
 
+```{=html}
+<style>
+  .print-button {
+    display: block;
+    margin: 0 0 12px;
+    padding: 6px 14px;
+    font: inherit;
+    font-size: 0.9rem;
+    border: 1px solid currentColor;
+    background: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  @page { size: Letter; margin: 0.4in 0.55in; }
+
+  @media print {
+    header, nav, footer, .navbar, #quarto-header, .nav-footer,
+    #quarto-sidebar, #quarto-margin-sidebar, #TOC, .page-navigation,
+    #title-block-header, .no-print { display: none !important; }
+
+    #quarto-content, .page-columns, main.content {
+      display: block !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    body { font-size: 9.5pt; line-height: 1.25; }
+    h2 { margin-top: 0; }
+    h3 { margin: 8px 0 3px; font-size: 11.5pt; break-after: avoid; }
+    p, ul { margin-bottom: 3px; }
+    * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    a[href]:after { content: none !important; }
+  }
+</style>
+
+<button class="print-button no-print" onclick="window.print()">Print / Save as PDF</button>
+```
+
 ## Cooper Maughan
-he/him/his &nbsp;|&nbsp; mcooperjay@gmail.com &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/mcooperjay):www.linkedin.com/in/mcooperjay &nbsp;|&nbsp; [GitHub](https://github.com/mcooperjay): github.com/mcooperjay &nbsp;|&nbsp; [WhatsApp](https://wa.me/mcooperjay): wa.me/mcooperjay
+he/him/his
+&nbsp;|&nbsp; mcooperjay@gmail.com
+&nbsp;|&nbsp; [linkedin.com/in/mcooperjay](https://www.linkedin.com/in/mcooperjay)
+&nbsp;|&nbsp; [github.com/mcooperjay](https://github.com/mcooperjay)
+&nbsp;|&nbsp; [wa.me/mcooperjay](https://wa.me/mcooperjay)
+&nbsp;|&nbsp; +1(509)430-5121 \
+*Available January - August, 2027 | Able to work onsite in Atlanta, GA*
 
 ### Skills
 
-**Programming:** Python, SQL, R, SAS \
-**Tools:** pandas, NumPy, scikit-learn, Tableau, Excel, Git/GitHub, Jupyter Notebooks, RStudio \
-**Also familiar with:** PyTorch, MATLAB \
-**Methods:** Regression modeling, A/B testing & experimental design, supervised learning, time series forecasting, data cleaning & EDA, Bayesian inference
+**Programming:** Python, R, SQL \
+**ML & Data Tools:** scikit-learn, PyTorch, Pandas, NumPy, Jupyter, Git/GitHub, RStudio, Streamlit, Excel; also familiar with SAS, Tableau \
+**Methods:** Supervised learning, regression modeling (linear, logistic, ordinal), time series forecasting, data cleaning & EDA, A/B testing & experimental design, causal inference, Bayesian inference, spatial modeling
 
 ### Education
 
 **Brigham Young University** — Provo, UT \
-*B.S. Statistics, Biostatistics Emphasis | Expected December 2026*
+*B.S. Statistics, Biostatistics Emphasis | Expected December 2026 | GPA: 3.58 (Major GPA: 3.59)*
 
-- GPA: 3.58 (Major GPA: 3.59)
-- Relevant coursework: statistical modeling, regression, Bayesian methods, machine learning fundamentals, computational statistics, time series & autoregressive modeling
+- Applying to M.S. programs in Statistics and Data Science for Fall 2027 (decisions pending)
+- Relevant coursework: machine learning fundamentals, statistical modeling, regression, computational statistics, time series & autoregressive modeling, Bayesian methods
 
 ### Experience
 
@@ -32,18 +76,18 @@ he/him/his &nbsp;|&nbsp; mcooperjay@gmail.com &nbsp;|&nbsp; [LinkedIn](https://w
 *Provo, UT — Sep 2026 – Present | Faculty Advisor: Dr. Greg Snow*
 
 - Advise campus researchers and community clients on study design, methodology selection, and interpretation of statistical results
-- Translate statistical findings into plain-language recommendations for clients without a quantitative background
+- Present statistical findings as plain-language recommendations for clients without a quantitative background
 
 **Research Assistant** | BYU Department of Statistics — CorEx Systems Project \
 *Provo, UT — Jan 2026 – Present | PI: Dr. Tom Kerby*
 
-- Build and train PyTorch models on GPU compute clusters, applying deep learning and information-theoretic methods (mutual information, total correlation) to ongoing department research
+- Build and train PyTorch deep learning models on GPU compute clusters, applying information-theoretic methods (mutual information, total correlation) to department research
 - Collaborate with faculty and researchers using Git/GitHub for version control on shared modeling code in Python and Jupyter Notebooks
 
 **Teaching Assistant** | BYU Department of Statistics — STAT 121/250 \
 *Provo, UT — Aug 2025 – Apr 2026 | Instructor: Dr. Nate Sandholtz*
 
-- Taught statistical modeling, R programming, and data analysis workflows to undergraduate course sections of 40–100 students; helped raise average grades by 10–20% through office hours and content revisions
+- Taught statistical modeling, R programming, and data analysis workflows to undergraduate sections of 40–100 students; helped raise average grades by 10–20% through office hours and content revisions
 
 **Teaching Assistant** | BYU Salt Lake Center — MPA 630 \
 *Salt Lake City, UT — Jan 2025 – Apr 2025 | Instructor: Assoc. Prof. Kayden Maughan*
@@ -53,16 +97,17 @@ he/him/his &nbsp;|&nbsp; mcooperjay@gmail.com &nbsp;|&nbsp; [LinkedIn](https://w
 ### Selected Projects
 *Full write-ups: [mcooperjay.github.io/projects](https://mcooperjay.github.io/projects/index.html)*
 
-**Causal Inference: ICU Treatment Effects** — Used propensity score matching to correct a confounded comparison, reversing its conclusion on patient survival
+**NYC Rodent-Activity Risk Mapping** — Built a conditional autoregressive (CAR) model to map rodent activity across NYC city council districts, separating true infestation from reporting bias in 311 data; won the 2026 BYU Statistics Case Study Competition ([write-up](https://mcooperjay.github.io/projects/nyc-rodent-risk.html))
 
-**Functional Data Analysis: Wildfire Severity Forecasting** — Modeled 30 years of national wildfire data with a functional linear model, outperforming an unrestricted baseline
+**Company Growth Forecasting** — Compared time series models (ARIMA, Prophet, regression-based) for quarterly growth forecasting, evaluated by out-of-sample RMSE
 
-**Spatial Epidemiology: Heat-Illness Risk Mapping (Houston, TX)** — Built a CAR model of heat-illness risk from census-tract data; delivered a public risk map and prevention poster
+**Wildfire Severity Forecasting** — Used functional data analysis to model 30 years of national wildfire data with a functional linear model, outperforming an unrestricted baseline
 
-**Time Series Forecasting: Company Growth** — Compared ARIMA, Prophet, and regression-based models for quarterly growth forecasting, evaluated by out-of-sample RMSE
+**ICU Treatment Effects** — Applied causal inference (propensity score matching) to correct a confounded comparison, reversing its conclusion on patient survival
+
+**Heat-Illness Risk Mapping (Houston, TX)** — Built a CAR model of heat-illness risk from census-tract data; delivered a public risk map and prevention poster
 
 ### Leadership & Involvement
 
-- **Winner, 2026 BYU Statistics Case Study Competition** — used a CAR model to map NYC rodent-activity risk, separating true infestation from reporting bias ([write-up](https://mcooperjay.github.io/projects/nyc-rodent-risk.html))
-- **President, BYU Sports Analytics Association (2026–2027)**; **Member, BYU Statistics Association** & **Mu Sigma Rho National Statistical Honor Society**
-- **Full-time Volunteer, Religious Organization**— South Africa/Lesotho/Eswatini (2021–2023): led weekly coordination meetings, mentored incoming volunteers, planned and lead humanitarian efforts and rebuilt homes after flooding
+- **President, BYU Sports Analytics Association (2026–2027)**; **Member, BYU Statistics Association & Mu Sigma Rho National Statistical Honor Society**
+- **Full-time Volunteer, Religious Organization** — South Africa/Lesotho/Eswatini (2021–2023): led weekly coordination meetings, mentored incoming volunteers, and led rebuilding efforts after flooding

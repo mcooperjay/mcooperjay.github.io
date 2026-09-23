@@ -56,7 +56,6 @@ code {
 @media print {
   @page {
     size: Letter;
-    margin: 0.4in;
   }
 
   /* Strip all Quarto/Bootstrap chrome that isn't part of the resume itself */
@@ -75,8 +74,8 @@ code {
   html, body {
     background: #fff !important;
     color: #000 !important;
-    font-size: 9.5pt !important;
-    line-height: 1.15 !important;
+    font-size: 9pt !important;
+    line-height: 1 !important;
   }
 
   body.nav-fixed {
