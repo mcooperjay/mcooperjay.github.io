@@ -209,3 +209,5 @@ __marimo__/
 /.quarto/
 
 **/*.quarto_ipynb
+
+resume-mariners.qmd
