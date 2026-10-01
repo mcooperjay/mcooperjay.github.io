@@ -30,9 +30,9 @@ Biostatistics and medical statistics, environmental and spatial data, applied ca
 
 ## Speaking & Presenting
 
-I presented "Local CorEx" at the Red Rocks Data Science Conference in June 2026, sharing my applied work with a broader statistics and data science audience.
+I presented "Local CorEx" at the Red Rocks Data Science Conference in May 2026, sharing my applied work with a broader statistics and data science audience.
 
-![Presenting at a data science conference, June 2026](photos/IMG_3918.JPG){width=500px}
+![Presenting at a data science conference, May 2026](photos/IMG_3918.JPG){width=500px}
 
 ## Goals
 
