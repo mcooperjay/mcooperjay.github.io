@@ -11,6 +11,7 @@ format:
     incremental: false
     code-line-numbers: true
     embed-resources: true
+    footer: "[← Back to Cooper's site](https://mcooperjay.github.io/)"
     toc: false
 ---
 
