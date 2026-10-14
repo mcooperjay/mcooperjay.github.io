@@ -10,6 +10,7 @@ format:
     transition: fade
     incremental: false
     code-line-numbers: true
+    embed-resources: true
     toc: false
 ---
 
