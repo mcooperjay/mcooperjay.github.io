@@ -25,12 +25,22 @@ Multiple linear regression with cross-validation, plus a [live interactive explo
 :::
 
 ::: {.g-col-6}
-### Project 3
-*Coming soon*
+### [A Case for Sports Analytics](data_analysts_talk.qmd)
+A presentation for a Sports Management class at BYU that argues for sports analysts.
 :::
 
 ::: {.g-col-6}
 ### Project 4
+*Coming soon*
+:::
+
+::: {.g-col-6}
+### Project 5
+*Coming soon*
+:::
+
+::: {.g-col-6}
+### Project 6
 *Coming soon*
 :::
 
