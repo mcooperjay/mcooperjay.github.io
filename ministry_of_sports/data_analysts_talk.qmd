@@ -1,6 +1,6 @@
 ---
-title: "Everyone Has a Camera"
-subtitle: "Why Loving Analytics Isn't the Same as Doing It"
+title: "The Great Sleepover(option 1)"
+subtitle: "Sport, Ritual and Ubuntu"
 author: "Cooper Maughan"
 format:
   revealjs:
@@ -14,7 +14,311 @@ format:
     footer: "[← Back to Cooper's site](https://mcooperjay.github.io/)"
     toc: false
 ---
+<!--
+DRAFT NOTES (delete before sharing the link: comments and speaker notes ship in the HTML)
+- ~12 slides, about 11-12 minutes. See cut list in the message if you need 10.
+- Spine: sport is where strangers practice being family (Ubuntu). Then the honest
+  turn: who actually gets invited? Then: how to invest without a savior complex.
+- Stats moves: (1) apples-to-apples price comparison (+ inflation caveat),
+  (2) pipeline vs. causation on Title IX, (3) headline vs. underlying growth (WNBA).
+- [Highlighted text] = yours to fill in or delete.
+- TO VERIFY:
+  * Coventry: use exact lines from the IOC's transcript of her 6 Feb 2026 opening speech.
+  * Sleepover line: attribution is vague ("a line that went around"). Don't name anyone.
+  * Ticket prices: 2026 figure is the highest listed price for the FINAL at announcement
+    (dynamic pricing; it moved). Adjust 1994 and 2022 for inflation (BLS CPI) before
+    presenting; expect 1994 to roughly double, and the conclusion should survive.
+  * Project Play numbers (State of Play 2025; the $883 / 4x / 24.6% figures are 2022 data).
+  * NFHS / EdWeek Title IX numbers; "about 400,000" girls HS soccer is from the NFHS 50th-anniversary piece.
+  * USWNT claims (World Cups 1991, 1999, 2015, 2019; Spain 2023): from memory, verify.
+  * Cape Town Stadium: R4.5bn build; FY2012 maintenance R56M vs R14M revenue. Find a primary
+    source (City of Cape Town / Treasury) if you can.
+  * WNBA: record 3.79M attendance, +20.5%; net of expansion teams about 3% (Front Office Sports)
+    to 4.5% (SBJ via Field Level Media). Say "roughly 3 to 5 percent."
+  * Dakar: Oct 31 - Nov 13, 2026. WNBA Finals Game 1: Sat Oct 17 (matchup set by semifinals).
+  * Your own opening scene.
+-->
 
+## [Your moment: where you were, who you were with, what you ate, what you wore]{.placeholder}
+
+<!-- ~50 sec -->
+
+One scene. Not a list.
+
+::: {.notes}
+Pick one concrete memory of fandom: a jersey, a seat, a snack, a person. The
+rest of the talk is about why that memory matters. Keep it under 45 seconds.
+:::
+
+## Sport is where strangers practice being family
+
+<!-- ~45 sec -->
+
+Ubuntu: **"I am because we are."**
+
+. . .
+
+The jersey. The seat. The snack. The same people, every time.
+
+. . .
+
+::: {.big-statement}
+We don't just watch sport.<br>We practice belonging.
+:::
+
+::: {.notes}
+If Ubuntu is part of your own background, say so here. If it isn't, credit
+Coventry as where you heard it rather than explaining the philosophy as an expert.
+:::
+
+## The IOC president said it at the Olympics
+
+<!-- ~45 sec -->
+
+Kirsty Coventry, opening of Milano Cortina, February 6, 2026.
+
+. . .
+
+When we see an athlete fall and get back up, she said, we remember that we can too.
+
+. . .
+
+She closed: **"Let your flame spark hope"**.
+
+. . .
+
+And she invoked Ubuntu.
+
+::: {.notes}
+She's Zimbabwean, the first woman and first African IOC president. Paste the
+lines you want from the IOC's own transcript; keep any single quote short. Don't
+attribute "we can only rise by lifting others" to this speech unless you find it
+in the transcript.
+:::
+
+## The Great Sleepover
+
+<!-- ~45 sec -->
+
+World Cup 2026. A line that went around: *a sleepover with the cousins we never see.*
+
+. . .
+
+A Scottish fan at Gillette Stadium: **"Our cousins are here."**
+
+. . .
+
+Reuters: the tournament became known as the Great American Sleepover.
+
+::: {.notes}
+AP quote from a fan at Gillette Stadium (Scotland-Morocco). Reuters "ten takeaways"
+piece supplies the nickname. Land it warmly, then pause before the next slide.
+:::
+
+## But who got an invitation?
+
+<!-- ~60 sec -->
+
+```{r}
+#| echo: false
+#| fig-height: 3.8
+#| fig-width: 9
+yr  <- c("1994", "2022", "2026 (final)")
+top <- c(475, 1600, 8680)
+b <- barplot(top, names.arg = yr, col = c("#6a6a6a", "#C68346", "#1b5635"),
+             border = NA, yaxt = "n", ylim = c(0, 10500), cex.names = 1.3)
+text(b, top, labels = paste0("$", format(top, big.mark = ",")), pos = 3, cex = 1.4)
+mtext("Highest listed ticket price when announced (nominal US$)", side = 3, line = 0.5, cex = 1.1)
+```
+
+Not inflation-adjusted. 2026 is the final, and dynamic pricing moved it.
+
+::: {.notes}
+Sources: NBC / AP reporting on the 2026 price list (1994: $25-$475; Qatar 2022: about
+$70-$1,600; 2026 final: $4,185-$8,680 at that listing). Be upfront about what the
+chart can and can't say: top-of-range, nominal dollars, one match. Adjust for
+inflation before presenting. If you only want to say one number: "an England fan
+following the team through the final was quoted just over $7,000."
+:::
+
+## And the price of playing
+
+<!-- ~50 sec -->
+
+Youth sports spending: **up 46% since 2019.**
+
+. . .
+
+The wealthiest families spend about **4x** what the lowest-income families do on one child's primary sport.
+
+. . .
+
+Travel is now the biggest cost: more than equipment, more than registration.
+
+. . .
+
+In low-income schools, only **about 1 in 4** eighth graders plays.
+
+::: {.notes}
+Source: Aspen Institute Project Play (State of Play 2025; 2022 survey for the
+spending ratio, travel cost, and the 24.6% figure). Say which year each number is from.
+:::
+
+## What a public rule can do: Title IX
+
+<!-- ~60 sec -->
+
+```{r}
+#| echo: false
+#| fig-height: 3.8
+#| fig-width: 9
+yrs   <- c("1971-72", "1977-78", "2010-11")
+girls <- c(294015, 2000000, 3200000)
+b <- barplot(girls / 1e6, names.arg = yrs, col = c("#6a6a6a", "#C68346", "#1b5635"),
+             border = NA, yaxt = "n", ylim = c(0, 4), cex.names = 1.3)
+text(b, girls / 1e6, labels = c("294K", "2M+", "3.2M"), pos = 3, cex = 1.5)
+mtext("U.S. girls in high school sports (millions)", side = 3, line = 0.5, cex = 1.1)
+```
+
+Girls' high school soccer: about **700** in 1971. Nearly **400,000** by the 50th anniversary.
+
+::: {.notes}
+Sources: NFHS participation surveys (294,015 in 1971-72; "more than 2 million" by
+1977-78) and EdWeek (about 3.2 million girls in 2010-11). The 1977-78 bar is a lower
+bound ("more than 2 million"). Soccer figures from NFHS.
+:::
+
+## What the numbers can't say
+
+<!-- ~45 sec -->
+
+I can show the size of the pipeline.
+
+. . .
+
+I can't isolate Title IX's effect. A before-and-after chart can't.
+
+. . .
+
+And the head start shrinks as other countries invest.
+
+::: {.big-statement}
+A pipeline, not a proof.
+:::
+
+::: {.notes}
+Honest version of "Title IX explains the U.S. women's team": it's a plausible
+driver and the pipeline is real, but other countries started investing later, and
+soccer's place in American culture is its own factor. [Verify: U.S. World Cups in
+1991, 1999, 2015, 2019; Spain champions in 2023.] This is the slide that shows
+you think like a statistician.
+:::
+
+## Where hope gets expensive
+
+<!-- ~50 sec -->
+
+Cape Town Stadium, 2010: built for **R4.5 billion.**
+
+. . .
+
+One year's maintenance: about **R56 million.** Revenue: about **R14 million.**
+
+. . .
+
+It was built in Green Point. Many fans lived on the Cape Flats, near Athlone.
+
+::: {.big-statement}
+A building is not a program.
+:::
+
+::: {.notes}
+Sources: reporting on Cape Town Stadium's cost and FY2012 operating figures; Monocle
+on the Athlone-versus-Green Point site debate. If you can, find a primary source
+for the maintenance and revenue numbers. This is the same failure pattern as any
+building given without an operating budget or local ownership.
+:::
+
+## How to invest, without a savior complex
+
+<!-- ~75 sec -->
+
+1. **Fund operations, not just ribbon-cuttings.**
+2. **Go where the players already are.**
+3. **Lower the cost of entry:** fees, travel, free play.
+4. **Let local leaders set the agenda.** Fund for years, not photo ops.
+5. **Count everyone.** Publish who plays, who quits, and why.
+
+::: {.notes}
+Anchors: (1) Cape Town's maintenance gap; (2) Athlone vs. Green Point; (3) Project Play
+on travel and fees; (4) Coventry has said African infrastructure, including for the
+All Africa Games, needs to improve before credible Olympic bids; (5) this is your
+statistician's contribution: the denominators.
+Phrase it as "back" and "fund," not "bring" or "save."
+:::
+
+## Three reasons for hope, starting this month
+
+<!-- ~60 sec -->
+
+**WNBA Finals, from October 17.** Record 3.79M fans, up 20.5%. Net of expansion teams: roughly 3 to 5%. Real, smaller, still growing.
+
+. . .
+
+**Dakar 2026, October 31 to November 13.** The first Olympic event on African soil. About 2,700 young athletes, full gender equality, and a program built to get local kids playing.
+
+. . .
+
+**Salt Lake City 2034.** No new permanent construction. All 13 venues from 2002 are still there.
+
+::: {.notes}
+Sources: Front Office Sports / SBJ (WNBA attendance); IOC and African press on Dakar
+(about $60M estimated cost per Senegal's sports ministry; engagement program of 10
+sports for local participation); AP on Salt Lake 2034. The WNBA Finals matchup is set by
+the semifinals ending October 14. Each item maps to a principle: Dakar to local
+participation, Salt Lake to reuse and operations, WNBA to counting growth honestly.
+:::
+
+## Back to the sleepover
+
+<!-- ~30 sec -->
+
+The cousins were always there.
+
+. . .
+
+::: {.big-statement}
+I am because we are.<br>So count who's missing, and send the invitation.
+:::
+
+::: {.notes}
+Return to your opening scene in one sentence before the last line. Then stop.
+:::
+
+## Thank you {.center}
+
+Questions?
+
+Cooper Maughan
+
+# Backup {background-color="#6a6a6a"}
+
+## Money ahead of crowds: WAFCON 2026
+
+CAF raised the prize fund to a record **\$5.8 million** (winner: \$2 million).
+
+. . .
+
+Most stadiums still saw sparse crowds, except when Morocco played.
+
+. . .
+
+The 495% increase is measured from \$975,000 at the start of the current CAF president's term. Against the last edition's \$3.475 million, it's about 67%.
+
+::: {.notes}
+A baseline lesson: "increase" depends on where you start. Sources: CAF announcement
+coverage (July 2026) and Nation Africa. Verify the 2024 edition total before using the 67%.
+:::
 <!--
 DRAFT NOTES (delete before presenting)
 - Main deck: 13 slides, targeted at ~10 min. Photography is the underlying theme

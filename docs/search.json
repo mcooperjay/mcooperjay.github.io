@@ -84,142 +84,240 @@
     "text": "Limitations\nCareer length is only one definition of “success” — it says nothing about points per game, awards, or team accomplishments. The “blue blood” label is also static; some programs on that list (UCLA, for instance) have struggled in recent years and arguably shouldn’t be grouped with currently-dominant programs. A follow-up analysis could control for draft position, era, and position, or use a more current definition of blue-blood status.\nSkills demonstrated: Bayesian conjugate modeling (Poisson-Gamma), credible interval interpretation, posterior predictive probability, explicit reasoning about violated modeling assumptions.\nFinal project for Introduction to Bayesian Statistics (BYU Statistics, STAT 251), with Jonas Schiel."
   },
   {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#your-moment-where-you-were-who-you-were-with-what-you-ate-what-you-wore",
+    "href": "ministry_of_sports/data_analysts_talk.html#your-moment-where-you-were-who-you-were-with-what-you-ate-what-you-wore",
+    "title": "The Great Sleepover(option 1)",
+    "section": "Your moment: where you were, who you were with, what you ate, what you wore",
+    "text": "Your moment: where you were, who you were with, what you ate, what you wore\n\nOne scene. Not a list.\n\nPick one concrete memory of fandom: a jersey, a seat, a snack, a person. The rest of the talk is about why that memory matters. Keep it under 45 seconds."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#sport-is-where-strangers-practice-being-family",
+    "href": "ministry_of_sports/data_analysts_talk.html#sport-is-where-strangers-practice-being-family",
+    "title": "The Great Sleepover(option 1)",
+    "section": "Sport is where strangers practice being family",
+    "text": "Sport is where strangers practice being family\n\nUbuntu: “I am because we are.”\n\nThe jersey. The seat. The snack. The same people, every time.\n\n\n\nWe don’t just watch sport.We practice belonging.\n\n\nIf Ubuntu is part of your own background, say so here. If it isn’t, credit Coventry as where you heard it rather than explaining the philosophy as an expert."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#the-ioc-president-said-it-at-the-olympics",
+    "href": "ministry_of_sports/data_analysts_talk.html#the-ioc-president-said-it-at-the-olympics",
+    "title": "The Great Sleepover(option 1)",
+    "section": "The IOC president said it at the Olympics",
+    "text": "The IOC president said it at the Olympics\n\nKirsty Coventry, opening of Milano Cortina, February 6, 2026.\n\nWhen we see an athlete fall and get back up, she said, we remember that we can too.\n\n\nShe closed: “Let your flame spark hope”.\n\n\nAnd she invoked Ubuntu.\n\nShe’s Zimbabwean, the first woman and first African IOC president. Paste the lines you want from the IOC’s own transcript; keep any single quote short. Don’t attribute “we can only rise by lifting others” to this speech unless you find it in the transcript."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#the-great-sleepover",
+    "href": "ministry_of_sports/data_analysts_talk.html#the-great-sleepover",
+    "title": "The Great Sleepover(option 1)",
+    "section": "The Great Sleepover",
+    "text": "The Great Sleepover\n\nWorld Cup 2026. A line that went around: a sleepover with the cousins we never see.\n\nA Scottish fan at Gillette Stadium: “Our cousins are here.”\n\n\nReuters: the tournament became known as the Great American Sleepover.\n\nAP quote from a fan at Gillette Stadium (Scotland-Morocco). Reuters “ten takeaways” piece supplies the nickname. Land it warmly, then pause before the next slide."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#but-who-got-an-invitation",
+    "href": "ministry_of_sports/data_analysts_talk.html#but-who-got-an-invitation",
+    "title": "The Great Sleepover(option 1)",
+    "section": "But who got an invitation?",
+    "text": "But who got an invitation?\n\n\nNot inflation-adjusted. 2026 is the final, and dynamic pricing moved it.\n\nSources: NBC / AP reporting on the 2026 price list (1994: $25-$475; Qatar 2022: about $70-$1,600; 2026 final: $4,185-$8,680 at that listing). Be upfront about what the chart can and can’t say: top-of-range, nominal dollars, one match. Adjust for inflation before presenting. If you only want to say one number: “an England fan following the team through the final was quoted just over $7,000.”"
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#and-the-price-of-playing",
+    "href": "ministry_of_sports/data_analysts_talk.html#and-the-price-of-playing",
+    "title": "The Great Sleepover(option 1)",
+    "section": "And the price of playing",
+    "text": "And the price of playing\n\nYouth sports spending: up 46% since 2019.\n\nThe wealthiest families spend about 4x what the lowest-income families do on one child’s primary sport.\n\n\nTravel is now the biggest cost: more than equipment, more than registration.\n\n\nIn low-income schools, only about 1 in 4 eighth graders plays.\n\nSource: Aspen Institute Project Play (State of Play 2025; 2022 survey for the spending ratio, travel cost, and the 24.6% figure). Say which year each number is from."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#what-a-public-rule-can-do-title-ix",
+    "href": "ministry_of_sports/data_analysts_talk.html#what-a-public-rule-can-do-title-ix",
+    "title": "The Great Sleepover(option 1)",
+    "section": "What a public rule can do: Title IX",
+    "text": "What a public rule can do: Title IX\n\n\nGirls’ high school soccer: about 700 in 1971. Nearly 400,000 by the 50th anniversary.\n\nSources: NFHS participation surveys (294,015 in 1971-72; “more than 2 million” by 1977-78) and EdWeek (about 3.2 million girls in 2010-11). The 1977-78 bar is a lower bound (“more than 2 million”). Soccer figures from NFHS."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#what-the-numbers-cant-say",
+    "href": "ministry_of_sports/data_analysts_talk.html#what-the-numbers-cant-say",
+    "title": "The Great Sleepover(option 1)",
+    "section": "What the numbers can’t say",
+    "text": "What the numbers can’t say\n\nI can show the size of the pipeline.\n\nI can’t isolate Title IX’s effect. A before-and-after chart can’t.\n\n\nAnd the head start shrinks as other countries invest.\n\nA pipeline, not a proof.\n\n\nHonest version of “Title IX explains the U.S. women’s team”: it’s a plausible driver and the pipeline is real, but other countries started investing later, and soccer’s place in American culture is its own factor. [Verify: U.S. World Cups in 1991, 1999, 2015, 2019; Spain champions in 2023.] This is the slide that shows you think like a statistician."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#where-hope-gets-expensive",
+    "href": "ministry_of_sports/data_analysts_talk.html#where-hope-gets-expensive",
+    "title": "The Great Sleepover(option 1)",
+    "section": "Where hope gets expensive",
+    "text": "Where hope gets expensive\n\nCape Town Stadium, 2010: built for R4.5 billion.\n\nOne year’s maintenance: about R56 million. Revenue: about R14 million.\n\n\nIt was built in Green Point. Many fans lived on the Cape Flats, near Athlone.\n\nA building is not a program.\n\n\nSources: reporting on Cape Town Stadium’s cost and FY2012 operating figures; Monocle on the Athlone-versus-Green Point site debate. If you can, find a primary source for the maintenance and revenue numbers. This is the same failure pattern as any building given without an operating budget or local ownership."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#how-to-invest-without-a-savior-complex",
+    "href": "ministry_of_sports/data_analysts_talk.html#how-to-invest-without-a-savior-complex",
+    "title": "The Great Sleepover(option 1)",
+    "section": "How to invest, without a savior complex",
+    "text": "How to invest, without a savior complex\n\n\nFund operations, not just ribbon-cuttings.\nGo where the players already are.\nLower the cost of entry: fees, travel, free play.\nLet local leaders set the agenda. Fund for years, not photo ops.\nCount everyone. Publish who plays, who quits, and why.\n\n\nAnchors: (1) Cape Town’s maintenance gap; (2) Athlone vs. Green Point; (3) Project Play on travel and fees; (4) Coventry has said African infrastructure, including for the All Africa Games, needs to improve before credible Olympic bids; (5) this is your statistician’s contribution: the denominators. Phrase it as “back” and “fund,” not “bring” or “save.”"
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#three-reasons-for-hope-starting-this-month",
+    "href": "ministry_of_sports/data_analysts_talk.html#three-reasons-for-hope-starting-this-month",
+    "title": "The Great Sleepover(option 1)",
+    "section": "Three reasons for hope, starting this month",
+    "text": "Three reasons for hope, starting this month\n\nWNBA Finals, from October 17. Record 3.79M fans, up 20.5%. Net of expansion teams: roughly 3 to 5%. Real, smaller, still growing.\n\nDakar 2026, October 31 to November 13. The first Olympic event on African soil. About 2,700 young athletes, full gender equality, and a program built to get local kids playing.\n\n\nSalt Lake City 2034. No new permanent construction. All 13 venues from 2002 are still there.\n\nSources: Front Office Sports / SBJ (WNBA attendance); IOC and African press on Dakar (about $60M estimated cost per Senegal’s sports ministry; engagement program of 10 sports for local participation); AP on Salt Lake 2034. The WNBA Finals matchup is set by the semifinals ending October 14. Each item maps to a principle: Dakar to local participation, Salt Lake to reuse and operations, WNBA to counting growth honestly."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#back-to-the-sleepover",
+    "href": "ministry_of_sports/data_analysts_talk.html#back-to-the-sleepover",
+    "title": "The Great Sleepover(option 1)",
+    "section": "Back to the sleepover",
+    "text": "Back to the sleepover\n\nThe cousins were always there.\n\n\nI am because we are.So count who’s missing, and send the invitation.\n\n\nReturn to your opening scene in one sentence before the last line. Then stop."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#thank-you",
+    "href": "ministry_of_sports/data_analysts_talk.html#thank-you",
+    "title": "The Great Sleepover(option 1)",
+    "section": "Thank you",
+    "text": "Thank you\nQuestions?\nCooper Maughan"
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#money-ahead-of-crowds-wafcon-2026",
+    "href": "ministry_of_sports/data_analysts_talk.html#money-ahead-of-crowds-wafcon-2026",
+    "title": "The Great Sleepover(option 1)",
+    "section": "Money ahead of crowds: WAFCON 2026",
+    "text": "Money ahead of crowds: WAFCON 2026\nCAF raised the prize fund to a record $5.8 million (winner: $2 million).\n\nMost stadiums still saw sparse crowds, except when Morocco played.\n\n\nThe 495% increase is measured from $975,000 at the start of the current CAF president’s term. Against the last edition’s $3.475 million, it’s about 67%.\n\nA baseline lesson: “increase” depends on where you start. Sources: CAF announcement coverage (July 2026) and Nation Africa. Verify the 2024 edition total before using the 67%."
+  },
+  {
     "objectID": "ministry_of_sports/data_analysts_talk.html#everyone-has-a-camera",
     "href": "ministry_of_sports/data_analysts_talk.html#everyone-has-a-camera",
-    "title": "Everyone Has a Camera",
+    "title": "The Great Sleepover(option 1)",
     "section": "Everyone has a camera",
     "text": "Everyone has a camera\n\nYour phone takes photos that once needed professional gear.\n\n\nSo why do people still pay photographers?\n\n\n\nThe camera was never the skill. Knowing what’s worth shooting, and whether the image is real, is.\n\n\nAnalytics is the same. Everyone has the camera now: dashboards, models, AI.\n\nSoften the “15 years ago” claim from the old draft; “once needed professional gear” is safe and doesn’t invite a debate about camera specs. Everyone in the room loves analytics, so the point isn’t “you’re wrong,” it’s “the camera isn’t the skill.” Deliver it as an observation, not a challenge."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#three-tests",
     "href": "ministry_of_sports/data_analysts_talk.html#three-tests",
-    "title": "Everyone Has a Camera",
+    "title": "The Great Sleepover(option 1)",
     "section": "Three tests",
     "text": "Three tests\n\n\nFraming: does it change a decision? Noise: is it signal or luck? The client: is someone empowered to act on it?\n\n\nUse one club to show all three: Liverpool. Say it once here, return to it in the close. “Noise” is a literal word in both photography and statistics, which is why it’s the strongest of the three labels."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#liverpool-2015",
     "href": "ministry_of_sports/data_analysts_talk.html#liverpool-2015",
-    "title": "Everyone Has a Camera",
+    "title": "The Great Sleepover(option 1)",
     "section": "Liverpool, 2015",
     "text": "Liverpool, 2015\n\nLiverpool needed a new manager.\n\nIan Graham, their director of research, looked at Borussia Dortmund.\n\n\nThe league table said Dortmund had a disappointing stretch. The data said they were still the second-best team in Germany, and among the unluckiest over ten seasons.\n\n\nSame league table. Different frame. And the result was a hiring decision, not a report.\n\nSource: Training Ground Guru profile of Graham. Careful wording: Graham was involved in the selection of Klopp. Don’t say the data “got him the job.”"
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#a-striker-is-9-for-10-on-penalties",
     "href": "ministry_of_sports/data_analysts_talk.html#a-striker-is-9-for-10-on-penalties",
-    "title": "Everyone Has a Camera",
+    "title": "The Great Sleepover(option 1)",
     "section": "A striker is 9-for-10 on penalties",
     "text": "A striker is 9-for-10 on penalties\n\nIt’s a shootout Saturday. Is he your designated taker?\n\nRaw math says 90%. Your gut says “…it’s ten kicks.”\n\n\nTen kicks is a grainy photo. You can’t tell a face from a smudge.\n\n\nWhat helps is what you already know about what you’re looking at: penalties go in about three in four times. That’s a prior.\n\nSetup only. The tension: the raw number is the only thing on screen, but you carry two pieces of information, the league rate and his ten kicks. Bayesian statistics is the rule for combining them."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#prior-evidence-posterior",
     "href": "ministry_of_sports/data_analysts_talk.html#prior-evidence-posterior",
-    "title": "Everyone Has a Camera",
+    "title": "The Great Sleepover(option 1)",
     "section": "Prior + evidence = posterior",
     "text": "Prior + evidence = posterior\n\n\\[\n\\theta \\sim \\text{Beta}(31,\\,9) \\quad\\Longrightarrow\\quad\n\\theta \\mid \\text{9 makes, 1 miss} \\sim \\text{Beta}(40,\\,10)\n\\]\n\n\nThe update is addition: 31 + 9 makes, 9 + 1 miss. And the answer is a distribution, so you can ask: how likely is he actually better than average?\n\nPrior Beta(31, 9), mean 77.5%, worth about 40 kicks. Posterior Beta(40, 10), mean 80%. A decision-maker doesn’t need “80%.” They need “two in three odds he’s better than average, and here’s how much to trust that.” A point estimate can’t give you that."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#the-prior-is-an-assumption-said-out-loud",
     "href": "ministry_of_sports/data_analysts_talk.html#the-prior-is-an-assumption-said-out-loud",
-    "title": "Everyone Has a Camera",
+    "title": "The Great Sleepover(option 1)",
     "section": "The prior is an assumption, said out loud",
     "text": "The prior is an assumption, said out loud\n\n\n\nWith ten kicks, your assumption matters. With a hundred, the data takes over. More exposures sharpen the picture.\n\n\nEvery model has a prior. A model that doesn’t show you one is still using it.\n\nWeak prior is worth about 4 kicks, moderate about 40, strong about 100. The usual objection to Bayes is “isn’t the prior just your opinion?” Answer: yes, and it is stated, adjustable, and overwhelmed by evidence. This sets up the NBA project: thousands of players is the right-hand panel."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#my-own-project-does-pedigree-predict-a-longer-nba-career",
     "href": "ministry_of_sports/data_analysts_talk.html#my-own-project-does-pedigree-predict-a-longer-nba-career",
-    "title": "Everyone Has a Camera",
+    "title": "The Great Sleepover(option 1)",
     "section": "My own project: does pedigree predict a longer NBA career?",
     "text": "My own project: does pedigree predict a longer NBA career?\n\nWith Jonas Schiel. “Blue blood” programs: Duke, North Carolina, UCLA, Indiana, Kentucky, Kansas.\n\nCareer length is a count, right-skewed. Model: Poisson likelihood, Gamma prior. Prior expectation: about 5 years for blue-blood alumni, about 3.5 for everyone else.\n\n\nSame logic as the penalties. Different conjugate pair, much more data.\n\n\n\n\n\n\n\n\n\n\nNumbers from your write-up: 95% CI for mean career length (5.09, 5.51) vs (4.27, 4.40); difference (0.74, 1.19). Likely questions: (1) “Didn’t you pick different priors for each group?” Yes (5 vs 3.5 years). With this much data the intervals are driven by the data, but the cleanest answer is a sensitivity check: refit with the SAME prior for both groups and report that the conclusion holds. Do this before you present if you can; it turns a vulnerability into the strongest slide. (2) “Is Poisson right?” Poisson forces variance = mean and allows zero years; real careers are overdispersed and at least one year. Say you treated it as a known simplification (your write-up already does) and that a negative binomial or zero-truncated model would be the next step."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#what-the-model-can-and-cant-say",
     "href": "ministry_of_sports/data_analysts_talk.html#what-the-model-can-and-cant-say",
-    "title": "Everyone Has a Camera",
+    "title": "The Great Sleepover(option 1)",
     "section": "What the model can and can’t say",
     "text": "What the model can and can’t say\n\n\n\n\nCareer longer than\nBlue-blood\nEveryone else\n\n\n\n\n5 years\n42.8%\n27.1%\n\n\n10 years\n1.8%\n0.76%\n\n\n\n\nThere’s a real gap: the 95% credible interval for the difference is 0.74 to 1.19 years.\n\n\nWhat I can’t say: that the school causes it. Top prospects pick top programs. And the model treats each season as independent, which careers aren’t.\n\n\n\nKnowing what your model can’t say is part of the model.\n\n\nThis is the “Noise” test applied to your own work: a real, quantified difference, reported with its limits. Next step you named in the write-up: control for draft position, era, and position; or update the blue-blood definition (UCLA). If asked “so does it matter?”: it predicts, it doesn’t prove cause."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#six-people-and-about-a-decade",
     "href": "ministry_of_sports/data_analysts_talk.html#six-people-and-about-a-decade",
-    "title": "Everyone Has a Camera",
+    "title": "The Great Sleepover(option 1)",
     "section": "Six people, and about a decade",
     "text": "Six people, and about a decade\n\nLiverpool’s research team under Graham: six people. Physics, astrophysics, a former junior chess champion, two data engineers.\n\nNot a department that makes slides. One asked to shape recruitment, tactics, and the academy.\n\n\nLiverpool’s owners set out to build a data-driven club. By the publisher’s account it took about a decade, and the obstacles weren’t mathematical: transfer mistakes, playing style, egos.\n\n\n\nThe other half is the roomthe model lands in.\n\n\nSources: Liverpool FC “Behind the Badge” (team: Graham, Will Spearman, Tim Waskett, Dafydd Steele, plus two data engineers); publisher’s description of Josh Williams’s Data Game (2024). This is the slide that earns the room; say it sincerely."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#this-isnt-always-about-a-game",
     "href": "ministry_of_sports/data_analysts_talk.html#this-isnt-always-about-a-game",
-    "title": "Everyone Has a Camera",
+    "title": "The Great Sleepover(option 1)",
     "section": "This isn’t always about a game",
     "text": "This isn’t always about a game\n\nX years ago, a family member of mine was diagnosed with cancer.\n\nStandard of care then would have meant more extensive surgery/treatment – describe at the level you’re comfortable with.\n\n\nBy the time we needed it, more advanced statistical models let oncologists predict who could safely need less.\n\n\n\nSame skill as the penalty taker’s record.Pointed at something that mattered.\n\n\nPause after this slide – don’t rush into the close."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#everyone-has-the-camera",
     "href": "ministry_of_sports/data_analysts_talk.html#everyone-has-the-camera",
-    "title": "Everyone Has a Camera",
+    "title": "The Great Sleepover(option 1)",
     "section": "Everyone has the camera",
     "text": "Everyone has the camera\n\nFraming. Noise. The client.\n\n\nAnyone can take the photo.The work is knowing what to shoot,and whether the image is real."
   },
   {
-    "objectID": "ministry_of_sports/data_analysts_talk.html#thank-you",
-    "href": "ministry_of_sports/data_analysts_talk.html#thank-you",
-    "title": "Everyone Has a Camera",
+    "objectID": "ministry_of_sports/data_analysts_talk.html#thank-you-1",
+    "href": "ministry_of_sports/data_analysts_talk.html#thank-you-1",
+    "title": "The Great Sleepover(option 1)",
     "section": "Thank you",
     "text": "Thank you\nQuestions?\nCooper Maughan"
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#two-voices-one-set-of-math",
     "href": "ministry_of_sports/data_analysts_talk.html#two-voices-one-set-of-math",
-    "title": "Everyone Has a Camera",
+    "title": "The Great Sleepover(option 1)",
     "section": "Two voices, one set of math",
     "text": "Two voices, one set of math\n\n\n\n😇 Moneyball\nA team with less money finds value the market missed.\nOakland, [year], [fact you’ve verified]\nData in service of the roster.\n\n😈 The sportsbook\nA line updated with every injury report and every wager.\nDanny Funt’s Everybody Loses is where this idea comes from.\nData in service of the margin."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#the-math-behind-a-safe-bet",
     "href": "ministry_of_sports/data_analysts_talk.html#the-math-behind-a-safe-bet",
-    "title": "Everyone Has a Camera",
+    "title": "The Great Sleepover(option 1)",
     "section": "The math behind a “safe” bet",
     "text": "The math behind a “safe” bet\n\n\n\n\nTypical line\nWin on a $100 bet\nBreak-even win rate\n\n\n\n\n-110\n$90.91\n52.4%\n\n\n\n\n\\[\nEV = 0.50 \\times (+90.91) + 0.50 \\times (-100) = -\\$4.55\n\\]\nper $100 bet, on average, forever – even on a true coin flip.\n\nMath is exact. Don’t moralize; let the number be the point."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#two-voices-on-the-record",
     "href": "ministry_of_sports/data_analysts_talk.html#two-voices-on-the-record",
-    "title": "Everyone Has a Camera",
+    "title": "The Great Sleepover(option 1)",
     "section": "Two voices on the record",
     "text": "Two voices on the record\n\n\nVERIFY exact wording: “When cheating becomes the norm, following the rules amounts to a handicap.”\nCathy O’Neil, Weapons of Math Destruction\n\n\n\nVERIFY exact wording and source: “I don’t think players should be turned into roulette chips.”\nBill Bradley\n\n\n\n\nPASTE Funt quote, under ~15 words, with page number\nDanny Funt, Everybody Loses, p. __\n\n\nKeep each quote under 15 words. Cut any you can’t verify. Three quotes on one slide is too many to read aloud; choose one or split across slides."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#the-devil-isnt-worse-at-math",
     "href": "ministry_of_sports/data_analysts_talk.html#the-devil-isnt-worse-at-math",
-    "title": "Everyone Has a Camera",
+    "title": "The Great Sleepover(option 1)",
     "section": "The devil isn’t worse at math",
     "text": "The devil isn’t worse at math\n\nThe sportsbook is arguably the best analytics shop in this picture.\n\n\nSame math.Different objective function.\n\n\n\nWhat the model is built to maximize is a choice. Someone makes it."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#what-are-you-optimizing-for",
     "href": "ministry_of_sports/data_analysts_talk.html#what-are-you-optimizing-for",
-    "title": "Everyone Has a Camera",
+    "title": "The Great Sleepover(option 1)",
     "section": "What are you optimizing for?",
     "text": "What are you optimizing for?\n\nAnyone can take the photo. The tool is neutral.\n\n\nThe objective is the choice,and the choice belongs to the people in this room."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#what-predicts-an-nhl-players-plus-minus",
     "href": "ministry_of_sports/data_analysts_talk.html#what-predicts-an-nhl-players-plus-minus",
-    "title": "Everyone Has a Camera",
+    "title": "The Great Sleepover(option 1)",
     "section": "What predicts an NHL player’s plus-minus?",
     "text": "What predicts an NHL player’s plus-minus?\n\nWith Claire Peterson and Anzlei Larsen. Multiple linear regression, 1,000-iteration cross-validation, NHL seasons 2000-01 to 2024-25.\n\nAdjusted R² = 0.123. Cross-validated RMSE 0.157, effectively unbiased.\n\n\nWe reported 12% as the finding, not the failure. Hockey is noisy, and the variables that probably matter (team quality, age, coaching system) weren’t in the data.\n\nShooting percentage had the strongest positive association, then position (defensemen and centers), assists, and shots per game. Interactive explorer: nhl-explorer.streamlit.app. Interview use: “I know what my model can’t do, and I say so.”"
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#do-it-for-the-whole-squad",
     "href": "ministry_of_sports/data_analysts_talk.html#do-it-for-the-whole-squad",
-    "title": "Everyone Has a Camera",
+    "title": "The Great Sleepover(option 1)",
     "section": "Do it for the whole squad",
     "text": "Do it for the whole squad\n\nPlayers with 3 kicks and players with 30 shouldn’t be trusted equally. Shrink each estimate in proportion to how little you know.\n\nSimulated; we know the true rates so we can score the estimates. Partial pooling in its simplest form. In practice the prior’s parameters are estimated from the whole population (empirical Bayes) or modeled hierarchically."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#the-same-team-10000-seasons",
     "href": "ministry_of_sports/data_analysts_talk.html#the-same-team-10000-seasons",
-    "title": "Everyone Has a Camera",
+    "title": "The Great Sleepover(option 1)",
     "section": "The same team, 10,000 seasons",
     "text": "The same team, 10,000 seasons\n\nIdentical team. Identical strength. The only thing that changed was luck.\n\nBackup for “what does unlucky mean.” Illustrative win/draw/loss probabilities for a middling team; say so."
   },
