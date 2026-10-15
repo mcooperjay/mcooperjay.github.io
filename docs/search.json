@@ -93,23 +93,23 @@
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#sport-is-where-strangers-practice-being-family",
     "href": "ministry_of_sports/data_analysts_talk.html#sport-is-where-strangers-practice-being-family",
-    "title": "The Great Sleepover(option 1)",
+    "title": "Sports managaement presentation",
     "section": "Sport is where strangers practice being family",
-    "text": "Sport is where strangers practice being family\n\nUbuntu: “I am because we are.”\n\nThe jersey. The seat. The snack. The same people, every time.\n\n\n\nWe don’t just watch sport.We practice belonging.\n\n\nIf Ubuntu is part of your own background, say so here. If it isn’t, credit Coventry as where you heard it rather than explaining the philosophy as an expert."
+    "text": "Sport is where strangers practice being family\nUbuntu: “I am because we are.”\nThe jersey. The seat. The snack. The same people, every time.\n\nWe don’t just watch sport.\nWe practice belonging.\n\n\nIntroduce Ubuntu as a way of understanding our connection to other people. Credit the source of the idea rather than presenting yourself as an expert on the philosophy."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#the-ioc-president-said-it-at-the-olympics",
     "href": "ministry_of_sports/data_analysts_talk.html#the-ioc-president-said-it-at-the-olympics",
     "title": "The Great Sleepover(option 1)",
     "section": "The IOC president said it at the Olympics",
-    "text": "The IOC president said it at the Olympics\n\nKirsty Coventry, opening of Milano Cortina, February 6, 2026.\n\nWhen we see an athlete fall and get back up, she said, we remember that we can too.\n\n\nShe closed: “Let your flame spark hope”.\n\n\nAnd she invoked Ubuntu.\n\nShe’s Zimbabwean, the first woman and first African IOC president. Paste the lines you want from the IOC’s own transcript; keep any single quote short. Don’t attribute “we can only rise by lifting others” to this speech unless you find it in the transcript."
+    "text": "The IOC president said it at the Olympics\nKirsty Coventry, opening of Milano Cortina, February 6, 2026.\n\n\n\n\n\n\n\nThe existing clip is approximately 2 minutes and 15 seconds at 1.55x speed. For a 10-minute talk, trim it to a particularly meaningful 20–35-second segment, or replace the video with one short quote. Test the clip in presentation mode and have a fallback in case the internet fails."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#the-great-sleepover",
     "href": "ministry_of_sports/data_analysts_talk.html#the-great-sleepover",
-    "title": "The Great Sleepover(option 1)",
+    "title": "Sports managaement presentation",
     "section": "The Great Sleepover",
-    "text": "The Great Sleepover\n\nWorld Cup 2026. A line that went around: a sleepover with the cousins we never see.\n\nA Scottish fan at Gillette Stadium: “Our cousins are here.”\n\n\nReuters: the tournament became known as the Great American Sleepover.\n\nAP quote from a fan at Gillette Stadium (Scotland-Morocco). Reuters “ten takeaways” piece supplies the nickname. Land it warmly, then pause before the next slide."
+    "text": "The Great Sleepover\nSport, ritual, and Ubuntu\n“I am because we are.”\n\nTarget: about 10 minutes. The central question is how sport creates belonging, and who gets left out of that belonging."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#but-who-got-an-invitation",
@@ -677,5 +677,117 @@
     "title": "Data Acquisition Project",
     "section": "",
     "text": "Full Repository on GitHub\n\nmain.py Code File\n\nView on GitHub Pages"
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#everyone-has-a-camera-option-2",
+    "href": "ministry_of_sports/data_analysts_talk.html#everyone-has-a-camera-option-2",
+    "title": "The Great Sleepover(option 1)",
+    "section": "Everyone has a camera (Option 2)",
+    "text": "Everyone has a camera (Option 2)\n\nYour phone takes photos that once needed professional gear.\n\n\nSo why do people still pay photographers?\n\n\n\nThe camera was never the skill. Knowing what’s worth shooting, and whether the image is real, is.\n\n\nAnalytics is the same. Everyone has the camera now: dashboards, models, AI.\n\nSoften the “15 years ago” claim from the old draft; “once needed professional gear” is safe and doesn’t invite a debate about camera specs. Everyone in the room loves analytics, so the point isn’t “you’re wrong,” it’s “the camera isn’t the skill.” Deliver it as an observation, not a challenge."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#the-moment-that-made-you-a-fan",
+    "href": "ministry_of_sports/data_analysts_talk.html#the-moment-that-made-you-a-fan",
+    "title": "Sports managaement presentation",
+    "section": "The moment that made you a fan",
+    "text": "The moment that made you a fan\n[Replace this with one specific memory: a game, a person, a place, or a tradition.]\n\nWhere were you?\nWho were you with?\nWhat made that moment matter?\n\n\nKeep this personal story under 45 seconds. Start with a concrete memory rather than an abstract argument."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#a-message-from-the-olympics",
+    "href": "ministry_of_sports/data_analysts_talk.html#a-message-from-the-olympics",
+    "title": "Sports managaement presentation",
+    "section": "A message from the Olympics",
+    "text": "A message from the Olympics\nKirsty Coventry, IOC President\nOpening ceremony of the Milano Cortina 2026 Winter Olympics\n\n\n\n\n\n\n\nThe existing clip is approximately 2 minutes and 15 seconds at 1.55x speed. For a 10-minute talk, trim it to a particularly meaningful 20–35-second segment, or replace the video with one short quote. Test the clip in presentation mode and have a fallback in case the internet fails."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#what-technology-cannot-give-us",
+    "href": "ministry_of_sports/data_analysts_talk.html#what-technology-cannot-give-us",
+    "title": "Sports managaement presentation",
+    "section": "What technology cannot give us",
+    "text": "What technology cannot give us\nElder Gerrit W. Gong has spoken about human connection in the age of artificial intelligence:\n\n“Platforms and technologies cannot substitute for authentic divine and human connection.”\n\n— Elder Gerrit W. Gong, Faith, Dignity, and Human Flourishing: Hearing God’s Voice in an Age of Artificial Intelligence\n\nThis is a related idea, not a definition of Ubuntu. Explain the connection in your own words: technology can help us communicate, but it cannot replace the relationships that make belonging meaningful. Verify the quotation and cite the official Church source on the slide."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#but-who-gets-an-invitation",
+    "href": "ministry_of_sports/data_analysts_talk.html#but-who-gets-an-invitation",
+    "title": "Sports managaement presentation",
+    "section": "But who gets an invitation?",
+    "text": "But who gets an invitation?\nThe cost of being a fan can be high.\nThe cost of playing can be even higher.\n\nTicket prices can put major events out of reach.\nYouth sports costs have risen.\nTravel and equipment can make participation difficult for families.\n\n\nUse one or two verified figures from your original draft rather than trying to fit every statistic on the slide. Explain the source and year. The point is that sport can create belonging while access to sport remains unequal."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#a-pipeline-not-a-guarantee",
+    "href": "ministry_of_sports/data_analysts_talk.html#a-pipeline-not-a-guarantee",
+    "title": "Sports managaement presentation",
+    "section": "A pipeline, not a guarantee",
+    "text": "A pipeline, not a guarantee\nGirls’ participation in high school sports has grown dramatically over time.\nThat matters—but participation alone does not prove equal access, resources, or outcomes.\n\nUse the Title IX and girls’ soccer numbers from the original deck after verifying them. Make the distinction between an encouraging trend and proof that every barrier has disappeared."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#hope-requires-investment",
+    "href": "ministry_of_sports/data_analysts_talk.html#hope-requires-investment",
+    "title": "Sports managaement presentation",
+    "section": "Hope requires investment",
+    "text": "Hope requires investment\nWhat could it look like to make sport more accessible?\n\nFund the people and programs already doing the work.\nReduce the cost of getting started.\nFollow local leadership.\nCount who is still missing.\n\n\nKeep the focus on practical steps rather than presenting an outside organization or individual as a savior."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#who-is-still-missing",
+    "href": "ministry_of_sports/data_analysts_talk.html#who-is-still-missing",
+    "title": "Sports managaement presentation",
+    "section": "Who is still missing?",
+    "text": "Who is still missing?\nSport can give strangers a shared identity.\nBut belonging is not automatic. We build it through the invitations we extend and the barriers we remove.\n\n“I am because we are.”\nCount who’s missing. Send the invitation.\n\n\nClose by returning to the opening memory. Aim for about 30–40 seconds here. If the talk is running long, shorten the video first."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#there-are-lies-damned-lies-and-statistics",
+    "href": "ministry_of_sports/data_analysts_talk.html#there-are-lies-damned-lies-and-statistics",
+    "title": "Sports managaement presentation",
+    "section": "There are lies, damned lies, and statistics",
+    "text": "There are lies, damned lies, and statistics\nA familiar line often attributed to Mark Twain.\nBut the important question isn’t whether statistics lie.\nIt’s whether we are asking them the right question.\n\nTarget: about 10 minutes. Be careful with the attribution: the saying is commonly attributed to Mark Twain, but the origin is disputed. You can say “a familiar saying” instead."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#a-statistic-can-revealand-hide",
+    "href": "ministry_of_sports/data_analysts_talk.html#a-statistic-can-revealand-hide",
+    "title": "Sports managaement presentation",
+    "section": "A statistic can reveal—and hide",
+    "text": "A statistic can reveal—and hide\n\nA statistic can show you something important while hiding the context that changes its meaning.\n\nA model can calculate an answer correctly and still answer the wrong question.\n\nThis is a paraphrase, not a direct quotation. The point is not that statistics are useless, but that interpreting them requires context and judgment."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#the-model-i-thought-i-needed",
+    "href": "ministry_of_sports/data_analysts_talk.html#the-model-i-thought-i-needed",
+    "title": "Sports managaement presentation",
+    "section": "The model I thought I needed",
+    "text": "The model I thought I needed\nIn the BYU Sports Analytics Association, I worked on an NHL modeling competition.\nThe goal: predict the plus-minus leaders for hockey at the Winter Olympics.\nMy first instinct could have been to rely on historical Olympic data.\nBut there was a problem.\n\nBriefly explain plus-minus for the audience: a player receives a plus or minus based on goals scored while they are on the ice at even strength, with some special-team situations excluded. Keep the exact definition consistent with the competition’s metric."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#the-context-changed",
+    "href": "ministry_of_sports/data_analysts_talk.html#the-context-changed",
+    "title": "Sports managaement presentation",
+    "section": "The context changed",
+    "text": "The context changed\nThe 2026 Winter Olympics marked the return of NHL players to Olympic men’s hockey for the first time since 2014.\nThe 2025 Four Nations Face-Off offered recent best-on-best international hockey involving NHL players.\nPast Olympic tournaments did not necessarily represent the same player pool or competition conditions.\n\nCheck the competition dates and your original analysis. The last Olympics with NHL players was 2014, not 2010. Be precise about which Four Nations statistics you used and why they were relevant to the prediction task."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#a-better-comparison",
+    "href": "ministry_of_sports/data_analysts_talk.html#a-better-comparison",
+    "title": "Sports managaement presentation",
+    "section": "A better comparison",
+    "text": "A better comparison\nInstead of treating past Olympic results as automatically relevant, I used the Four Nations tournament as evidence for predicting the Olympic leaders.\nThe key decision was not just how to model the data. It was deciding which data were relevant.\n\nFill in the specifics before presenting: - Which Four Nations statistics did you use? - Did you combine them with regular-season NHL statistics? - How did you turn those data into a predicted ranking? - What was the competition’s scoring rule, and how did your entry perform?\nDo not claim the change caused the win unless you can explain the scoring and comparison clearly."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#three-questions-before-trusting-a-model",
+    "href": "ministry_of_sports/data_analysts_talk.html#three-questions-before-trusting-a-model",
+    "title": "Sports managaement presentation",
+    "section": "Three questions before trusting a model",
+    "text": "Three questions before trusting a model\n1. Relevance: Does the data resemble the situation I’m predicting?\n2. Change: What is different this time?\n3. Decision: Does the model answer the question the audience actually needs answered?\n\nReturn to the Olympics example for each question. The player pool and tournament context affected relevance; the Olympic format and timing affected what could reasonably be compared; the final goal was to predict leaders, not explain every aspect of hockey."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#a-model-is-not-a-substitute-for-judgment",
+    "href": "ministry_of_sports/data_analysts_talk.html#a-model-is-not-a-substitute-for-judgment",
+    "title": "Sports managaement presentation",
+    "section": "A model is not a substitute for judgment",
+    "text": "A model is not a substitute for judgment\nModels help us organize evidence, quantify uncertainty, and make predictions.\nBut the analyst still has to decide:\n\nWhat belongs in the data?\nWhich assumptions are reasonable?\nWhat has changed since the historical examples?\nWhat would make the prediction useful?\n\n\nAvoid saying critical thinking is always better than modeling. In your story, critical thinking helped you select a more appropriate source of evidence. That is the stronger claim."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#the-point-isnt-to-reject-statistics",
+    "href": "ministry_of_sports/data_analysts_talk.html#the-point-isnt-to-reject-statistics",
+    "title": "Sports managaement presentation",
+    "section": "The point isn’t to reject statistics",
+    "text": "The point isn’t to reject statistics\nIt is to use them with care.\nThe number is not the whole story. The model is not the whole problem.\n\nAsk the right question.\nChoose relevant evidence.\nThen decide how much to trust the answer.\n\n\nEnd with the NHL story: the useful insight was noticing the context that made one source of evidence more relevant than another. Aim for a 30–40-second close."
   }
 ]

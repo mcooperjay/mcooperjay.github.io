@@ -1,6 +1,5 @@
 ---
-title: "The Great Sleepover(option 1)"
-subtitle: "Sport, Ritual and Ubuntu"
+title: "Sports managaement presentation"
 author: "Cooper Maughan"
 format:
   revealjs:
@@ -37,11 +36,11 @@ DRAFT NOTES (delete before sharing the link: comments and speaker notes ship in 
     to 4.5% (SBJ via Field Level Media). Say "roughly 3 to 5 percent."
   * Dakar: Oct 31 - Nov 13, 2026. WNBA Finals Game 1: Sat Oct 17 (matchup set by semifinals).
   * Your own opening scene.
--->
+
 
 ## [Your moment: where you were, who you were with, what you ate, what you wore]{.placeholder}
 
-<!-- ~50 sec -->
+<!-- ~50 sec 
 
 One scene. Not a list.
 
@@ -52,7 +51,7 @@ rest of the talk is about why that memory matters. Keep it under 45 seconds.
 
 ## Sport is where strangers practice being family
 
-<!-- ~45 sec -->
+<!-- ~45 sec  
 
 Ubuntu: **"I am because we are."**
 
@@ -71,34 +70,74 @@ If Ubuntu is part of your own background, say so here. If it isn't, credit
 Coventry as where you heard it rather than explaining the philosophy as an expert.
 :::
 
+
 ## The IOC president said it at the Olympics
 
-<!-- ~45 sec -->
+<!-- ~45 sec  
 
 Kirsty Coventry, opening of Milano Cortina, February 6, 2026.
 
-. . .
+<div style="display: flex; justify-content: center;">
+  <div id="coventry-video"></div>
+</div>
 
-When we see an athlete fall and get back up, she said, we remember that we can too.
+<script>
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/iframe_api";
+  var first = document.getElementsByTagName('script')[0];
+  first.parentNode.insertBefore(tag, first);
 
-. . .
+  var player;
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player('coventry-video', {
+      height: '405',
+      width: '720',
+      videoId: 'gLywSZGgU1M',
+      playerVars: { 'start': 184, 'end': 393},
+      events: {
+        'onReady': function(e) {
+          e.target.setPlaybackRate(1.55);
+        }
+      }
+    });
+  }
+</script>
 
-She closed: **"Let your flame spark hope"**.
 
-. . .
 
-And she invoked Ubuntu.
 
 ::: {.notes}
-She's Zimbabwean, the first woman and first African IOC president. Paste the
-lines you want from the IOC's own transcript; keep any single quote short. Don't
-attribute "we can only rise by lifting others" to this speech unless you find it
-in the transcript.
+Transcript: 
+"This is why we all love the Olympic Games. Because through you, we see the very best of ourselves. You remind us that we can be brave. That we can be kind. And that we can get back up, no matter how hard we fall.
+
+And to everyone watching, here in Italy and around the world – thank you for joining this moment. Thank you for believing in the magic of the Olympic Games.
+
+When we see an athlete stumble and find the strength to rise, we are reminded that we can do the same.
+
+When we see rivals embrace at the end of a finish line, we are reminded that we can choose respect.
+
+When we see grace, courage and friendship – we remember the kind of people we all want to be.
+
+The spirit of the Olympic Games is about so much more than sport. It is about us – and what makes us human.
+
+In Africa, where I’m from, we have a word: ubuntu. It means: I am because we are. That we can only rise by lifting others. That our strength comes from caring for each other.
+
+No matter where you come from, we all know this spirit – it lives and breathes in every community.
+I see this spirit most clearly at the Olympic Games. Here, athletes from every corner of our world compete fiercely – but also respect, support and inspire one another. They remind us that we are all connected, that our strength comes from how we treat each other, and that the best of humanity is found in courage, compassion and kindness.
+
+So let these Games be a celebration of what unites us – of everything that makes us human.
+
+This is the magic of the Olympic Games: inspiring us all to be the best that we can be – together."
+She's Zimbabwean, the first woman and first African IOC president. Paste the lines you want from the IOC's own transcript; keep any single quote short. 
+When we see an athlete fall and get back up, she said, we remember that we can too.
+She closed: **"Let your flame spark hope"**.
+And she invoked Ubuntu.
+
 :::
 
 ## The Great Sleepover
 
-<!-- ~45 sec -->
+<!-- ~45 sec  
 
 World Cup 2026. A line that went around: *a sleepover with the cousins we never see.*
 
@@ -117,7 +156,7 @@ piece supplies the nickname. Land it warmly, then pause before the next slide.
 
 ## But who got an invitation?
 
-<!-- ~60 sec -->
+<!-- ~60 sec  
 
 ```{r}
 #| echo: false
@@ -143,7 +182,7 @@ following the team through the final was quoted just over $7,000."
 
 ## And the price of playing
 
-<!-- ~50 sec -->
+<!-- ~50 sec  
 
 Youth sports spending: **up 46% since 2019.**
 
@@ -166,7 +205,7 @@ spending ratio, travel cost, and the 24.6% figure). Say which year each number i
 
 ## What a public rule can do: Title IX
 
-<!-- ~60 sec -->
+<!-- ~60 sec  
 
 ```{r}
 #| echo: false
@@ -190,7 +229,7 @@ bound ("more than 2 million"). Soccer figures from NFHS.
 
 ## What the numbers can't say
 
-<!-- ~45 sec -->
+<!-- ~45 sec  
 
 I can show the size of the pipeline.
 
@@ -216,7 +255,7 @@ you think like a statistician.
 
 ## Where hope gets expensive
 
-<!-- ~50 sec -->
+<!-- ~50 sec  
 
 Cape Town Stadium, 2010: built for **R4.5 billion.**
 
@@ -241,7 +280,7 @@ building given without an operating budget or local ownership.
 
 ## How to invest, without a savior complex
 
-<!-- ~75 sec -->
+<!-- ~75 sec  
 
 1. **Fund operations, not just ribbon-cuttings.**
 2. **Go where the players already are.**
@@ -259,7 +298,7 @@ Phrase it as "back" and "fund," not "bring" or "save."
 
 ## Three reasons for hope, starting this month
 
-<!-- ~60 sec -->
+<!-- ~60 sec  
 
 **WNBA Finals, from October 17.** Record 3.79M fans, up 20.5%. Net of expansion teams: roughly 3 to 5%. Real, smaller, still growing.
 
@@ -281,7 +320,7 @@ participation, Salt Lake to reuse and operations, WNBA to counting growth honest
 
 ## Back to the sleepover
 
-<!-- ~30 sec -->
+<!-- ~30 sec  
 
 The cousins were always there.
 
@@ -342,11 +381,11 @@ DRAFT NOTES (delete before presenting)
   * NBA project numbers are copied from your write-up; re-check against the final.
   * Cancer slide: only as specific as you and your family are comfortable with.
 - ALL SIMULATIONS ARE ILLUSTRATIVE. Say so out loud.
--->
+ 
 
-## Everyone has a camera
+## Everyone has a camera (Option 2)
 
-<!-- ~50 sec -->
+<!-- ~50 sec  
 
 Your phone takes photos that once needed professional gear.
 
@@ -374,7 +413,7 @@ Deliver it as an observation, not a challenge.
 
 ## Three tests {.center}
 
-<!-- ~30 sec -->
+<!-- ~30 sec  
 
 ::: {.big-statement}
 **Framing:** does it change a decision?<br>
@@ -392,7 +431,7 @@ it's the strongest of the three labels.
 
 ## Liverpool, 2015
 
-<!-- ~60 sec -->
+<!-- ~60 sec  
 
 Liverpool needed a new manager.
 
@@ -419,7 +458,7 @@ in the selection of Klopp. Don't say the data "got him the job."
 
 ## A striker is 9-for-10 on penalties
 
-<!-- ~45 sec -->
+<!-- ~45 sec  
 
 **It's a shootout Saturday. Is he your designated taker?**
 
@@ -444,7 +483,7 @@ is the rule for combining them.
 
 ## Prior + evidence = posterior
 
-<!-- ~75 sec -->
+<!-- ~75 sec  
 
 $$
 \theta \sim \text{Beta}(31,\,9) \quad\Longrightarrow\quad
@@ -489,7 +528,7 @@ than average, and here's how much to trust that." A point estimate can't give yo
 
 ## The prior is an assumption, said out loud
 
-<!-- ~60 sec -->
+<!-- ~60 sec  
 
 ```{r}
 #| echo: false
@@ -533,7 +572,7 @@ thousands of players is the right-hand panel.
 
 ## My own project: does pedigree predict a longer NBA career?
 
-<!-- ~75 sec -->
+<!-- ~75 sec  
 
 *With Jonas Schiel.* "Blue blood" programs: Duke, North Carolina, UCLA, Indiana,
 Kentucky, Kansas.
@@ -577,7 +616,7 @@ zero-truncated model would be the next step.
 
 ## What the model can and can't say
 
-<!-- ~60 sec -->
+<!-- ~60 sec  
 
 | Career longer than | Blue-blood | Everyone else |
 |:------------------:|:----------:|:-------------:|
@@ -610,7 +649,7 @@ position, era, and position; or update the blue-blood definition (UCLA). If aske
 
 ## Six people, and about a decade
 
-<!-- ~60 sec -->
+<!-- ~60 sec  
 
 Liverpool's research team under Graham: **six people.** Physics, astrophysics, a
 former junior chess champion, two data engineers.
@@ -642,7 +681,7 @@ Dafydd Steele, plus two data engineers); publisher's description of Josh William
 
 ## This isn't always about a game
 
-<!-- ~50 sec -->
+<!-- ~50 sec  
 
 [X years ago]{.placeholder}, a family member of mine was diagnosed with cancer.
 
@@ -670,7 +709,7 @@ Pause after this slide -- don't rush into the close.
 
 ## Everyone has the camera
 
-<!-- ~30 sec -->
+<!-- ~30 sec  
 
 Framing. Noise. The client.
 
@@ -701,11 +740,11 @@ OPTION B, WORKSHOP VERSION. Not ready to present as-is. Why:
   (or keep the cancer slide as the "angel" payoff).
 - Fill in the Moneyball facts yourself (Oakland, year, constraints) from a source
   you trust; I haven't verified them here.
--->
+ 
 
 ## Two voices, one set of math
 
-<!-- ~50 sec -->
+<!-- ~50 sec  
 
 ::: {.columns}
 ::: {.column width="50%"}
@@ -730,7 +769,7 @@ Data in service of the margin.
 
 ## The math behind a "safe" bet
 
-<!-- ~60 sec -->
+<!-- ~60 sec  
 
 | Typical line | Win on a \$100 bet | Break-even win rate |
 |:------------:|:------------------:|:-------------------:|
@@ -750,7 +789,7 @@ Math is exact. Don't moralize; let the number be the point.
 
 ## Two voices on the record
 
-<!-- ~60 sec -->
+<!-- ~60 sec  
 
 > [VERIFY exact wording: "When cheating becomes the norm, following the rules amounts to a handicap."]{.placeholder}
 >
@@ -775,7 +814,7 @@ is too many to read aloud; choose one or split across slides.
 
 ## The devil isn't worse at math {.center}
 
-<!-- ~45 sec -->
+<!-- ~45 sec  
 
 The sportsbook is arguably the best analytics shop in this picture.
 
@@ -791,7 +830,7 @@ What the model is built to *maximize* is a choice. Someone makes it.
 
 ## What are you optimizing for?
 
-<!-- ~30 sec -->
+<!-- ~30 sec  
 
 Anyone can take the photo. The tool is neutral.
 
@@ -801,11 +840,11 @@ Anyone can take the photo. The tool is neutral.
 The objective is the choice,<br>and the choice belongs to the people in this room.
 :::
 
-# Backup {background-color="#6a6a6a"}
+# Backup # 2{background-color="#6a6a6a"}
 
 ## What predicts an NHL player's plus-minus?
 
-<!-- Backup: Q&A / interviews -->
+<!-- Backup: Q&A / interviews  
 
 *With Claire Peterson and Anzlei Larsen.* Multiple linear regression, 1,000-iteration
 cross-validation, NHL seasons 2000-01 to 2024-25.
@@ -886,4 +925,259 @@ Identical team. Identical strength. The only thing that changed was luck.
 ::: {.notes}
 Backup for "what does unlucky mean." Illustrative win/draw/loss probabilities for a
 middling team; say so.
+::: -->
+
+# OPTION 1 — Sport, Belonging, and Hope
+## The Great Sleepover
+
+Sport, ritual, and Ubuntu
+
+*“I am because we are.”*
+
+::: {.notes}
+Target: about 10 minutes. The central question is how sport creates belonging, and who gets left out of that belonging.
+:::
+
+## The moment that made you a fan
+
+[Replace this with one specific memory: a game, a person, a place, or a tradition.]
+
+- Where were you?
+- Who were you with?
+- What made that moment matter?
+
+::: {.notes}
+Keep this personal story under 45 seconds. Start with a concrete memory rather than an abstract argument.
+:::
+
+## Sport is where strangers practice being family
+
+Ubuntu: **“I am because we are.”**
+
+The jersey. The seat. The snack. The same people, every time.
+
+::: {.big-statement}
+We don't just watch sport.
+
+We practice belonging.
+:::
+
+::: {.notes}
+Introduce Ubuntu as a way of understanding our connection to other people. Credit the source of the idea rather than presenting yourself as an expert on the philosophy.
+:::
+
+## A message from the Olympics
+
+Kirsty Coventry, IOC President
+
+*Opening ceremony of the Milano Cortina 2026 Winter Olympics*
+
+<div style="display: flex; justify-content: center;">
+  <div id="coventry-video"></div>
+</div>
+
+<script>
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/iframe_api";
+  var first = document.getElementsByTagName('script')[0];
+  first.parentNode.insertBefore(tag, first);
+
+  var player;
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player('coventry-video', {
+      height: '405',
+      width: '720',
+      videoId: 'gLywSZGgU1M',
+      playerVars: { 'start': 184, 'end': 393},
+      events: {
+        'onReady': function(e) {
+          e.target.setPlaybackRate(1.55);
+        }
+      }
+    });
+  }
+</script>
+
+::: {.notes}
+The existing clip is approximately 2 minutes and 15 seconds at 1.55x speed. For a 10-minute talk, trim it to a particularly meaningful 20–35-second segment, or replace the video with one short quote. Test the clip in presentation mode and have a fallback in case the internet fails.
+:::
+
+## What technology cannot give us
+
+Elder Gerrit W. Gong has spoken about human connection in the age of artificial intelligence:
+
+::: {.big-statement}
+“Platforms and technologies cannot substitute for authentic divine and human connection.”
+:::
+
+— Elder Gerrit W. Gong, *Faith, Dignity, and Human Flourishing: Hearing God's Voice in an Age of Artificial Intelligence*
+
+::: {.notes}
+This is a related idea, not a definition of Ubuntu. Explain the connection in your own words: technology can help us communicate, but it cannot replace the relationships that make belonging meaningful. Verify the quotation and cite the official Church source on the slide.
+:::
+
+## But who gets an invitation?
+
+The cost of being a fan can be high.
+
+The cost of playing can be even higher.
+
+- Ticket prices can put major events out of reach.
+- Youth sports costs have risen.
+- Travel and equipment can make participation difficult for families.
+
+::: {.notes}
+Use one or two verified figures from your original draft rather than trying to fit every statistic on the slide. Explain the source and year. The point is that sport can create belonging while access to sport remains unequal.
+:::
+
+## A pipeline, not a guarantee
+
+Girls' participation in high school sports has grown dramatically over time.
+
+That matters—but participation alone does not prove equal access, resources, or outcomes.
+
+::: {.notes}
+Use the Title IX and girls' soccer numbers from the original deck after verifying them. Make the distinction between an encouraging trend and proof that every barrier has disappeared.
+:::
+
+## Hope requires investment
+
+What could it look like to make sport more accessible?
+
+- Fund the people and programs already doing the work.
+- Reduce the cost of getting started.
+- Follow local leadership.
+- Count who is still missing.
+
+::: {.notes}
+Keep the focus on practical steps rather than presenting an outside organization or individual as a savior.
+:::
+
+## Who is still missing?
+
+Sport can give strangers a shared identity.
+
+But belonging is not automatic. We build it through the invitations we extend and the barriers we remove.
+
+::: {.big-statement}
+“I am because we are.”
+
+Count who's missing. Send the invitation.
+:::
+
+::: {.notes}
+Close by returning to the opening memory. Aim for about 30–40 seconds here. If the talk is running long, shorten the video first.
+:::
+
+
+# OPTION 2 — When the Numbers Miss the Point
+## There are lies, damned lies, and statistics
+
+A familiar line often attributed to Mark Twain.
+
+But the important question isn't whether statistics lie.
+
+**It's whether we are asking them the right question.**
+
+::: {.notes}
+Target: about 10 minutes. Be careful with the attribution: the saying is commonly attributed to Mark Twain, but the origin is disputed. You can say “a familiar saying” instead.
+:::
+
+## A statistic can reveal—and hide
+
+::: {.big-statement}
+A statistic can show you something important while hiding the context that changes its meaning.
+:::
+
+A model can calculate an answer correctly and still answer the wrong question.
+
+::: {.notes}
+This is a paraphrase, not a direct quotation. The point is not that statistics are useless, but that interpreting them requires context and judgment.
+:::
+
+## The model I thought I needed
+
+In the BYU Sports Analytics Association, I worked on an NHL modeling competition.
+
+The goal: predict the plus-minus leaders for hockey at the Winter Olympics.
+
+My first instinct could have been to rely on historical Olympic data.
+
+But there was a problem.
+
+::: {.notes}
+Briefly explain plus-minus for the audience: a player receives a plus or minus based on goals scored while they are on the ice at even strength, with some special-team situations excluded. Keep the exact definition consistent with the competition's metric.
+:::
+
+## The context changed
+
+The 2026 Winter Olympics marked the return of NHL players to Olympic men's hockey for the first time since **2014**.
+
+The 2025 Four Nations Face-Off offered recent best-on-best international hockey involving NHL players.
+
+Past Olympic tournaments did not necessarily represent the same player pool or competition conditions.
+
+::: {.notes}
+Check the competition dates and your original analysis. The last Olympics with NHL players was 2014, not 2010. Be precise about which Four Nations statistics you used and why they were relevant to the prediction task.
+:::
+
+## A better comparison
+
+Instead of treating past Olympic results as automatically relevant, I used the Four Nations tournament as evidence for predicting the Olympic leaders.
+
+**The key decision was not just how to model the data. It was deciding which data were relevant.**
+
+::: {.notes}
+Fill in the specifics before presenting:
+- Which Four Nations statistics did you use?
+- Did you combine them with regular-season NHL statistics?
+- How did you turn those data into a predicted ranking?
+- What was the competition's scoring rule, and how did your entry perform?
+
+Do not claim the change caused the win unless you can explain the scoring and comparison clearly.
+:::
+
+## Three questions before trusting a model
+
+**1. Relevance:** Does the data resemble the situation I'm predicting?
+
+**2. Change:** What is different this time?
+
+**3. Decision:** Does the model answer the question the audience actually needs answered?
+
+::: {.notes}
+Return to the Olympics example for each question. The player pool and tournament context affected relevance; the Olympic format and timing affected what could reasonably be compared; the final goal was to predict leaders, not explain every aspect of hockey.
+:::
+
+## A model is not a substitute for judgment
+
+Models help us organize evidence, quantify uncertainty, and make predictions.
+
+But the analyst still has to decide:
+
+- What belongs in the data?
+- Which assumptions are reasonable?
+- What has changed since the historical examples?
+- What would make the prediction useful?
+
+::: {.notes}
+Avoid saying critical thinking is always better than modeling. In your story, critical thinking helped you select a more appropriate source of evidence. That is the stronger claim.
+:::
+
+## The point isn't to reject statistics
+
+It is to use them with care.
+
+The number is not the whole story. The model is not the whole problem.
+
+::: {.big-statement}
+Ask the right question.
+
+Choose relevant evidence.
+
+Then decide how much to trust the answer.
+:::
+
+::: {.notes}
+End with the NHL story: the useful insight was noticing the context that made one source of evidence more relevant than another. Aim for a 30–40-second close.
 :::
