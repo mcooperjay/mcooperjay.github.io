@@ -697,7 +697,7 @@
     "href": "ministry_of_sports/data_analysts_talk.html#a-message-from-the-olympics",
     "title": "Sports managaement presentation",
     "section": "A message from the Olympics",
-    "text": "A message from the Olympics\nKirsty Coventry, IOC President\nOpening ceremony of the Milano Cortina 2026 Winter Olympics\n\n\n\n\n\n\n\nThe existing clip is approximately 2 minutes and 15 seconds at 1.55x speed. For a 10-minute talk, trim it to a particularly meaningful 20–35-second segment, or replace the video with one short quote. Test the clip in presentation mode and have a fallback in case the internet fails."
+    "text": "A message from the Olympics\nKirsty Coventry, IOC President\nOpening ceremony of the Milano Cortina 2026 Winter Olympics\n\n\n\n\n\n\nWatch the full speech on YouTube\n\nThe existing clip is approximately 2 minutes and 15 seconds at 1.55x speed. For a 10-minute talk, trim it to a particularly meaningful 20–35-second segment, or replace the video with one short quote. Test the clip in presentation mode and have a fallback in case the internet fails."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#what-technology-cannot-give-us",
@@ -789,5 +789,75 @@
     "title": "Sports managaement presentation",
     "section": "The point isn’t to reject statistics",
     "text": "The point isn’t to reject statistics\nIt is to use them with care.\nThe number is not the whole story. The model is not the whole problem.\n\nAsk the right question.\nChoose relevant evidence.\nThen decide how much to trust the answer.\n\n\nEnd with the NHL story: the useful insight was noticing the context that made one source of evidence more relevant than another. Aim for a 30–40-second close."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#sport-belonging-and-who-gets-to-participate",
+    "href": "ministry_of_sports/data_analysts_talk.html#sport-belonging-and-who-gets-to-participate",
+    "title": "Sports managaement presentation",
+    "section": "Sport, belonging, and who gets to participate",
+    "text": "Sport, belonging, and who gets to participate\nSport can make strangers feel like a community.\nBut what happens when being part of that community becomes too expensive?"
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#sport-is-more-than-entertainment",
+    "href": "ministry_of_sports/data_analysts_talk.html#sport-is-more-than-entertainment",
+    "title": "Sports managaement presentation",
+    "section": "Sport is more than entertainment",
+    "text": "Sport is more than entertainment\n\n\n\n\n\n\nThe Olympic ideal: sport can bring people together across differences.\nTransition: But is that ideal accessible to everyone?\nWatch the video on YouTube"
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#what-does-it-cost-to-be-a-fan",
+    "href": "ministry_of_sports/data_analysts_talk.html#what-does-it-cost-to-be-a-fan",
+    "title": "Sports managaement presentation",
+    "section": "What does it cost to be a fan?",
+    "text": "What does it cost to be a fan?\nIn his 2025 New York Times opinion essay, sportswriter Joon Lee estimated that following a Boston sports team as a dedicated fan could cost $4,785 a year.\nHis comparison: - Around $1,321 in 2004 - Around $4,785 in 2025 - A reported increase of 262%, compared with an 87% increase in wages over the same period\nBut this is Lee’s estimate for a particular kind of Boston fan—not a universal price tag for every sports fan.\nA good question isn’t just whether sports cost more. It’s which costs have risen, and who has options.\nSource: Joon Lee, “$4,785. That’s How Much It Costs to Be a Sports Fan Now”"
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#adjusting-for-inflation-changes-the-comparison",
+    "href": "ministry_of_sports/data_analysts_talk.html#adjusting-for-inflation-changes-the-comparison",
+    "title": "Sports managaement presentation",
+    "section": "Adjusting for inflation changes the comparison",
+    "text": "Adjusting for inflation changes the comparison\nA dollar in 2004 did not buy what a dollar buys in 2025.\nUsing a rough CPI adjustment, $1,321 in 2004 is approximately $2,250 in 2025 dollars.\n\n\n\nMeasure\nApproximate amount\n\n\n\n\n2004 cost, in 2025 dollars\n$2,250\n\n\nLee’s 2025 estimate\n$4,785\n\n\n\nEven after inflation, Lee’s estimate is roughly twice the 2004 cost.\nThat does not prove every fan’s expenses doubled. It does suggest inflation alone may not explain the difference.\nSpeaker note: These are rounded CPI-based estimates. Lee’s total is his own estimate and depends on the fan expenses included."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#the-world-cup-average-prices-and-extremes",
+    "href": "ministry_of_sports/data_analysts_talk.html#the-world-cup-average-prices-and-extremes",
+    "title": "Sports managaement presentation",
+    "section": "The World Cup: average prices and extremes",
+    "text": "The World Cup: average prices and extremes\nSeatPick’s 2026 World Cup resale-market data reported these average sold prices:\n\n\n\nTournament stage\nAverage resale price\n\n\n\n\nGroup stage\n$856\n\n\nSemifinal\n$2,235\n\n\nFinal\n$6,350\n\n\n\nThe most expensive ticket sold on SeatPick was $81,662 for a VIP ticket to the final. The cheapest reported sale across the tournament was $52.\nThese figures describe the secondary market, not FIFA’s standard face-value prices.\nSource: SeatPick’s 2026 World Cup ticket-price data"
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#what-do-the-averages-leave-out",
+    "href": "ministry_of_sports/data_analysts_talk.html#what-do-the-averages-leave-out",
+    "title": "Sports managaement presentation",
+    "section": "What do the averages leave out?",
+    "text": "What do the averages leave out?\nThe range is enormous: $52 at the low end, and $81,662 for the highest reported sale.\nThat does not mean a typical fan paid $81,662. It does show how far prices can extend at the top end.\nA fair interpretation needs both: - The average: what tickets sold for on average in a particular group. - The extreme: how expensive some tickets became.\nThe price distribution may have a long, expensive upper tail—but we would need the underlying ticket-level data to establish its exact shape and skewness.\nAnd there is another important distinction: a few cheap tickets existing does not necessarily mean affordable tickets are widely available."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#playing-costs-money-too",
+    "href": "ministry_of_sports/data_analysts_talk.html#playing-costs-money-too",
+    "title": "Sports managaement presentation",
+    "section": "Playing costs money, too",
+    "text": "Playing costs money, too\nThe Aspen Institute’s Project Play survey found that U.S. sports families spent an average of $1,016 per child on their primary sport in 2024.\nThat was 46% higher than in 2019.\nAn earlier national survey estimated average annual spending on ice hockey at $2,583 per child in 2019—roughly $3,200 in 2026 dollars, using a rounded inflation adjustment.\nFor Michigan, one published cost guide estimates: - House/recreational hockey registration: roughly $400–$1,200 - Tier I AAA hockey: roughly $12,000–$20,000 all-in per season\nThese are different measures: registration alone versus estimated total costs. The Michigan figures are published estimates, not an official statewide average, so I would not call Michigan definitively the most expensive state.\nSources: - Aspen Institute Project Play: youth sports spending - 2019 State of Play report - Scout Elite: youth hockey cost guide"
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#three-clubs.-three-different-barriers.",
+    "href": "ministry_of_sports/data_analysts_talk.html#three-clubs.-three-different-barriers.",
+    "title": "Sports managaement presentation",
+    "section": "Three clubs. Three different barriers.",
+    "text": "Three clubs. Three different barriers.\n\n\n\n\n\n\n\n\nSport\nKnown cost\nMy experience\n\n\n\n\nThree Rivers soccer\nDues unknown\nI did not participate because the cost was out of reach\n\n\nLacrosse\n$500/year in team dues alone\nEquipment and travel would have cost extra; I did not participate\n\n\nRugby\n$185/year in insurance and team dues\nI participated\n\n\n\nThe rugby dues were manageable, and coaches could help when someone genuinely could not afford to play.\nBut cleats and travel still cost money. Some matches required 2–3.5 hours of travel.\nMy documented minimum for lacrosse dues plus rugby dues was $685 per year—about $840 in 2026 dollars using a rough inflation adjustment.\nThat is not a total cost for all three sports. It excludes soccer dues, lacrosse equipment, rugby cleats, travel, and any other expenses. I also don’t remember the exact years or dues for every club, so this is a transparent lower bound, not a precise historical total."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#access-has-improvedand-barriers-remain",
+    "href": "ministry_of_sports/data_analysts_talk.html#access-has-improvedand-barriers-remain",
+    "title": "Sports managaement presentation",
+    "section": "Access has improved—and barriers remain",
+    "text": "Access has improved—and barriers remain\nTitle IX became law in 1972. Over time, girls’ participation in high school sports grew dramatically.\nFor example, girls’ high school soccer participation rose from roughly 700 participants in 1971 to nearly 400,000 by 2022.\nThat progress matters. It also reminds us that access is not automatic: policy and institutional choices can expand who gets to play.\nSource: National Federation of State High School Associations"
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#i-am-because-we-are",
+    "href": "ministry_of_sports/data_analysts_talk.html#i-am-because-we-are",
+    "title": "Sports managaement presentation",
+    "section": "I am because we are",
+    "text": "I am because we are\nSport can create belonging, shared identity, and community.\nBut that promise depends on more than enthusiasm. It depends on whether people can afford the tickets, equipment, dues, travel, and time required to participate.\nThe goal is not to argue that every ticket should be cheap or every sport should cost the same.\nIt is to ask:\nHow can sport remain a community when access increasingly depends on what people can pay?"
   }
 ]

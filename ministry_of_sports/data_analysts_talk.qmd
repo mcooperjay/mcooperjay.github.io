@@ -926,51 +926,17 @@ Identical team. Identical strength. The only thing that changed was luck.
 Backup for "what does unlucky mean." Illustrative win/draw/loss probabilities for a
 middling team; say so.
 ::: -->
+# OPTION 1: THE GREAT SLEEPOVER
 
-# OPTION 1 — Sport, Belonging, and Hope
-## The Great Sleepover
+## Sport, belonging, and who gets to participate
 
-Sport, ritual, and Ubuntu
+Sport can make strangers feel like a community.
 
-*“I am because we are.”*
+But what happens when being part of that community becomes too expensive?
 
-::: {.notes}
-Target: about 10 minutes. The central question is how sport creates belonging, and who gets left out of that belonging.
-:::
+---
 
-## The moment that made you a fan
-
-[Replace this with one specific memory: a game, a person, a place, or a tradition.]
-
-- Where were you?
-- Who were you with?
-- What made that moment matter?
-
-::: {.notes}
-Keep this personal story under 45 seconds. Start with a concrete memory rather than an abstract argument.
-:::
-
-## Sport is where strangers practice being family
-
-Ubuntu: **“I am because we are.”**
-
-The jersey. The seat. The snack. The same people, every time.
-
-::: {.big-statement}
-We don't just watch sport.
-
-We practice belonging.
-:::
-
-::: {.notes}
-Introduce Ubuntu as a way of understanding our connection to other people. Credit the source of the idea rather than presenting yourself as an expert on the philosophy.
-:::
-
-## A message from the Olympics
-
-Kirsty Coventry, IOC President
-
-*Opening ceremony of the Milano Cortina 2026 Winter Olympics*
+## Sport is more than entertainment
 
 <div style="display: flex; justify-content: center;">
   <div id="coventry-video"></div>
@@ -998,76 +964,146 @@ Kirsty Coventry, IOC President
   }
 </script>
 
-::: {.notes}
-The existing clip is approximately 2 minutes and 15 seconds at 1.55x speed. For a 10-minute talk, trim it to a particularly meaningful 20–35-second segment, or replace the video with one short quote. Test the clip in presentation mode and have a fallback in case the internet fails.
-:::
+The Olympic ideal: sport can bring people together across differences.
 
-## What technology cannot give us
+*Transition: But is that ideal accessible to everyone?*
 
-Elder Gerrit W. Gong has spoken about human connection in the age of artificial intelligence:
+[Watch the video on YouTube](https://www.youtube.com/watch?v=gLywSZGgU1M)
 
-::: {.big-statement}
-“Platforms and technologies cannot substitute for authentic divine and human connection.”
-:::
+---
 
-— Elder Gerrit W. Gong, *Faith, Dignity, and Human Flourishing: Hearing God's Voice in an Age of Artificial Intelligence*
+## What does it cost to be a fan?
 
-::: {.notes}
-This is a related idea, not a definition of Ubuntu. Explain the connection in your own words: technology can help us communicate, but it cannot replace the relationships that make belonging meaningful. Verify the quotation and cite the official Church source on the slide.
-:::
+In his 2025 New York Times opinion essay, sportswriter Joon Lee estimated that following a Boston sports team as a dedicated fan could cost **$4,785 a year**.
 
-## But who gets an invitation?
+His comparison:
+- Around **$1,321 in 2004**
+- Around **$4,785 in 2025**
+- A reported increase of **262%**, compared with an 87% increase in wages over the same period
 
-The cost of being a fan can be high.
+But this is Lee's estimate for a particular kind of Boston fan—not a universal price tag for every sports fan.
 
-The cost of playing can be even higher.
+**A good question isn't just whether sports cost more. It's which costs have risen, and who has options.**
 
-- Ticket prices can put major events out of reach.
-- Youth sports costs have risen.
-- Travel and equipment can make participation difficult for families.
+Source: [Joon Lee, “$4,785. That’s How Much It Costs to Be a Sports Fan Now”](https://www.nytimes.com/2025/06/16/opinion/sports-nba-mlb-leagues-streaming-fan.html)
 
-::: {.notes}
-Use one or two verified figures from your original draft rather than trying to fit every statistic on the slide. Explain the source and year. The point is that sport can create belonging while access to sport remains unequal.
-:::
+---
 
-## A pipeline, not a guarantee
+## Adjusting for inflation changes the comparison
 
-Girls' participation in high school sports has grown dramatically over time.
+A dollar in 2004 did not buy what a dollar buys in 2025.
 
-That matters—but participation alone does not prove equal access, resources, or outcomes.
+Using a rough CPI adjustment, $1,321 in 2004 is approximately **$2,250 in 2025 dollars**.
 
-::: {.notes}
-Use the Title IX and girls' soccer numbers from the original deck after verifying them. Make the distinction between an encouraging trend and proof that every barrier has disappeared.
-:::
+| Measure | Approximate amount |
+|:--|--:|
+| 2004 cost, in 2025 dollars | $2,250 |
+| Lee's 2025 estimate | $4,785 |
 
-## Hope requires investment
+Even after inflation, Lee's estimate is roughly **twice the 2004 cost**.
 
-What could it look like to make sport more accessible?
+That does not prove every fan's expenses doubled. It does suggest inflation alone may not explain the difference.
 
-- Fund the people and programs already doing the work.
-- Reduce the cost of getting started.
-- Follow local leadership.
-- Count who is still missing.
+*Speaker note: These are rounded CPI-based estimates. Lee's total is his own estimate and depends on the fan expenses included.*
 
-::: {.notes}
-Keep the focus on practical steps rather than presenting an outside organization or individual as a savior.
-:::
+---
 
-## Who is still missing?
+## The World Cup: average prices and extremes
 
-Sport can give strangers a shared identity.
+SeatPick's 2026 World Cup resale-market data reported these average sold prices:
 
-But belonging is not automatic. We build it through the invitations we extend and the barriers we remove.
+| Tournament stage | Average resale price |
+|:--|--:|
+| Group stage | $856 |
+| Semifinal | $2,235 |
+| Final | $6,350 |
 
-::: {.big-statement}
-“I am because we are.”
+The most expensive ticket sold on SeatPick was **$81,662** for a VIP ticket to the final. The cheapest reported sale across the tournament was $52.
 
-Count who's missing. Send the invitation.
-:::
+These figures describe the **secondary market**, not FIFA's standard face-value prices.
 
-::: {.notes}
-Close by returning to the opening memory. Aim for about 30–40 seconds here. If the talk is running long, shorten the video first.
-:::
+Source: [SeatPick's 2026 World Cup ticket-price data](https://seatpick.com/press/World-Cup-2026-Ticket-Prices-Wrapped)
+
+---
+
+## What do the averages leave out?
+
+The range is enormous: $52 at the low end, and $81,662 for the highest reported sale.
+
+That does not mean a typical fan paid $81,662. It does show how far prices can extend at the top end.
+
+A fair interpretation needs both:
+- **The average:** what tickets sold for on average in a particular group.
+- **The extreme:** how expensive some tickets became.
+
+The price distribution may have a long, expensive upper tail—but we would need the underlying ticket-level data to establish its exact shape and skewness.
+
+And there is another important distinction: a few cheap tickets existing does not necessarily mean affordable tickets are widely available.
+
+---
+
+## Playing costs money, too
+
+The Aspen Institute's Project Play survey found that U.S. sports families spent an average of **$1,016 per child on their primary sport in 2024**.
+
+That was 46% higher than in 2019.
+
+An earlier national survey estimated average annual spending on ice hockey at $2,583 per child in 2019—roughly **$3,200 in 2026 dollars**, using a rounded inflation adjustment.
+
+For Michigan, one published cost guide estimates:
+- House/recreational hockey registration: roughly $400–$1,200
+- Tier I AAA hockey: roughly $12,000–$20,000 all-in per season
+
+These are different measures: registration alone versus estimated total costs. The Michigan figures are published estimates, not an official statewide average, so I would not call Michigan definitively the most expensive state.
+
+Sources:
+- [Aspen Institute Project Play: youth sports spending](https://aspen-institute-project-play.squarespace.com/news/2025/2/24/project-play-survey-family-spending-on-youth-sports-rises-46-over-five-years)
+- [2019 State of Play report](https://www.aspeninstitute.org/wp-content/uploads/2025/05/2019_SOP_National_Final.pdf)
+- [Scout Elite: youth hockey cost guide](https://scoutelitesports.com/)
+
+---
+
+## Three clubs. Three different barriers.
+
+| Sport | Known cost | My experience |
+|:--|--:|:--|
+| Three Rivers soccer | Dues unknown | I did not participate because the cost was out of reach |
+| Lacrosse | $500/year in team dues alone | Equipment and travel would have cost extra; I did not participate |
+| Rugby | $185/year in insurance and team dues | I participated |
+
+The rugby dues were manageable, and coaches could help when someone genuinely could not afford to play.
+
+But cleats and travel still cost money. Some matches required **2–3.5 hours of travel**.
+
+**My documented minimum for lacrosse dues plus rugby dues was $685 per year**—about $840 in 2026 dollars using a rough inflation adjustment.
+
+That is not a total cost for all three sports. It excludes soccer dues, lacrosse equipment, rugby cleats, travel, and any other expenses. I also don't remember the exact years or dues for every club, so this is a transparent lower bound, not a precise historical total.
+
+---
+
+## Access has improved—and barriers remain
+
+Title IX became law in 1972. Over time, girls' participation in high school sports grew dramatically.
+
+For example, girls' high school soccer participation rose from roughly 700 participants in 1971 to nearly 400,000 by 2022.
+
+That progress matters. It also reminds us that access is not automatic: policy and institutional choices can expand who gets to play.
+
+Source: [National Federation of State High School Associations](https://www.nfhs.org/)
+
+---
+
+## I am because we are
+
+Sport can create belonging, shared identity, and community.
+
+But that promise depends on more than enthusiasm. It depends on whether people can afford the tickets, equipment, dues, travel, and time required to participate.
+
+The goal is not to argue that every ticket should be cheap or every sport should cost the same.
+
+It is to ask:
+
+**How can sport remain a community when access increasingly depends on what people can pay?**
 
 
 # OPTION 2 — When the Numbers Miss the Point
