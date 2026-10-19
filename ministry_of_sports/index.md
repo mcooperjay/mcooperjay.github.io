@@ -6,7 +6,7 @@ title: "Ministry of Sports"
 
 A running series of sports analytics mini-projects — statistical models, data visualizations, and applied analysis, each paired with a short video walkthrough on LinkedIn.
 
-The name is a nod to my time serving as a missionary in South Africa, home to the real Ministry of Sports, Arts and Culture — this is my own small, ongoing ministry of sorts: using data to better understand the games we love.
+The name is a nod to my time serving as a missionary in South Africa, home to the real Ministry of Sports, Arts and Culture — this is my own small, ongoing ministry of sports: using data to better understand the games we love.
 
 ---
 

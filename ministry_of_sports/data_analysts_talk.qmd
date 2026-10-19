@@ -1,1219 +1,246 @@
 ---
-title: "Sports managaement presentation"
-author: "Cooper Maughan"
+title: "The Model Isn't Always the Answer"
+subtitle: "AI, statistics, and the judgment behind good decisions"
+author: ""
 format:
   revealjs:
     theme: [default, ../theme.scss]
     slide-number: true
-    progress: true
+    show-slide-number: all
     transition: fade
+    footer: "[← Back to Cooper's site](https://mcooperjay.github.io/projects)"
+    center: false
+    width: 1280
+    height: 720
+    margin: 0.08
+    auto-stretch: false
+    chalkboard: false
+    preview-links: true
+    embed-resources: false
+    code-overflow: wrap
     incremental: false
-    code-line-numbers: true
-    embed-resources: true
-    footer: "[← Back to Cooper's site](https://mcooperjay.github.io/)"
-    toc: false
+execute:
+  echo: false
 ---
-<!--
-DRAFT NOTES (delete before sharing the link: comments and speaker notes ship in the HTML)
-- ~12 slides, about 11-12 minutes. See cut list in the message if you need 10.
-- Spine: sport is where strangers practice being family (Ubuntu). Then the honest
-  turn: who actually gets invited? Then: how to invest without a savior complex.
-- Stats moves: (1) apples-to-apples price comparison (+ inflation caveat),
-  (2) pipeline vs. causation on Title IX, (3) headline vs. underlying growth (WNBA).
-- [Highlighted text] = yours to fill in or delete.
-- TO VERIFY:
-  * Coventry: use exact lines from the IOC's transcript of her 6 Feb 2026 opening speech.
-  * Sleepover line: attribution is vague ("a line that went around"). Don't name anyone.
-  * Ticket prices: 2026 figure is the highest listed price for the FINAL at announcement
-    (dynamic pricing; it moved). Adjust 1994 and 2022 for inflation (BLS CPI) before
-    presenting; expect 1994 to roughly double, and the conclusion should survive.
-  * Project Play numbers (State of Play 2025; the $883 / 4x / 24.6% figures are 2022 data).
-  * NFHS / EdWeek Title IX numbers; "about 400,000" girls HS soccer is from the NFHS 50th-anniversary piece.
-  * USWNT claims (World Cups 1991, 1999, 2015, 2019; Spain 2023): from memory, verify.
-  * Cape Town Stadium: R4.5bn build; FY2012 maintenance R56M vs R14M revenue. Find a primary
-    source (City of Cape Town / Treasury) if you can.
-  * WNBA: record 3.79M attendance, +20.5%; net of expansion teams about 3% (Front Office Sports)
-    to 4.5% (SBJ via Field Level Media). Say "roughly 3 to 5 percent."
-  * Dakar: Oct 31 - Nov 13, 2026. WNBA Finals Game 1: Sat Oct 17 (matchup set by semifinals).
-  * Your own opening scene.
 
+## What is generative AI?
 
-## [Your moment: where you were, who you were with, what you ate, what you wore]{.placeholder}
+Generative AI learns patterns from data and uses them to produce new content.
 
-<!-- ~50 sec 
+- Text models generate text.
+- Image models generate images.
+- Audio models generate sound.
 
-One scene. Not a list.
+**Plausible output is not necessarily true output.**
 
-::: {.notes}
-Pick one concrete memory of fandom: a jersey, a seat, a snack, a person. The
-rest of the talk is about why that memory matters. Keep it under 45 seconds.
+::: notes
+A simplified way to understand a large language model is that it learns patterns in language and generates text by predicting likely continuations, one piece at a time.
+
+Other generative models work differently, but the general idea is that they learn structure from examples and use it to create something new.
+
+This is useful for drafting, summarizing, brainstorming, and creating images. But generating something that looks or sounds convincing is not the same as verifying that it is correct.
 :::
 
-## Sport is where strangers practice being family
+## More complex doesn't always mean better
 
-<!-- ~45 sec  
+**The goal is to perform well on data the model has never seen.**
 
-Ubuntu: **"I am because we are."**
+![](images/loss_curves.png){fig-alt="Test loss rises after step 10 while training loss keeps falling" width=95% fig-align="center"}
 
-. . .
+*Training loss keeps improving. Test loss turns back up.*
 
-The jersey. The seat. The snack. The same people, every time.
+::: notes
+[Point at the right graph first, then the left.]
 
-. . .
+On the right, the training loss goes down at every step. If that were the only graph I looked at, I'd say the model keeps getting better.
 
-::: {.big-statement}
-We don't just watch sport.<br>We practice belonging.
+On the left is the same set of runs on data the model didn't train on. The test loss improves until about step 8 to 10, then gets worse. The model keeps getting better at the training data while getting worse at new data. That's overfitting.
+
+The different colored lines are different settings and seeds from my research. The test curves are noisy, but they all turn upward together, so the trend isn't a fluke.
+
+A model that is too simple may miss important patterns. A model that is too complex, or trained too long, may memorize the training data instead of learning patterns that generalize. That is why we hold out data and test performance on observations the model did not train on.
+
+This applies to traditional statistical models and machine learning. A generative AI system can also produce fluent answers while getting important details wrong. Fluency is not a validation metric.
+:::
+## Garbage in, garbage out
+
+A model can only work with the information and assumptions it receives.
+
+- Biased or incomplete data can create biased results.
+- Poorly chosen outcomes can answer the wrong question.
+- A model can perform well on paper and fail in practice.
+
+**Before asking whether the model works, ask what it was built to do.**
+
+::: notes
+A model is not automatically objective just because it uses mathematics. The choice of data, outcome, features, and evaluation criteria all matter.
+
+If a company trains a hiring model using historical hiring decisions, the model might learn historical preferences and discrimination rather than identify the best employees.
+
+The problem may not be a coding error. It may be that the model is learning the wrong lesson from the data.
 :::
 
-::: {.notes}
-If Ubuntu is part of your own background, say so here. If it isn't, credit
-Coventry as where you heard it rather than explaining the philosophy as an expert.
+---
+
+![NYT reporting using the MNIST digit set](images/nyt.mnist.png)
+
+[Diffusion Article Examples](https://arxiv.org/html/2311.12202v2)
+
+---
+
+## When the model affects real people
+
+**Cathy O'Neil — *Weapons of Math Destruction***
+
+- NYC teacher evaluations used value-added models to estimate teachers' contributions to student test scores.
+- Hiring algorithms can reproduce patterns in historical hiring data.
+- High-stakes scores can be difficult for affected people to challenge.
+
+Stat 121 refresh for ethical use: Scale, Opacity, Damage
+
+::: notes
+O'Neil argues that some models become especially harmful when they operate at scale, are difficult to inspect, and affect people's opportunities.
+
+The New York City teacher evaluation example illustrates the limits of using a statistical score to represent a complicated human outcome. Student scores can reflect many things beyond a teacher's performance.
+
+For the hiring example, verify the specific case you want to mention before presenting it as a factual example from the book. Avoid naming a CEO-resume case unless you have confirmed the exact story and its source.
+
+The lesson is not that every model is bad. It is that a model's consequences matter, especially when people cannot see how it works or appeal its decisions.
 :::
 
-
-## The IOC president said it at the Olympics
-
-<!-- ~45 sec  
-
-Kirsty Coventry, opening of Milano Cortina, February 6, 2026.
-
-<div style="display: flex; justify-content: center;">
-  <div id="coventry-video"></div>
-</div>
-
-<script>
-  var tag = document.createElement('script');
-  tag.src = "https://www.youtube.com/iframe_api";
-  var first = document.getElementsByTagName('script')[0];
-  first.parentNode.insertBefore(tag, first);
-
-  var player;
-  function onYouTubeIframeAPIReady() {
-    player = new YT.Player('coventry-video', {
-      height: '405',
-      width: '720',
-      videoId: 'gLywSZGgU1M',
-      playerVars: { 'start': 184, 'end': 393},
-      events: {
-        'onReady': function(e) {
-          e.target.setPlaybackRate(1.55);
-        }
-      }
-    });
-  }
-</script>
-
-
-
-
-::: {.notes}
-Transcript: 
-"This is why we all love the Olympic Games. Because through you, we see the very best of ourselves. You remind us that we can be brave. That we can be kind. And that we can get back up, no matter how hard we fall.
-
-And to everyone watching, here in Italy and around the world – thank you for joining this moment. Thank you for believing in the magic of the Olympic Games.
-
-When we see an athlete stumble and find the strength to rise, we are reminded that we can do the same.
-
-When we see rivals embrace at the end of a finish line, we are reminded that we can choose respect.
-
-When we see grace, courage and friendship – we remember the kind of people we all want to be.
-
-The spirit of the Olympic Games is about so much more than sport. It is about us – and what makes us human.
-
-In Africa, where I’m from, we have a word: ubuntu. It means: I am because we are. That we can only rise by lifting others. That our strength comes from caring for each other.
-
-No matter where you come from, we all know this spirit – it lives and breathes in every community.
-I see this spirit most clearly at the Olympic Games. Here, athletes from every corner of our world compete fiercely – but also respect, support and inspire one another. They remind us that we are all connected, that our strength comes from how we treat each other, and that the best of humanity is found in courage, compassion and kindness.
-
-So let these Games be a celebration of what unites us – of everything that makes us human.
-
-This is the magic of the Olympic Games: inspiring us all to be the best that we can be – together."
-She's Zimbabwean, the first woman and first African IOC president. Paste the lines you want from the IOC's own transcript; keep any single quote short. 
-When we see an athlete fall and get back up, she said, we remember that we can too.
-She closed: **"Let your flame spark hope"**.
-And she invoked Ubuntu.
-
-:::
-
-## The Great Sleepover
-
-<!-- ~45 sec  
-
-World Cup 2026. A line that went around: *a sleepover with the cousins we never see.*
-
-. . .
-
-A Scottish fan at Gillette Stadium: **"Our cousins are here."**
-
-. . .
-
-Reuters: the tournament became known as the Great American Sleepover.
-
-::: {.notes}
-AP quote from a fan at Gillette Stadium (Scotland-Morocco). Reuters "ten takeaways"
-piece supplies the nickname. Land it warmly, then pause before the next slide.
-:::
-
-## But who got an invitation?
-
-<!-- ~60 sec  
-
-```{r}
-#| echo: false
-#| fig-height: 3.8
-#| fig-width: 9
-yr  <- c("1994", "2022", "2026 (final)")
-top <- c(475, 1600, 8680)
-b <- barplot(top, names.arg = yr, col = c("#6a6a6a", "#C68346", "#1b5635"),
-             border = NA, yaxt = "n", ylim = c(0, 10500), cex.names = 1.3)
-text(b, top, labels = paste0("$", format(top, big.mark = ",")), pos = 3, cex = 1.4)
-mtext("Highest listed ticket price when announced (nominal US$)", side = 3, line = 0.5, cex = 1.1)
-```
-
-Not inflation-adjusted. 2026 is the final, and dynamic pricing moved it.
-
-::: {.notes}
-Sources: NBC / AP reporting on the 2026 price list (1994: $25-$475; Qatar 2022: about
-$70-$1,600; 2026 final: $4,185-$8,680 at that listing). Be upfront about what the
-chart can and can't say: top-of-range, nominal dollars, one match. Adjust for
-inflation before presenting. If you only want to say one number: "an England fan
-following the team through the final was quoted just over $7,000."
-:::
-
-## And the price of playing
-
-<!-- ~50 sec  
-
-Youth sports spending: **up 46% since 2019.**
-
-. . .
-
-The wealthiest families spend about **4x** what the lowest-income families do on one child's primary sport.
-
-. . .
-
-Travel is now the biggest cost: more than equipment, more than registration.
-
-. . .
-
-In low-income schools, only **about 1 in 4** eighth graders plays.
-
-::: {.notes}
-Source: Aspen Institute Project Play (State of Play 2025; 2022 survey for the
-spending ratio, travel cost, and the 24.6% figure). Say which year each number is from.
-:::
-
-## What a public rule can do: Title IX
-
-<!-- ~60 sec  
-
-```{r}
-#| echo: false
-#| fig-height: 3.8
-#| fig-width: 9
-yrs   <- c("1971-72", "1977-78", "2010-11")
-girls <- c(294015, 2000000, 3200000)
-b <- barplot(girls / 1e6, names.arg = yrs, col = c("#6a6a6a", "#C68346", "#1b5635"),
-             border = NA, yaxt = "n", ylim = c(0, 4), cex.names = 1.3)
-text(b, girls / 1e6, labels = c("294K", "2M+", "3.2M"), pos = 3, cex = 1.5)
-mtext("U.S. girls in high school sports (millions)", side = 3, line = 0.5, cex = 1.1)
-```
-
-Girls' high school soccer: about **700** in 1971. Nearly **400,000** by the 50th anniversary.
-
-::: {.notes}
-Sources: NFHS participation surveys (294,015 in 1971-72; "more than 2 million" by
-1977-78) and EdWeek (about 3.2 million girls in 2010-11). The 1977-78 bar is a lower
-bound ("more than 2 million"). Soccer figures from NFHS.
-:::
-
-## What the numbers can't say
-
-<!-- ~45 sec  
-
-I can show the size of the pipeline.
-
-. . .
-
-I can't isolate Title IX's effect. A before-and-after chart can't.
-
-. . .
-
-And the head start shrinks as other countries invest.
-
-::: {.big-statement}
-A pipeline, not a proof.
-:::
-
-::: {.notes}
-Honest version of "Title IX explains the U.S. women's team": it's a plausible
-driver and the pipeline is real, but other countries started investing later, and
-soccer's place in American culture is its own factor. [Verify: U.S. World Cups in
-1991, 1999, 2015, 2019; Spain champions in 2023.] This is the slide that shows
-you think like a statistician.
-:::
-
-## Where hope gets expensive
-
-<!-- ~50 sec  
-
-Cape Town Stadium, 2010: built for **R4.5 billion.**
-
-. . .
-
-One year's maintenance: about **R56 million.** Revenue: about **R14 million.**
-
-. . .
-
-It was built in Green Point. Many fans lived on the Cape Flats, near Athlone.
-
-::: {.big-statement}
-A building is not a program.
-:::
-
-::: {.notes}
-Sources: reporting on Cape Town Stadium's cost and FY2012 operating figures; Monocle
-on the Athlone-versus-Green Point site debate. If you can, find a primary source
-for the maintenance and revenue numbers. This is the same failure pattern as any
-building given without an operating budget or local ownership.
-:::
-
-## How to invest, without a savior complex
-
-<!-- ~75 sec  
-
-1. **Fund operations, not just ribbon-cuttings.**
-2. **Go where the players already are.**
-3. **Lower the cost of entry:** fees, travel, free play.
-4. **Let local leaders set the agenda.** Fund for years, not photo ops.
-5. **Count everyone.** Publish who plays, who quits, and why.
-
-::: {.notes}
-Anchors: (1) Cape Town's maintenance gap; (2) Athlone vs. Green Point; (3) Project Play
-on travel and fees; (4) Coventry has said African infrastructure, including for the
-All Africa Games, needs to improve before credible Olympic bids; (5) this is your
-statistician's contribution: the denominators.
-Phrase it as "back" and "fund," not "bring" or "save."
-:::
-
-## Three reasons for hope, starting this month
-
-<!-- ~60 sec  
-
-**WNBA Finals, from October 17.** Record 3.79M fans, up 20.5%. Net of expansion teams: roughly 3 to 5%. Real, smaller, still growing.
-
-. . .
-
-**Dakar 2026, October 31 to November 13.** The first Olympic event on African soil. About 2,700 young athletes, full gender equality, and a program built to get local kids playing.
-
-. . .
-
-**Salt Lake City 2034.** No new permanent construction. All 13 venues from 2002 are still there.
-
-::: {.notes}
-Sources: Front Office Sports / SBJ (WNBA attendance); IOC and African press on Dakar
-(about $60M estimated cost per Senegal's sports ministry; engagement program of 10
-sports for local participation); AP on Salt Lake 2034. The WNBA Finals matchup is set by
-the semifinals ending October 14. Each item maps to a principle: Dakar to local
-participation, Salt Lake to reuse and operations, WNBA to counting growth honestly.
-:::
-
-## Back to the sleepover
-
-<!-- ~30 sec  
-
-The cousins were always there.
-
-. . .
-
-::: {.big-statement}
-I am because we are.<br>So count who's missing, and send the invitation.
-:::
-
-::: {.notes}
-Return to your opening scene in one sentence before the last line. Then stop.
-:::
-
-## Thank you {.center}
-
-Questions?
-
-Cooper Maughan
-
-# Backup {background-color="#6a6a6a"}
-
-## Money ahead of crowds: WAFCON 2026
-
-CAF raised the prize fund to a record **\$5.8 million** (winner: \$2 million).
-
-. . .
-
-Most stadiums still saw sparse crowds, except when Morocco played.
-
-. . .
-
-The 495% increase is measured from \$975,000 at the start of the current CAF president's term. Against the last edition's \$3.475 million, it's about 67%.
-
-::: {.notes}
-A baseline lesson: "increase" depends on where you start. Sources: CAF announcement
-coverage (July 2026) and Nation Africa. Verify the 2024 edition total before using the 67%.
-:::
-<!--
-DRAFT NOTES (delete before presenting)
-- Main deck: 13 slides, targeted at ~10 min. Photography is the underlying theme
-  (opening, the "grainy photo" idea on the penalty slides, the close). It is used
-  three times on purpose; don't add more or it becomes a gimmick.
-- Thesis: loving analytics is easy; meaningful analytics is rare. Three tests:
-  Framing (does it change a decision?), Noise (signal or luck?), The client
-  (is someone empowered to act on it?).
-- Your NBA blue-blood project is the project slide (two slides). Credit Jonas Schiel.
-  The NHL plus-minus project is a BACKUP slide (it's the "know what your model can't
-  do" example; good for Q&A and interviews).
-- After "Thank you": (1) OPTION B, the angel/devil version, built as requested but
-  with a workshop note; (2) backup slides.
-- Anything styled as [like this]{.placeholder} shows up highlighted: fill in or delete.
-- TO VERIFY BEFORE PRESENTING:
-  * League-average penalty conversion: ~77% is an illustrative prior. Replace with a
-    sourced figure for the league you cite.
-  * Liverpool facts: Liverpool FC "Behind the Badge," Training Ground Guru, Yahoo
-    Sports, publisher's blurb for Josh Williams's *Data Game* (2024). Paraphrase.
-    Say "under Graham" (he left in 2023).
-  * NBA project numbers are copied from your write-up; re-check against the final.
-  * Cancer slide: only as specific as you and your family are comfortable with.
-- ALL SIMULATIONS ARE ILLUSTRATIVE. Say so out loud.
- 
-
-## Everyone has a camera (Option 2)
-
-<!-- ~50 sec  
-
-Your phone takes photos that once needed professional gear.
-
-. . .
-
-::: {.big-statement}
-So why do people still pay photographers?
-:::
-
-. . .
-
-The camera was never the skill. Knowing what's worth shooting, and whether the
-image is real, is.
-
-. . .
-
-Analytics is the same. Everyone has the camera now: dashboards, models, AI.
-
-::: {.notes}
-Soften the "15 years ago" claim from the old draft; "once needed professional gear"
-is safe and doesn't invite a debate about camera specs. Everyone in the room loves
-analytics, so the point isn't "you're wrong," it's "the camera isn't the skill."
-Deliver it as an observation, not a challenge.
-:::
-
-## Three tests {.center}
-
-<!-- ~30 sec  
-
-::: {.big-statement}
-**Framing:** does it change a decision?<br>
-**Noise:** is it signal or luck?<br>
-**The client:** is someone empowered to act on it?
-:::
-
-::: {.notes}
-Use one club to show all three: Liverpool. Say it once here, return to it in the
-close. "Noise" is a literal word in both photography and statistics, which is why
-it's the strongest of the three labels.
-:::
-
-# Framing {background-color="#1b5635"}
-
-## Liverpool, 2015
-
-<!-- ~60 sec  
-
-Liverpool needed a new manager.
-
-. . .
-
-Ian Graham, their director of research, looked at Borussia Dortmund.
-
-. . .
-
-The league table said Dortmund had a disappointing stretch. The data said they
-were still the **second-best team in Germany**, and among the **unluckiest** over
-ten seasons.
-
-. . .
-
-Same league table. Different frame. And the result was a hiring decision, not a report.
-
-::: {.notes}
-Source: Training Ground Guru profile of Graham. Careful wording: Graham was involved
-in the selection of Klopp. Don't say the data "got him the job."
-:::
-
-# Noise {background-color="#1b5635"}
-
-## A striker is 9-for-10 on penalties
-
-<!-- ~45 sec  
-
-**It's a shootout Saturday. Is he your designated taker?**
-
-. . .
-
-Raw math says 90%. Your gut says *"...it's ten kicks."*
-
-. . .
-
-Ten kicks is a grainy photo. You can't tell a face from a smudge.
-
-. . .
-
-What helps is what you already know about what you're looking at:
-[penalties go in about three in four times]{.placeholder}. That's a **prior**.
-
-::: {.notes}
-Setup only. The tension: the raw number is the only thing on screen, but you carry
-two pieces of information, the league rate and his ten kicks. Bayesian statistics
-is the rule for combining them.
-:::
-
-## Prior + evidence = posterior
-
-<!-- ~75 sec  
-
-$$
-\theta \sim \text{Beta}(31,\,9) \quad\Longrightarrow\quad
-\theta \mid \text{9 makes, 1 miss} \sim \text{Beta}(40,\,10)
-$$
-
-```{r}
-#| echo: false
-#| fig-height: 4
-#| fig-width: 9
-a0 <- 31; b0 <- 9            # illustrative prior: ~77% average, worth ~40 kicks
-made <- 9; n <- 10
-a1 <- a0 + made; b1 <- b0 + (n - made)
-x     <- seq(0.4, 1, length.out = 500)
-prior <- dbeta(x, a0, b0)
-post  <- dbeta(x, a1, b1)
-p_better <- 1 - pbeta(a0 / (a0 + b0), a1, b1)
-plot(x, post, type = "l", lwd = 4, col = "#C68346",
-     xlab = "True penalty conversion rate", ylab = "", yaxt = "n", bty = "n",
-     ylim = c(0, max(prior, post) * 1.1), cex.lab = 1.3, cex.axis = 1.2)
-lines(x, prior, lwd = 4, col = "#1b5635", lty = 2)
-abline(v = 0.90, lty = 3, lwd = 2)
-text(0.90, max(prior, post) * 0.9, "Raw: 90%", pos = 2, cex = 1.2)
-legend("topleft", bty = "n", cex = 1.2, lwd = 4,
-       col = c("#1b5635", "#C68346"), lty = c(2, 1),
-       legend = c("Prior (league-level belief)",
-                  paste0("Posterior (mean ~", round(100 * a1 / (a1 + b1)), "%)")))
-mtext(paste0("P(better than average) = ", round(p_better, 2)),
-      side = 3, line = 0, cex = 1.1)
-```
-
-. . .
-
-The update is addition: 31 + 9 makes, 9 + 1 miss. And the answer is a **distribution**,
-so you can ask: *how likely is he actually better than average?*
-
-::: {.notes}
-Prior Beta(31, 9), mean 77.5%, worth about 40 kicks. Posterior Beta(40, 10), mean
-80%. A decision-maker doesn't need "80%." They need "two in three odds he's better
-than average, and here's how much to trust that." A point estimate can't give you that.
-:::
-
-## The prior is an assumption, said out loud
-
-<!-- ~60 sec  
-
-```{r}
-#| echo: false
-#| fig-height: 4
-#| fig-width: 9
-priors <- list(`Weak prior`     = c(3.1, 0.9),
-               `Moderate prior` = c(31, 9),
-               `Strong prior`   = c(77.5, 22.5))
-cols <- c("#C68346", "#1b5635", "#6a6a6a")
-ltys <- c(1, 2, 3)
-obs  <- list(c(9, 10), c(90, 100))
-par(mfrow = c(1, 2), mar = c(4.5, 1, 3, 1))
-for (d in obs) {
-  x  <- seq(0.5, 1, length.out = 500)
-  ys <- lapply(priors, function(p) dbeta(x, p[1] + d[1], p[2] + d[2] - d[1]))
-  plot(x, ys[[1]], type = "l", lwd = 3, col = cols[1], lty = ltys[1],
-       xlab = "True conversion rate", ylab = "", yaxt = "n", bty = "n",
-       ylim = c(0, max(unlist(ys)) * 1.1), cex.lab = 1.2, cex.axis = 1.1,
-       main = paste0(d[1], " of ", d[2], " kicks"), cex.main = 1.3)
-  for (i in 2:3) lines(x, ys[[i]], lwd = 3, col = cols[i], lty = ltys[i])
-  if (d[2] == 10) legend("topleft", bty = "n", cex = 1.0, lwd = 3,
-                         col = cols, lty = ltys, legend = names(priors))
-}
-```
-
-. . .
-
-With ten kicks, your assumption matters. With a hundred, the data takes over.
-More exposures sharpen the picture.
-
-. . .
-
-Every model has a prior. A model that doesn't show you one is still using it.
-
-::: {.notes}
-Weak prior is worth about 4 kicks, moderate about 40, strong about 100. The usual
-objection to Bayes is "isn't the prior just your opinion?" Answer: yes, and it is
-stated, adjustable, and overwhelmed by evidence. This sets up the NBA project:
-thousands of players is the right-hand panel.
-:::
-
-## My own project: does pedigree predict a longer NBA career?
-
-<!-- ~75 sec  
-
-*With Jonas Schiel.* "Blue blood" programs: Duke, North Carolina, UCLA, Indiana,
-Kentucky, Kansas.
-
-. . .
-
-Career length is a count, right-skewed. Model: **Poisson likelihood, Gamma prior.**
-Prior expectation: about 5 years for blue-blood alumni, about 3.5 for everyone else.
-
-. . .
-
-Same logic as the penalties. Different conjugate pair, much more data.
-
-```{r}
-#| echo: false
-#| fig-height: 2.8
-#| fig-width: 9
-lo  <- c(5.09, 4.27); hi <- c(5.51, 4.40)
-par(mar = c(4.5, 10, 1, 1))
-plot(NULL, xlim = c(3.8, 6), ylim = c(0.5, 2.5), yaxt = "n", bty = "n",
-     xlab = "Mean career length (years), 95% credible interval", ylab = "",
-     cex.lab = 1.3, cex.axis = 1.2)
-segments(lo, c(2, 1), hi, c(2, 1), lwd = 10, col = c("#C68346", "#1b5635"), lend = 1)
-axis(2, at = c(2, 1), labels = c("Blue-blood alumni", "Everyone else"),
-     las = 1, tick = FALSE, cex.axis = 1.2)
-```
-
-::: {.notes}
-Numbers from your write-up: 95% CI for mean career length (5.09, 5.51) vs (4.27,
-4.40); difference (0.74, 1.19). Likely questions:
-(1) "Didn't you pick different priors for each group?" Yes (5 vs 3.5 years). With
-this much data the intervals are driven by the data, but the cleanest answer is a
-sensitivity check: refit with the SAME prior for both groups and report that the
-conclusion holds. Do this before you present if you can; it turns a vulnerability
-into the strongest slide.
-(2) "Is Poisson right?" Poisson forces variance = mean and allows zero years; real
-careers are overdispersed and at least one year. Say you treated it as a known
-simplification (your write-up already does) and that a negative binomial or
-zero-truncated model would be the next step.
-:::
-
-## What the model can and can't say
-
-<!-- ~60 sec  
-
-| Career longer than | Blue-blood | Everyone else |
-|:------------------:|:----------:|:-------------:|
-| 5 years            | **42.8%**  | 27.1%         |
-| 10 years           | 1.8%       | 0.76%         |
-
-. . .
-
-There's a real gap: the 95% credible interval for the difference is 0.74 to 1.19 years.
-
-. . .
-
-What I can't say: that the **school** causes it. Top prospects pick top programs.
-And the model treats each season as independent, which careers aren't.
-
-. . .
-
-::: {.big-statement}
-Knowing what your model can't say is part of the model.
-:::
-
-::: {.notes}
-This is the "Noise" test applied to your own work: a real, quantified difference,
-reported with its limits. Next step you named in the write-up: control for draft
-position, era, and position; or update the blue-blood definition (UCLA). If asked
-"so does it matter?": it predicts, it doesn't prove cause.
-:::
-
-# The Client {background-color="#1b5635"}
-
-## Six people, and about a decade
-
-<!-- ~60 sec  
-
-Liverpool's research team under Graham: **six people.** Physics, astrophysics, a
-former junior chess champion, two data engineers.
-
-. . .
-
-Not a department that makes slides. One asked to shape recruitment, tactics, and
-the academy.
-
-. . .
-
-Liverpool's owners set out to build a data-driven club. By the publisher's account
-it took about **a decade**, and the obstacles weren't mathematical: transfer
-mistakes, playing style, **egos.**
-
-. . .
-
-::: {.big-statement}
-The other half is the room<br>the model lands in.
-:::
-
-::: {.notes}
-Sources: Liverpool FC "Behind the Badge" (team: Graham, Will Spearman, Tim Waskett,
-Dafydd Steele, plus two data engineers); publisher's description of Josh Williams's
-*Data Game* (2024). This is the slide that earns the room; say it sincerely.
-:::
-
-# Meaningful {background-color="#1b5635"}
-
-## This isn't always about a game
-
-<!-- ~50 sec  
-
-[X years ago]{.placeholder}, a family member of mine was diagnosed with cancer.
-
-. . .
-
-Standard of care then would have meant [more extensive surgery/treatment -- describe
-at the level you're comfortable with]{.placeholder}.
-
-. . .
-
-By the time we needed it, more advanced statistical models let oncologists predict
-who could safely need **less**.
-
-. . .
-
-::: {.big-statement}
-Same skill as the penalty taker's record.<br>Pointed at something that mattered.
-:::
-
-::: {.notes}
-Pause after this slide -- don't rush into the close.
-:::
-
-# Close {background-color="#1b5635"}
-
-## Everyone has the camera
-
-<!-- ~30 sec  
-
-Framing. Noise. The client.
-
-. . .
-
-::: {.big-statement}
-Anyone can take the photo.<br>The work is knowing what to shoot,<br>and whether the image is real.
-:::
-
-## Thank you {.center}
-
-Questions?
-
-Cooper Maughan
-
-# Option B: Angel and Devil {background-color="#6a6a6a"}
-
-<!--
-OPTION B, WORKSHOP VERSION. Not ready to present as-is. Why:
-- The quotes below (O'Neil, Bradley, Funt) come from your earlier draft and I have
-  not verified wording or page numbers. Verify each, or cut.
-- Moneyball-as-angel / gambling-as-devil is moralizing, and your audience likes
-  both. Worse, the sportsbook is arguably the most sophisticated analytics shop in
-  the picture, so the "devil" is the better analyst. This version leans into that
-  instead of hiding it: the pivot slide (B5) says the difference is the objective
-  function, not the skill. That's the only version of this angle I'd defend.
-- If you use it, replace the main deck's "Meaningful" and "Close" with B5-B6
-  (or keep the cancer slide as the "angel" payoff).
-- Fill in the Moneyball facts yourself (Oakland, year, constraints) from a source
-  you trust; I haven't verified them here.
- 
-
-## Two voices, one set of math
-
-<!-- ~50 sec  
+## Accurate doesn't always mean ethical
 
 ::: {.columns}
-::: {.column width="50%"}
-### 😇 Moneyball
+::: {.column width="55%"}
+**Target's pregnancy-prediction example**
 
-A team with less money finds value the market missed.
+A retailer used purchasing patterns to infer that some customers might be pregnant.
 
-[Oakland, [year], [fact you've verified]]{.placeholder}
+- Potential benefit: more relevant marketing.
+- Potential harm: sensitive inferences and unexpected exposure.
 
-Data in service of the roster.
+**Just because we can predict something doesn't mean we should use it.**
 :::
-::: {.column width="50%"}
-### 😈 The sportsbook
+::: {.column width="45%"}
+![](images/Forbes_target.png){fig-alt="Forbes article on Target pregnancy prediction" width=60%}
 
-A line updated with every injury report and every wager.
+![](images/NYT_target.png){fig-alt="NYT article on Target pregnancy prediction" width=60%}
 
-Danny Funt's *Everybody Loses* is where this idea comes from.
-
-Data in service of the margin.
+*Sources: Forbes, The New York Times*
 :::
-:::
-
-## The math behind a "safe" bet
-
-<!-- ~60 sec  
-
-| Typical line | Win on a \$100 bet | Break-even win rate |
-|:------------:|:------------------:|:-------------------:|
-| -110         | \$90.91            | **52.4%**           |
-
-. . .
-
-$$
-EV = 0.50 \times (+90.91) + 0.50 \times (-100) = -\$4.55
-$$
-
-per \$100 bet, **on average, forever** -- even on a true coin flip.
-
-::: {.notes}
-Math is exact. Don't moralize; let the number be the point.
 :::
 
-## Two voices on the record
+::: notes
+This example, popularized in reporting about Target's analytics, illustrates the difference between predictive accuracy and responsible use.
 
-<!-- ~60 sec  
+The business objective might be to predict future purchases. But the model may infer something deeply personal, and its output may affect how a customer is treated.
 
-> [VERIFY exact wording: "When cheating becomes the norm, following the rules amounts to a handicap."]{.placeholder}
->
-> Cathy O'Neil, *Weapons of Math Destruction*
+Ethical questions include consent, privacy, potential harm, and whether the benefit justifies the inference.
 
-. . .
-
-> [VERIFY exact wording and source: "I don't think players should be turned into roulette chips."]{.placeholder}
->
-> Bill Bradley
-
-. . .
-
-> [PASTE Funt quote, under ~15 words, with page number]{.placeholder}
->
-> Danny Funt, *Everybody Loses*, p. [__]{.placeholder}
-
-::: {.notes}
-Keep each quote under 15 words. Cut any you can't verify. Three quotes on one slide
-is too many to read aloud; choose one or split across slides.
+The point is not that prediction itself is unethical. The point is that we need to consider what is being predicted, why, and what happens after the prediction.
 :::
 
-## The devil isn't worse at math {.center}
+## The model is only part of the advantage
 
-<!-- ~45 sec  
+**Data + domain knowledge + validation**
 
-The sportsbook is arguably the best analytics shop in this picture.
+My experience:
 
-. . .
+::: {.columns}
+::: {.column width="30%"}
+![](images/th.jpeg){width=100%}
 
-::: {.big-statement}
-Same math.<br>Different objective function.
+![](images/canada.jpeg){width=100%}
+:::
+::: {.column width="70%"}
+![](images/four_nations.jpeg){width=100%}
+:::
 :::
 
-. . .
+::: notes
+For my project, the challenge was not simply choosing an algorithm. It was deciding which data was relevant to the upcoming Olympic tournament.
 
-What the model is built to *maximize* is a choice. Someone makes it.
+The 2026 Olympics brought NHL players back for the first time since 2014, so relying only on older Olympic data would have missed an important change in the player pool.
 
-## What are you optimizing for?
+I combined 2022 Olympic data with Four Nations Face-Off data, then used Monte Carlo validation to assess the approach. That combination of context, data selection, and validation helped me win the competition.
 
-<!-- ~30 sec  
-
-Anyone can take the photo. The tool is neutral.
-
-. . .
-
-::: {.big-statement}
-The objective is the choice,<br>and the choice belongs to the people in this room.
+The model mattered. But knowing the sport helped me decide what information the model should use in the first place.
 :::
 
-# Backup # 2{background-color="#6a6a6a"}
+## What happens when everyone has the model?
 
-## What predicts an NHL player's plus-minus?
+When everyone can access similar tools, access alone stops being a lasting advantage.
 
-<!-- Backup: Q&A / interviews  
+**The advantage shifts toward:**
 
-*With Claire Peterson and Anzlei Larsen.* Multiple linear regression, 1,000-iteration
-cross-validation, NHL seasons 2000-01 to 2024-25.
+- Better data
+- Better questions
+- Better evaluation
+- Better implementation
+- Better judgment
 
-. . .
+::: notes
+This is a caveat to Moneyball. The original advantage came partly from using an approach that other teams undervalued or ignored.
 
-**Adjusted R² = 0.123.** Cross-validated RMSE 0.157, effectively unbiased.
+Once everyone adopts similar tools, the advantage can shrink. That doesn't mean models become useless. It means that simply possessing a model is not enough.
 
-. . .
+A team may still win by collecting better data, identifying a better question, understanding context, or executing its decisions more effectively.
 
-We reported 12% as the finding, not the failure. Hockey is noisy, and the variables
-that probably matter (team quality, age, coaching system) weren't in the data.
-
-::: {.notes}
-Shooting percentage had the strongest positive association, then position
-(defensemen and centers), assists, and shots per game. Interactive explorer:
-nhl-explorer.streamlit.app. Interview use: "I know what my model can't do, and I say so."
+The same applies to generative AI in business. If everyone has access to a similar assistant, the advantage comes from how people use it and how well they check the result.
 :::
 
-## Do it for the whole squad
+## AI has limitations. People have responsibilities.
 
-```{r}
-#| echo: false
-#| fig-height: 4
-#| fig-width: 9
-set.seed(7)
-N     <- 150
-theta <- rbeta(N, 31, 9)                  # each player's true rate (simulated)
-n     <- sample(3:30, N, replace = TRUE)  # kicks taken: some players have very few
-made  <- rbinom(N, n, theta)
-raw   <- made / n
-shr   <- (31 + made) / (40 + n)
-rmse  <- function(e) sqrt(mean((e - theta)^2))
-par(mfrow = c(1, 2), mar = c(4.5, 4.5, 3, 1))
-plot(theta, raw, pch = 19, col = adjustcolor("#C68346", 0.6), cex = 1.1,
-     xlim = c(0.5, 1), ylim = c(0.2, 1),
-     xlab = "True rate", ylab = "Estimated rate", cex.lab = 1.2,
-     main = paste0("Raw rate (error ", round(rmse(raw), 3), ")"), cex.main = 1.2)
-abline(0, 1, lty = 2)
-plot(theta, shr, pch = 19, col = adjustcolor("#1b5635", 0.6), cex = 1.1,
-     xlim = c(0.5, 1), ylim = c(0.2, 1),
-     xlab = "True rate", ylab = "", cex.lab = 1.2,
-     main = paste0("With a prior (error ", round(rmse(shr), 3), ")"), cex.main = 1.2)
-abline(0, 1, lty = 2)
-```
+Before trusting a model, ask:
 
-Players with 3 kicks and players with 30 shouldn't be trusted equally. Shrink each
-estimate in proportion to how little you know.
+1. What question is it actually answering?
+2. What data and assumptions shaped it?
+3. How was it evaluated on new cases?
+4. Who could be harmed if it is wrong?
+5. Who is responsible for the final decision?
 
-::: {.notes}
-Simulated; we know the true rates so we can score the estimates. Partial pooling in
-its simplest form. In practice the prior's parameters are estimated from the whole
-population (empirical Bayes) or modeled hierarchically.
+::: notes
+These questions connect technical evaluation to ethics.
+
+A model can be useful without being perfect, but the acceptable level of error depends on the decision. A mistake in a brainstorming exercise is different from a mistake in hiring, education, medicine, or lending.
+
+We need to understand not only whether a model performs well, but also whether it is appropriate for the decision we want to make.
 :::
 
-## The same team, 10,000 seasons
+## "Do Your Job"
 
-```{r}
-#| echo: false
-#| fig-height: 4.4
-#| fig-width: 9
-set.seed(42)
-p   <- c(win = 0.30, draw = 0.27, loss = 0.43)   # illustrative mid-table team
-pts <- replicate(10000, { r <- rmultinom(1, 38, p); 3 * r[1] + r[2] })
-ci  <- quantile(pts, c(0.05, 0.95))
-hist(pts, breaks = seq(min(pts) - 0.5, max(pts) + 0.5, 1),
-     col = "#C68346", border = "white", main = "",
-     xlab = "Season points (38 games)", ylab = "", yaxt = "n",
-     cex.lab = 1.3, cex.axis = 1.2)
-abline(v = 38 * (3 * p["win"] + p["draw"]), lwd = 3, lty = 2, col = "#1b5635")
-abline(v = ci, lwd = 2, lty = 3)
-legend("topright", bty = "n", cex = 1.2,
-       legend = paste0("90% of seasons: ", ci[1], " to ", ci[2], " points"))
-```
+**A model can assist with the task. It cannot take responsibility for the outcome.**
 
-Identical team. Identical strength. The only thing that changed was luck.
+![Image sourced from the NFL](images/bill_bel.jpeg)
 
-::: {.notes}
-Backup for "what does unlucky mean." Illustrative win/draw/loss probabilities for a
-middling team; say so.
-::: -->
-# OPTION 1: THE GREAT SLEEPOVER
+::: notes
+Bill Belichick's "Do Your Job" philosophy is often interpreted as a call for discipline, preparation, and accountability within a team.
 
-## Sport, belonging, and who gets to participate
+Applied to AI, the lesson is not to reject the tool or follow it blindly. It is to understand your role when using it.
 
-Sport can make strangers feel like a community.
+If you use AI to analyze data, you are still responsible for checking the analysis. If you use it to make a recommendation, you are still responsible for understanding the consequences.
 
-But what happens when being part of that community becomes too expensive?
-
----
-
-## Sport is more than entertainment
-
-<div style="display: flex; justify-content: center;">
-  <div id="coventry-video"></div>
-</div>
-
-<script>
-  var tag = document.createElement('script');
-  tag.src = "https://www.youtube.com/iframe_api";
-  var first = document.getElementsByTagName('script')[0];
-  first.parentNode.insertBefore(tag, first);
-
-  var player;
-  function onYouTubeIframeAPIReady() {
-    player = new YT.Player('coventry-video', {
-      height: '405',
-      width: '720',
-      videoId: 'gLywSZGgU1M',
-      playerVars: { 'start': 184, 'end': 393},
-      events: {
-        'onReady': function(e) {
-          e.target.setPlaybackRate(1.55);
-        }
-      }
-    });
-  }
-</script>
-
-The Olympic ideal: sport can bring people together across differences.
-
-*Transition: But is that ideal accessible to everyone?*
-
-[Watch the video on YouTube](https://www.youtube.com/watch?v=gLywSZGgU1M)
-
----
-
-## What does it cost to be a fan?
-
-In his 2025 New York Times opinion essay, sportswriter Joon Lee estimated that following a Boston sports team as a dedicated fan could cost **$4,785 a year**.
-
-His comparison:
-- Around **$1,321 in 2004**
-- Around **$4,785 in 2025**
-- A reported increase of **262%**, compared with an 87% increase in wages over the same period
-
-But this is Lee's estimate for a particular kind of Boston fan—not a universal price tag for every sports fan.
-
-**A good question isn't just whether sports cost more. It's which costs have risen, and who has options.**
-
-Source: [Joon Lee, “$4,785. That’s How Much It Costs to Be a Sports Fan Now”](https://www.nytimes.com/2025/06/16/opinion/sports-nba-mlb-leagues-streaming-fan.html)
-
----
-
-## Adjusting for inflation changes the comparison
-
-A dollar in 2004 did not buy what a dollar buys in 2025.
-
-Using a rough CPI adjustment, $1,321 in 2004 is approximately **$2,250 in 2025 dollars**.
-
-| Measure | Approximate amount |
-|:--|--:|
-| 2004 cost, in 2025 dollars | $2,250 |
-| Lee's 2025 estimate | $4,785 |
-
-Even after inflation, Lee's estimate is roughly **twice the 2004 cost**.
-
-That does not prove every fan's expenses doubled. It does suggest inflation alone may not explain the difference.
-
-*Speaker note: These are rounded CPI-based estimates. Lee's total is his own estimate and depends on the fan expenses included.*
-
----
-
-## The World Cup: average prices and extremes
-
-SeatPick's 2026 World Cup resale-market data reported these average sold prices:
-
-| Tournament stage | Average resale price |
-|:--|--:|
-| Group stage | $856 |
-| Semifinal | $2,235 |
-| Final | $6,350 |
-
-The most expensive ticket sold on SeatPick was **$81,662** for a VIP ticket to the final. The cheapest reported sale across the tournament was $52.
-
-These figures describe the **secondary market**, not FIFA's standard face-value prices.
-
-Source: [SeatPick's 2026 World Cup ticket-price data](https://seatpick.com/press/World-Cup-2026-Ticket-Prices-Wrapped)
-
----
-
-## What do the averages leave out?
-
-The range is enormous: $52 at the low end, and $81,662 for the highest reported sale.
-
-That does not mean a typical fan paid $81,662. It does show how far prices can extend at the top end.
-
-A fair interpretation needs both:
-- **The average:** what tickets sold for on average in a particular group.
-- **The extreme:** how expensive some tickets became.
-
-The price distribution may have a long, expensive upper tail—but we would need the underlying ticket-level data to establish its exact shape and skewness.
-
-And there is another important distinction: a few cheap tickets existing does not necessarily mean affordable tickets are widely available.
-
----
-
-## Playing costs money, too
-
-The Aspen Institute's Project Play survey found that U.S. sports families spent an average of **$1,016 per child on their primary sport in 2024**.
-
-That was 46% higher than in 2019.
-
-An earlier national survey estimated average annual spending on ice hockey at $2,583 per child in 2019—roughly **$3,200 in 2026 dollars**, using a rounded inflation adjustment.
-
-For Michigan, one published cost guide estimates:
-- House/recreational hockey registration: roughly $400–$1,200
-- Tier I AAA hockey: roughly $12,000–$20,000 all-in per season
-
-These are different measures: registration alone versus estimated total costs. The Michigan figures are published estimates, not an official statewide average, so I would not call Michigan definitively the most expensive state.
-
-Sources:
-- [Aspen Institute Project Play: youth sports spending](https://aspen-institute-project-play.squarespace.com/news/2025/2/24/project-play-survey-family-spending-on-youth-sports-rises-46-over-five-years)
-- [2019 State of Play report](https://www.aspeninstitute.org/wp-content/uploads/2025/05/2019_SOP_National_Final.pdf)
-- [Scout Elite: youth hockey cost guide](https://scoutelitesports.com/)
-
----
-
-## Three clubs. Three different barriers.
-
-| Sport | Known cost | My experience |
-|:--|--:|:--|
-| Three Rivers soccer | Dues unknown | I did not participate because the cost was out of reach |
-| Lacrosse | $500/year in team dues alone | Equipment and travel would have cost extra; I did not participate |
-| Rugby | $185/year in insurance and team dues | I participated |
-
-The rugby dues were manageable, and coaches could help when someone genuinely could not afford to play.
-
-But cleats and travel still cost money. Some matches required **2–3.5 hours of travel**.
-
-**My documented minimum for lacrosse dues plus rugby dues was $685 per year**—about $840 in 2026 dollars using a rough inflation adjustment.
-
-That is not a total cost for all three sports. It excludes soccer dues, lacrosse equipment, rugby cleats, travel, and any other expenses. I also don't remember the exact years or dues for every club, so this is a transparent lower bound, not a precise historical total.
-
----
-
-## Access has improved—and barriers remain
-
-Title IX became law in 1972. Over time, girls' participation in high school sports grew dramatically.
-
-For example, girls' high school soccer participation rose from roughly 700 participants in 1971 to nearly 400,000 by 2022.
-
-That progress matters. It also reminds us that access is not automatic: policy and institutional choices can expand who gets to play.
-
-Source: [National Federation of State High School Associations](https://www.nfhs.org/)
-
----
-
-## I am because we are
-
-Sport can create belonging, shared identity, and community.
-
-But that promise depends on more than enthusiasm. It depends on whether people can afford the tickets, equipment, dues, travel, and time required to participate.
-
-The goal is not to argue that every ticket should be cheap or every sport should cost the same.
-
-It is to ask:
-
-**How can sport remain a community when access increasingly depends on what people can pay?**
-
-
-# OPTION 2 — When the Numbers Miss the Point
-## There are lies, damned lies, and statistics
-
-A familiar line often attributed to Mark Twain.
-
-But the important question isn't whether statistics lie.
-
-**It's whether we are asking them the right question.**
-
-::: {.notes}
-Target: about 10 minutes. Be careful with the attribution: the saying is commonly attributed to Mark Twain, but the origin is disputed. You can say “a familiar saying” instead.
+The tool can help you do your job. It does not remove the obligation to do your job well.
 :::
 
-## A statistic can reveal—and hide
+## The model always isn't the answer
 
-::: {.big-statement}
-A statistic can show you something important while hiding the context that changes its meaning.
-:::
+**Good decisions require more than good predictions.**
 
-A model can calculate an answer correctly and still answer the wrong question.
+They require:
 
-::: {.notes}
-This is a paraphrase, not a direct quotation. The point is not that statistics are useless, but that interpreting them requires context and judgment.
-:::
+- Sound data
+- Appropriate models
+- Honest evaluation
+- Ethical judgment
+- Human accountability
 
-## The model I thought I needed
+::: notes
+[Close by returning to the opening photograph.]
 
-In the BYU Sports Analytics Association, I worked on an NHL modeling competition.
+The model is never the whole decision.
 
-The goal: predict the plus-minus leaders for hockey at the Winter Olympics.
+AI and statistics can help us see patterns that we might otherwise miss. But we still need to decide what to measure, what the results mean, and what we should do with them.
 
-My first instinct could have been to rely on historical Olympic data.
-
-But there was a problem.
-
-::: {.notes}
-Briefly explain plus-minus for the audience: a player receives a plus or minus based on goals scored while they are on the ice at even strength, with some special-team situations excluded. Keep the exact definition consistent with the competition's metric.
-:::
-
-## The context changed
-
-The 2026 Winter Olympics marked the return of NHL players to Olympic men's hockey for the first time since **2014**.
-
-The 2025 Four Nations Face-Off offered recent best-on-best international hockey involving NHL players.
-
-Past Olympic tournaments did not necessarily represent the same player pool or competition conditions.
-
-::: {.notes}
-Check the competition dates and your original analysis. The last Olympics with NHL players was 2014, not 2010. Be precise about which Four Nations statistics you used and why they were relevant to the prediction task.
-:::
-
-## A better comparison
-
-Instead of treating past Olympic results as automatically relevant, I used the Four Nations tournament as evidence for predicting the Olympic leaders.
-
-**The key decision was not just how to model the data. It was deciding which data were relevant.**
-
-::: {.notes}
-Fill in the specifics before presenting:
-- Which Four Nations statistics did you use?
-- Did you combine them with regular-season NHL statistics?
-- How did you turn those data into a predicted ranking?
-- What was the competition's scoring rule, and how did your entry perform?
-
-Do not claim the change caused the win unless you can explain the scoring and comparison clearly.
-:::
-
-## Three questions before trusting a model
-
-**1. Relevance:** Does the data resemble the situation I'm predicting?
-
-**2. Change:** What is different this time?
-
-**3. Decision:** Does the model answer the question the audience actually needs answered?
-
-::: {.notes}
-Return to the Olympics example for each question. The player pool and tournament context affected relevance; the Olympic format and timing affected what could reasonably be compared; the final goal was to predict leaders, not explain every aspect of hockey.
-:::
-
-## A model is not a substitute for judgment
-
-Models help us organize evidence, quantify uncertainty, and make predictions.
-
-But the analyst still has to decide:
-
-- What belongs in the data?
-- Which assumptions are reasonable?
-- What has changed since the historical examples?
-- What would make the prediction useful?
-
-::: {.notes}
-Avoid saying critical thinking is always better than modeling. In your story, critical thinking helped you select a more appropriate source of evidence. That is the stronger claim.
-:::
-
-## The point isn't to reject statistics
-
-It is to use them with care.
-
-The number is not the whole story. The model is not the whole problem.
-
-::: {.big-statement}
-Ask the right question.
-
-Choose relevant evidence.
-
-Then decide how much to trust the answer.
-:::
-
-::: {.notes}
-End with the NHL story: the useful insight was noticing the context that made one source of evidence more relevant than another. Aim for a 30–40-second close.
+The goal isn't to replace judgment with models. It's to use models to make better judgments.
 :::

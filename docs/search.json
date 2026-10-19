@@ -737,79 +737,79 @@
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#there-are-lies-damned-lies-and-statistics",
     "href": "ministry_of_sports/data_analysts_talk.html#there-are-lies-damned-lies-and-statistics",
-    "title": "Sports managaement presentation",
+    "title": "The Model Isn’t the Answer",
     "section": "There are lies, damned lies, and statistics",
     "text": "There are lies, damned lies, and statistics\nA familiar line often attributed to Mark Twain.\nBut the important question isn’t whether statistics lie.\nIt’s whether we are asking them the right question.\n\nTarget: about 10 minutes. Be careful with the attribution: the saying is commonly attributed to Mark Twain, but the origin is disputed. You can say “a familiar saying” instead."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#a-statistic-can-revealand-hide",
     "href": "ministry_of_sports/data_analysts_talk.html#a-statistic-can-revealand-hide",
-    "title": "Sports managaement presentation",
+    "title": "The Model Isn’t the Answer",
     "section": "A statistic can reveal—and hide",
     "text": "A statistic can reveal—and hide\n\nA statistic can show you something important while hiding the context that changes its meaning.\n\nA model can calculate an answer correctly and still answer the wrong question.\n\nThis is a paraphrase, not a direct quotation. The point is not that statistics are useless, but that interpreting them requires context and judgment."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#the-model-i-thought-i-needed",
     "href": "ministry_of_sports/data_analysts_talk.html#the-model-i-thought-i-needed",
-    "title": "Sports managaement presentation",
+    "title": "The Model Isn’t the Answer",
     "section": "The model I thought I needed",
     "text": "The model I thought I needed\nIn the BYU Sports Analytics Association, I worked on an NHL modeling competition.\nThe goal: predict the plus-minus leaders for hockey at the Winter Olympics.\nMy first instinct could have been to rely on historical Olympic data.\nBut there was a problem.\n\nBriefly explain plus-minus for the audience: a player receives a plus or minus based on goals scored while they are on the ice at even strength, with some special-team situations excluded. Keep the exact definition consistent with the competition’s metric."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#the-context-changed",
     "href": "ministry_of_sports/data_analysts_talk.html#the-context-changed",
-    "title": "Sports managaement presentation",
+    "title": "The Model Isn’t the Answer",
     "section": "The context changed",
     "text": "The context changed\nThe 2026 Winter Olympics marked the return of NHL players to Olympic men’s hockey for the first time since 2014.\nThe 2025 Four Nations Face-Off offered recent best-on-best international hockey involving NHL players.\nPast Olympic tournaments did not necessarily represent the same player pool or competition conditions.\n\nCheck the competition dates and your original analysis. The last Olympics with NHL players was 2014, not 2010. Be precise about which Four Nations statistics you used and why they were relevant to the prediction task."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#a-better-comparison",
     "href": "ministry_of_sports/data_analysts_talk.html#a-better-comparison",
-    "title": "Sports managaement presentation",
+    "title": "The Model Isn’t the Answer",
     "section": "A better comparison",
     "text": "A better comparison\nInstead of treating past Olympic results as automatically relevant, I used the Four Nations tournament as evidence for predicting the Olympic leaders.\nThe key decision was not just how to model the data. It was deciding which data were relevant.\n\nFill in the specifics before presenting: - Which Four Nations statistics did you use? - Did you combine them with regular-season NHL statistics? - How did you turn those data into a predicted ranking? - What was the competition’s scoring rule, and how did your entry perform?\nDo not claim the change caused the win unless you can explain the scoring and comparison clearly."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#three-questions-before-trusting-a-model",
     "href": "ministry_of_sports/data_analysts_talk.html#three-questions-before-trusting-a-model",
-    "title": "Sports managaement presentation",
+    "title": "The Model Isn’t the Answer",
     "section": "Three questions before trusting a model",
     "text": "Three questions before trusting a model\n1. Relevance: Does the data resemble the situation I’m predicting?\n2. Change: What is different this time?\n3. Decision: Does the model answer the question the audience actually needs answered?\n\nReturn to the Olympics example for each question. The player pool and tournament context affected relevance; the Olympic format and timing affected what could reasonably be compared; the final goal was to predict leaders, not explain every aspect of hockey."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#a-model-is-not-a-substitute-for-judgment",
     "href": "ministry_of_sports/data_analysts_talk.html#a-model-is-not-a-substitute-for-judgment",
-    "title": "Sports managaement presentation",
+    "title": "The Model Isn’t the Answer",
     "section": "A model is not a substitute for judgment",
     "text": "A model is not a substitute for judgment\nModels help us organize evidence, quantify uncertainty, and make predictions.\nBut the analyst still has to decide:\n\nWhat belongs in the data?\nWhich assumptions are reasonable?\nWhat has changed since the historical examples?\nWhat would make the prediction useful?\n\n\nAvoid saying critical thinking is always better than modeling. In your story, critical thinking helped you select a more appropriate source of evidence. That is the stronger claim."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#the-point-isnt-to-reject-statistics",
     "href": "ministry_of_sports/data_analysts_talk.html#the-point-isnt-to-reject-statistics",
-    "title": "Sports managaement presentation",
+    "title": "The Model Isn’t the Answer",
     "section": "The point isn’t to reject statistics",
-    "text": "The point isn’t to reject statistics\nIt is to use them with care.\nThe number is not the whole story. The model is not the whole problem.\n\nAsk the right question.\nChoose relevant evidence.\nThen decide how much to trust the answer.\n\n\nEnd with the NHL story: the useful insight was noticing the context that made one source of evidence more relevant than another. Aim for a 30–40-second close."
+    "text": "The point isn’t to reject statistics\nIt is to use them with care.\nThe number is not the whole story. The model is not the whole problem.\n\nAsk the right question.\nChoose relevant evidence and good data.\nThen decide how much to trust the answer.\n\n\nEnd with the NHL story: the useful insight was noticing the context that made one source of evidence more relevant than another. Aim for a 30–40-second close."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#sport-belonging-and-who-gets-to-participate",
     "href": "ministry_of_sports/data_analysts_talk.html#sport-belonging-and-who-gets-to-participate",
-    "title": "Sports managaement presentation",
+    "title": "The Model Isn’t the Answer",
     "section": "Sport, belonging, and who gets to participate",
     "text": "Sport, belonging, and who gets to participate\nSport can make strangers feel like a community.\nBut what happens when being part of that community becomes too expensive?"
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#sport-is-more-than-entertainment",
     "href": "ministry_of_sports/data_analysts_talk.html#sport-is-more-than-entertainment",
-    "title": "Sports managaement presentation",
+    "title": "The Model Isn’t the Answer",
     "section": "Sport is more than entertainment",
-    "text": "Sport is more than entertainment\n\n\n\n\n\n\nThe Olympic ideal: sport can bring people together across differences.\nTransition: But is that ideal accessible to everyone?\nWatch the video on YouTube"
+    "text": "Sport is more than entertainment\n\n\n\n\n\n\nThe Olympic ideal: sport can bring people together across differences.\nWatch the video on YouTube"
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#what-does-it-cost-to-be-a-fan",
     "href": "ministry_of_sports/data_analysts_talk.html#what-does-it-cost-to-be-a-fan",
-    "title": "Sports managaement presentation",
+    "title": "The Model Isn’t the Answer",
     "section": "What does it cost to be a fan?",
-    "text": "What does it cost to be a fan?\nIn his 2025 New York Times opinion essay, sportswriter Joon Lee estimated that following a Boston sports team as a dedicated fan could cost $4,785 a year.\nHis comparison: - Around $1,321 in 2004 - Around $4,785 in 2025 - A reported increase of 262%, compared with an 87% increase in wages over the same period\nBut this is Lee’s estimate for a particular kind of Boston fan—not a universal price tag for every sports fan.\nA good question isn’t just whether sports cost more. It’s which costs have risen, and who has options.\nSource: Joon Lee, “$4,785. That’s How Much It Costs to Be a Sports Fan Now”"
+    "text": "What does it cost to be a fan?\n$4,785 per year\nJoon Lee’s estimate for a dedicated Boston sports fan in 2025.\n\n$2,634 for sports TV and streaming\nThe remainder includes other fan expenses\n\n\nLee’s figure is a case study, not a national average. His argument is that fragmented streaming rights and rising costs can weaken the shared experience of being a fan.\nSource: Joon Lee’s 2025 opinion essay"
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#adjusting-for-inflation-changes-the-comparison",
@@ -856,8 +856,155 @@
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#i-am-because-we-are",
     "href": "ministry_of_sports/data_analysts_talk.html#i-am-because-we-are",
-    "title": "Sports managaement presentation",
+    "title": "The Model Isn’t the Answer",
     "section": "I am because we are",
-    "text": "I am because we are\nSport can create belonging, shared identity, and community.\nBut that promise depends on more than enthusiasm. It depends on whether people can afford the tickets, equipment, dues, travel, and time required to participate.\nThe goal is not to argue that every ticket should be cheap or every sport should cost the same.\nIt is to ask:\nHow can sport remain a community when access increasingly depends on what people can pay?"
+    "text": "I am because we are\nSport can create belonging, shared identity, and community.\nBut participation depends on more than enthusiasm.\nHow can sport remain a community when access increasingly depends on what people can pay?"
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#inflation-changes-the-comparison",
+    "href": "ministry_of_sports/data_analysts_talk.html#inflation-changes-the-comparison",
+    "title": "The Model Isn’t the Answer",
+    "section": "Inflation changes the comparison",
+    "text": "Inflation changes the comparison\n\n\n\nHard-core Boston fan\nCost\n\n\n\n\n2004 spending\n$1,321\n\n\n2004 spending in 2025 dollars\nAbout $2,200\n\n\n2025 spending\n$4,785\n\n\n\nThe increase is not just inflation.\n\nThese are rounded CPI-adjusted dollars. The comparison suggests that Lee’s estimated costs more than doubled in real terms. It is still a Boston-specific estimate, and the expenses included may not represent every fan’s spending."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#the-world-cup-average-resale-prices",
+    "href": "ministry_of_sports/data_analysts_talk.html#the-world-cup-average-resale-prices",
+    "title": "The Model Isn’t the Answer",
+    "section": "The World Cup: average resale prices",
+    "text": "The World Cup: average resale prices\n\n\n\nTournament stage\nAverage sold price\n\n\n\n\nGroup stage\n$856\n\n\nSemifinal\n$2,235\n\n\nFinal\n$6,350\n\n\n\nSource: SeatPick, 2026 World Cup ticket sales\n\nThese are secondary-market averages, not official FIFA face-value prices. They show the increase in average sold price as the tournament progressed. The data does not establish what a typical fan paid on FIFA’s official platform."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#averages-hide-the-extremes",
+    "href": "ministry_of_sports/data_analysts_talk.html#averages-hide-the-extremes",
+    "title": "The Model Isn’t the Answer",
+    "section": "Averages hide the extremes",
+    "text": "Averages hide the extremes\n Cheapest reported sale across the tournament\n\n$52\n\n Most expensive reported sale\n\n$81,662\n\nVIP ticket to the final \nA low-priced ticket existed. That does not mean affordable tickets were widely available.\n\nSeatPick reported a $52 group-stage ticket and an $81,662 final ticket sale. The highest sale was one of two VIP tickets bought together. These are the lowest and highest reported sales across the whole tournament, not the minimum and maximum for each individual stage.\nThe distribution likely has an expensive upper tail, but don’t call it statistically left-skewed without the underlying ticket-level distribution. Technically, an unusually long upper tail would indicate right skew."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#the-cost-of-playing",
+    "href": "ministry_of_sports/data_analysts_talk.html#the-cost-of-playing",
+    "title": "The Model Isn’t the Answer",
+    "section": "The cost of playing",
+    "text": "The cost of playing\n  \n\n$1,016\n\n&lt;/box&gt;\n&lt;box flex=\"1\" gap={1}&gt;\n  **Primary youth sport**\n\n  &lt;text size=\"sm\"&gt;Average annual family spending per child in 2024&lt;/text&gt;\n&lt;/box&gt;\n  \n\n$2,583\n\n&lt;/box&gt;\n&lt;box flex=\"1\" gap={1}&gt;\n  **Ice hockey**\n\n  &lt;text size=\"sm\"&gt;Average annual spending per child in a 2019 national survey&lt;/text&gt;\n&lt;/box&gt;\n \n\nThe Aspen Institute’s Project Play survey found that average spending on a child’s primary sport rose 46% from 2019 to 2024. The hockey figure comes from an earlier survey. In 2026 dollars, $2,583 in 2019 is roughly $3,300; use this as a rounded inflation-adjusted comparison, not a current hockey average.\nSources: - Project Play, 2024 youth sports spending - Project Play, State of Play"
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#hockey-can-cost-thousands",
+    "href": "ministry_of_sports/data_analysts_talk.html#hockey-can-cost-thousands",
+    "title": "The Model Isn’t the Answer",
+    "section": "Hockey can cost thousands",
+    "text": "Hockey can cost thousands\nMichigan youth hockey estimates\n\n\n\nLevel\nEstimated cost\n\n\n\n\nHouse registration\n$400–$1,200\n\n\nTier I AAA, all-in\n$12,000–$20,000\n\n\n\nPublished estimates, not a statewide average\n\nThe Michigan figures come from a youth hockey cost guide. Registration and all-in costs are not directly comparable: all-in estimates can include equipment, travel, hotels, tournaments, and other expenses. I would not claim Michigan is definitively the most expensive state based on this guide alone.\nSource: Scout Elite youth hockey cost guide"
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#three-sports-different-barriers",
+    "href": "ministry_of_sports/data_analysts_talk.html#three-sports-different-barriers",
+    "title": "The Model Isn’t the Answer",
+    "section": "Three sports, different barriers",
+    "text": "Three sports, different barriers\n \n\nSoccer — Three Rivers ECNL / RCL\n\n&lt;title size=\"xl\"&gt;$1,165&lt;/title&gt;\n&lt;text size=\"sm\"&gt; $995 registration + $170 uniform&lt;/text&gt;\n  \n\nLacrosse\n\n&lt;title size=\"xl\"&gt;$500/year&lt;/title&gt;\n&lt;text size=\"sm\"&gt;Remembered team dues alone; equipment and travel extra&lt;/text&gt;\n  \n\nRugby\n\n&lt;title size=\"xl\"&gt;$185/year&lt;/title&gt;\n&lt;text size=\"sm\"&gt;$85 insurance + $100 team dues, as remembered&lt;/text&gt;\n \n\nThe soccer figure is based on the current fee information found for the U13–U19 ECNL, ECNL-RL, and RCL programs. It is a minimum identifiable cost before additional team expenses such as tournament fees, coach travel, and practice-field rentals.\nThe lacrosse and rugby numbers are the costs I remember from playing between 2018 and 2021, not verified historical invoices. The years may differ, so do not present these three figures as a same-year comparison."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#what-the-numbers-dont-include",
+    "href": "ministry_of_sports/data_analysts_talk.html#what-the-numbers-dont-include",
+    "title": "The Model Isn’t the Answer",
+    "section": "What the numbers don’t include",
+    "text": "What the numbers don’t include\n\nSoccer: additional team expenses\nLacrosse: gear, travel, and other fees\nRugby: cleats and travel\n\nThe listed price is not always the full price.\n\nFor rugby, coaches could help when a player genuinely could not afford to play. Some matches still required 2–3.5 hours of travel. This is where you can share your experience: the cost was not only the registration or dues; it was whether the whole setup made participation possible."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#access-has-changed",
+    "href": "ministry_of_sports/data_analysts_talk.html#access-has-changed",
+    "title": "The Model Isn’t the Answer",
+    "section": "Access has changed",
+    "text": "Access has changed\nTitle IX became law in 1972.\nGirls’ high school soccer participation grew from roughly 700 in 1971 to nearly 400,000 by 2022.\nSource: National Federation of State High School Associations\n\nThis is a counterpoint: access has expanded significantly. Avoid claiming Title IX alone caused every change. The point is that participation opportunities can change when institutions make access a priority."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#the-photograph-isnt-the-whole-story",
+    "href": "ministry_of_sports/data_analysts_talk.html#the-photograph-isnt-the-whole-story",
+    "title": "The Model Isn’t Always the Answer",
+    "section": "The photograph isn’t the whole story",
+    "text": "The photograph isn’t the whole story\n\n\n\nA photograph can capture a scene while leaving out the surrounding context.\n\n\nWhat you see depends on what you choose to capture.\n\n[Show a photograph you took, ideally one where the framing changes the interpretation. Ask the audience what they notice first, then point out what falls outside the frame.]\nA photograph can be accurate and still incomplete. The photographer chooses the angle, the timing, and what to leave out.\nData works in a similar way. We collect certain measurements, leave others out, and use those measurements to build models. AI makes this process more powerful, but it doesn’t eliminate those choices."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#what-is-generative-ai",
+    "href": "ministry_of_sports/data_analysts_talk.html#what-is-generative-ai",
+    "title": "The Model Isn’t Always the Answer",
+    "section": "What is generative AI?",
+    "text": "What is generative AI?\nGenerative AI learns patterns from data and uses them to produce new content.\n\nText models generate text.\nImage models generate images.\nAudio models generate sound.\n\nPlausible output is not necessarily true output.\n\nA simplified way to understand a large language model is that it learns patterns in language and generates text by predicting likely continuations, one piece at a time.\nOther generative models work differently, but the general idea is that they learn structure from examples and use it to create something new.\nThis is useful for drafting, summarizing, brainstorming, and creating images. But generating something that looks or sounds convincing is not the same as verifying that it is correct."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#more-complex-doesnt-always-mean-better",
+    "href": "ministry_of_sports/data_analysts_talk.html#more-complex-doesnt-always-mean-better",
+    "title": "The Model Isn’t Always the Answer",
+    "section": "More complex doesn’t always mean better",
+    "text": "More complex doesn’t always mean better\nThe goal is to perform well on data the model has never seen.\n\n\n\n\n\nTraining loss keeps improving. Test loss turns back up.\n\n[Point at the right graph first, then the left.]\nOn the right, the training loss goes down at every step. If that were the only graph I looked at, I’d say the model keeps getting better.\nOn the left is the same set of runs on data the model didn’t train on. The test loss improves until about step 8 to 10, then gets worse. The model keeps getting better at the training data while getting worse at new data. That’s overfitting.\nThe different colored lines are different settings and seeds from my research. The test curves are noisy, but they all turn upward together, so the trend isn’t a fluke.\nA model that is too simple may miss important patterns. A model that is too complex, or trained too long, may memorize the training data instead of learning patterns that generalize. That is why we hold out data and test performance on observations the model did not train on.\nThis applies to traditional statistical models and machine learning. A generative AI system can also produce fluent answers while getting important details wrong. Fluency is not a validation metric."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#garbage-in-garbage-out",
+    "href": "ministry_of_sports/data_analysts_talk.html#garbage-in-garbage-out",
+    "title": "The Model Isn’t Always the Answer",
+    "section": "Garbage in, garbage out",
+    "text": "Garbage in, garbage out\nA model can only work with the information and assumptions it receives.\n\nBiased or incomplete data can create biased results.\nPoorly chosen outcomes can answer the wrong question.\nA model can perform well on paper and fail in practice.\n\nBefore asking whether the model works, ask what it was built to do.\n\nA model is not automatically objective just because it uses mathematics. The choice of data, outcome, features, and evaluation criteria all matter.\nIf a company trains a hiring model using historical hiring decisions, the model might learn historical preferences and discrimination rather than identify the best employees.\nThe problem may not be a coding error. It may be that the model is learning the wrong lesson from the data."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#when-the-model-affects-real-people",
+    "href": "ministry_of_sports/data_analysts_talk.html#when-the-model-affects-real-people",
+    "title": "The Model Isn’t Always the Answer",
+    "section": "When the model affects real people",
+    "text": "When the model affects real people\nCathy O’Neil — Weapons of Math Destruction\n\nNYC teacher evaluations used value-added models to estimate teachers’ contributions to student test scores.\nHiring algorithms can reproduce patterns in historical hiring data.\nHigh-stakes scores can be difficult for affected people to challenge.\n\nStat 121 refresh for ethical use: Scale, Opacity, Damage\n\nO’Neil argues that some models become especially harmful when they operate at scale, are difficult to inspect, and affect people’s opportunities.\nThe New York City teacher evaluation example illustrates the limits of using a statistical score to represent a complicated human outcome. Student scores can reflect many things beyond a teacher’s performance.\nFor the hiring example, verify the specific case you want to mention before presenting it as a factual example from the book. Avoid naming a CEO-resume case unless you have confirmed the exact story and its source.\nThe lesson is not that every model is bad. It is that a model’s consequences matter, especially when people cannot see how it works or appeal its decisions."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#accurate-doesnt-always-mean-ethical",
+    "href": "ministry_of_sports/data_analysts_talk.html#accurate-doesnt-always-mean-ethical",
+    "title": "The Model Isn’t Always the Answer",
+    "section": "Accurate doesn’t always mean ethical",
+    "text": "Accurate doesn’t always mean ethical\n\n\nTarget’s pregnancy-prediction example\nA retailer used purchasing patterns to infer that some customers might be pregnant.\n\nPotential benefit: more relevant marketing.\nPotential harm: sensitive inferences and unexpected exposure.\n\nJust because we can predict something doesn’t mean we should use it.\n\n\n\nSources: Forbes, The New York Times\n\n\nThis example, popularized in reporting about Target’s analytics, illustrates the difference between predictive accuracy and responsible use.\nThe business objective might be to predict future purchases. But the model may infer something deeply personal, and its output may affect how a customer is treated.\nEthical questions include consent, privacy, potential harm, and whether the benefit justifies the inference.\nThe point is not that prediction itself is unethical. The point is that we need to consider what is being predicted, why, and what happens after the prediction."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#moneyball-the-model-is-only-part-of-the-advantage",
+    "href": "ministry_of_sports/data_analysts_talk.html#moneyball-the-model-is-only-part-of-the-advantage",
+    "title": "The Model Isn’t Always the Answer",
+    "section": "Moneyball: the model is only part of the advantage",
+    "text": "Moneyball: the model is only part of the advantage\nData + domain knowledge + validation\nMy experience:\n  \n\nFor my project, the challenge was not simply choosing an algorithm. It was deciding which data was relevant to the upcoming Olympic tournament.\nThe 2026 Olympics brought NHL players back for the first time since 2014, so relying only on older Olympic data would have missed an important change in the player pool.\nI combined 2022 Olympic data with Four Nations Face-Off data, then used Monte Carlo validation to assess the approach. That combination of context, data selection, and validation helped me win the competition.\nThe model mattered. But knowing the sport helped me decide what information the model should use in the first place."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#what-happens-when-everyone-has-the-model",
+    "href": "ministry_of_sports/data_analysts_talk.html#what-happens-when-everyone-has-the-model",
+    "title": "The Model Isn’t Always the Answer",
+    "section": "What happens when everyone has the model?",
+    "text": "What happens when everyone has the model?\nWhen everyone can access similar tools, access alone stops being a lasting advantage.\nThe advantage shifts toward:\n\nBetter data\nBetter questions\nBetter evaluation\nBetter implementation\nBetter judgment\n\n\nThis is a caveat to Moneyball. The original advantage came partly from using an approach that other teams undervalued or ignored.\nOnce everyone adopts similar tools, the advantage can shrink. That doesn’t mean models become useless. It means that simply possessing a model is not enough.\nA team may still win by collecting better data, identifying a better question, understanding context, or executing its decisions more effectively.\nThe same applies to generative AI in business. If everyone has access to a similar assistant, the advantage comes from how people use it and how well they check the result."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#ai-has-limitations.-people-have-responsibilities.",
+    "href": "ministry_of_sports/data_analysts_talk.html#ai-has-limitations.-people-have-responsibilities.",
+    "title": "The Model Isn’t Always the Answer",
+    "section": "AI has limitations. People have responsibilities.",
+    "text": "AI has limitations. People have responsibilities.\nBefore trusting a model, ask:\n\nWhat question is it actually answering?\nWhat data and assumptions shaped it?\nHow was it evaluated on new cases?\nWho could be harmed if it is wrong?\nWho is responsible for the final decision?\n\n\nThese questions connect technical evaluation to ethics.\nA model can be useful without being perfect, but the acceptable level of error depends on the decision. A mistake in a brainstorming exercise is different from a mistake in hiring, education, medicine, or lending.\nWe need to understand not only whether a model performs well, but also whether it is appropriate for the decision we want to make."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#do-your-job",
+    "href": "ministry_of_sports/data_analysts_talk.html#do-your-job",
+    "title": "The Model Isn’t Always the Answer",
+    "section": "“Do Your Job”",
+    "text": "“Do Your Job”\nA model can assist with the task. It cannot take responsibility for the outcome.\n\n\n\nImage sourced from the NFL\n\n\n\nBill Belichick’s “Do Your Job” philosophy is often interpreted as a call for discipline, preparation, and accountability within a team.\nApplied to AI, the lesson is not to reject the tool or follow it blindly. It is to understand your role when using it.\nIf you use AI to analyze data, you are still responsible for checking the analysis. If you use it to make a recommendation, you are still responsible for understanding the consequences.\nThe tool can help you do your job. It does not remove the obligation to do your job well."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#the-model-isnt-the-answer",
+    "href": "ministry_of_sports/data_analysts_talk.html#the-model-isnt-the-answer",
+    "title": "The Model Isn’t Always the Answer",
+    "section": "The model isn’t the answer",
+    "text": "The model isn’t the answer\nGood decisions require more than good predictions.\nThey require:\n\nSound data\nAppropriate models\nHonest evaluation\nEthical judgment\nHuman accountability\n\n\n[Close by returning to the opening photograph.]\nThe photograph was never the whole scene. The model is never the whole decision.\nAI and statistics can help us see patterns that we might otherwise miss. But we still need to decide what to measure, what the results mean, and what we should do with them.\nThe goal isn’t to replace judgment with models. It’s to use models to make better judgments."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#the-model-is-only-part-of-the-advantage",
+    "href": "ministry_of_sports/data_analysts_talk.html#the-model-is-only-part-of-the-advantage",
+    "title": "The Model Isn’t Always the Answer",
+    "section": "The model is only part of the advantage",
+    "text": "The model is only part of the advantage\nData + domain knowledge + validation\nMy experience:\n\n\n\n\n\n\n\n\nFor my project, the challenge was not simply choosing an algorithm. It was deciding which data was relevant to the upcoming Olympic tournament.\nThe 2026 Olympics brought NHL players back for the first time since 2014, so relying only on older Olympic data would have missed an important change in the player pool.\nI combined 2022 Olympic data with Four Nations Face-Off data, then used Monte Carlo validation to assess the approach. That combination of context, data selection, and validation helped me win the competition.\nThe model mattered. But knowing the sport helped me decide what information the model should use in the first place."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#the-model-always-isnt-the-answer",
+    "href": "ministry_of_sports/data_analysts_talk.html#the-model-always-isnt-the-answer",
+    "title": "The Model Isn’t Always the Answer",
+    "section": "The model always isn’t the answer",
+    "text": "The model always isn’t the answer\nGood decisions require more than good predictions.\nThey require:\n\nSound data\nAppropriate models\nHonest evaluation\nEthical judgment\nHuman accountability\n\n\n[Close by returning to the opening photograph.]\nThe model is never the whole decision.\nAI and statistics can help us see patterns that we might otherwise miss. But we still need to decide what to measure, what the results mean, and what we should do with them.\nThe goal isn’t to replace judgment with models. It’s to use models to make better judgments."
   }
 ]
