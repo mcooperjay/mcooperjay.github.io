@@ -88,7 +88,7 @@
     "href": "ministry_of_sports/data_analysts_talk.html#what-is-generative-ai",
     "title": "The Model Isn’t Always the Answer",
     "section": "What is generative AI?",
-    "text": "What is generative AI?\nGenerative AI learns patterns from data and uses them to produce new content.\n\nText models generate text.\nImage models generate images.\nAudio models generate sound.\n\nPlausible output is not necessarily true output.\n\nA simplified way to understand a large language model is that it learns patterns in language and generates text by predicting likely continuations, one piece at a time.\nOther generative models work differently, but the general idea is that they learn structure from examples and use it to create something new.\nThis is useful for drafting, summarizing, brainstorming, and creating images. But generating something that looks or sounds convincing is not the same as verifying that it is correct."
+    "text": "What is generative AI?\nGenerative AI learns patterns from data using statistical frameworks and uses them to produce new content.\n\nText models generate text.\nImage models generate images.\nAudio models generate sound.\n\nPlausible output is not necessarily true output.\n\nA simplified way to understand a large language model is that it learns patterns in language and generates text by predicting likely continuations, one piece at a time.\nOther generative models work differently, but the general idea is that they learn structure from examples and use it to create something new.\nThis is useful for drafting, summarizing, brainstorming, and creating images. But generating something that looks or sounds convincing is not the same as verifying that it is correct."
   },
   {
     "objectID": "ministry_of_sports/data_analysts_talk.html#more-complex-doesnt-always-mean-better",
@@ -509,5 +509,82 @@
     "title": "Data Acquisition Project",
     "section": "",
     "text": "Full Repository on GitHub\n\nmain.py Code File\n\nView on GitHub Pages"
+  },
+  {
+    "objectID": "resume_outlets/baseline_resume.html",
+    "href": "resume_outlets/baseline_resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Print / Save as PDF"
+  },
+  {
+    "objectID": "resume_outlets/baseline_resume.html#cooper-maughan",
+    "href": "resume_outlets/baseline_resume.html#cooper-maughan",
+    "title": "Resume",
+    "section": "Cooper Maughan",
+    "text": "Cooper Maughan\nProvo, UT | [phone] | mcooperjay@gmail.com | linkedin.com/in/mcooperjay | github.com/mcooperjay | mcooperjay.github.io/projects"
+  },
+  {
+    "objectID": "resume_outlets/baseline_resume.html#education",
+    "href": "resume_outlets/baseline_resume.html#education",
+    "title": "Resume",
+    "section": "Education",
+    "text": "Education\nBrigham Young University, Provo, UT\nB.S. Statistics, Biostatistics Emphasis | Expected December 2026\nGPA: 3.58 (Major GPA: 3.59)"
+  },
+  {
+    "objectID": "resume_outlets/baseline_resume.html#experience",
+    "href": "resume_outlets/baseline_resume.html#experience",
+    "title": "Resume",
+    "section": "Experience",
+    "text": "Experience\nStatistical Consultant, BYU Statistics Consulting Center | Sep 2026 to Present\n\nPartner with clients to turn open-ended questions into well-posed statistical analyses, then communicate results to non-technical audiences\n[Add one concrete engagement: the question, the method, the outcome]\n\nResearch Assistant, BYU Department of Statistics, CorEx Systems Project | Jan 2026 to Present\n\nBuild and train PyTorch models on GPU clusters to estimate mutual information and total correlation\n[Add scale or result: dataset size, speedup, or finding]\n\nTeaching Assistant, BYU Statistics (STAT 121, STAT 250) | Aug 2025 to Apr 2026\n\nTaught and supported students in introductory statistics courses, explaining quantitative concepts clearly and accurately\n\nTeaching Assistant, BYU Salt Lake Center, MPA 630 | Jan 2025 to Apr 2025\n\nSupported graduate-level coursework for working professionals in the Master of Public Administration program"
+  },
+  {
+    "objectID": "resume_outlets/baseline_resume.html#projects",
+    "href": "resume_outlets/baseline_resume.html#projects",
+    "title": "Resume",
+    "section": "Projects",
+    "text": "Projects\nNYC Rodent Activity Spatial Model | Winner, 2026 BYU Statistics Case Study Competition\n\nBuilt a conditional autoregressive (CAR) model of rodent activity across New York City to capture spatial dependence between neighboring areas\n\nCompany Growth Forecasting\n\nApplied time series methods to forecast company growth\n\nICU Treatment Effects\n\nEstimated treatment effects from observational data using propensity score methods\n\nWildfire Severity, Functional Data Analysis and Houston Heat-Illness CAR Map\n\nModeled wildfire severity as functional data and mapped heat-illness risk with spatial models\n\nOlympic Hockey Plus-Minus Model | Winner, BYU Sports Analytics Association club competition\n\nWith limited 2022 Olympic data (no NHL players), combined 2010 Olympic and 4 Nations Face-Off data in a multiple linear regression, using domain knowledge to choose the right data"
+  },
+  {
+    "objectID": "resume_outlets/baseline_resume.html#leadership",
+    "href": "resume_outlets/baseline_resume.html#leadership",
+    "title": "Resume",
+    "section": "Leadership",
+    "text": "Leadership\nPresident, BYU Sports Analytics Association | 2026 to 2027\nMember, BYU Statistics Association; Member, Mu Sigma Rho (statistics honor society)"
+  },
+  {
+    "objectID": "resume_outlets/baseline_resume.html#skills",
+    "href": "resume_outlets/baseline_resume.html#skills",
+    "title": "Resume",
+    "section": "Skills",
+    "text": "Skills\nLanguages and tools: Python, R, SQL, Git/GitHub, Streamlit\nLibraries: PyTorch, scikit-learn, Pandas, NumPy\nMethods: Regression, time series, causal inference, Bayesian modeling, spatial (CAR) modeling"
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#when-using-models-always-check-your-assumptions",
+    "href": "ministry_of_sports/data_analysts_talk.html#when-using-models-always-check-your-assumptions",
+    "title": "The Model Isn’t Always the Answer",
+    "section": "When using models, always check your assumptions",
+    "text": "When using models, always check your assumptions\nIn statistics, we make many assumptions about the distribution of data, the type of test we can run, or even the errors.\nSports example: the hot hand\n\nAssumption: each shot is independent of the one before it.\n1985 study: found no evidence of streak shooting. It became known as a “fallacy.”\nLater research: found the original method was biased, and that small hot-hand effects may exist.\n\n\n“All models are wrong, but some are useful.” — George Box\n\nThe question isn’t whether the assumptions are perfect. It’s whether they’re good enough for the decision.\n\nEvery statistical method comes with assumptions. A t-test assumes things about the distribution, a regression assumes things about the errors, and a lot of sports models assume that events are independent.\nThe hot hand is a good example. For decades, researchers tested whether a player who just made a shot is more likely to make the next one. The famous 1985 study by Gilovich, Vallone, and Tversky said no, and the “hot hand fallacy” became textbook material. Later work by Miller and Sanjurjo found a flaw in how the original analysis handled streaks, and the effect looks real, if small.\nSo the conclusion depended on assumptions and methodology, not just the data. The people who checked those assumptions are the ones who corrected the record.\nBox’s line captures the right attitude. No model is perfect, so the goal isn’t to find a flawless one. It’s to know where yours is wrong and whether that matters for the decision you’re making.\nThat’s what the next example shows. The combined number looks reasonable until you check what it assumes."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#simpsons-paradox-berkeley-admissions-1973",
+    "href": "ministry_of_sports/data_analysts_talk.html#simpsons-paradox-berkeley-admissions-1973",
+    "title": "The Model Isn’t Always the Answer",
+    "section": "Simpson’s paradox: Berkeley admissions, 1973",
+    "text": "Simpson’s paradox: Berkeley admissions, 1973\nDid Berkeley admit men at a higher rate than women?\n\n\nAll six departments combined\n\n\n\n\n\n\n\n\n\n\nWithin each department\n\n\n\n\n\n\n\n\n\n\nWomen applied mostly to the most competitive departments. The combined number hid that.\n\n[Left chart first.] Overall, about 45% of men who applied were admitted, compared with about 30% of women. That looks like clear evidence that the admissions process favored men.\n[Right chart.] Now split by department. In four of the six, women’s admission rate was higher than men’s. In the other two it was slightly lower, but the gaps are small. Nothing here looks like the gap on the left.\nThe reason is that the two groups applied to different departments. Roughly half of the men applied to departments A and B, which admitted most applicants. Fewer than one in ten women did. Most women applied to C through F, which rejected most applicants regardless of gender.\nSo the combined number is partly a statement about which departments people applied to, not only about how each department treated applicants. Department is the confounder.\nBe careful about the conclusion. This doesn’t prove there was no discrimination anywhere. Why women applied to different departments is a separate question, and it could reflect other things. The narrower point is that the aggregate number alone can’t answer the question.\nThis is also why validating assumptions matters. If you assume every applicant faced the same odds, the combined number looks damning. If you check that assumption by splitting the data, it falls apart.\nNext I’ll show the same pattern in basketball data."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#simpsons-paradox-does-space-help-lebron",
+    "href": "ministry_of_sports/data_analysts_talk.html#simpsons-paradox-does-space-help-lebron",
+    "title": "The Model Isn’t Always the Answer",
+    "section": "Simpson’s paradox: does space help LeBron?",
+    "text": "Simpson’s paradox: does space help LeBron?\n\n\n\n\n\n\n\n\n\n\nSame idea as Berkeley, now in basketball.\n[Left panel.] Looking at all of LeBron’s shots together, his FG% falls from about 59% when a defender is within 2 feet to about 43% when the defender is 4 to 6 feet away. If you only saw this, you’d think more space makes him worse.\n[Right panel.] Split by shot type, and every line goes up. Dunks, paint shots, long twos, and threes all get easier with more space, which is what we’d expect.\nSo the paradox is the same as Berkeley’s. Shot location is playing the role department played there. When a defender is within 2 feet, a large share of his shots are dunks. With more space, the share shifts toward threes and long twos, which are lower-percentage shots. The combined line is partly a measure of where he shoots from, not only how open he is.\nThis is why we check assumptions. Assuming distance means the same thing for every shot gives the wrong answer."
+  },
+  {
+    "objectID": "ministry_of_sports/data_analysts_talk.html#good-better-best",
+    "href": "ministry_of_sports/data_analysts_talk.html#good-better-best",
+    "title": "The Model Isn’t Always the Answer",
+    "section": "Good, better, best",
+    "text": "Good, better, best\n\n\n\n\n\n\n\n\n\n\nStrength\nBlind spot\nWhere we saw it\n\n\n\n\nGood: Gut feeling\nContext, spotting what doesn’t make sense\nInconsistent, biased, doesn’t scale\nKnowing defenders sag off shooters\n\n\nBetter: Model alone\nConsistent, scales, finds patterns\nOnly knows what it’s given\nSimpson’s paradox, Target\n\n\nBest: Model + judgment\nThe model finds patterns, the person checks assumptions\nTakes more effort\nThe Olympic project\n\n\n\nUse the model to find patterns. Use judgment to decide whether to believe them.\n\nNeither side wins on its own. Judgment alone is limited by memory, bias, and scale. A model alone is limited by what it was given and what it assumes.\nThe strongest approach combines them: the model does the heavy lifting, and the person checks the data, the assumptions, and the decision. That’s the combination I used in my Olympic project, and it’s the same lesson as Simpson’s paradox."
   }
 ]
