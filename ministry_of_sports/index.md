@@ -25,8 +25,8 @@ Multiple linear regression with cross-validation, plus a [live interactive explo
 :::
 
 ::: {.g-col-6}
-### [A Case for Sports Analytics](data_analysts_talk.qmd)
-A presentation for a Sports Management class at BYU that argues for sports analysts.
+### [Models and Good Decisions](data_analysts_talk.qmd)
+A presentation for a Sports Management class at BYU about understanding models to make better decisions.
 :::
 
 ::: {.g-col-6}
